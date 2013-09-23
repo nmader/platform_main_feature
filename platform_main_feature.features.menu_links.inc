@@ -60,60 +60,6 @@ function platform_main_feature_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -47,
   );
-  // Exported menu link: menu-footer-menu:node/13
-  $menu_links['menu-footer-menu:node/9'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/9',
-    'router_path' => 'node/%',
-    'link_title' => 'Policies',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-  );
-  // Exported menu link: menu-footer-menu:node/14
-  $menu_links['menu-footer-menu:node/2'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/2',
-    'router_path' => 'node/%',
-    'link_title' => 'Researchers',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-  );
-  // Exported menu link: menu-footer-menu:node/15
-  $menu_links['menu-footer-menu:node/1'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/1',
-    'router_path' => 'node/%',
-    'link_title' => 'Creative content license',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-  );
   // Exported menu link: menu-footer-menu:user/login
   $menu_links['menu-footer-menu:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -171,24 +117,6 @@ function platform_main_feature_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
   );
-  // Exported menu link: menu-header-menu:node/12
-  $menu_links['menu-header-menu:node/4'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/4',
-    'router_path' => 'node/%',
-    'link_title' => 'Make contact',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-  );
   // Exported menu link: menu-header-menu:node/5
   $menu_links['menu-header-menu:node/5'] = array(
     'menu_name' => 'menu-header-menu',
@@ -211,13 +139,9 @@ function platform_main_feature_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('About this site');
   t('Browse repository');
-  t('Creative content license');
   t('Home');
   t('Login');
   t('Logout');
-  t('Make contact');
-  t('Policies');
-  t('Researchers');
 
 
   return $menu_links;

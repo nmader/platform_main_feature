@@ -192,14 +192,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'mt11uv';
+  $strongarm->value = 'mtlalp';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1378983403;
+  $strongarm->value = 1379958519;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -344,26 +344,29 @@ function platform_main_feature_strongarm() {
     19 => 58,
     20 => 55,
     21 => 53,
-    22 => 44,
-    23 => 31,
-    24 => 30,
-    25 => 29,
-    26 => 28,
-    27 => 27,
-    28 => 26,
-    29 => 24,
-    30 => 21,
-    31 => 15,
-    32 => 14,
-    33 => 13,
-    34 => 12,
-    35 => 11,
-    36 => 7,
-    37 => 6,
-    38 => 5,
-    39 => 3,
-    40 => 2,
-    41 => 1,
+    22 => 45,
+    23 => 44,
+    24 => 31,
+    25 => 30,
+    26 => 29,
+    27 => 28,
+    28 => 27,
+    29 => 26,
+    30 => 24,
+    31 => 23,
+    32 => 22,
+    33 => 21,
+    34 => 15,
+    35 => 14,
+    36 => 13,
+    37 => 12,
+    38 => 11,
+    39 => 7,
+    40 => 6,
+    41 => 5,
+    42 => 3,
+    43 => 2,
+    44 => 1,
   );
   $export['menu_masks'] = $strongarm;
 
@@ -394,7 +397,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_cron_last';
-  $strongarm->value = '1379012954';
+  $strongarm->value = '1379958250';
   $export['node_cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
