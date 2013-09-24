@@ -60,60 +60,6 @@ function platform_main_feature_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -47,
   );
-  // Exported menu link: menu-footer-menu:node/1
-  $menu_links['menu-footer-menu:node/1'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/1',
-    'router_path' => 'node/%',
-    'link_title' => 'Creative content license',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-  );
-  // Exported menu link: menu-footer-menu:node/2
-  $menu_links['menu-footer-menu:node/2'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/2',
-    'router_path' => 'node/%',
-    'link_title' => 'Researchers',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-  );
-  // Exported menu link: menu-footer-menu:node/9
-  $menu_links['menu-footer-menu:node/9'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/9',
-    'router_path' => 'node/%',
-    'link_title' => 'Policies',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-  );
   // Exported menu link: menu-footer-menu:user/login
   $menu_links['menu-footer-menu:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -150,6 +96,60 @@ function platform_main_feature_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -46,
   );
+  // Exported menu link: menu-footer-menu:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d
+  $menu_links['menu-footer-menu:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d',
+    'router_path' => 'uuid',
+    'link_title' => 'Creative content license',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+  );
+  // Exported menu link: menu-footer-menu:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005
+  $menu_links['menu-footer-menu:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'uuid/node/11ab3414-deb5-4985-9797-1a90ac057005',
+    'router_path' => 'uuid',
+    'link_title' => 'Researchers',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+  );
+  // Exported menu link: menu-footer-menu:uuid/node/dd9db579-7172-436d-a740-721ec9a68523
+  $menu_links['menu-footer-menu:uuid/node/dd9db579-7172-436d-a740-721ec9a68523'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
+    'router_path' => 'uuid',
+    'link_title' => 'Policies',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+  );
   // Exported menu link: menu-header-menu:islandora/object/islandora:root
   $menu_links['menu-header-menu:islandora/object/islandora:root'] = array(
     'menu_name' => 'menu-header-menu',
@@ -171,11 +171,11 @@ function platform_main_feature_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
   );
-  // Exported menu link: menu-header-menu:node/4
-  $menu_links['menu-header-menu:node/4'] = array(
+  // Exported menu link: menu-header-menu:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
+  $menu_links['menu-header-menu:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/4',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
+    'router_path' => 'uuid',
     'link_title' => 'Make contact',
     'options' => array(
       'attributes' => array(
@@ -189,11 +189,11 @@ function platform_main_feature_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
   );
-  // Exported menu link: menu-header-menu:node/5
-  $menu_links['menu-header-menu:node/5'] = array(
+  // Exported menu link: menu-header-menu:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5
+  $menu_links['menu-header-menu:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/5',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
+    'router_path' => 'uuid',
     'link_title' => 'About this site',
     'options' => array(
       'attributes' => array(
