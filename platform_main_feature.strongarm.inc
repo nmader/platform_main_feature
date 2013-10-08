@@ -192,14 +192,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'mtosn8';
+  $strongarm->value = 'mtmqwq';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1380126798;
+  $strongarm->value = 1380026118;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -397,7 +397,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_cron_last';
-  $strongarm->value = '1380121601';
+  $strongarm->value = '1380026039';
   $export['node_cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
