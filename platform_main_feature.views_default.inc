@@ -232,7 +232,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_image_block']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image_block']['element_wrapper_type'] = '0';
   $handler->display->display_options['fields']['field_image_block']['element_default_classes'] = FALSE;
-  $handler->display->display_options['fields']['field_image_block']['empty'] = '<img src="/sites/all/modules/platform_main_feature/images/award_winning.png"/>';
+  $handler->display->display_options['fields']['field_image_block']['empty'] = '<img src="sites/all/modules/platform_main_feature/images/award_winning.png"/>';
   $handler->display->display_options['fields']['field_image_block']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_image_block']['settings'] = array(
     'image_style' => '',
