@@ -26,6 +26,7 @@ features[field_instance][] = node-page-body
 features[menu_custom][] = main-menu
 features[menu_custom][] = menu-footer-menu
 features[menu_custom][] = menu-header-menu
+features[menu_links][] = main-menu_home:<front>
 features[menu_links][] = menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d
 features[menu_links][] = menu-footer-menu_login:user/login
 features[menu_links][] = menu-footer-menu_logout:user/logout
