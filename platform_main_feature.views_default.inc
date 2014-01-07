@@ -131,7 +131,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['label'] = '';
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: dc.description */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -157,6 +157,20 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['table'] = 'islandora_solr';
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['field'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['value'] = 'islandora:featured_collection';
+  $translatables['frontpage_solr_boxes'] = array(
+    t('Master'),
+    t('Frontpage Solr boxes'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Browse Collections'),
+    t('Featured Collections'),
+    t('There are no featured collections.'),
+    t('<a href="islandora/object/[PID]"><img class="featured-thumb" src="islandora/object/[PID]/datastream/TN/view" alt=""/></a>'),
+  );
   $export['frontpage_solr_boxes'] = $view;
 
   $view = new view();
@@ -341,6 +355,21 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid']['table'] = 'node';
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = '9c8f491e-d901-4fc8-9b5d-75490185bdd6';
+  $translatables['image_blocks'] = array(
+    t('Master'),
+    t('Image blocks'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Image Block 1'),
+    t('<img src="sites/all/modules/platform_main_feature/images/award_winning.png"/>'),
+    t('Footer logo'),
+    t('<img src="/sites/all/modules/platform_main_feature/images/dgi-footer-logo.png"/>'),
+    t('Welcome Message'),
+  );
   $export['image_blocks'] = $view;
 
   $view = new view();
@@ -392,6 +421,23 @@ function platform_main_feature_views_default_views() {
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
   $handler->display->display_options['path'] = 'front';
+  $translatables['platform_front_page'] = array(
+    t('Master'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Page'),
+  );
   $export['platform_front_page'] = $view;
 
   return $export;
