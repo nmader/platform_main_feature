@@ -13,34 +13,6 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'additional_settings__active_tab_image_block';
-  $strongarm->value = 'edit-workflow';
-  $export['additional_settings__active_tab_image_block'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'additional_settings__active_tab_slider';
-  $strongarm->value = 'edit-menu';
-  $export['additional_settings__active_tab_slider'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'additional_settings__active_tab_slideshow';
-  $strongarm->value = 'edit-menu';
-  $export['additional_settings__active_tab_slideshow'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'admin_theme';
-  $strongarm->value = 'seven';
-  $export['admin_theme'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'back_to_top_bg_color';
   $strongarm->value = '#F7F7F7';
   $export['back_to_top_bg_color'] = $strongarm;
@@ -177,34 +149,6 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'csl_default_style';
-  $strongarm->value = 'APA';
-  $export['csl_default_style'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'date_default_timezone';
-  $strongarm->value = 'America/Anguilla';
-  $export['date_default_timezone'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'dblog_row_limit';
-  $strongarm->value = '1000';
-  $export['dblog_row_limit'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'default_nodes_main';
-  $strongarm->value = '10';
-  $export['default_nodes_main'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'background' => '#E2E2E2',
@@ -219,107 +163,9 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'drupal_http_request_fails';
-  $strongarm->value = FALSE;
-  $export['drupal_http_request_fails'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
   $strongarm->value = '0';
   $export['error_level'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'features_ignored_orphans';
-  $strongarm->value = array();
-  $export['features_ignored_orphans'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'field_bundle_settings_node__image_block';
-  $strongarm->value = array(
-    'view_modes' => array(),
-    'extra_fields' => array(
-      'form' => array(
-        'title' => array(
-          'weight' => '0',
-        ),
-      ),
-      'display' => array(),
-    ),
-  );
-  $export['field_bundle_settings_node__image_block'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'filter_fallback_format';
-  $strongarm->value = 'plain_text';
-  $export['filter_fallback_format'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_expanded';
-  $strongarm->value = array();
-  $export['menu_expanded'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'menu_masks';
-  $strongarm->value = array(
-    0 => 501,
-    1 => 493,
-    2 => 250,
-    3 => 247,
-    4 => 246,
-    5 => 245,
-    6 => 213,
-    7 => 125,
-    8 => 124,
-    9 => 123,
-    10 => 122,
-    11 => 121,
-    12 => 117,
-    13 => 111,
-    14 => 63,
-    15 => 62,
-    16 => 61,
-    17 => 60,
-    18 => 59,
-    19 => 58,
-    20 => 55,
-    21 => 53,
-    22 => 45,
-    23 => 44,
-    24 => 31,
-    25 => 30,
-    26 => 29,
-    27 => 28,
-    28 => 27,
-    29 => 26,
-    30 => 24,
-    31 => 23,
-    32 => 22,
-    33 => 21,
-    34 => 15,
-    35 => 14,
-    36 => 13,
-    37 => 12,
-    38 => 11,
-    39 => 7,
-    40 => 6,
-    41 => 5,
-    42 => 3,
-    43 => 2,
-    44 => 1,
-  );
-  $export['menu_masks'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -346,7 +192,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_export_file_mode';
-  $strongarm->value = 'inline';
+  $strongarm->value = 'local';
   $export['node_export_file_mode'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -364,6 +210,8 @@ function platform_main_feature_strongarm() {
     'article' => 'article',
     'page' => 'page',
     'image_block' => 'image_block',
+    'slider' => 'slider',
+    'slideshow' => 'slideshow',
   );
   $export['node_export_file_types'] = $strongarm;
 
@@ -396,57 +244,6 @@ function platform_main_feature_strongarm() {
     0 => 'status',
   );
   $export['node_options_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_preview_image_block';
-  $strongarm->value = '1';
-  $export['node_preview_image_block'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_submitted_image_block';
-  $strongarm->value = 0;
-  $export['node_submitted_image_block'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_submitted_page';
-  $strongarm->value = 0;
-  $export['node_submitted_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'path_alias_whitelist';
-  $strongarm->value = array(
-    'node' => TRUE,
-  );
-  $export['path_alias_whitelist'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'preprocess_css';
-  $strongarm->value = 0;
-  $export['preprocess_css'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'preprocess_js';
-  $strongarm->value = 0;
-  $export['preprocess_js'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'save_continue_image_block';
-  $strongarm->value = 'Save and add fields';
-  $export['save_continue_image_block'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
