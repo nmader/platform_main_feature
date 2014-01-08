@@ -1,10 +1,12 @@
 name = platform main feature
 core = 7.x
 package = Features
-version = 7.x-1.7
+version = 7.x-1.8
 project = platform_main_feature
 dependencies[] = accordion_rotator
+dependencies[] = block_class
 dependencies[] = comment
+dependencies[] = designkit
 dependencies[] = fe_block
 dependencies[] = google_analytics_reports
 dependencies[] = image

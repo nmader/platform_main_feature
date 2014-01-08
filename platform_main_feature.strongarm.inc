@@ -196,14 +196,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_export_existing';
-  $strongarm->value = 'revision';
+  $strongarm->value = 'skip';
   $export['node_export_existing'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_export_file_mode';
-  $strongarm->value = 'local';
+  $strongarm->value = 'inline';
   $export['node_export_file_mode'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -221,8 +221,6 @@ function platform_main_feature_strongarm() {
     'article' => 'article',
     'page' => 'page',
     'image_block' => 'image_block',
-    'slider' => 'slider',
-    'slideshow' => 'slideshow',
   );
   $export['node_export_file_types'] = $strongarm;
 
@@ -237,14 +235,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_export_reset_menu_page';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['node_export_reset_menu_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_export_reset_path_page';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['node_export_reset_path_page'] = $strongarm;
 
   $strongarm = new stdClass();
