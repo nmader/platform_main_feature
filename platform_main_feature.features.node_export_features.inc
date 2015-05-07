@@ -1195,7 +1195,7 @@ function platform_main_feature_node_export_features_default() {
   (object) array(
       \'vid\' => \'16\',
       \'uid\' => \'1\',
-      \'title\' => \'Flicker\',
+      \'title\' => \'Flickr\',
       \'log\' => \'\',
       \'status\' => \'1\',
       \'comment\' => \'1\',
@@ -1206,11 +1206,11 @@ function platform_main_feature_node_export_features_default() {
       \'type\' => \'social_link\',
       \'language\' => \'en\',
       \'created\' => \'1429885690\',
-      \'changed\' => \'1429885690\',
+      \'changed\' => \'1431000171\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'6865165b-d400-4146-814e-34cfda41bd4e\',
-      \'revision_timestamp\' => \'1429885690\',
+      \'revision_timestamp\' => \'1431000171\',
       \'revision_uid\' => \'1\',
       \'body\' => array(),
       \'field_social_icon\' => array(
@@ -1237,9 +1237,9 @@ function platform_main_feature_node_export_features_default() {
       \'field_social_link\' => array(
         \'und\' => array(
           array(
-            \'value\' => \'https://www.flicker.com\',
+            \'value\' => \'https://www.flickr.com\',
             \'format\' => NULL,
-            \'safe_value\' => \'https://www.flicker.com\',
+            \'safe_value\' => \'https://www.flickr.com\',
           ),
         ),
       ),
@@ -1626,124 +1626,6 @@ function platform_main_feature_node_export_features_default() {
       ),
       \'cid\' => \'0\',
       \'last_comment_timestamp\' => \'1429037169\',
-      \'last_comment_name\' => NULL,
-      \'last_comment_uid\' => \'1\',
-      \'comment_count\' => \'0\',
-      \'name\' => \'islandora\',
-      \'picture\' => \'0\',
-      \'data\' => \'b:0;\',
-      \'path\' => FALSE,
-      \'menu\' => NULL,
-      \'node_export_drupal_version\' => \'7\',
-    ),
-  (object) array(
-      \'vid\' => \'15\',
-      \'uid\' => \'1\',
-      \'title\' => \'Twitter\',
-      \'log\' => \'\',
-      \'status\' => \'1\',
-      \'comment\' => \'1\',
-      \'promote\' => \'0\',
-      \'sticky\' => \'0\',
-      \'vuuid\' => \'07b6d3b0-3ae5-4156-bc43-bd6edae8b161\',
-      \'nid\' => \'15\',
-      \'type\' => \'social_link\',
-      \'language\' => \'en\',
-      \'created\' => \'1429885614\',
-      \'changed\' => \'1429885614\',
-      \'tnid\' => \'0\',
-      \'translate\' => \'0\',
-      \'uuid\' => \'a3b6554b-d529-4557-a76b-683d4a5ebc54\',
-      \'revision_timestamp\' => \'1429885614\',
-      \'revision_uid\' => \'1\',
-      \'body\' => array(),
-      \'field_social_icon\' => array(
-        \'und\' => array(
-          array(
-            \'fid\' => NULL,
-            \'uid\' => \'1\',
-            \'filename\' => \'Twitter.png\',
-            \'uri\' => \'public://Twitter.png\',
-            \'filemime\' => \'image/png\',
-            \'filesize\' => \'4146\',
-            \'status\' => \'1\',
-            \'timestamp\' => \'1429885614\',
-            \'uuid\' => \'7969ef05-7d4a-442e-a747-31e6a98c1ae6\',
-            \'rdf_mapping\' => array(),
-            \'alt\' => \'\',
-            \'title\' => \'\',
-            \'width\' => \'32\',
-            \'height\' => \'32\',
-            \'node_export_file_data\' => \'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\',
-          ),
-        ),
-      ),
-      \'field_social_link\' => array(
-        \'und\' => array(
-          array(
-            \'value\' => \'https://www.twitter.com\',
-            \'format\' => NULL,
-            \'safe_value\' => \'https://www.twitter.com\',
-          ),
-        ),
-      ),
-      \'rdf_mapping\' => array(
-        \'rdftype\' => array(
-          \'sioc:Item\',
-          \'foaf:Document\',
-        ),
-        \'title\' => array(
-          \'predicates\' => array(
-            \'dc:title\',
-          ),
-        ),
-        \'created\' => array(
-          \'predicates\' => array(
-            \'dc:date\',
-            \'dc:created\',
-          ),
-          \'datatype\' => \'xsd:dateTime\',
-          \'callback\' => \'date_iso8601\',
-        ),
-        \'changed\' => array(
-          \'predicates\' => array(
-            \'dc:modified\',
-          ),
-          \'datatype\' => \'xsd:dateTime\',
-          \'callback\' => \'date_iso8601\',
-        ),
-        \'body\' => array(
-          \'predicates\' => array(
-            \'content:encoded\',
-          ),
-        ),
-        \'uid\' => array(
-          \'predicates\' => array(
-            \'sioc:has_creator\',
-          ),
-          \'type\' => \'rel\',
-        ),
-        \'name\' => array(
-          \'predicates\' => array(
-            \'foaf:name\',
-          ),
-        ),
-        \'comment_count\' => array(
-          \'predicates\' => array(
-            \'sioc:num_replies\',
-          ),
-          \'datatype\' => \'xsd:integer\',
-        ),
-        \'last_activity\' => array(
-          \'predicates\' => array(
-            \'sioc:last_activity_date\',
-          ),
-          \'datatype\' => \'xsd:dateTime\',
-          \'callback\' => \'date_iso8601\',
-        ),
-      ),
-      \'cid\' => \'0\',
-      \'last_comment_timestamp\' => \'1429885614\',
       \'last_comment_name\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'comment_count\' => \'0\',
