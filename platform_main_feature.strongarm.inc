@@ -105,9 +105,9 @@ function platform_main_feature_strongarm() {
     'background' => '#032a17',
     'header' => '#032a17',
     'content' => '#ffffff',
-    'navigation' => '#E2E2E2',
+    'navigation' => '#255302',
     'footer' => '#585353',
-    'bottom' => '#f03a3a',
+    'bottom' => '#bbbaba',
     'sidebars' => '#ffffff',
   );
   $export['designkit_color'] = $strongarm;
@@ -342,7 +342,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Managing Digital Content';
+  $strongarm->value = 'Howard Tilton Memorial Library';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -434,7 +434,7 @@ function platform_main_feature_strongarm() {
   $strongarm->value = array(
     'toggle_logo' => 1,
     'toggle_name' => 0,
-    'toggle_slogan' => 0,
+    'toggle_slogan' => 1,
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
     'toggle_favicon' => 1,
@@ -447,9 +447,9 @@ function platform_main_feature_strongarm() {
     'favicon_path' => '',
     'favicon_upload' => '',
     'zen_breadcrumb' => 'yes',
-    'zen_breadcrumb_separator' => ' › ',
+    'zen_breadcrumb_separator' => '/',
     'zen_breadcrumb_home' => 1,
-    'zen_breadcrumb_trailing' => 1,
+    'zen_breadcrumb_trailing' => 0,
     'zen_breadcrumb_title' => 0,
     'zen_skip_link_anchor' => 'main-menu',
     'zen_skip_link_text' => 'Jump to navigation',
@@ -465,9 +465,9 @@ function platform_main_feature_strongarm() {
       'background' => '#032a17',
       'header' => '#032a17',
       'content' => '#ffffff',
-      'navigation' => '#E2E2E2',
+      'navigation' => '#255302',
       'footer' => '#585353',
-      'bottom' => '#f03a3a',
+      'bottom' => '#bbbaba',
       'sidebars' => '#ffffff',
     ),
   );

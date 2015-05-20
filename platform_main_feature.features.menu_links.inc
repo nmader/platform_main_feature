@@ -338,36 +338,102 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_log-out:user/logout
-  $menu_links['user-menu_log-out:user/logout'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user/logout',
-    'router_path' => 'user/logout',
-    'link_title' => 'Log out',
+  // Exported menu link: menu-quick-links_view-sample-page-one:uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193
+  $menu_links['menu-quick-links_view-sample-page-one:uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193'] = array(
+    'menu_name' => 'menu-quick-links',
+    'link_path' => 'uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193',
+    'router_path' => 'uuid',
+    'link_title' => 'View Sample Page One',
     'options' => array(
-      'identifier' => 'user-menu_log-out:user/logout',
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-quick-links_view-sample-page-one:uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193',
     ),
-    'module' => 'system',
+    'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 10,
-    'customized' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-quick-links_view-sample-page-two:uuid/node/7185680c-7425-4b08-8c22-328a569e9f51
+  $menu_links['menu-quick-links_view-sample-page-two:uuid/node/7185680c-7425-4b08-8c22-328a569e9f51'] = array(
+    'menu_name' => 'menu-quick-links',
+    'link_path' => 'uuid/node/7185680c-7425-4b08-8c22-328a569e9f51',
+    'router_path' => 'uuid',
+    'link_title' => 'View Sample Page Two',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-quick-links_view-sample-page-two:uuid/node/7185680c-7425-4b08-8c22-328a569e9f51',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-site-navigation_happenings:uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136
+  $menu_links['menu-site-navigation_happenings:uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136'] = array(
+    'menu_name' => 'menu-site-navigation',
+    'link_path' => 'uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136',
+    'router_path' => 'uuid',
+    'link_title' => 'Happenings',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-site-navigation_happenings:uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789
+  $menu_links['menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789'] = array(
+    'menu_name' => 'menu-site-navigation',
+    'link_path' => 'uuid/node/83ed1638-66e0-44cb-853a-624a3614f789',
+    'router_path' => 'uuid',
+    'link_title' => 'Research and Services',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
   );
   // Translatables
   // Included for use with string extractors like potx.
   t('About');
   t('Collections');
   t('Creative content license');
+  t('Happenings');
   t('Home');
-  t('Log out');
   t('Login');
   t('Logout');
   t('Make contact');
   t('Policies');
+  t('Research and Services');
   t('Researchers');
   t('Tulane Digital Repository');
+  t('View Sample Page One');
+  t('View Sample Page Two');
 
 
   return $menu_links;
