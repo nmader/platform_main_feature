@@ -1004,6 +1004,103 @@ function platform_main_feature_node_export_features_default() {
       \'node_export_drupal_version\' => \'7\',
     ),
   (object) array(
+      \'vid\' => \'23\',
+      \'uid\' => \'1\',
+      \'title\' => \'Sample Page One\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'5ba048a9-3f2c-4093-848a-83b174b97c06\',
+      \'nid\' => \'23\',
+      \'type\' => \'page\',
+      \'language\' => \'en\',
+      \'created\' => \'1432131867\',
+      \'changed\' => \'1432131867\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'349cb0ef-2bc0-412e-b830-6b669b52f193\',
+      \'revision_timestamp\' => \'1432131867\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non massa sapien. Pellentesque velit turpis, vestibulum vel semper condimentum, feugiat blandit nunc. Maecenas id lobortis lectus, at fringilla est. Etiam enim magna, dignissim volutpat purus ut, sodales placerat sem. Etiam efficitur ligula ut nisi cursus scelerisque. Ut massa massa, iaculis ut malesuada quis, commodo ac turpis. Aenean fringilla metus leo, vel lobortis ex pulvinar quis. Ut vitae hendrerit risus. Pellentesque non dapibus nisl. \',
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non massa sapien. Pellentesque velit turpis, vestibulum vel semper condimentum, feugiat blandit nunc. Maecenas id lobortis lectus, at fringilla est. Etiam enim magna, dignissim volutpat purus ut, sodales placerat sem. Etiam efficitur ligula ut nisi cursus scelerisque. Ut massa massa, iaculis ut malesuada quis, commodo ac turpis. Aenean fringilla metus leo, vel lobortis ex pulvinar quis. Ut vitae hendrerit risus. Pellentesque non dapibus nisl.</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1432131867\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
       \'vid\' => \'5\',
       \'uid\' => \'1\',
       \'title\' => \'About\',
@@ -1300,6 +1397,200 @@ function platform_main_feature_node_export_features_default() {
       ),
       \'cid\' => \'0\',
       \'last_comment_timestamp\' => \'1429885690\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
+      \'vid\' => \'24\',
+      \'uid\' => \'1\',
+      \'title\' => \'Sample Page Two\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'0891d7ad-4ecd-4c37-9c68-5d65c77f33fd\',
+      \'nid\' => \'24\',
+      \'type\' => \'page\',
+      \'language\' => \'en\',
+      \'created\' => \'1432131922\',
+      \'changed\' => \'1432131922\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'7185680c-7425-4b08-8c22-328a569e9f51\',
+      \'revision_timestamp\' => \'1432131922\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non massa sapien. Pellentesque velit turpis, vestibulum vel semper condimentum, feugiat blandit nunc. Maecenas id lobortis lectus, at fringilla est. Etiam enim magna, dignissim volutpat purus ut, sodales placerat sem. Etiam efficitur ligula ut nisi cursus scelerisque. Ut massa massa, iaculis ut malesuada quis, commodo ac turpis. Aenean fringilla metus leo, vel lobortis ex pulvinar quis. Ut vitae hendrerit risus. Pellentesque non dapibus nisl. \',
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non massa sapien. Pellentesque velit turpis, vestibulum vel semper condimentum, feugiat blandit nunc. Maecenas id lobortis lectus, at fringilla est. Etiam enim magna, dignissim volutpat purus ut, sodales placerat sem. Etiam efficitur ligula ut nisi cursus scelerisque. Ut massa massa, iaculis ut malesuada quis, commodo ac turpis. Aenean fringilla metus leo, vel lobortis ex pulvinar quis. Ut vitae hendrerit risus. Pellentesque non dapibus nisl.</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1432131922\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
+      \'vid\' => \'22\',
+      \'uid\' => \'1\',
+      \'title\' => \'Research and Services\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'65379023-0558-465f-adf2-40b5c03071ac\',
+      \'nid\' => \'22\',
+      \'type\' => \'page\',
+      \'language\' => \'en\',
+      \'created\' => \'1432131507\',
+      \'changed\' => \'1432131507\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'83ed1638-66e0-44cb-853a-624a3614f789\',
+      \'revision_timestamp\' => \'1432131507\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non massa sapien. Pellentesque velit turpis, vestibulum vel semper condimentum, feugiat blandit nunc. Maecenas id lobortis lectus, at fringilla est. Etiam enim magna, dignissim volutpat purus ut, sodales placerat sem. Etiam efficitur ligula ut nisi cursus scelerisque. Ut massa massa, iaculis ut malesuada quis, commodo ac turpis. Aenean fringilla metus leo, vel lobortis ex pulvinar quis. Ut vitae hendrerit risus. Pellentesque non dapibus nisl. \',
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non massa sapien. Pellentesque velit turpis, vestibulum vel semper condimentum, feugiat blandit nunc. Maecenas id lobortis lectus, at fringilla est. Etiam enim magna, dignissim volutpat purus ut, sodales placerat sem. Etiam efficitur ligula ut nisi cursus scelerisque. Ut massa massa, iaculis ut malesuada quis, commodo ac turpis. Aenean fringilla metus leo, vel lobortis ex pulvinar quis. Ut vitae hendrerit risus. Pellentesque non dapibus nisl.</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1432131507\',
       \'last_comment_name\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'comment_count\' => \'0\',
@@ -2062,6 +2353,103 @@ function platform_main_feature_node_export_features_default() {
       ),
       \'cid\' => \'0\',
       \'last_comment_timestamp\' => \'1429885047\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
+      \'vid\' => \'21\',
+      \'uid\' => \'1\',
+      \'title\' => \'Happenings\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'e08cdd09-c3d3-4d98-ae1b-567f68a16fbd\',
+      \'nid\' => \'21\',
+      \'type\' => \'page\',
+      \'language\' => \'en\',
+      \'created\' => \'1432131485\',
+      \'changed\' => \'1432131485\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'e72bb9c2-50ee-4e97-b4a4-6569c62f1136\',
+      \'revision_timestamp\' => \'1432131485\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non massa sapien. Pellentesque velit turpis, vestibulum vel semper condimentum, feugiat blandit nunc. Maecenas id lobortis lectus, at fringilla est. Etiam enim magna, dignissim volutpat purus ut, sodales placerat sem. Etiam efficitur ligula ut nisi cursus scelerisque. Ut massa massa, iaculis ut malesuada quis, commodo ac turpis. Aenean fringilla metus leo, vel lobortis ex pulvinar quis. Ut vitae hendrerit risus. Pellentesque non dapibus nisl. \',
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non massa sapien. Pellentesque velit turpis, vestibulum vel semper condimentum, feugiat blandit nunc. Maecenas id lobortis lectus, at fringilla est. Etiam enim magna, dignissim volutpat purus ut, sodales placerat sem. Etiam efficitur ligula ut nisi cursus scelerisque. Ut massa massa, iaculis ut malesuada quis, commodo ac turpis. Aenean fringilla metus leo, vel lobortis ex pulvinar quis. Ut vitae hendrerit risus. Pellentesque non dapibus nisl.</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1432131485\',
       \'last_comment_name\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'comment_count\' => \'0\',
