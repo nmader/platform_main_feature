@@ -102,3 +102,21 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
   ),
 );
 }
+
+/**
+ * Implements hook_node_info().
+ */
+function platform_main_feature_node_info() {
+  $items = array(
+    'office_hours' => array(
+      'name' => t('Office Hours'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+  );
+  drupal_alter('node_info', $items);
+  return $items;
+}

@@ -10,6 +10,46 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5
+  $menu_links['main-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
+    'router_path' => 'uuid',
+    'link_title' => 'About',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: main-menu_browse:islandora
+  $menu_links['main-menu_browse:islandora'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'Browse',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_browse:islandora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: main-menu_home:<front>
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -27,6 +67,26 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_my-bookmarks:islandora-bookmark
+  $menu_links['main-menu_my-bookmarks:islandora-bookmark'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'islandora-bookmark',
+    'router_path' => 'islandora-bookmark',
+    'link_title' => 'My Bookmarks',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_my-bookmarks:islandora-bookmark',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-menu_creative-content-license:node/1
   $menu_links['menu-footer-menu_creative-content-license:node/1'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -37,12 +97,12 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_creative-content-license:node/1',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -50,
-    'customized' => 0,
+    'customized' => 1,
   );
   // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
@@ -57,7 +117,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d',
     ),
     'module' => 'menu',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -114,12 +174,12 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_make-contact:node/4',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -47,
-    'customized' => 0,
+    'customized' => 1,
   );
   // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
   $menu_links['menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
@@ -134,7 +194,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
     ),
     'module' => 'menu',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -151,12 +211,12 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_policies:node/10',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
-    'customized' => 0,
+    'customized' => 1,
   );
   // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523
   $menu_links['menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523'] = array(
@@ -171,7 +231,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
     ),
     'module' => 'menu',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -188,12 +248,12 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_researchers:node/2',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -49,
-    'customized' => 0,
+    'customized' => 1,
   );
   // Exported menu link: menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005
   $menu_links['menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005'] = array(
@@ -208,7 +268,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005',
     ),
     'module' => 'menu',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -228,11 +288,51 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_browse-all-materials:islandora
+  $menu_links['menu-header-menu_browse-all-materials:islandora'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'Browse all materials',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-header-menu_browse-all-materials:islandora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_browse-collections:all-collections
+  $menu_links['menu-header-menu_browse-collections:all-collections'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'all-collections',
+    'router_path' => 'all-collections',
+    'link_title' => 'Browse Collections',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-header-menu_browse-collections:all-collections',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
     'customized' => 1,
   );
   // Exported menu link: menu-header-menu_collections:islandora/object/islandora:root
@@ -251,7 +351,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-header-menu_collections:islandora/object/islandora:root',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -271,7 +371,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-header-menu_home:<front>',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
@@ -291,7 +391,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-header-menu_login:user/login',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -311,7 +411,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-header-menu_logout:user/logout',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -331,62 +431,176 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-header-menu_tulane-digital-repository:http://library.tulane.edu/repository/',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_log-out:user/logout
-  $menu_links['user-menu_log-out:user/logout'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user/logout',
-    'router_path' => 'user/logout',
-    'link_title' => 'Log out',
+  // Exported menu link: menu-popular-links_collections--research-news:uuid/node/cfb93405-0c0a-4367-a005-4f113c5fe4be
+  $menu_links['menu-popular-links_collections--research-news:uuid/node/cfb93405-0c0a-4367-a005-4f113c5fe4be'] = array(
+    'menu_name' => 'menu-popular-links',
+    'link_path' => 'uuid/node/cfb93405-0c0a-4367-a005-4f113c5fe4be',
+    'router_path' => 'uuid',
+    'link_title' => 'Collections & Research News',
     'options' => array(
-      'identifier' => 'user-menu_log-out:user/logout',
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-popular-links_collections--research-news:uuid/node/cfb93405-0c0a-4367-a005-4f113c5fe4be',
     ),
-    'module' => 'system',
+    'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 10,
-    'customized' => 0,
+    'weight' => -47,
+    'customized' => 1,
   );
-  // Exported menu link: user-menu_user-account:user
-  $menu_links['user-menu_user-account:user'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user',
-    'router_path' => 'user',
-    'link_title' => 'User account',
+  // Exported menu link: menu-popular-links_education-programs:uuid/node/0d3a9fc8-9f4e-4e17-be81-04472f145120
+  $menu_links['menu-popular-links_education-programs:uuid/node/0d3a9fc8-9f4e-4e17-be81-04472f145120'] = array(
+    'menu_name' => 'menu-popular-links',
+    'link_path' => 'uuid/node/0d3a9fc8-9f4e-4e17-be81-04472f145120',
+    'router_path' => 'uuid',
+    'link_title' => 'Education Programs',
     'options' => array(
-      'alter' => TRUE,
-      'identifier' => 'user-menu_user-account:user',
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-popular-links_education-programs:uuid/node/0d3a9fc8-9f4e-4e17-be81-04472f145120',
     ),
-    'module' => 'system',
+    'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -10,
-    'customized' => 0,
+    'weight' => -45,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-popular-links_employment-opportunities:uuid/node/e454fe8a-c9f8-4559-b9e7-7cb735d6e805
+  $menu_links['menu-popular-links_employment-opportunities:uuid/node/e454fe8a-c9f8-4559-b9e7-7cb735d6e805'] = array(
+    'menu_name' => 'menu-popular-links',
+    'link_path' => 'uuid/node/e454fe8a-c9f8-4559-b9e7-7cb735d6e805',
+    'router_path' => 'uuid',
+    'link_title' => 'Employment Opportunities',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-popular-links_employment-opportunities:uuid/node/e454fe8a-c9f8-4559-b9e7-7cb735d6e805',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-popular-links_hagley-staff-list:uuid/node/df637904-3285-4590-81c2-2fea2e76b198
+  $menu_links['menu-popular-links_hagley-staff-list:uuid/node/df637904-3285-4590-81c2-2fea2e76b198'] = array(
+    'menu_name' => 'menu-popular-links',
+    'link_path' => 'uuid/node/df637904-3285-4590-81c2-2fea2e76b198',
+    'router_path' => 'uuid',
+    'link_title' => 'Hagley Staff List',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-popular-links_hagley-staff-list:uuid/node/df637904-3285-4590-81c2-2fea2e76b198',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-popular-links_library-information:uuid/node/494484e7-acce-46e8-9d4c-41eaef07f625
+  $menu_links['menu-popular-links_library-information:uuid/node/494484e7-acce-46e8-9d4c-41eaef07f625'] = array(
+    'menu_name' => 'menu-popular-links',
+    'link_path' => 'uuid/node/494484e7-acce-46e8-9d4c-41eaef07f625',
+    'router_path' => 'uuid',
+    'link_title' => 'Library Information',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-popular-links_library-information:uuid/node/494484e7-acce-46e8-9d4c-41eaef07f625',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -44,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-popular-links_press-room:uuid/node/d1d8dc41-2df4-40fa-aac0-e69da084700b
+  $menu_links['menu-popular-links_press-room:uuid/node/d1d8dc41-2df4-40fa-aac0-e69da084700b'] = array(
+    'menu_name' => 'menu-popular-links',
+    'link_path' => 'uuid/node/d1d8dc41-2df4-40fa-aac0-e69da084700b',
+    'router_path' => 'uuid',
+    'link_title' => 'Press Room',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-popular-links_press-room:uuid/node/d1d8dc41-2df4-40fa-aac0-e69da084700b',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-popular-links_wedding-and-meetings:uuid/node/8363b62c-d2d7-4eda-ba9b-e89e0a11f53a
+  $menu_links['menu-popular-links_wedding-and-meetings:uuid/node/8363b62c-d2d7-4eda-ba9b-e89e0a11f53a'] = array(
+    'menu_name' => 'menu-popular-links',
+    'link_path' => 'uuid/node/8363b62c-d2d7-4eda-ba9b-e89e0a11f53a',
+    'router_path' => 'uuid',
+    'link_title' => 'Wedding and Meetings',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-popular-links_wedding-and-meetings:uuid/node/8363b62c-d2d7-4eda-ba9b-e89e0a11f53a',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
   );
   // Translatables
   // Included for use with string extractors like potx.
   t('About');
+  t('Browse');
+  t('Browse Collections');
+  t('Browse all materials');
   t('Collections');
+  t('Collections & Research News');
   t('Creative content license');
+  t('Education Programs');
+  t('Employment Opportunities');
+  t('Hagley Staff List');
   t('Home');
-  t('Log out');
+  t('Library Information');
   t('Login');
   t('Logout');
   t('Make contact');
+  t('My Bookmarks');
   t('Policies');
+  t('Press Room');
   t('Researchers');
   t('Tulane Digital Repository');
-  t('User account');
+  t('Wedding and Meetings');
 
 
   return $menu_links;
