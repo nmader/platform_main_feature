@@ -204,7 +204,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'tul_theme',
-        'weight' => -36,
+        'weight' => -35,
       ),
     ),
     'title' => 'Newest Additions',
@@ -555,7 +555,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'tul_theme',
-        'weight' => -37,
+        'weight' => -36,
       ),
     ),
     'title' => 'Facets',
@@ -757,6 +757,45 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['islandora_solr_facet_pages-islandora-solr-facet-pages'] = array(
+    'cache' => 1,
+    'css_class' => 'block-border-bottom',
+    'custom' => 0,
+    'delta' => 'islandora-solr-facet-pages',
+    'module' => 'islandora_solr_facet_pages',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tul_theme' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'tul_theme',
+        'weight' => -38,
+      ),
+    ),
+    'title' => 'Browse By',
+    'visibility' => 1,
+  );
+
   $export['islandora_usage_stats-recent_activity'] = array(
     'cache' => 1,
     'css_class' => 'block-border-bottom',
@@ -789,7 +828,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'tul_theme',
-        'weight' => -35,
+        'weight' => -34,
       ),
     ),
     'title' => 'Popular Resources',
@@ -1842,7 +1881,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'tul_theme',
-        'weight' => -38,
+        'weight' => -37,
       ),
     ),
     'title' => 'New Collections',
