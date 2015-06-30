@@ -54,17 +54,6 @@ function platform_main_feature_user_default_permissions() {
     'module' => 'islandora_bookmark',
   );
 
-  // Exported permission: 'view accordion_rotator'.
-  $permissions['view accordion_rotator'] = array(
-    'name' => 'view accordion_rotator',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'accordion_rotator',
-  );
-
   // Exported permission: 'view fedora repository objects'.
   $permissions['view fedora repository objects'] = array(
     'name' => 'view fedora repository objects',
