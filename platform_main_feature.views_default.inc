@@ -392,6 +392,7 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Footer logo */
   $handler = $view->new_display('block', 'Footer logo', 'block_1');
+  $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['defaults']['empty'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Image */
@@ -497,6 +498,7 @@ function platform_main_feature_views_default_views() {
 
   /* Display: DGI Info */
   $handler = $view->new_display('block', 'DGI Info', 'block_4');
+  $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image_block']['id'] = 'field_image_block';
