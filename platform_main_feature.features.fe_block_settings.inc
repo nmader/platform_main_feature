@@ -777,7 +777,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -1593,12 +1593,12 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['views-frontpage_solr_boxes-block_1'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'front-featured-collections',
     'custom' => 0,
     'delta' => 'frontpage_solr_boxes-block_1',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'admindora' => array(
@@ -1633,7 +1633,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-frontpage_solr_boxes-block_3'] = array(
@@ -1683,12 +1683,12 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['views-frontpage_solr_boxes-block_4'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'about-featured-collections',
     'custom' => 0,
     'delta' => 'frontpage_solr_boxes-block_4',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'admindora' => array(
@@ -1723,7 +1723,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-image_blocks-block'] = array(
@@ -1773,7 +1773,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['views-image_blocks-block_1'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'footer-logo',
     'custom' => 0,
     'delta' => 'image_blocks-block_1',
     'module' => 'views',
@@ -1812,7 +1812,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -1863,7 +1863,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['views-image_blocks-block_4'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'footer-contact-info',
     'custom' => 0,
     'delta' => 'image_blocks-block_4',
     'module' => 'views',
@@ -1902,7 +1902,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
