@@ -1598,7 +1598,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'frontpage_solr_boxes-block_1',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'admindora' => array(
@@ -1633,7 +1633,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-frontpage_solr_boxes-block_3'] = array(
@@ -1688,7 +1688,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'frontpage_solr_boxes-block_4',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'admindora' => array(
@@ -1723,7 +1723,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-image_blocks-block'] = array(
