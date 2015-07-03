@@ -636,7 +636,7 @@ function platform_main_feature_strongarm() {
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',
-    'zen_breadcrumb' => 'yes',
+    'zen_breadcrumb' => 'no',
     'zen_breadcrumb_separator' => ' › ',
     'zen_breadcrumb_home' => 1,
     'zen_breadcrumb_trailing' => 0,
@@ -679,6 +679,7 @@ function platform_main_feature_strongarm() {
       'main-menu' => '#ffffff',
     ),
     'jquery_update_jquery_version' => '',
+    'nice_menus_custom_css' => '',
   );
   $export['theme_saas_settings'] = $strongarm;
 

@@ -10,24 +10,6 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_about:node/5
-  $menu_links['main-menu_about:node/5'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/5',
-    'router_path' => 'node/%',
-    'link_title' => 'About',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'main-menu_about:node/5',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 1,
-    'weight' => -48,
-    'customized' => 1,
-  );
   // Exported menu link: main-menu_browse:islandora
   $menu_links['main-menu_browse:islandora'] = array(
     'menu_name' => 'main-menu',
@@ -134,24 +116,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 0,
   );
-  // Exported menu link: menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5
-  $menu_links['menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
-    'router_path' => 'uuid',
-    'link_title' => 'About this site',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
   // Exported menu link: menu-header-menu_browse-repository:islandora/object/islandora:root
   $menu_links['menu-header-menu_browse-repository:islandora/object/islandora:root'] = array(
     'menu_name' => 'menu-header-menu',
@@ -252,7 +216,6 @@ function platform_main_feature_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('About');
   t('About this site');
   t('Browse');
   t('Browse repository');
