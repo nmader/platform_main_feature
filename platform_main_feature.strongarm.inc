@@ -658,7 +658,7 @@ function platform_main_feature_strongarm() {
     'saas_search_text' => 'Welcome to Our Islandora onDemand Digital Repository. Feel free to browse our Collections, or begin searching below to explore the repository. ',
     'saas_simple_in_header' => 1,
     'saas_font_family' => 'pt_scheme',
-    'saas_background_collection_pid' => 'islandora:53',
+    'saas_background_collection_pid' => 'islandora:ondemand_background_image_collection',
     'saas_background_dsid' => 'OBJ',
     'saas_background_every_page' => 1,
     'saas_background_transparent' => 0,
