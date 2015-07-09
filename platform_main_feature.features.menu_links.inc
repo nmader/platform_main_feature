@@ -63,6 +63,29 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_submit-to-collection:islandora/guided-ingest
+  $menu_links['main-menu_submit-to-collection:islandora/guided-ingest'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'islandora/guided-ingest',
+    'router_path' => 'islandora/guided-ingest',
+    'link_title' => 'Submit to Collection',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_submit-to-collection:islandora/guided-ingest',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-menu_login:user/login
   $menu_links['menu-footer-menu_login:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -137,24 +160,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 0,
   );
-  // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
-  $menu_links['menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
-    'router_path' => 'uuid',
-    'link_title' => 'Make contact',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
   // Exported menu link: menu-header-menu_my-bookmarks:islandora-bookmark
   $menu_links['menu-header-menu_my-bookmarks:islandora-bookmark'] = array(
     'menu_name' => 'menu-header-menu',
@@ -223,9 +228,9 @@ function platform_main_feature_menu_default_menu_links() {
   t('Home');
   t('Login');
   t('Logout');
-  t('Make contact');
   t('My Bookmarks');
   t('Open Source');
+  t('Submit to Collection');
 
 
   return $menu_links;

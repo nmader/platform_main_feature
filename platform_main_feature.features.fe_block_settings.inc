@@ -43,8 +43,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => -18,
       ),
       'saas' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'saas',
         'weight' => -7,
       ),
@@ -468,7 +468,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['islandora_solr-current_query'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'block-islandora-solr-current-query',
     'custom' => 0,
     'delta' => 'current_query',
     'module' => 'islandora_solr',
@@ -597,7 +597,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 

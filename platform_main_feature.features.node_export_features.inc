@@ -574,7 +574,7 @@ function platform_main_feature_node_export_features_default() {
         \'mlid\' => 0,
         \'plid\' => \'0\',
         \'menu_name\' => \'main-menu\',
-        \'weight\' => \'-48\',
+        \'weight\' => \'-46\',
         \'options\' => array(),
         \'module\' => \'menu\',
         \'expanded\' => \'1\',
