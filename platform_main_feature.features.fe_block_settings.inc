@@ -315,8 +315,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => -20,
       ),
       'saas' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'saas',
         'weight' => -31,
       ),
