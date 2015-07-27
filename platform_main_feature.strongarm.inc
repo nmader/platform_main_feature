@@ -95,12 +95,9 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
-    'background' => '#E2E2E2',
-    'header' => '#E2E2E2',
-    'content' => '#ffffff',
-    'navigation' => '#E2E2E2',
-    'footer' => '#E2E2E2',
-    'sidebars' => '#ffffff',
+    'branding' => '#000e2f',
+    'body' => '#e9e9e9',
+    'footer' => '#a1a1a1',
   );
   $export['designkit_color'] = $strongarm;
 
@@ -143,14 +140,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Islandora OnDemand';
+  $strongarm->value = 'University Libraries';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Managing Digital Content';
+  $strongarm->value = 'Research Data Archive';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -218,12 +215,8 @@ function platform_main_feature_strongarm() {
     'favicon_path' => '',
     'favicon_upload' => '',
     'designkit_color' => array(
-      'background' => '',
-      'header' => '#ffffff',
-      'content' => '#ffffff',
-      'navigation' => '#ffffff',
-      'footer' => '#ffffff',
-      'sidebars' => '#ffffff',
+      'body' => '#cf2727',
+      'footer' => '#8e8787',
     ),
   );
   $export['theme_settings'] = $strongarm;

@@ -12,142 +12,6 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
-  $export['accordion_rotator-accordion_rotator'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'accordion_rotator',
-    'module' => 'accordion_rotator',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -25,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
-  $export['block-submit_to_collection_anonymous'] = array(
-    'cache' => -1,
-    'css_class' => 'submit-collection-anon',
-    'custom' => 0,
-    'machine_name' => 'submit_to_collection_anonymous',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(
-      'anonymous user' => 1,
-    ),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -18,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
-  $export['block-submit_to_collection_box'] = array(
-    'cache' => -1,
-    'css_class' => 'submit-collection',
-    'custom' => 0,
-    'machine_name' => 'submit_to_collection_box',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(
-      'authenticated user' => 2,
-    ),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -19,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
-  $export['comment-recent'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'recent',
-    'module' => 'comment',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => 'dashboard_inactive',
-        'status' => 1,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
   $export['google_analytics_reports-dashboard'] = array(
     'cache' => 1,
     'css_class' => '',
@@ -164,17 +28,29 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -15,
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => 'dashboard_inactive',
         'status' => 1,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -24,
       ),
     ),
     'title' => '',
@@ -197,11 +73,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -14,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -209,9 +85,66 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -25,
+      ),
     ),
     'title' => '',
     'visibility' => 1,
+  );
+
+  $export['islandora_basic_collection-collection_listing'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'collection_listing',
+    'module' => 'islandora_basic_collection',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -20,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['islandora_bookmark-islandora_bookmark'] = array(
@@ -230,11 +163,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -20,
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -242,19 +175,31 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -22,
+      ),
     ),
     'title' => 'Bookmark',
     'visibility' => 0,
   );
 
-  $export['islandora_compound_object-compound_navigation'] = array(
-    'cache' => 1,
+  $export['islandora_bookmark-islandora_bookmark_list_info'] = array(
+    'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'compound_navigation',
-    'module' => 'islandora_compound_object',
+    'delta' => 'islandora_bookmark_list_info',
+    'module' => 'islandora_bookmark',
     'node_types' => array(),
-    'pages' => 'islandora/object/*',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -263,11 +208,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -9,
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -275,9 +220,21 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -21,
+      ),
     ),
     'title' => '',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['islandora_solr-advanced'] = array(
@@ -296,17 +253,29 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -12,
+        'theme' => 'rubik',
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => -19,
+      ),
+      'uconn_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -35,
       ),
     ),
     'title' => '<none>',
@@ -320,7 +289,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'basic_facets',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'islandora/search',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -329,11 +298,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'sidebar_first',
+      'rubik' => array(
+        'region' => 'content',
         'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -19,
+        'theme' => 'rubik',
+        'weight' => -10,
       ),
       'seven' => array(
         'region' => '',
@@ -341,9 +310,21 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => -10,
+      ),
+      'uconn_theme' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -35,
+      ),
     ),
     'title' => 'Facets',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['islandora_solr-current_query'] = array(
@@ -362,17 +343,29 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -18,
+      'rubik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'rubik',
+        'weight' => -12,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => -12,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -11,
       ),
     ),
     'title' => '',
@@ -395,61 +388,40 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -24,
+        'theme' => 'rubik',
+        'weight' => -13,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => -13,
+      ),
+      'uconn_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -30,
       ),
     ),
     'title' => '<none>',
     'visibility' => 0,
   );
 
-  $export['islandora_solr-simple'] = array(
+  $export['islandora_solr-explore'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'simple',
-    'module' => 'islandora_solr',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -22,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
-  $export['islandora_solr-sort'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'sort',
+    'delta' => 'explore',
     'module' => 'islandora_solr',
     'node_types' => array(),
     'pages' => '',
@@ -461,11 +433,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -17,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -473,16 +445,343 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -13,
+      ),
     ),
-    'title' => 'Sort',
+    'title' => '',
     'visibility' => 0,
   );
 
-  $export['menu-features'] = array(
+  $export['islandora_solr-search_navigation'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'features',
+    'delta' => 'search_navigation',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -10,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['islandora_solr-simple'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'simple',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'rubik',
+        'weight' => -18,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => -18,
+      ),
+      'uconn_theme' => array(
+        'region' => 'header',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -18,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['islandora_solr-sort'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sort',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => 'islandora/search',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'rubik',
+        'weight' => -11,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => -11,
+      ),
+      'uconn_theme' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -35,
+      ),
+    ),
+    'title' => 'Sort',
+    'visibility' => 1,
+  );
+
+  $export['islandora_usage_stats-recent_activity'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'recent_activity',
+    'module' => 'islandora_usage_stats',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['islandora_usage_stats-top_downloads'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'top_downloads',
+    'module' => 'islandora_usage_stats',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 1,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['islandora_usage_stats-top_search'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'top_search',
+    'module' => 'islandora_usage_stats',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -4,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['islandora_usage_stats-top_usage'] = array(
+    'cache' => 1,
+    'css_class' => 'front-right',
+    'custom' => 0,
+    'delta' => 'top_usage',
+    'module' => 'islandora_usage_stats',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -31,
+      ),
+    ),
+    'title' => 'Most Viewed',
+    'visibility' => 1,
+  );
+
+  $export['menu-menu-footer-lower-menu'] = array(
+    'cache' => -1,
+    'css_class' => 'footer-lower-menu',
+    'custom' => 0,
+    'delta' => 'menu-footer-lower-menu',
     'module' => 'menu',
     'node_types' => array(),
     'pages' => '',
@@ -494,10 +793,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
-        'status' => 1,
-        'theme' => 'ir7',
+        'status' => 0,
+        'theme' => 'rubik',
         'weight' => 0,
       ),
       'seven' => array(
@@ -506,14 +805,26 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -31,
+      ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
   $export['menu-menu-footer-menu'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'footer-menu-links',
     'custom' => 0,
     'delta' => 'menu-footer-menu',
     'module' => 'menu',
@@ -527,17 +838,29 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -19,
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -35,
       ),
     ),
     'title' => '<none>',
@@ -560,10 +883,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'sub_header',
-        'status' => 1,
-        'theme' => 'ir7',
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
         'weight' => 0,
       ),
       'seven' => array(
@@ -572,8 +895,65 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -23,
+      ),
     ),
     'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['menu-menu-library-support'] = array(
+    'cache' => -1,
+    'css_class' => 'btn-libraries',
+    'custom' => 0,
+    'delta' => 'menu-library-support',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -33,
+      ),
+    ),
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -593,10 +973,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
+        'theme' => 'rubik',
         'weight' => 0,
       ),
       'seven' => array(
@@ -605,38 +985,17 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 10,
       ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['node-syndicate'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'syndicate',
-    'module' => 'node',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
+      'tao' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
+        'theme' => 'tao',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'uconn_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -1,
       ),
     ),
     'title' => '',
@@ -659,11 +1018,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => -1,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -1,
+        'theme' => 'rubik',
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => 'dashboard_sidebar',
@@ -671,203 +1030,17 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => -10,
       ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['shortcut-shortcuts'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'shortcuts',
-    'module' => 'shortcut',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
+      'tao' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
+        'theme' => 'tao',
+        'weight' => -16,
       ),
-      'ir7' => array(
+      'uconn_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['system-help'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'help',
-    'module' => 'system',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => 'help',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'help',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => 'help',
-        'status' => 1,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['system-main'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'main',
-    'module' => 'system',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -21,
-      ),
-      'seven' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['system-main-menu'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'main-menu',
-    'module' => 'system',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['system-management'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'management',
-    'module' => 'system',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['system-navigation'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'navigation',
-    'module' => 'system',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 2,
       ),
     ),
     'title' => '',
@@ -890,11 +1063,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 10,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -20,
+      'rubik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'rubik',
+        'weight' => 10,
       ),
       'seven' => array(
         'region' => '',
@@ -902,38 +1075,17 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 10,
       ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['system-user-menu'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'user-menu',
-    'module' => 'system',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
+      'tao' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => 10,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
+      'uconn_theme' => array(
+        'region' => 'branding',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => 10,
       ),
     ),
     'title' => '',
@@ -956,11 +1108,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -19,
+      'rubik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => 'content',
@@ -968,50 +1120,29 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 10,
       ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['user-new'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'new',
-    'module' => 'user',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => 'dashboard_sidebar',
+      'tao' => array(
+        'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'seven',
+        'theme' => 'tao',
         'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -35,
       ),
     ),
     'title' => '',
     'visibility' => 0,
   );
 
-  $export['user-online'] = array(
+  $export['views-footer_icon_and_info-block'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'footer-university-info',
     'custom' => 0,
-    'delta' => 'online',
-    'module' => 'user',
+    'delta' => 'footer_icon_and_info-block',
+    'module' => 'views',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),
@@ -1022,28 +1153,40 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
+        'theme' => 'rubik',
         'weight' => 0,
       ),
       'seven' => array(
-        'region' => 'dashboard_inactive',
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'footer',
         'status' => 1,
-        'theme' => 'seven',
-        'weight' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -34,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
-  $export['views-0e421ddcad5e4ddbe2f4e87f52252332'] = array(
+  $export['views-footer_social_media-block'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'footer-social-media-view',
     'custom' => 0,
-    'delta' => '0e421ddcad5e4ddbe2f4e87f52252332',
+    'delta' => 'footer_social_media-block',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
@@ -1055,10 +1198,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
+        'theme' => 'rubik',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1067,19 +1210,31 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -32,
+      ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
-  $export['views-30151412eb73ff9de45ec4209bd0898d'] = array(
+  $export['views-front_page_icons-block'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'front-bottom',
     'custom' => 0,
-    'delta' => '30151412eb73ff9de45ec4209bd0898d',
+    'delta' => 'front_page_icons-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1088,10 +1243,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
+        'theme' => 'rubik',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1100,38 +1255,17 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['views-7518164537523ba73652c9a5fd647fe6'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => '7518164537523ba73652c9a5fd647fe6',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
+      'tao' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
+        'theme' => 'tao',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
+      'uconn_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -28,
       ),
     ),
     'title' => '',
@@ -1140,7 +1274,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['views-frontpage_solr_boxes-block'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'front-left',
     'custom' => 0,
     'delta' => 'frontpage_solr_boxes-block',
     'module' => 'views',
@@ -1154,17 +1288,29 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -16,
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -33,
       ),
     ),
     'title' => '',
@@ -1178,7 +1324,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'frontpage_solr_boxes-block_1',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1187,11 +1333,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -17,
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -1199,16 +1345,28 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 12,
+      ),
     ),
     'title' => '',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
-  $export['views-image_blocks-block'] = array(
+  $export['views-frontpage_solr_boxes-block_2'] = array(
     'cache' => -1,
-    'css_class' => 'image-block-front',
+    'css_class' => 'front-center',
     'custom' => 0,
-    'delta' => 'image_blocks-block',
+    'delta' => 'frontpage_solr_boxes-block_2',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '<front>',
@@ -1220,11 +1378,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -11,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -1232,14 +1390,71 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -32,
+      ),
     ),
-    'title' => '<none>',
+    'title' => 'Recent Additions',
     'visibility' => 1,
+  );
+
+  $export['views-image_blocks-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'image_blocks-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 14,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['views-image_blocks-block_1'] = array(
     'cache' => -1,
-    'css_class' => 'footer-logo',
+    'css_class' => '',
     'custom' => 0,
     'delta' => 'image_blocks-block_1',
     'module' => 'views',
@@ -1253,11 +1468,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -20,
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -1265,49 +1480,28 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 13,
+      ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
   $export['views-image_blocks-block_2'] = array(
     'cache' => -1,
-    'css_class' => 'welcome',
-    'custom' => 0,
-    'delta' => 'image_blocks-block_2',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -23,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
-  $export['views-object_visitors_by_month-block'] = array(
-    'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'object_visitors_by_month-block',
+    'delta' => 'image_blocks-block_2',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
@@ -1319,10 +1513,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
+        'theme' => 'rubik',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1331,9 +1525,66 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 15,
+      ),
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['views-slideshow_galleria-block'] = array(
+    'cache' => -1,
+    'css_class' => 'view-slideshow-galleria-block slideshow',
+    'custom' => 0,
+    'delta' => 'slideshow_galleria-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -34,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['views-top_facet_searches-block'] = array(
@@ -1352,17 +1603,29 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -6,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 17,
       ),
     ),
     'title' => '',
@@ -1385,29 +1648,41 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -13,
+      'rubik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'rubik',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 18,
       ),
     ),
     'title' => '',
     'visibility' => 1,
   );
 
-  $export['widgets-s_addthis-share'] = array(
+  $export['views-usage_collection-usage_stats'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 's_addthis-share',
-    'module' => 'widgets',
+    'delta' => 'usage_collection-usage_stats',
+    'module' => 'views',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),
@@ -1418,10 +1693,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'rubik' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
+        'theme' => 'rubik',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1430,203 +1705,17 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_facebook-like-box'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_facebook-like-box',
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
+      'tao' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
+        'theme' => 'tao',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'uconn_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_socialmedia_profile-buttons'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_socialmedia_profile-buttons',
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_socialmedia_profile-default'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_socialmedia_profile-default',
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_socialmedia_profile-urls'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_socialmedia_profile-urls',
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_socialmedia_share-default'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_socialmedia_share-default',
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_twitter-profile-widget'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_twitter-profile-widget',
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => 8,
       ),
     ),
     'title' => '',
