@@ -777,6 +777,98 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['masquerade-masquerade'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'masquerade',
+    'module' => 'masquerade',
+    'node_types' => array(),
+    'pages' => 'islandora/search
+islandora/search/*',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => -19,
+      ),
+      'rubik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'rubik',
+        'weight' => -19,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => -19,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -5,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['menu-devel'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'devel',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => 'islandora/search
+islandora/search/*',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => -15,
+      ),
+      'rubik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'rubik',
+        'weight' => -15,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => -15,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -28,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['menu-menu-footer-lower-menu'] = array(
     'cache' => -1,
     'css_class' => 'footer-lower-menu',
@@ -1041,6 +1133,51 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'uconn_theme',
         'weight' => 2,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['system-navigation'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'navigation',
+    'module' => 'system',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'uconn_theme',
+        'weight' => -3,
       ),
     ),
     'title' => '',
