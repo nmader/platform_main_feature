@@ -1405,7 +1405,7 @@ islandora/search/*',
         'weight' => -28,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -1450,7 +1450,7 @@ islandora/search/*',
         'weight' => -33,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -1495,7 +1495,7 @@ islandora/search/*',
         'weight' => 12,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -1585,7 +1585,7 @@ islandora/search/*',
         'weight' => 14,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -1630,7 +1630,7 @@ islandora/search/*',
         'weight' => 13,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -1675,7 +1675,7 @@ islandora/search/*',
         'weight' => 15,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
