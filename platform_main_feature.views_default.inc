@@ -228,11 +228,30 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '10';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
+  /* Field: Content: Image URL */
+  $handler->display->display_options['fields']['field_image_url']['id'] = 'field_image_url';
+  $handler->display->display_options['fields']['field_image_url']['table'] = 'field_data_field_image_url';
+  $handler->display->display_options['fields']['field_image_url']['field'] = 'field_image_url';
+  $handler->display->display_options['fields']['field_image_url']['label'] = '';
+  $handler->display->display_options['fields']['field_image_url']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_image_url']['element_label_colon'] = FALSE;
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image_block']['id'] = 'field_image_block';
   $handler->display->display_options['fields']['field_image_block']['table'] = 'field_data_field_image_block';
   $handler->display->display_options['fields']['field_image_block']['field'] = 'field_image_block';
   $handler->display->display_options['fields']['field_image_block']['label'] = '';
+  $handler->display->display_options['fields']['field_image_block']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_image_block']['alter']['text'] = '<a href="[field_image_url]" title="[title]" target="_blank">
+[field_image_block]
+</a>';
   $handler->display->display_options['fields']['field_image_block']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image_block']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_image_block']['settings'] = array(
@@ -300,6 +319,9 @@ function platform_main_feature_views_default_views() {
     t('‹ previous'),
     t('next ›'),
     t('last »'),
+    t('<a href="[field_image_url]" title="[title]" target="_blank">
+[field_image_block]
+</a>'),
     t('Page'),
     t('Block'),
   );
