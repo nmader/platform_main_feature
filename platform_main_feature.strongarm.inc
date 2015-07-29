@@ -96,7 +96,7 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'branding' => '#000e2f',
-    'body' => '#e9e9e9',
+    'body' => '#dddddd',
     'footer' => '#b5afaf',
   );
   $export['designkit_color'] = $strongarm;
@@ -519,7 +519,7 @@ function platform_main_feature_strongarm() {
     'collection_image_ds' => 'TN',
     'designkit_color' => array(
       'branding' => '#000e2f',
-      'body' => '#e9e9e9',
+      'body' => '#dddddd',
       'footer' => '#b5afaf',
     ),
   );

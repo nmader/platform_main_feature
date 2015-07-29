@@ -21,6 +21,17 @@ function platform_main_feature_user_default_permissions() {
     'module' => 'google_analytics_reports',
   );
 
+  // Exported permission: 'access service links'.
+  $permissions['access service links'] = array(
+    'name' => 'access service links',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'service_links',
+  );
+
   // Exported permission: 'export islandora bookmarks'.
   $permissions['export islandora bookmarks'] = array(
     'name' => 'export islandora bookmarks',
