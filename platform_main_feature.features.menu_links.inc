@@ -167,10 +167,10 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_browse-repository:islandora/object/islandora:root
-  $menu_links['menu-header-menu_browse-repository:islandora/object/islandora:root'] = array(
+  // Exported menu link: menu-header-menu_browse-repository:islandora/object
+  $menu_links['menu-header-menu_browse-repository:islandora/object'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora/object/islandora:root',
+    'link_path' => 'islandora/object',
     'router_path' => 'islandora/object/%',
     'link_title' => 'Browse repository',
     'options' => array(
@@ -180,7 +180,7 @@ function platform_main_feature_menu_default_menu_links() {
       'query' => array(
         'display' => 'list',
       ),
-      'identifier' => 'menu-header-menu_browse-repository:islandora/object/islandora:root',
+      'identifier' => 'menu-header-menu_browse-repository:islandora/object',
     ),
     'module' => 'menu',
     'hidden' => 0,
