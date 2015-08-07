@@ -95,11 +95,11 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
-    'background' => '#E2E2E2',
-    'header' => '#E2E2E2',
+    'background' => '#fefcf7',
+    'header' => '#fffefa',
     'content' => '#ffffff',
     'navigation' => '#E2E2E2',
-    'footer' => '#E2E2E2',
+    'footer' => '#fffefa',
     'sidebars' => '#ffffff',
   );
   $export['designkit_color'] = $strongarm;
