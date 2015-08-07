@@ -27,6 +27,26 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-browse-content_root-collection:islandora
+  $menu_links['menu-browse-content_root-collection:islandora'] = array(
+    'menu_name' => 'menu-browse-content',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'Root Collection',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-browse-content_root-collection:islandora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-menu_login:user/login
   $menu_links['menu-footer-menu_login:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -159,6 +179,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('Logout');
   t('Make contact');
   t('My Bookmarks');
+  t('Root Collection');
 
 
   return $menu_links;
