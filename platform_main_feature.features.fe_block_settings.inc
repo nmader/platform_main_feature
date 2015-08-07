@@ -14,7 +14,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['accordion_rotator-accordion_rotator'] = array(
     'cache' => 1,
-    'css_class' => '',
+    'css_class' => 'no-top-bottom-border',
     'custom' => 0,
     'delta' => 'accordion_rotator',
     'module' => 'accordion_rotator',
@@ -27,6 +27,12 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -20,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -63,6 +69,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -25,
+      ),
       'ir7' => array(
         'region' => 'content',
         'status' => 1,
@@ -82,7 +94,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['block-submit_to_collection_box'] = array(
     'cache' => -1,
-    'css_class' => 'submit-collection',
+    'css_class' => 'submit-collection no-top-bottom-border',
     'custom' => 0,
     'machine_name' => 'submit_to_collection_box',
     'module' => 'block',
@@ -97,6 +109,12 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -26,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -129,6 +147,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -164,6 +188,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -22,
+      ),
       'ir7' => array(
         'region' => 'content',
         'status' => 1,
@@ -196,6 +226,12 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -14,
       ),
       'ir7' => array(
         'region' => '',
@@ -230,6 +266,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -27,
+      ),
       'ir7' => array(
         'region' => 'content',
         'status' => 1,
@@ -247,8 +289,47 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['islandora_collection_search-islandora_collection_search'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'islandora_collection_search',
+    'module' => 'islandora_collection_search',
+    'node_types' => array(),
+    'pages' => 'islandora/object/*',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -29,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
   $export['islandora_compound_object-compound_navigation'] = array(
-    'cache' => 1,
+    'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'compound_navigation',
@@ -262,6 +343,12 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -9,
       ),
       'ir7' => array(
         'region' => 'sidebar_second',
@@ -296,6 +383,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -21,
+      ),
       'ir7' => array(
         'region' => 'content',
         'status' => 1,
@@ -309,8 +402,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
-    'visibility' => 1,
+    'title' => 'Advanced Search',
+    'visibility' => 0,
   );
 
   $export['islandora_solr-basic_facets'] = array(
@@ -328,6 +421,12 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -19,
       ),
       'ir7' => array(
         'region' => 'sidebar_first',
@@ -362,6 +461,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -18,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -394,6 +499,12 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -32,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -428,6 +539,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -31,
+      ),
       'ir7' => array(
         'region' => 'content',
         'status' => 1,
@@ -461,6 +578,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -17,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -492,6 +615,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => 'sub_header',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -527,6 +656,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -19,
+      ),
       'ir7' => array(
         'region' => 'footer',
         'status' => 1,
@@ -558,6 +693,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => 'sub_header',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -593,6 +734,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -22,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -624,6 +771,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -659,6 +812,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => -1,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -1,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -690,6 +849,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -725,6 +890,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'help',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => 0,
+      ),
       'ir7' => array(
         'region' => 'help',
         'status' => 1,
@@ -758,6 +929,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -28,
+      ),
       'ir7' => array(
         'region' => 'content',
         'status' => 1,
@@ -789,6 +966,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -824,6 +1007,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => 0,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -855,6 +1044,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -890,6 +1085,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 10,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -20,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -921,6 +1122,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -956,6 +1163,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -19,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -987,6 +1200,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -1022,6 +1241,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => 0,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -1053,6 +1278,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -1088,6 +1319,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => 0,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -1121,6 +1358,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => 0,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -1138,6 +1381,45 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-frontpage_slideshow-block'] = array(
+    'cache' => -1,
+    'css_class' => 'frontpage-slideshow',
+    'custom' => 0,
+    'delta' => 'frontpage_slideshow-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -33,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views-frontpage_solr_boxes-block'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1153,6 +1435,12 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -23,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -1187,6 +1475,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -24,
+      ),
       'ir7' => array(
         'region' => 'content',
         'status' => 1,
@@ -1219,6 +1513,12 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -11,
       ),
       'ir7' => array(
         'region' => '',
@@ -1253,6 +1553,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -20,
+      ),
       'ir7' => array(
         'region' => 'footer',
         'status' => 1,
@@ -1286,6 +1592,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -30,
+      ),
       'ir7' => array(
         'region' => 'content',
         'status' => 1,
@@ -1317,6 +1629,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -1352,6 +1670,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -6,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -1385,6 +1709,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => -21,
+      ),
       'ir7' => array(
         'region' => 'content',
         'status' => 1,
@@ -1416,6 +1746,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -1451,6 +1787,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => 0,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -1482,6 +1824,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -1517,6 +1865,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
+        'weight' => 0,
+      ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
@@ -1548,6 +1902,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
@@ -1583,6 +1943,12 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'calpoly_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => 0,
+      ),
       'ir7' => array(
         'region' => 'footer',
         'status' => 1,
@@ -1614,6 +1980,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
       'ir7' => array(
