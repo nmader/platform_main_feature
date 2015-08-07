@@ -516,6 +516,7 @@ function platform_main_feature_strongarm() {
     'uconn_branding_text' => 'UCONN',
     'uconn_branding_text_university' => 'UNIVERSITY OF CONNECTICUT',
     'uconn_branding_text_link' => 'http://research.lib.uconn.edu',
+    'uconn_deposit_text_link' => 'http://research.lib.uconn.edu/submit',
     'collection_image_ds' => 'TN',
     'designkit_color' => array(
       'branding' => '#000e2f',
