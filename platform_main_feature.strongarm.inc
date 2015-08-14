@@ -156,7 +156,7 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'theme_ir7_settings';
+  $strongarm->name = 'theme_calpoly_theme_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
     'toggle_name' => 1,
@@ -164,7 +164,7 @@ function platform_main_feature_strongarm() {
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
     'toggle_favicon' => 1,
-    'toggle_main_menu' => 1,
+    'toggle_main_menu' => 0,
     'toggle_secondary_menu' => 0,
     'default_logo' => 1,
     'logo_path' => '',
@@ -184,18 +184,20 @@ function platform_main_feature_strongarm() {
       'html5' => 'html5',
       'meta' => 'meta',
     ),
-    'zen_rebuild_registry' => 0,
+    'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
+    'slideshow_bg_datastream' => 'TN',
     'designkit_color' => array(
-      'background' => '#E2E2E2',
-      'header' => '#E2E2E2',
+      'background' => '#fefcf7',
+      'header' => '#fffefa',
       'content' => '#ffffff',
       'navigation' => '#E2E2E2',
-      'footer' => '#E2E2E2',
+      'footer' => '#fffefa',
       'sidebars' => '#ffffff',
     ),
+    'jquery_update_jquery_version' => '',
   );
-  $export['theme_ir7_settings'] = $strongarm;
+  $export['theme_calpoly_theme_settings'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
