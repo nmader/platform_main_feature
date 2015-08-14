@@ -248,7 +248,7 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
-    'cache' => 1,
+    'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'compound_navigation',

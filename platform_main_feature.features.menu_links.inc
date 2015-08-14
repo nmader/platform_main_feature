@@ -167,20 +167,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_browse-repository:islandora/object
-  $menu_links['menu-header-menu_browse-repository:islandora/object'] = array(
+  // Exported menu link: menu-header-menu_browse-repository:islandora
+  $menu_links['menu-header-menu_browse-repository:islandora'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora/object',
-    'router_path' => 'islandora/object/%',
-    'link_title' => 'Browse repository',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'Browse Repository',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'query' => array(
-        'display' => 'list',
-      ),
-      'identifier' => 'menu-header-menu_browse-repository:islandora/object',
+      'identifier' => 'menu-header-menu_browse-repository:islandora',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -188,7 +185,7 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 0,
-    'customized' => 0,
+    'customized' => 1,
   );
   // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
   $menu_links['menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
@@ -230,10 +227,11 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('About this site');
-  t('Browse repository');
+  t('Browse Repository');
   t('Creative content license');
   t('Home');
   t('Login');
@@ -242,7 +240,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('My Bookmarks');
   t('Policies');
   t('Researchers');
-
 
   return $menu_links;
 }
