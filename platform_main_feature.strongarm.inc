@@ -95,11 +95,12 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
-    'background' => '#E2E2E2',
-    'header' => '#E2E2E2',
+    'background' => '#ffffff',
+    'header' => '#ffffff',
+    'page' => '#ffffff',
     'content' => '#ffffff',
-    'navigation' => '#E2E2E2',
-    'footer' => '#E2E2E2',
+    'navigation' => '#ffffff',
+    'footer' => '#ffffff',
     'sidebars' => '#ffffff',
   );
   $export['designkit_color'] = $strongarm;
@@ -159,8 +160,8 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'theme_ir7_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
-    'toggle_name' => 1,
-    'toggle_slogan' => 1,
+    'toggle_name' => 0,
+    'toggle_slogan' => 0,
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
     'toggle_favicon' => 1,
@@ -184,16 +185,18 @@ function platform_main_feature_strongarm() {
       'html5' => 'html5',
       'meta' => 'meta',
     ),
-    'zen_rebuild_registry' => 0,
+    'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
     'designkit_color' => array(
-      'background' => '#E2E2E2',
-      'header' => '#E2E2E2',
+      'background' => '#ffffff',
+      'header' => '#ffffff',
+      'page' => '#ffffff',
       'content' => '#ffffff',
-      'navigation' => '#E2E2E2',
-      'footer' => '#E2E2E2',
+      'navigation' => '#ffffff',
+      'footer' => '#ffffff',
       'sidebars' => '#ffffff',
     ),
+    'jquery_update_jquery_version' => '',
   );
   $export['theme_ir7_settings'] = $strongarm;
 
