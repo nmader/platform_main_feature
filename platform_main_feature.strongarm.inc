@@ -495,6 +495,8 @@ function platform_main_feature_strongarm() {
     'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
     'tul_theme_omit' => 1,
+    'tul_theme_background_image_datastream' => 'JPG',
+    'tul_theme_slideshow_height' => '700',
     'designkit_color' => array(
       'background' => '#032a17',
       'header' => '#032a17',
@@ -504,6 +506,7 @@ function platform_main_feature_strongarm() {
       'bottom' => '#bbbaba',
       'sidebars' => '#ffffff',
     ),
+    'jquery_update_jquery_version' => '',
   );
   $export['theme_tul_theme_settings'] = $strongarm;
 
