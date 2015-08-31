@@ -418,6 +418,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('About');
@@ -434,7 +435,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Tulane Digital Repository');
   t('View Sample Page One');
   t('View Sample Page Two');
-
 
   return $menu_links;
 }

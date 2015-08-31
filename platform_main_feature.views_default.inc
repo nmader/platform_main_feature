@@ -313,10 +313,9 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['PID']['field'] = 'PID';
   $handler->display->display_options['fields']['PID']['label'] = '';
-  $handler->display->display_options['fields']['PID']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['PID']['alter']['text'] = '<img src="/islandora/object/[PID]/datastream/JPG/view"></img>';
-  $handler->display->display_options['fields']['PID']['alter']['make_link'] = TRUE;
   $handler->display->display_options['fields']['PID']['alter']['path'] = 'islandora/object/[PID]';
+  $handler->display->display_options['fields']['PID']['alter']['strip_tags'] = TRUE;
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
