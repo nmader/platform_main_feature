@@ -32,7 +32,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -25,
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => '',
@@ -67,7 +67,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -18,
+        'weight' => -24,
       ),
       'seven' => array(
         'region' => '',
@@ -102,7 +102,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -19,
+        'weight' => -25,
       ),
       'seven' => array(
         'region' => '',
@@ -168,7 +168,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -15,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => 'dashboard_inactive',
@@ -234,7 +234,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -20,
+        'weight' => -26,
       ),
       'seven' => array(
         'region' => '',
@@ -300,7 +300,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -12,
+        'weight' => -23,
       ),
       'seven' => array(
         'region' => '',
@@ -399,7 +399,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -24,
+        'weight' => -30,
       ),
       'seven' => array(
         'region' => '',
@@ -432,7 +432,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -22,
+        'weight' => -28,
       ),
       'seven' => array(
         'region' => '',
@@ -762,7 +762,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -21,
+        'weight' => -27,
       ),
       'seven' => array(
         'region' => 'content',
@@ -1145,7 +1145,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'frontpage_solr_boxes-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1158,7 +1158,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -16,
+        'weight' => -20,
       ),
       'seven' => array(
         'region' => '',
@@ -1168,7 +1168,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['views-frontpage_solr_boxes-block_1'] = array(
@@ -1178,7 +1178,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'frontpage_solr_boxes-block_1',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1191,7 +1191,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -17,
+        'weight' => -21,
       ),
       'seven' => array(
         'region' => '',
@@ -1201,17 +1201,17 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['views-image_blocks-block'] = array(
     'cache' => -1,
-    'css_class' => 'image-block-front',
+    'css_class' => '',
     'custom' => 0,
     'delta' => 'image_blocks-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1224,7 +1224,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'ir7',
-        'weight' => -11,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -1233,13 +1233,13 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
-    'visibility' => 1,
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['views-image_blocks-block_1'] = array(
     'cache' => -1,
-    'css_class' => 'footer-logo',
+    'css_class' => '',
     'custom' => 0,
     'delta' => 'image_blocks-block_1',
     'module' => 'views',
@@ -1257,7 +1257,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'ir7',
-        'weight' => -20,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -1266,7 +1266,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -1277,7 +1277,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'image_blocks-block_2',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1290,7 +1290,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -23,
+        'weight' => -29,
       ),
       'seven' => array(
         'region' => '',
@@ -1300,7 +1300,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['views-object_visitors_by_month-block'] = array(
@@ -1356,7 +1356,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -6,
+        'weight' => -22,
       ),
       'seven' => array(
         'region' => '',

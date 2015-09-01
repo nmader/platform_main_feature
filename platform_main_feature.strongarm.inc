@@ -116,7 +116,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_admin_theme';
-  $strongarm->value = 1;
+  $strongarm->value = '1';
   $export['node_admin_theme'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -144,7 +144,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Islandora OnDemand';
+  $strongarm->value = 'islandora';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -214,15 +214,15 @@ function platform_main_feature_strongarm() {
     'toggle_favicon' => 1,
     'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 1,
-    'default_logo' => 1,
-    'logo_path' => '',
-    'logo_upload' => '',
+    'default_logo' => 0,
+    'logo_path' => 'public://Unknown-4.jpg',
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',
     'designkit_color' => array(
-      'background' => '',
+      'background' => '#ffffff',
       'header' => '#ffffff',
+      'page' => '#ffffff',
       'content' => '#ffffff',
       'navigation' => '#ffffff',
       'footer' => '#ffffff',
