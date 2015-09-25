@@ -912,8 +912,8 @@ islandora/search/*',
         'weight' => -37,
       ),
     ),
-    'title' => '',
-    'visibility' => 0,
+    'title' => 'Browse Content',
+    'visibility' => 1,
   );
 
   $export['menu-menu-footer-lower-menu'] = array(
@@ -1229,6 +1229,51 @@ islandora/search/*',
       ),
     ),
     'title' => 'Share: ',
+    'visibility' => 0,
+  );
+
+  $export['system-main'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'main',
+    'module' => 'system',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -32,
+      ),
+    ),
+    'title' => '',
     'visibility' => 0,
   );
 
