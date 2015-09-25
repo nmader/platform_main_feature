@@ -105,7 +105,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
-  $strongarm->value = '0';
+  $strongarm->value = '2';
   $export['error_level'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -516,6 +516,7 @@ function platform_main_feature_strongarm() {
     'uconn_branding_text' => 'UCONN',
     'uconn_branding_text_university' => 'UNIVERSITY OF CONNECTICUT',
     'uconn_branding_text_link' => 'http://research.lib.uconn.edu',
+    'deposit_branding_text' => 'Deposit',
     'uconn_deposit_text_link' => 'http://research.lib.uconn.edu/submit',
     'collection_image_ds' => 'TN',
     'designkit_color' => array(

@@ -144,6 +144,7 @@ features[variable][] = theme_default
 features[variable][] = theme_ir7_settings
 features[variable][] = theme_settings
 features[variable][] = theme_uconn_theme_settings
+features[views_view][] = clone_of_islandora_usage_stats_for_collections
 features[views_view][] = footer_icon_and_info
 features[views_view][] = footer_social_media
 features[views_view][] = front_page_icons
