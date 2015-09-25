@@ -289,7 +289,8 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'basic_facets',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => 'islandora/search/*',
+    'pages' => 'islandora/search
+islandora/search/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -410,7 +411,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'uconn_theme',
-        'weight' => -33,
+        'weight' => -34,
       ),
     ),
     'title' => '<none>',
@@ -559,7 +560,8 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'sort',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => 'islandora/search/*',
+    'pages' => 'islandora/search/*
+islandora/search',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -770,7 +772,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'uconn_theme',
-        'weight' => -34,
+        'weight' => -35,
       ),
     ),
     'title' => 'Most Viewed',
@@ -907,11 +909,11 @@ islandora/search/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'uconn_theme',
-        'weight' => -36,
+        'weight' => -37,
       ),
     ),
-    'title' => '',
-    'visibility' => 0,
+    'title' => 'Browse Content',
+    'visibility' => 1,
   );
 
   $export['menu-menu-footer-lower-menu'] = array(
@@ -1227,6 +1229,51 @@ islandora/search/*',
       ),
     ),
     'title' => 'Share: ',
+    'visibility' => 0,
+  );
+
+  $export['system-main'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'main',
+    'module' => 'system',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'rubik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'rubik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tao' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'tao',
+        'weight' => 0,
+      ),
+      'uconn_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'uconn_theme',
+        'weight' => -32,
+      ),
+    ),
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -1628,7 +1675,7 @@ islandora/search/*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'uconn_theme',
-        'weight' => -35,
+        'weight' => -36,
       ),
     ),
     'title' => 'Recent Additions',
@@ -1943,7 +1990,7 @@ islandora/search/*',
         'region' => '',
         'status' => 0,
         'theme' => 'uconn_theme',
-        'weight' => 8,
+        'weight' => -33,
       ),
     ),
     'title' => '',
