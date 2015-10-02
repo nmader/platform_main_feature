@@ -310,6 +310,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('About');
@@ -327,7 +328,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Submit');
   t('Support the Libraries');
   t('© University of Connecticut');
-
 
   return $menu_links;
 }
