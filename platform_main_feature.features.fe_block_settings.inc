@@ -408,7 +408,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -27,
+        'weight' => -29,
       ),
       'seven' => array(
         'region' => '',
@@ -543,7 +543,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -34,
+        'weight' => -35,
       ),
       'seven' => array(
         'region' => '',
@@ -588,7 +588,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -31,
+        'weight' => -34,
       ),
       'seven' => array(
         'region' => '',
@@ -1038,7 +1038,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -30,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => 'content',
@@ -1623,7 +1623,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -28,
+        'weight' => -30,
       ),
       'seven' => array(
         'region' => '',
@@ -1713,7 +1713,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -29,
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => '',

@@ -131,6 +131,7 @@ features[variable][] = comment_subject_field_front_page
 features[variable][] = designkit_color
 features[variable][] = error_level
 features[variable][] = field_bundle_settings_node__front_page
+features[variable][] = islandora_show_print_option
 features[variable][] = language_content_type_front_page
 features[variable][] = menu_options_front_page
 features[variable][] = menu_parent_front_page
