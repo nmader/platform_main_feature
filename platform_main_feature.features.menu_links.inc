@@ -27,6 +27,46 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-engage_support-us:http://baseballhall.org/support
+  $menu_links['menu-engage_support-us:http://baseballhall.org/support'] = array(
+    'menu_name' => 'menu-engage',
+    'link_path' => 'http://baseballhall.org/support',
+    'router_path' => '',
+    'link_title' => 'Support us',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-engage_support-us:http://baseballhall.org/support',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-engage_visit-our-shop:http://www.shop.baseballhall.org
+  $menu_links['menu-engage_visit-our-shop:http://www.shop.baseballhall.org'] = array(
+    'menu_name' => 'menu-engage',
+    'link_path' => 'http://www.shop.baseballhall.org',
+    'router_path' => '',
+    'link_title' => 'Visit our shop',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-engage_visit-our-shop:http://www.shop.baseballhall.org',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -227,19 +267,147 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search
+  $menu_links['menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search'] = array(
+    'menu_name' => 'menu-media-and-research-material',
+    'link_path' => 'http://www.abner.baseballhalloffame.org/search',
+    'router_path' => '',
+    'link_title' => 'ABNER Online Library Catalog',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-media-and-research-material_media-info:http://baseballhall.org/media-info
+  $menu_links['menu-media-and-research-material_media-info:http://baseballhall.org/media-info'] = array(
+    'menu_name' => 'menu-media-and-research-material',
+    'link_path' => 'http://baseballhall.org/media-info',
+    'router_path' => '',
+    'link_title' => 'Media Info',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-media-and-research-material_media-info:http://baseballhall.org/media-info',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-media-and-research-material_news:http://baseballhall.org/news
+  $menu_links['menu-media-and-research-material_news:http://baseballhall.org/news'] = array(
+    'menu_name' => 'menu-media-and-research-material',
+    'link_path' => 'http://baseballhall.org/news',
+    'router_path' => '',
+    'link_title' => 'News',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-media-and-research-material_news:http://baseballhall.org/news',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-useful-links_employment:http://baseballhall.org/employment
+  $menu_links['menu-useful-links_employment:http://baseballhall.org/employment'] = array(
+    'menu_name' => 'menu-useful-links',
+    'link_path' => 'http://baseballhall.org/employment',
+    'router_path' => '',
+    'link_title' => 'Employment',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-useful-links_employment:http://baseballhall.org/employment',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-useful-links_privacy-statementyour-california-privacy-rights:http://baseballhall.org/privacy-statement
+  $menu_links['menu-useful-links_privacy-statementyour-california-privacy-rights:http://baseballhall.org/privacy-statement'] = array(
+    'menu_name' => 'menu-useful-links',
+    'link_path' => 'http://baseballhall.org/privacy-statement',
+    'router_path' => '',
+    'link_title' => 'Privacy Statement/Your California Privacy Rights',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-useful-links_privacy-statementyour-california-privacy-rights:http://baseballhall.org/privacy-statement',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-useful-links_terms:http://baseballhall.org/terms
+  $menu_links['menu-useful-links_terms:http://baseballhall.org/terms'] = array(
+    'menu_name' => 'menu-useful-links',
+    'link_path' => 'http://baseballhall.org/terms',
+    'router_path' => '',
+    'link_title' => 'Terms',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-useful-links_terms:http://baseballhall.org/terms',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('ABNER Online Library Catalog');
   t('About this site');
   t('Browse Repository');
   t('Creative content license');
+  t('Employment');
   t('Home');
   t('Login');
   t('Logout');
   t('Make contact');
+  t('Media Info');
   t('My Bookmarks');
+  t('News');
   t('Policies');
+  t('Privacy Statement/Your California Privacy Rights');
   t('Researchers');
+  t('Support us');
+  t('Terms');
+  t('Visit our shop');
 
   return $menu_links;
 }
