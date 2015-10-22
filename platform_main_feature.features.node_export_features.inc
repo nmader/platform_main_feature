@@ -266,6 +266,7 @@ function platform_main_feature_node_export_features_default() {
       \'revision_uid\' => \'1\',
       \'body\' => array(),
       \'field_image_block\' => array(),
+      \'field_social_link\' => array(),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
@@ -323,6 +324,262 @@ function platform_main_feature_node_export_features_default() {
       ),
       \'cid\' => \'0\',
       \'last_comment_timestamp\' => \'1441824360\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
+      \'vid\' => \'15\',
+      \'uid\' => \'1\',
+      \'title\' => \'Facebook\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'2998dabb-e58f-4db4-9ea6-8bbcc4ed4b58\',
+      \'nid\' => \'15\',
+      \'type\' => \'image_block\',
+      \'language\' => \'en\',
+      \'created\' => \'1445518364\',
+      \'changed\' => \'1445518364\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'21a94714-3c1f-4706-b1b2-b9e2dc4d665c\',
+      \'revision_timestamp\' => \'1445518364\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'Facebook Social Link\',
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>Facebook Social Link</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'field_image_block\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => NULL,
+            \'uid\' => \'1\',
+            \'filename\' => \'NBHoF_SocMedia_FB.png\',
+            \'uri\' => \'public://NBHoF_SocMedia_FB.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'1453\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1445518364\',
+            \'uuid\' => \'66abd1f8-0843-4b11-841b-e33c4ff0b108\',
+            \'rdf_mapping\' => array(),
+            \'alt\' => \'\',
+            \'title\' => \'\',
+            \'width\' => \'39\',
+            \'height\' => \'38\',
+            \'node_export_file_data\' => \'iVBORw0KGgoAAAANSUhEUgAAACcAAAAmCAMAAABwIXKiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MjE3ODkxRTJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MjE3ODkxRjJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkyMTc4OTFDMkY5QzExRTQ5NjVEODAzODhCOTQyMTI3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjkyMTc4OTFEMkY5QzExRTQ5NjVEODAzODhCOTQyMTI3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+XRZshQAAAKtQTFRFFR+A////rK/RoqfM2NnpFyGBh4u9ztHlIiyHu73ZGSODHiiFxsffJS6I8vL3KjKLsLPTlZnF5eXwkJTCHCaEl5vGGiSDy8zitLbVHymFKTGLmJzGrrHSPkWWzM3js7XVurzZNT2RrbDRj5PB3t/t+/v80tPl/v7+JjCJ4ePvqKvP8PD3FiCB7e31sLTU7/D3KjSMdXuz19jo1tfo5efxc3ixGCKC8/P4////QX5mvwAAADl0Uk5T//////////////////////////////////////////////////////////////////////////8AOqxlQAAAASNJREFUeNqk1OmSgjAMAOCEcogKiLi7uqer7uneJ+//ZFsWgaSHdMb8oplvOjRNA6UW/oWvJ0FnGWR+v4tOASCL+lw0gCoG0X53UjMJL/e58QiaGI3tjjAVUhcfA41ZbHbxEHgMY5O76tjifgfnupsEjXrfIH4V/5/BRHWrln1jFbf1IjjnTnR/9SnVw/SxWQrqCIMt4vMPWYvOHdFTpogf7Nhnjcu73MLzbhB/l8s3AvParUkqwV1c0x2LyoXQ6yAsgTF4Sir5kiQBv5pQcTKk89ScVKUK7wwuVM9R10V1hVYXo8ttdfbMdeb39qo4YemDKXfC1lfMqX1F+tRP03Z3vU9Z37cPZH7AO3J+l87v3HluOM8h57nmPCed565ljv8JMACqK6E6LRe4xwAAAABJRU5ErkJggg==\',
+          ),
+        ),
+      ),
+      \'field_social_link\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'http://facebook.com/baseballhall\',
+            \'format\' => NULL,
+            \'safe_value\' => \'http://facebook.com/baseballhall\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1445518364\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
+      \'vid\' => \'17\',
+      \'uid\' => \'1\',
+      \'title\' => \'Instagram\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'d4454933-e222-46db-8867-6aee1a07e717\',
+      \'nid\' => \'17\',
+      \'type\' => \'image_block\',
+      \'language\' => \'en\',
+      \'created\' => \'1445518505\',
+      \'changed\' => \'1445518505\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'276c44a0-b77b-484e-b9eb-6c4c51cb5400\',
+      \'revision_timestamp\' => \'1445518505\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'Instagram Social Media Icon\',
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>Instagram Social Media Icon</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'field_image_block\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => NULL,
+            \'uid\' => \'1\',
+            \'filename\' => \'NBHoF_SocMedia_Inst.png\',
+            \'uri\' => \'public://NBHoF_SocMedia_Inst.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'1553\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1445518505\',
+            \'uuid\' => \'2e6af900-c155-4fe9-8eaf-cb2616bac944\',
+            \'rdf_mapping\' => array(),
+            \'alt\' => \'\',
+            \'title\' => \'\',
+            \'width\' => \'39\',
+            \'height\' => \'38\',
+            \'node_export_file_data\' => \'iVBORw0KGgoAAAANSUhEUgAAACcAAAAmCAMAAABwIXKiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MjE3ODkxNjJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MjE3ODkxNzJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkxNzkzMTg5MkY5QzExRTQ5NjVEODAzODhCOTQyMTI3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjkxNzkzMThBMkY5QzExRTQ5NjVEODAzODhCOTQyMTI3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+XXfSSAAAAN5QTFRFVTAk////o46IjnRs1s7L1cvJVjImwrSw49zaYDwxXDct3NTSzcK/qJOOvK2oWDQod1lQZEE3sqCbmYF7xbe0s6KdrpqVY0A2yLq3w7WxWjUpVzEl2dHOw7ayeFpRr5uWinBoYD0yclNJoo2H2NDOWzYrWDInXDYso46JkXpywrOvcFBH6+blbExCu6yn9PHwy767XTgt2tLQ/Pr6hmpj1MrHwbOv5uHfyLu4wLGs/v39tqWg183KxLaz6eXjtKKe39jW+Pb2cVFI+ff3lHt03dXToYuFmIJ7y8C9////MR+8yAAAAEp0Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////wBaK78bAAABQ0lEQVR42qTUaVPCMBAG4I3SWmiB3lAQAVG87/vEW/P//5AppWVzFDL6fujsZJ6ZTJPNApVibVryIsjMA89a7uwWAHj2MmdXIU3VXuy2Msbg+iJn1CBPzSh3iIkQO6cDONuO2jlN4NN0VK4tMgZvZReaIMcMRddTMQZ7vGtMV8f+YyWPMcpkA7uMwR7B2cBw6iazXVaQ2SWrs9Uodz5IzmV17sDPXB94d9o3yEvlee4gTl0dePfFiuO0mDuoU0CMOffzfcyKI/IUYMeU4M4vzljxRhLR8fu6MXnoQueHfATCvpTG2A1viBUekiszEP+DOxcXWtev5CTagUA6F0qjwl2yb3eY1iP5nIt7G+Bruz+Q7q2A3/tree4Gij6gNCnpq+SPfaru+/Y/3pH2u9R+59pzQ3sOac817TmpPXdL5vivAAMAmDLVZ5xnJGoAAAAASUVORK5CYII=\',
+          ),
+        ),
+      ),
+      \'field_social_link\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'http://instagram.com/baseballhall\',
+            \'format\' => NULL,
+            \'safe_value\' => \'http://instagram.com/baseballhall\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1445518505\',
       \'last_comment_name\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'comment_count\' => \'0\',
@@ -665,6 +922,134 @@ function platform_main_feature_node_export_features_default() {
       \'node_export_drupal_version\' => \'7\',
     ),
   (object) array(
+      \'vid\' => \'18\',
+      \'uid\' => \'1\',
+      \'title\' => \'Twitter\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'607e9635-84ea-4ade-860d-3185b567f302\',
+      \'nid\' => \'18\',
+      \'type\' => \'image_block\',
+      \'language\' => \'en\',
+      \'created\' => \'1445518560\',
+      \'changed\' => \'1445518560\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'56fca61f-b803-4901-9d41-ecd3ff03e76f\',
+      \'revision_timestamp\' => \'1445518560\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'Twitter Social Media Icon\',
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>Twitter Social Media Icon</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'field_image_block\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => NULL,
+            \'uid\' => \'1\',
+            \'filename\' => \'NBHoF_SocMedia_Tw.png\',
+            \'uri\' => \'public://NBHoF_SocMedia_Tw.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'1652\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1445518560\',
+            \'uuid\' => \'4977af75-47f5-4e08-be18-a25786b14303\',
+            \'rdf_mapping\' => array(),
+            \'alt\' => \'\',
+            \'title\' => \'\',
+            \'width\' => \'39\',
+            \'height\' => \'38\',
+            \'node_export_file_data\' => \'iVBORw0KGgoAAAANSUhEUgAAACcAAAAmCAMAAABwIXKiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MjE3ODkxQTJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MjE3ODkxQjJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkyMTc4OTE4MkY5QzExRTQ5NjVEODAzODhCOTQyMTI3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjkyMTc4OTE5MkY5QzExRTQ5NjVEODAzODhCOTQyMTI3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+0xiDZAAAARFQTFRFAJPV////AJfXrt/yx+j2Z8bp0e34AJTVAJXWkNPuuuT0AJnXAJzZAJPVoNnwfc3sAJnYAJXWwuf2AJbWpdvxndjwAKbcAK3fdMrrIbbi9fr9/f7/gM7sNLnkqd3xdsrrbsjqAJvYAJ7aweb13/H6gc7sBrPiktTvAKLbi9LuuOP0otrwmNbv1O75f83sAJzZALPi+/7+AKLbAJrYldXv9Pv9AJjXT7/mltbvY8ToVcDn6PX7AKXcZMXoAKvfa8fpAJTWAJbWyOn2yOn3AJzZAJvY4fP6m9jv8Pn8AKHbH7XintnwL7jjSr3lqNzxhdDtAJfXw+f2yer3AK3f9vv9o9vx6vb7AJbWAKHb4PL6////U+0wRQAAAFt0Uk5T////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AJz6uLwAAAFiSURBVHjapNRpT4MwGAdwCFfY8nAs27LLbZk74hmd922UqfFEUTf5/h/EAqW0wLZG/69o+YVCefoIfiZqVc1OClnmgKMud7IDABN5mZOLEKQoL3aliCG4usgVXIjjFuY7iqUh7aQp0JlK+U6ygY0t5blymiH4lXWGBtloRtpVGPY42jixwJ6Bds86Hd3sbV5j9iSi/IzuPHSt0y5gsCJKhyF7EaPI2zaBoWtB5MR+PbhYx64/DudbsTOj1Xq76N7W1aV7g52HX8OMXA0Pna7I5jz+rFrglHj0/NlkWDP5PYovEAbWA/u4W2qjFMrBzgHjFMb51LD7TbHGBOh1fb9Dhvv04y4S1mH2BZWckbBSUhZmvM8DMuWdYaY6ZG6Q+m97s+FxA7O2RZieroP6R7zm+xBSjK2r6ulb+3XtaEwVYOWPdZpf9+V/nCPuc8l9zrn7Bncf4u5r3H2Su+/O6eO/AgwAmLYjW5Bf5csAAAAASUVORK5CYII=\',
+          ),
+        ),
+      ),
+      \'field_social_link\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'http://twitter.com/baseballhall\',
+            \'format\' => NULL,
+            \'safe_value\' => \'http://twitter.com/baseballhall\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1445518560\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
       \'vid\' => \'6\',
       \'uid\' => \'1\',
       \'title\' => \'Search the Repo\',
@@ -752,6 +1137,134 @@ function platform_main_feature_node_export_features_default() {
       \'node_export_drupal_version\' => \'7\',
     ),
   (object) array(
+      \'vid\' => \'16\',
+      \'uid\' => \'1\',
+      \'title\' => \'Google+\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'86e990ba-352b-4eff-90e5-c27e11dea06d\',
+      \'nid\' => \'16\',
+      \'type\' => \'image_block\',
+      \'language\' => \'en\',
+      \'created\' => \'1445518429\',
+      \'changed\' => \'1445518429\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'7b1cdb8c-4217-4133-8e59-7aac1f1ad620\',
+      \'revision_timestamp\' => \'1445518429\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'Google+ Social Link\',
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>Google+ Social Link</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'field_image_block\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => NULL,
+            \'uid\' => \'1\',
+            \'filename\' => \'NBHoF_SocMedia_Gp.png\',
+            \'uri\' => \'public://NBHoF_SocMedia_Gp.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'1801\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1445518429\',
+            \'uuid\' => \'6204a10a-e9b8-4c86-8e29-934bd4637066\',
+            \'rdf_mapping\' => array(),
+            \'alt\' => \'\',
+            \'title\' => \'\',
+            \'width\' => \'39\',
+            \'height\' => \'38\',
+            \'node_export_file_data\' => \'iVBORw0KGgoAAAANSUhEUgAAACcAAAAmCAMAAABwIXKiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MTc5MzE4NzJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MTc5MzE4ODJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkxNzkzMTg1MkY5QzExRTQ5NjVEODAzODhCOTQyMTI3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjkxNzkzMTg2MkY5QzExRTQ5NjVEODAzODhCOTQyMTI3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Q1PZ7gAAAVlQTFRF7wcK////8RET/9bW8A0Q/7e57woM/+Pj/56e/8LD/8zN/4GC8hcZ8x4g8AwP/5CQ9Sos8RIU/7Cx/6ys8xwf/4mK/8jI9Sgq8BAS/+fn9zo9/6ep//39//Ly/F9g/7299zM1/4qL/6mq/5GS//v7/F1e/+Li/8XF/8nJ/3p7/3+A8A4R+1JT/5KT/6qr/62t/4WG+EBB9jAx//X1+1JU/mZo/Fpb//7+/5aX+Dk89zIz+UJD/FVY/9XV//b2/9ra/4+Q/3R29i4w/9/f/5+f+kZJ/46P/9zd/+Hh/+rr/8zM/mpr/3t8/+Dg+UFC/WNl/4yN9iwv/9LS/+zs/Vtc8hUY7wgL9zI0+1BR/76//+3t9CIk//j4+01O/6+w/52d/+Tk+Dg7+1NV/+7u8hkb9jEy8RQX/5ud/9TU/WBh/F5f/8bG9CEi9Sst8AsN/mlq/7i4/3Z3////brvKdwAAAHN0Uk5T////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AO+Lr34AAAGXSURBVHjajNRlm4JAEADgGRFRTOz27NNTr7u7u7u7+f8fjjiUUpkP7LK8PM8yzA6wmiA6CO0iaJkTnER7R/sBwEm3c7QD+HDQrV1QZBzsbOVsJpDCZGvuZEwN5Y7sAnmESX1HmkEZZlLPXakZB71a57OANiw+tcsILLTzvklRVGGAm8YYHmaUziq8fjI1wmwt4/QiN4/ig7BmlTuRuSKrXwC7F1iB44MNnF2fa0DBZcXdjGKRH7x4DSUqghEqKSxnJef+33UvrhxxQxkXuKsHPdLXuEUXqP+BBA7xy3indBDgnb2Rhu944tUV3V8SNutxNR7YWbDL8zUee4ljj04i7UoH8IH4putYJTRT2J/XMv470vXb2+dgipxHLKtYWpmX0vBpiBsqZzihYG4pz1Xh9jNXCAuTJP7IWVX13waxW3xwjmsyZlXXwSVSYt3ncUbN6nVVs4AlhcVHAGb7fvKwXoA1nTp1/e7hDZGjAkzzOmVZL1/3T31j/tZ1b/gcGT6Xhs+54b5huA8Z7muG+6Thvtukj/8JMABc6FG1wtX9yAAAAABJRU5ErkJggg==\',
+          ),
+        ),
+      ),
+      \'field_social_link\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'http://google.com/+baseballhalloffame\',
+            \'format\' => NULL,
+            \'safe_value\' => \'http://google.com/+baseballhalloffame\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1445518429\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
       \'vid\' => \'11\',
       \'uid\' => \'1\',
       \'title\' => \'Front Slide\',
@@ -793,6 +1306,7 @@ function platform_main_feature_node_export_features_default() {
           ),
         ),
       ),
+      \'field_social_link\' => array(),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
@@ -999,6 +1513,7 @@ function platform_main_feature_node_export_features_default() {
           ),
         ),
       ),
+      \'field_social_link\' => array(),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
@@ -1098,6 +1613,7 @@ function platform_main_feature_node_export_features_default() {
         ),
       ),
       \'field_image_block\' => array(),
+      \'field_social_link\' => array(),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
@@ -1155,6 +1671,262 @@ function platform_main_feature_node_export_features_default() {
       ),
       \'cid\' => \'0\',
       \'last_comment_timestamp\' => \'1441824360\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
+      \'vid\' => \'14\',
+      \'uid\' => \'1\',
+      \'title\' => \'Mail\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'6284ab83-d70e-4367-9dfc-aeef0995da06\',
+      \'nid\' => \'14\',
+      \'type\' => \'image_block\',
+      \'language\' => \'en\',
+      \'created\' => \'1445518299\',
+      \'changed\' => \'1445518299\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'a0899508-4e1b-40dc-b28b-9540e0cd5e19\',
+      \'revision_timestamp\' => \'1445518299\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'Social Mail icon\',
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>Social Mail icon</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'field_image_block\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => NULL,
+            \'uid\' => \'1\',
+            \'filename\' => \'NBHoF_eMail.png\',
+            \'uri\' => \'public://NBHoF_eMail.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'1638\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1445518299\',
+            \'uuid\' => \'d2d3c22f-39cc-46f0-82a1-bc62f480b43e\',
+            \'rdf_mapping\' => array(),
+            \'alt\' => \'\',
+            \'title\' => \'\',
+            \'width\' => \'40\',
+            \'height\' => \'40\',
+            \'node_export_file_data\' => \'iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowNTgwMTE3NDA3MjA2ODExOEMxNDgxMDk0RkUyMTVCMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MzAyNzIzQzJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MzAyNzIzQjJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDU4MDExNzQwNzIwNjgxMThDMTQ4MTA5NEZFMjE1QjMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDU4MDExNzQwNzIwNjgxMThDMTQ4MTA5NEZFMjE1QjMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6VCqwYAAAAwFBMVEWV1Ub2++6k2l/8/fmp3Gp3xhXi8sv9/vvl9NOh2VzK6KqVx3B1t0ud2FP3/PLy+enP66vH5azv+OLS7bL6/ffT6r+O0ji83p5quhjX77vX77ltvRfo9dhxwRVhsCh0uUDZ779fsRxjtBpmtxlcrx2S1ECv33W34oFZrR34/PP6/fhYrB73+/KY1kqZ1k2y4HvA4aLS7Laz4Hy12pTw9+jc7c244Iy22pmK0S5VqR/H47Du9uTx+ej///9/zQ3///893qHGAAAAQHRSTlP///////////////////////////////////////////////////////////////////////////////////8AwnuxRAAAAXxJREFUeNqM1dl2gjAQBmCwSFwLYoRirdJFLdS9u3Xi+79VSUjYEpT/ggOc7wSYJIN2luL0HfnmWZOdS1ynBrRcQohrXYXWnNDMrSuQO4UsQn1N0Q89rPULMHEGNhQyD0PmGuiEGkyGFTDsMxftyT5ish8qYeLaUafZbHaidlmmEPNBBg80Az48lmDq7pNIkkP++qvdnchuxT+tABEviPecxePFQjmYOE33nvLxdC0nKUQLNmv+8bGY45jdXyAOuSMBjGYvWWYjCEgmY7glAsLN9/Q1yfQ9AgHJlsElySDAR/eNpvtHLwQkyximLoEAn73f3ig5TWEsZQj46xYUsPRogJat260SXLKPOeQhHk7i42SI8/BQLg+A6SM2FvJbGRTlETIAfXwCEcfHHKYFF1MYmCbkY06C0hRyadjDYjpGeVGIZaZIaZmJhSs7XLEVKp20uQpRbi6FrNiusdwU3Ca80lJ4LrSUgrzYpOq3vfqNtH5rrt/sq34f/wIMAKmbT/DXJC4HAAAAAElFTkSuQmCC\',
+          ),
+        ),
+      ),
+      \'field_social_link\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'mailto:info@baseballhall.org\',
+            \'format\' => NULL,
+            \'safe_value\' => \'mailto:info@baseballhall.org\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1445518299\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
+      \'vid\' => \'19\',
+      \'uid\' => \'1\',
+      \'title\' => \'YouTube\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'a5da843c-6a10-4782-a0da-9ba53044268f\',
+      \'nid\' => \'19\',
+      \'type\' => \'image_block\',
+      \'language\' => \'en\',
+      \'created\' => \'1445518638\',
+      \'changed\' => \'1445518638\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'a935cfaa-31c7-42cd-b9b9-9f56e4469b1a\',
+      \'revision_timestamp\' => \'1445518638\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'TouTube Social Media Icon\',
+            \'summary\' => \'\',
+            \'format\' => \'filtered_html\',
+            \'safe_value\' => "<p>TouTube Social Media Icon</p>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'field_image_block\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => NULL,
+            \'uid\' => \'1\',
+            \'filename\' => \'NBHoF_SocMedia_YT.png\',
+            \'uri\' => \'public://NBHoF_SocMedia_YT.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'1551\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1445518638\',
+            \'uuid\' => \'4bc9365d-09fe-417c-8ca4-e74eb8961d8a\',
+            \'rdf_mapping\' => array(),
+            \'alt\' => \'\',
+            \'title\' => \'\',
+            \'width\' => \'39\',
+            \'height\' => \'38\',
+            \'node_export_file_data\' => \'iVBORw0KGgoAAAANSUhEUgAAACcAAAAmCAMAAABwIXKiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MTc5MzE4MzJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MTc5MzE4NDJGOUMxMUU0OTY1RDgwMzg4Qjk0MjEyNyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkxNzkzMTgxMkY5QzExRTQ5NjVEODAzODhCOTQyMTI3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjkxNzkzMTgyMkY5QzExRTQ5NjVEODAzODhCOTQyMTI3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+rGc/6wAAAOpQTFRF7wcK/////4GC/5iZ7woM/9bW/8LD/8zN8A0Q/7e5/56e8hcZ8RET8x4g/8XF/7a4/5CQ/6ys/5GS/4mK8BAS/8jI+0tM/6+w/7Cx8yAh/5KT/4qL/9TU/8nJ9zM18A4R/6mq8xwf/6qr/m1v/mdo/nJz9Skr//Ly/3t88RMW//7++1FS/62t+kdK/7O1+kVI/+/v//n5/8bG/8rK/5OU/+Pj/9vb+UNF/7S2+UFC/9DR+k9Q/3p78hga+Dc6//v7/mpr/35//25w8RAS9CIk/9nZ9zIz/8fH7wgL/Whp/+Dg/4+Q/+jo////C7SI0QAAAE50Uk5T//////////////////////////////////////////////////////////////////////////////////////////////////////8ArE37zgAAATFJREFUeNqM1GdDwjAQBuAjtpQClS2iKLi34N6Ce/L//46Fy8WMFu79BL2H0lyTg5ETf9V3L4LLIoj82S5YA4AomOWCAoxTCKa7BrIYrkxz2SJQitl0pzEb6i7sgJ56mOzCHJjJhUmuabMYLrqu4oEbr2K7bhKL4brp8pCWvO6QvTwdn7XnJ2m0P5obngYnroo/vc6YkZeXyJXx+6vFMjufWCijq8knucPq26WC27KyPHaCnniIxVK9diLdFZXECBSDLekA3k/x44KqCc3dKwd7t477/99n5Q6+rfsJfR2b0rUOaR03+jpUX46weNFX620ZfaE+Pwys/v1afab39mOy/S/7vRHsifM5SnX30d0H7H3F3qfsfc8+R+xzyT7n7LnBnkPsucaek+y5mzLH/wQYAAGi31NA2VO5AAAAAElFTkSuQmCC\',
+          ),
+        ),
+      ),
+      \'field_social_link\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'http://youtube.com/thebaseballhall\',
+            \'format\' => NULL,
+            \'safe_value\' => \'http://youtube.com/thebaseballhall\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1445518638\',
       \'last_comment_name\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'comment_count\' => \'0\',

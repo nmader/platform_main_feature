@@ -621,7 +621,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -36,
+        'weight' => -38,
       ),
       'ir7' => array(
         'region' => '',
@@ -738,7 +738,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -35,
+        'weight' => -37,
       ),
       'ir7' => array(
         'region' => '',
@@ -777,7 +777,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -32,
+        'weight' => -33,
       ),
       'ir7' => array(
         'region' => '',
@@ -1635,7 +1635,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -33,
+        'weight' => -34,
       ),
       'ir7' => array(
         'region' => '',
@@ -1749,8 +1749,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bhof_theme',
         'weight' => -29,
       ),
@@ -2256,10 +2256,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -34,
+        'weight' => -35,
       ),
       'ir7' => array(
         'region' => 'footer',
