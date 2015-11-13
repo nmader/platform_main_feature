@@ -95,12 +95,9 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
-    'background' => '#E2E2E2',
-    'header' => '#E2E2E2',
-    'content' => '#ffffff',
-    'navigation' => '#E2E2E2',
-    'footer' => '#E2E2E2',
-    'sidebars' => '#ffffff',
+    'header' => '#ffffff',
+    'main' => '#f7f5f3',
+    'border' => '#5d5d5d',
   );
   $export['designkit_color'] = $strongarm;
 
@@ -143,7 +140,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Islandora OnDemand';
+  $strongarm->value = 'Digital Archives of EMPA';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
