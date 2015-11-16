@@ -10,34 +10,17 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_home:<front>.
-  $menu_links['main-menu_home:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Home',
-    'options' => array(
-      'identifier' => 'main-menu_home:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-footer-menu_contact-us:node/1.
-  $menu_links['menu-footer-menu_contact-us:node/1'] = array(
+  // Exported menu link: menu-footer-menu_contact-us:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
+  $menu_links['menu-footer-menu_contact-us:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/1',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
+    'router_path' => 'uuid',
     'link_title' => 'Contact Us',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-footer-menu_contact-us:node/1',
+      'identifier' => 'menu-footer-menu_contact-us:uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -87,17 +70,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_support:node/2.
-  $menu_links['menu-footer-menu_support:node/2'] = array(
+  // Exported menu link: menu-footer-menu_support:uuid/node/db02d4f6-92fc-4539-ac8a-77d5da620c8e.
+  $menu_links['menu-footer-menu_support:uuid/node/db02d4f6-92fc-4539-ac8a-77d5da620c8e'] = array(
     'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/2',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/db02d4f6-92fc-4539-ac8a-77d5da620c8e',
+    'router_path' => 'uuid',
     'link_title' => 'Support',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-footer-menu_support:node/2',
+      'identifier' => 'menu-footer-menu_support:uuid/node/db02d4f6-92fc-4539-ac8a-77d5da620c8e',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -107,37 +90,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
-  $menu_links['menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
+  // Exported menu link: menu-header-menu_add-publication:uuid/node/e31e0d72-8a38-4d73-8cdf-b6faed4da6ea.
+  $menu_links['menu-header-menu_add-publication:uuid/node/e31e0d72-8a38-4d73-8cdf-b6faed4da6ea'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
+    'link_path' => 'uuid/node/e31e0d72-8a38-4d73-8cdf-b6faed4da6ea',
     'router_path' => 'uuid',
-    'link_title' => 'About this site',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_add-publication:node/5.
-  $menu_links['menu-header-menu_add-publication:node/5'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/5',
-    'router_path' => 'node/%',
     'link_title' => 'Add Publication',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-header-menu_add-publication:node/5',
+      'identifier' => 'menu-header-menu_add-publication:uuid/node/e31e0d72-8a38-4d73-8cdf-b6faed4da6ea',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -170,17 +133,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_help:islandora-bookmark.
-  $menu_links['menu-header-menu_help:islandora-bookmark'] = array(
+  // Exported menu link: menu-header-menu_help:uuid/node/d7790073-bf40-44fb-8bc5-572b646532d6.
+  $menu_links['menu-header-menu_help:uuid/node/d7790073-bf40-44fb-8bc5-572b646532d6'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora-bookmark',
-    'router_path' => 'islandora-bookmark',
+    'link_path' => 'uuid/node/d7790073-bf40-44fb-8bc5-572b646532d6',
+    'router_path' => 'uuid',
     'link_title' => 'Help',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-header-menu_help:islandora-bookmark',
+      'identifier' => 'menu-header-menu_help:uuid/node/d7790073-bf40-44fb-8bc5-572b646532d6',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -190,38 +153,15 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
-  $menu_links['menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
-    'router_path' => 'uuid',
-    'link_title' => 'Make contact',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-  );
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('About this site');
   t('Add Publication');
   t('Browse');
   t('Contact Us');
   t('Help');
-  t('Home');
   t('Login');
   t('Logout');
-  t('Make contact');
   t('Support');
 
   return $menu_links;
