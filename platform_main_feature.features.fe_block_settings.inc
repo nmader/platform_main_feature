@@ -1812,7 +1812,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => 'Powered By',
     'visibility' => 0,
   );
 
