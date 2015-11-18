@@ -148,72 +148,6 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['google_analytics_reports-dashboard'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'dashboard',
-    'module' => 'google_analytics_reports',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -15,
-      ),
-      'seven' => array(
-        'region' => 'dashboard_inactive',
-        'status' => 1,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 1,
-  );
-
-  $export['google_analytics_reports-path_mini'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'path_mini',
-    'module' => 'google_analytics_reports',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -14,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 1,
-  );
-
   $export['islandora_bookmark-islandora_bookmark'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1138,39 +1072,6 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['views-frontpage_solr_boxes-block'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'frontpage_solr_boxes-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -16,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 1,
-  );
-
   $export['views-frontpage_solr_boxes-block_1'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1334,72 +1235,6 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 0,
-  );
-
-  $export['views-top_facet_searches-block'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'top_facet_searches-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -6,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 1,
-  );
-
-  $export['views-top_site_searches-block'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'top_site_searches-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -13,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 1,
   );
 
   $export['widgets-s_addthis-share'] = array(
