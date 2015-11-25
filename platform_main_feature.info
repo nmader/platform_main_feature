@@ -66,6 +66,7 @@ features[fe_block_settings][] = views-image_blocks-block_1
 features[fe_block_settings][] = views-image_blocks-block_2
 features[fe_block_settings][] = views-object_visitors_by_month-block
 features[fe_block_settings][] = views-organizational-block
+features[fe_block_settings][] = views-publication_links-block
 features[fe_block_settings][] = views-recent_additions-block
 features[fe_block_settings][] = views-top_facet_searches-block
 features[fe_block_settings][] = views-top_site_searches-block
