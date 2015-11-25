@@ -10,6 +10,23 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_home:<front>.
+  $menu_links['main-menu_home:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Home',
+    'options' => array(
+      'identifier' => 'main-menu_home:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 1,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-menu_contact-us:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
   $menu_links['menu-footer-menu_contact-us:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -160,6 +177,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('Browse');
   t('Contact Us');
   t('Help');
+  t('Home');
   t('Login');
   t('Logout');
   t('Support');
