@@ -41,6 +41,7 @@ features[fe_block_settings][] = islandora_solr-simple
 features[fe_block_settings][] = islandora_solr-sort
 features[fe_block_settings][] = lib4ridora-lib4ridora_organizational_units
 features[fe_block_settings][] = lib4ridora-lib4ridora_recent_additions
+features[fe_block_settings][] = lib4ridora-lib4ridora_related_research
 features[fe_block_settings][] = menu-features
 features[fe_block_settings][] = menu-menu-footer-menu
 features[fe_block_settings][] = menu-menu-header-menu

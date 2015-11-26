@@ -524,6 +524,45 @@ islandora/search',
     'visibility' => 1,
   );
 
+  $export['lib4ridora-lib4ridora_related_research'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'lib4ridora_related_research',
+    'module' => 'lib4ridora',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'libfourri_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'libfourri_theme',
+        'weight' => -38,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['menu-features'] = array(
     'cache' => -1,
     'css_class' => '',
