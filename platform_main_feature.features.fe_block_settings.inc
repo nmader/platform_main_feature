@@ -173,7 +173,7 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
-    'cache' => 1,
+    'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'compound_navigation',
@@ -285,7 +285,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'Filter By',
+    'title' => 'Facets',
     'visibility' => 0,
   );
 
@@ -296,8 +296,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'current_query',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => 'islandora/search/*
-islandora/search',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -325,8 +324,8 @@ islandora/search',
         'weight' => 0,
       ),
     ),
-    'title' => 'Your Search',
-    'visibility' => 1,
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['islandora_solr-display_switch'] = array(

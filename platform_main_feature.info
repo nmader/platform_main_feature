@@ -82,6 +82,7 @@ features[features_api][] = api:2
 features[islandora_solr_fields][] = all_solr_fields
 features[islandora_solr_metadata_configurations][] = Collection CModel Configuration
 features[menu_custom][] = main-menu
+features[menu_links][] = main-menu_home:<front>
 features[menu_links][] = menu-footer-menu_contact-us:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
 features[menu_links][] = menu-footer-menu_login:user/login
 features[menu_links][] = menu-footer-menu_logout:user/logout
