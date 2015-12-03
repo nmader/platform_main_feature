@@ -139,6 +139,7 @@ features[variable][] = site_slogan
 features[variable][] = theme_default
 features[variable][] = theme_libfourri_theme_settings
 features[variable][] = theme_settings
+features[variable][] = site_403
 features[views_view][] = footer_logo
 features[views_view][] = frontpage_solr_boxes
 features[views_view][] = image_blocks
