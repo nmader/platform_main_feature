@@ -127,20 +127,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_browse:islandora/object/islandora:root.
-  $menu_links['menu-header-menu_browse:islandora/object/islandora:root'] = array(
+  // Exported menu link: menu-header-menu_browse:islandora/search.
+  $menu_links['menu-header-menu_browse:islandora/search'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora/object/islandora:root',
-    'router_path' => 'islandora/object/%',
+    'link_path' => 'islandora/search',
+    'router_path' => 'islandora/search',
     'link_title' => 'Browse',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'query' => array(
-        'display' => 'list',
-      ),
-      'identifier' => 'menu-header-menu_browse:islandora/object/islandora:root',
+      'identifier' => 'menu-header-menu_browse:islandora/search',
     ),
     'module' => 'menu',
     'hidden' => 0,

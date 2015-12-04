@@ -257,7 +257,8 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'basic_facets',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'islandora/search
+islandora/search/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -285,8 +286,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'Facets',
-    'visibility' => 0,
+    'title' => 'Filter By',
+    'visibility' => 1,
   );
 
   $export['islandora_solr-current_query'] = array(
@@ -296,7 +297,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'current_query',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'islandora/object/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -324,7 +325,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
