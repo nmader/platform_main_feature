@@ -240,5 +240,20 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
+  13 => array(
+    'solr_field' => 'mods_note_peer review_ms',
+    'field_type' => 'facet_fields',
+    'weight' => 5,
+    'solr_field_settings' => array(
+      'label' => 'Peer Reviewed',
+      'pid_object_label' => NULL,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+      ),
+    ),
+  ),
 );
 }
