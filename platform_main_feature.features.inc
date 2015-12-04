@@ -83,7 +83,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     'field_type' => 'facet_fields',
     'weight' => -8,
     'solr_field_settings' => array(
-      'label' => 'Topics',
+      'label' => 'Keywords',
       'pid_object_label' => NULL,
       'permissions' => array(
         1 => 1,
