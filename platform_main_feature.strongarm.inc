@@ -193,16 +193,46 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_limit_result_fields';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['islandora_solr_limit_result_fields'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_primary_display';
+  $strongarm->value = 'bookmark_lib4ri';
+  $export['islandora_solr_primary_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_primary_display_table';
+  $strongarm->value = array(
+    'weight' => array(
+      'bookmark' => '0',
+      'default' => '0',
+      'grid' => '0',
+      'table' => '0',
+      'bookmark_lib4ri' => '1',
+    ),
+    'default' => 'bookmark_lib4ri',
+    'enabled' => array(
+      'bookmark' => 0,
+      'default' => 0,
+      'grid' => 0,
+      'table' => 0,
+      'bookmark_lib4ri' => 'bookmark_lib4ri',
+    ),
+  );
+  $export['islandora_solr_primary_display_table'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_secondary_display';
   $strongarm->value = array(
-    'csv' => 'csv',
     'rss' => 'rss',
+    'csv' => 0,
   );
   $export['islandora_solr_secondary_display'] = $strongarm;
 
@@ -290,6 +320,7 @@ function platform_main_feature_strongarm() {
     'zen_wireframes' => 0,
     'lib4ri_theme_search_text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fringilla erat, eget gravida dui. Suspendisse potenti. Donec non nisi dictum, pellentesque risus nec, sollicitudin est. Nunc lorem sapien, congue mollis dignissim vitae, faucibus vitae sem. Nam et tellus nisl. Vivamus nec ultricies sapien. Cras a ipsum velit.',
     'lib4ri_theme_omit_extended_collection_meta' => '1',
+    'lib4ri_theme_omit_extended_bookmark_save' => '1',
     'lib4ri_theme_omit_in_collection_obj' => '1',
     'designkit_color' => array(
       'header' => '#ffffff',
