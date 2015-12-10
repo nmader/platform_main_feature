@@ -129,6 +129,7 @@ features[variable][] = islandora_basic_collection_object_count_listing_content_m
 features[variable][] = islandora_basic_collection_object_count_listing_phrase
 features[variable][] = islandora_basic_collection_object_count_listing_placeholder
 features[variable][] = islandora_basic_collection_page_size
+features[variable][] = islandora_solr_base_sort
 features[variable][] = islandora_solr_limit_result_fields
 features[variable][] = islandora_solr_primary_display
 features[variable][] = islandora_solr_primary_display_table
