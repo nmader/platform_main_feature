@@ -336,7 +336,8 @@ islandora/search/*',
     'delta' => 'current_query_facet_name',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'islandora/search
+islandora/search*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -365,7 +366,7 @@ islandora/search/*',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['islandora_solr-display_switch'] = array(
