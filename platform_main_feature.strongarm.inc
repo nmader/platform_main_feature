@@ -192,6 +192,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_base_sort';
+  $strongarm->value = 'mods_originInfo_dateIssued_dt desc';
+  $export['islandora_solr_base_sort'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_limit_result_fields';
   $strongarm->value = 0;
   $export['islandora_solr_limit_result_fields'] = $strongarm;
@@ -319,6 +326,11 @@ function platform_main_feature_strongarm() {
     'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
     'lib4ri_theme_search_text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fringilla erat, eget gravida dui. Suspendisse potenti. Donec non nisi dictum, pellentesque risus nec, sollicitudin est. Nunc lorem sapien, congue mollis dignissim vitae, faucibus vitae sem. Nam et tellus nisl. Vivamus nec ultricies sapien. Cras a ipsum velit.',
+    'lib4ri_theme_bib_accepted' => 'fa fa-unlock-alt',
+    'lib4ri_theme_bib_updated' => 'fa fa-flag',
+    'lib4ri_theme_bib_published' => 'fa fa-lock',
+    'lib4ri_theme_bib_supplemental' => 'fa fa-life-ring',
+    'lib4ri_theme_bib_unspecified' => 'fa fa-question-circle',
     'lib4ri_theme_omit_extended_collection_meta' => '1',
     'lib4ri_theme_omit_extended_bookmark_save' => '1',
     'lib4ri_theme_omit_in_collection_obj' => '1',
