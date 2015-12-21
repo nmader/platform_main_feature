@@ -209,5 +209,30 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
+  12 => array(
+    'solr_field' => 'mods_name_personal_author_authority_marcrelator_nameIdentifier_authorId_ms',
+    'field_type' => 'facet_fields',
+    'weight' => 6,
+    'solr_field_settings' => array(
+      'label' => 'Author',
+      'pid_object_label' => NULL,
+      'permissions' => FALSE,
+    ),
+  ),
+  13 => array(
+    'solr_field' => 'RELS_EXT_fullText_literal_ms',
+    'field_type' => 'facet_fields',
+    'weight' => 7,
+    'solr_field_settings' => array(
+      'label' => 'Full Text',
+      'pid_object_label' => NULL,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+      ),
+    ),
+  ),
 );
 }
