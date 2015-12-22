@@ -268,7 +268,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'preprocess_css';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['preprocess_css'] = $strongarm;
 
   $strongarm = new stdClass();
