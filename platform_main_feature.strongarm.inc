@@ -192,6 +192,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_scholar_users_choose_display_csl';
+  $strongarm->value = 1;
+  $export['islandora_scholar_users_choose_display_csl'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_base_sort';
   $strongarm->value = 'mods_originInfo_dateIssued_dt desc';
   $export['islandora_solr_base_sort'] = $strongarm;
