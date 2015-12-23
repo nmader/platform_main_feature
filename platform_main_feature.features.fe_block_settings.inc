@@ -99,8 +99,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'libfourri_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'dashboard_inactive',
+        'status' => 1,
         'theme' => 'libfourri_theme',
         'weight' => 0,
       ),
@@ -348,6 +348,39 @@ islandora/search*',
     'visibility' => 0,
   );
 
+  $export['islandora_solr-search_navigation'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'search_navigation',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'libfourri_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'libfourri_theme',
+        'weight' => -35,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['islandora_solr-simple'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -421,7 +454,7 @@ islandora/search*',
     'delta' => 'lib4ridora_full_text',
     'module' => 'lib4ridora',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'islandora/object/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -444,7 +477,7 @@ islandora/search*',
       ),
     ),
     'title' => 'Fulltext:',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['lib4ridora-lib4ridora_organizational_units'] = array(
@@ -520,7 +553,7 @@ islandora/search*',
     'delta' => 'lib4ridora_related_research',
     'module' => 'lib4ridora',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'islandora/object/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -543,7 +576,7 @@ islandora/search*',
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['menu-features'] = array(
@@ -662,8 +695,8 @@ islandora/search*',
         'weight' => 0,
       ),
       'libfourri_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'dashboard_inactive',
+        'status' => 1,
         'theme' => 'libfourri_theme',
         'weight' => 0,
       ),
@@ -728,8 +761,8 @@ islandora/search*',
         'weight' => -1,
       ),
       'libfourri_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'dashboard_inactive',
+        'status' => 1,
         'theme' => 'libfourri_theme',
         'weight' => -1,
       ),
@@ -916,8 +949,10 @@ islandora/search*',
     'delta' => 'navigation',
     'module' => 'system',
     'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
+    'pages' => '',
+    'roles' => array(
+      'administrator' => 3,
+    ),
     'themes' => array(
       'bartik' => array(
         'region' => 'sidebar_first',
@@ -926,8 +961,8 @@ islandora/search*',
         'weight' => 0,
       ),
       'libfourri_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_first',
+        'status' => 1,
         'theme' => 'libfourri_theme',
         'weight' => 0,
       ),
@@ -1058,8 +1093,8 @@ islandora/search*',
         'weight' => 0,
       ),
       'libfourri_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'dashboard_inactive',
+        'status' => 1,
         'theme' => 'libfourri_theme',
         'weight' => 0,
       ),
@@ -1091,8 +1126,8 @@ islandora/search*',
         'weight' => 0,
       ),
       'libfourri_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'dashboard_inactive',
+        'status' => 1,
         'theme' => 'libfourri_theme',
         'weight' => 0,
       ),
@@ -1378,7 +1413,7 @@ islandora/search*',
     'delta' => 'publication_links-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'islandora/object/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1401,7 +1436,7 @@ islandora/search*',
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-recent_additions-block'] = array(
