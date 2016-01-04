@@ -145,7 +145,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
   $handler->display->display_options['fields']['dc.title']['label'] = '';
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
   /* Field: Islandora Solr: PID */
   $handler->display->display_options['fields']['PID']['id'] = 'PID';
   $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
