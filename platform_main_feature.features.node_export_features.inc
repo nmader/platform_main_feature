@@ -351,6 +351,115 @@ function platform_main_feature_node_export_features_default() {
       \'node_export_drupal_version\' => \'7\',
     ),
   (object) array(
+      \'vid\' => \'14\',
+      \'uid\' => \'1\',
+      \'title\' => \'Location\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'2\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'6bc283a1-b8c4-4f54-8cc1-dd161ad148aa\',
+      \'nid\' => \'14\',
+      \'type\' => \'front_page\',
+      \'language\' => \'en\',
+      \'created\' => \'1449687979\',
+      \'changed\' => \'1451933827\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'2415d8d6-b74e-4c35-9ce1-760e31726ac7\',
+      \'revision_timestamp\' => \'1451933827\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => "<div><div class=\\"about-us-header\\"><h1>We make digital repositories simple.</h1></div>\\r\\n<div class=\\"about-us-text\\"><p>Organizations often struggle for years to develop digital repository systems that meet their organizational goals. With the Open Source Islandora digital repository framework, we can have you up and running in no time.</p></div></div>",
+            \'summary\' => \'\',
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<div>\\n<div class=\\"about-us-header\\">\\n<h1>We make digital repositories simple.</h1>\\n</div>\\n<div class=\\"about-us-text\\">\\n<p>Organizations often struggle for years to develop digital repository systems that meet their organizational goals. With the Open Source Islandora digital repository framework, we can have you up and running in no time.</p>\\n</div>\\n</div>\\n",
+            \'safe_summary\' => \'\',
+          ),
+        ),
+      ),
+      \'field_location\' => array(
+        \'und\' => array(
+          array(
+            \'lat\' => \'46.2348408\',
+            \'lng\' => \'-63.12852429999998\',
+            \'lat_sin\' => \'0.72218097767055\',
+            \'lat_cos\' => \'0.69170415315422\',
+            \'lng_rad\' => \'-1.1018006009602\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1449687979\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
       \'vid\' => \'4\',
       \'uid\' => \'1\',
       \'title\' => \'Contact\',

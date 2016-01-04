@@ -199,6 +199,12 @@ function platform_main_feature_strongarm() {
     ),
   );
   $export['field_bundle_settings_node__page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_create_user_default_lists';
+  $strongarm->value = 1;
   $export['islandora_bookmark_create_user_default_lists'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -690,8 +696,8 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'sharethis_node_types';
   $strongarm->value = array(
-    'article' => 0,
-    'page' => 0,
+    'article' => 'article',
+    'page' => 'page',
     'front_page' => 0,
     'image_block' => 0,
   );

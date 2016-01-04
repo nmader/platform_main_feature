@@ -1611,7 +1611,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'Powered By',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
