@@ -199,6 +199,49 @@ function platform_main_feature_strongarm() {
     ),
   );
   $export['field_bundle_settings_node__page'] = $strongarm;
+  $export['islandora_bookmark_create_user_default_lists'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_default_list_name';
+  $strongarm->value = '@username\'s Default List';
+  $export['islandora_bookmark_default_list_name'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_default_list_view';
+  $strongarm->value = 'manage';
+  $export['islandora_bookmark_default_list_view'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_detailed_page_elements';
+  $strongarm->value = '10';
+  $export['islandora_bookmark_detailed_page_elements'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_overview_page_elements';
+  $strongarm->value = '10';
+  $export['islandora_bookmark_overview_page_elements'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_share_default_list';
+  $strongarm->value = 1;
+  $export['islandora_bookmark_share_default_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_type';
+  $strongarm->value = 'bookmark';
+  $export['islandora_bookmark_type'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -647,8 +690,8 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'sharethis_node_types';
   $strongarm->value = array(
-    'article' => 'article',
-    'page' => 'page',
+    'article' => 0,
+    'page' => 0,
     'front_page' => 0,
     'image_block' => 0,
   );
