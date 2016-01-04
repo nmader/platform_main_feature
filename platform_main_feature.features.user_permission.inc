@@ -10,17 +10,6 @@
 function platform_main_feature_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: 'access google analytics reports'.
-  $permissions['access google analytics reports'] = array(
-    'name' => 'access google analytics reports',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'google_analytics_reports',
-  );
-
   // Exported permission: 'export islandora bookmarks'.
   $permissions['export islandora bookmarks'] = array(
     'name' => 'export islandora bookmarks',

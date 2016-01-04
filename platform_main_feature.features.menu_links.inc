@@ -10,7 +10,7 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_browse:islandora
+  // Exported menu link: main-menu_browse:islandora.
   $menu_links['main-menu_browse:islandora'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'islandora',
@@ -28,7 +28,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_home:<front>
+  // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
@@ -45,7 +45,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_open-source:node/3
+  // Exported menu link: main-menu_open-source:node/3.
   $menu_links['main-menu_open-source:node/3'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'node/3',
@@ -63,7 +63,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_submit-to-collection:islandora/guided-ingest
+  // Exported menu link: main-menu_submit-to-collection:islandora/guided-ingest.
   $menu_links['main-menu_submit-to-collection:islandora/guided-ingest'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'islandora/guided-ingest',
@@ -86,7 +86,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_login:user/login
+  // Exported menu link: menu-footer-menu_login:user/login.
   $menu_links['menu-footer-menu_login:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/login',
@@ -104,7 +104,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_logout:user/logout
+  // Exported menu link: menu-footer-menu_logout:user/logout.
   $menu_links['menu-footer-menu_logout:user/logout'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/logout',
@@ -122,7 +122,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_about-this-site:node/5
+  // Exported menu link: menu-header-menu_about-this-site:node/5.
   $menu_links['menu-header-menu_about-this-site:node/5'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'node/5',
@@ -139,7 +139,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 0,
   );
-  // Exported menu link: menu-header-menu_browse-repository:islandora/object/islandora:root
+  // Exported menu link: menu-header-menu_browse-repository:islandora/object/islandora:root.
   $menu_links['menu-header-menu_browse-repository:islandora/object/islandora:root'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'islandora/object/islandora:root',
@@ -160,7 +160,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 0,
   );
-  // Exported menu link: menu-header-menu_my-bookmarks:islandora-bookmark
+  // Exported menu link: menu-header-menu_my-bookmarks:islandora-bookmark.
   $menu_links['menu-header-menu_my-bookmarks:islandora-bookmark'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'islandora-bookmark',
@@ -178,7 +178,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_control-panel:admin/islandora/home
+  // Exported menu link: user-menu_control-panel:admin/islandora/home.
   $menu_links['user-menu_control-panel:admin/islandora/home'] = array(
     'menu_name' => 'user-menu',
     'link_path' => 'admin/islandora/home',
@@ -201,7 +201,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_home:<front>
+  // Exported menu link: user-menu_home:<front>.
   $menu_links['user-menu_home:<front>'] = array(
     'menu_name' => 'user-menu',
     'link_path' => '<front>',
@@ -219,6 +219,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('About this site');
@@ -231,7 +232,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('My Bookmarks');
   t('Open Source');
   t('Submit to Collection');
-
 
   return $menu_links;
 }
