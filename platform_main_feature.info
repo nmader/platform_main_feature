@@ -106,6 +106,7 @@ features[node][] = front_page
 features[node_export_features][] = 09648dae-14d6-46fe-82cd-cf4c0739201d
 features[node_export_features][] = 11ab3414-deb5-4985-9797-1a90ac057005
 features[node_export_features][] = 15310bdf-5e1b-408b-8a7b-19ae5569eabd
+features[node_export_features][] = 2415d8d6-b74e-4c35-9ce1-760e31726ac7
 features[node_export_features][] = 329a2134-140a-4447-a59f-389948bef2ba
 features[node_export_features][] = 3dfbfeaf-cb77-4ac0-b16f-145af17649b5
 features[node_export_features][] = 6790d072-e293-4a54-aa4e-113c0350d41a
