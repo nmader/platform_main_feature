@@ -28,19 +28,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 5,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -18,
       ),
       'saas' => array(
         'region' => '',
@@ -75,19 +69,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 6,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -19,
       ),
       'saas' => array(
         'region' => '',
@@ -120,18 +108,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'dashboard_inactive',
         'status' => 1,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -34,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -143,96 +125,6 @@ function platform_main_feature_default_fe_block_settings() {
       'seven' => array(
         'region' => 'dashboard_inactive',
         'status' => 1,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['google_analytics_reports-dashboard'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'dashboard',
-    'module' => 'google_analytics_reports',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'admindora' => array(
-        'region' => 'dashboard_inactive',
-        'status' => 1,
-        'theme' => 'admindora',
-        'weight' => 0,
-      ),
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -15,
-      ),
-      'saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'saas',
-        'weight' => -27,
-      ),
-      'seven' => array(
-        'region' => 'dashboard_inactive',
-        'status' => 1,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['google_analytics_reports-path_mini'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'path_mini',
-    'module' => 'google_analytics_reports',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'admindora' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'admindora',
-        'weight' => 0,
-      ),
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -14,
-      ),
-      'saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'saas',
-        'weight' => -27,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
@@ -255,18 +147,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -23,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -300,19 +186,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -22,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -20,
       ),
       'saas' => array(
         'region' => '',
@@ -345,19 +225,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -17,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -9,
       ),
       'saas' => array(
         'region' => 'sidebar_second',
@@ -390,7 +264,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -14,
       ),
       'bartik' => array(
         'region' => '',
@@ -398,17 +272,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -12,
-      ),
       'saas' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -29,
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => '',
@@ -435,19 +303,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -11,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -19,
       ),
       'saas' => array(
         'region' => 'sidebar_first',
@@ -480,19 +342,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -10,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -18,
       ),
       'saas' => array(
         'region' => '',
@@ -525,7 +381,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -13,
       ),
       'bartik' => array(
         'region' => '',
@@ -533,17 +389,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -24,
-      ),
       'saas' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -35,
+        'weight' => -37,
       ),
       'seven' => array(
         'region' => '',
@@ -570,7 +420,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -9,
       ),
       'bartik' => array(
         'region' => '',
@@ -578,17 +428,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'saas' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -34,
+        'weight' => -36,
       ),
       'seven' => array(
         'region' => '',
@@ -615,19 +459,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -8,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -22,
       ),
       'saas' => array(
         'region' => '',
@@ -660,19 +498,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -7,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -17,
       ),
       'saas' => array(
         'region' => '',
@@ -705,18 +537,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -26,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 1,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -750,19 +576,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -25,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -19,
       ),
       'saas' => array(
         'region' => 'bottom',
@@ -795,18 +615,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -24,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'sub_header',
-        'status' => 1,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -840,18 +654,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'dashboard_inactive',
         'status' => 1,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -33,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -885,18 +693,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 8,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -930,18 +732,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'dashboard_inactive',
         'status' => 1,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -32,
       ),
       'bartik' => array(
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'bartik',
-        'weight' => -1,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => -1,
       ),
       'saas' => array(
@@ -955,6 +751,123 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 1,
         'theme' => 'seven',
         'weight' => -10,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['service_links-service_links'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'service_links',
+    'module' => 'service_links',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 0,
+      ),
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'saas' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saas',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['service_links-service_links_not_node'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'service_links_not_node',
+    'module' => 'service_links',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 1,
+      ),
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'saas' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saas',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['sharethis-sharethis_block'] = array(
+    'cache' => 4,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sharethis_block',
+    'module' => 'sharethis',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 3,
+      ),
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'saas' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saas',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -975,18 +888,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 4,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -1028,17 +935,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -21,
-      ),
       'saas' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -32,
+        'weight' => -35,
       ),
       'seven' => array(
         'region' => 'content',
@@ -1065,18 +966,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -5,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -1110,18 +1005,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -4,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -1155,18 +1044,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -2,
       ),
       'bartik' => array(
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -1200,19 +1083,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 10,
+        'weight' => -1,
       ),
       'bartik' => array(
         'region' => 'footer',
         'status' => 1,
         'theme' => 'bartik',
         'weight' => 10,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -20,
       ),
       'saas' => array(
         'region' => '',
@@ -1245,18 +1122,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 10,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -1290,19 +1161,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 9,
       ),
       'bartik' => array(
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -19,
       ),
       'saas' => array(
         'region' => '',
@@ -1335,18 +1200,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'dashboard_inactive',
         'status' => 1,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -31,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -1380,18 +1239,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'dashboard_inactive',
         'status' => 1,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => -30,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -1411,14 +1264,14 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['views-0e421ddcad5e4ddbe2f4e87f52252332'] = array(
+  $export['views-front_geo_view-block'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => '0e421ddcad5e4ddbe2f4e87f52252332',
+    'delta' => 'front_geo_view-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'admindora' => array(
@@ -1433,17 +1286,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'saas' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'saas',
-        'weight' => 0,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -1453,17 +1300,17 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
-  $export['views-30151412eb73ff9de45ec4209bd0898d'] = array(
+  $export['views-front_page_collections-block'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => '30151412eb73ff9de45ec4209bd0898d',
+    'delta' => 'front_page_collections-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'admindora' => array(
@@ -1478,17 +1325,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'saas' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'saas',
-        'weight' => -1,
+        'weight' => -33,
       ),
       'seven' => array(
         'region' => '',
@@ -1497,53 +1338,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['views-7518164537523ba73652c9a5fd647fe6'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => '7518164537523ba73652c9a5fd647fe6',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'admindora' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'admindora',
-        'weight' => 0,
-      ),
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'saas',
-        'weight' => 4,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['views-frontpage_solr_boxes-block'] = array(
@@ -1560,19 +1356,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 12,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -16,
       ),
       'saas' => array(
         'region' => '',
@@ -1605,7 +1395,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 13,
       ),
       'bartik' => array(
         'region' => '',
@@ -1613,17 +1403,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -17,
-      ),
       'saas' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -30,
+        'weight' => -34,
       ),
       'seven' => array(
         'region' => '',
@@ -1632,7 +1416,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -1650,18 +1434,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 15,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -1695,7 +1473,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 14,
       ),
       'bartik' => array(
         'region' => '',
@@ -1703,17 +1481,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'saas' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
-      'saas' => array(
-        'region' => 'content',
-        'status' => 1,
         'theme' => 'saas',
-        'weight' => -31,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -1726,11 +1498,11 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 1,
   );
 
-  $export['views-image_blocks-block'] = array(
+  $export['views-frontpage_solr_boxes-block_5'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'image_blocks-block',
+    'delta' => 'frontpage_solr_boxes-block_5',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
@@ -1748,11 +1520,44 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
+      'saas' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -11,
+        'theme' => 'saas',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-image_blocks-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'image_blocks-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 18,
+      ),
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
       ),
       'saas' => array(
         'region' => '',
@@ -1785,19 +1590,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 17,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -20,
       ),
       'saas' => array(
         'region' => 'footer',
@@ -1830,7 +1629,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 20,
       ),
       'bartik' => array(
         'region' => '',
@@ -1838,17 +1637,50 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -23,
-      ),
       'saas' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'saas',
         'weight' => -25,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-image_blocks-block_3'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'image_blocks-block_3',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 19,
+      ),
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'saas' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saas',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -1875,18 +1707,12 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 16,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'saas' => array(
@@ -1906,11 +1732,11 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['views-object_visitors_by_month-block'] = array(
+  $export['views-list_details-block'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'object_visitors_by_month-block',
+    'delta' => 'list_details-block',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
@@ -1928,17 +1754,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'saas' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'saas',
-        'weight' => 5,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -1965,19 +1785,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 22,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -6,
       ),
       'saas' => array(
         'region' => '',
@@ -2010,19 +1824,13 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'admindora',
-        'weight' => 0,
+        'weight' => 23,
       ),
       'bartik' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'bartik',
         'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -13,
       ),
       'saas' => array(
         'region' => '',
