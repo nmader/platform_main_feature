@@ -93,6 +93,33 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'bootstrap_library_settings';
+  $strongarm->value = array(
+    'visibility' => array(
+      'visibility' => 0,
+      'pages' => 'admin/*',
+    ),
+    'theme' => array(
+      'visibility' => 1,
+      'themes' => array(
+        'saas' => 'saas',
+      ),
+    ),
+    'minimized' => array(
+      'options' => 1,
+    ),
+    'files' => array(
+      'types' => array(
+        'css' => 'css',
+        'js' => 'js',
+      ),
+    ),
+  );
+  $export['bootstrap_library_settings'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_anonymous_front_page';
   $strongarm->value = 0;
   $export['comment_anonymous_front_page'] = $strongarm;
