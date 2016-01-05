@@ -93,6 +93,33 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'bootstrap_library_settings';
+  $strongarm->value = array(
+    'visibility' => array(
+      'visibility' => 0,
+      'pages' => 'admin/*',
+    ),
+    'theme' => array(
+      'visibility' => 1,
+      'themes' => array(
+        'saas' => 'saas',
+      ),
+    ),
+    'minimized' => array(
+      'options' => 1,
+    ),
+    'files' => array(
+      'types' => array(
+        'css' => 'css',
+        'js' => 'js',
+      ),
+    ),
+  );
+  $export['bootstrap_library_settings'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_anonymous_front_page';
   $strongarm->value = 0;
   $export['comment_anonymous_front_page'] = $strongarm;
@@ -144,18 +171,21 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
-    'body' => '#ffffff',
+    'body' => '#ebefc1',
     'page' => '#f7cccc',
-    'header' => '#ffffff',
-    'content' => '#ffffff',
+    'header_info_wrapper' => '#f7cdf4',
     'breadcrumb' => '#ffffff',
     'frontsearch' => '#ffffff',
-    'footer' => '#565656',
-    'bottom' => '#E2E2E2',
+    'footer' => '#fb8614',
+    'bottom' => '#276a95',
     'sidebar_first' => '#ffffff',
     'sidebar_second' => '#ffffff',
     'block_background' => '#ffffff',
-    'main-menu' => '#ffffff',
+    'main_menu' => '#bb0000',
+    'main_active' => '#c4b1b1',
+    'main_text' => '#fceeee',
+    'main_text_non_active' => '#fdfcfc',
+    'panel_header_footer' => '#e8cde7',
   );
   $export['designkit_color'] = $strongarm;
 
@@ -894,18 +924,21 @@ function platform_main_feature_strongarm() {
     'saas_page_element_background_transparent' => 1,
     'header_color_transparent' => 0,
     'designkit_color' => array(
-      'body' => '#ffffff',
+      'body' => '#ebefc1',
       'page' => '#f7cccc',
-      'header' => '#ffffff',
-      'content' => '#ffffff',
+      'header_info_wrapper' => '#f7cdf4',
       'breadcrumb' => '#ffffff',
       'frontsearch' => '#ffffff',
-      'footer' => '#565656',
-      'bottom' => '#E2E2E2',
+      'footer' => '#fb8614',
+      'bottom' => '#276a95',
       'sidebar_first' => '#ffffff',
       'sidebar_second' => '#ffffff',
       'block_background' => '#ffffff',
-      'main-menu' => '#ffffff',
+      'main_menu' => '#bb0000',
+      'main_active' => '#c4b1b1',
+      'main_text' => '#fceeee',
+      'main_text_non_active' => '#fdfcfc',
+      'panel_header_footer' => '#e8cde7',
     ),
   );
   $export['theme_saas_settings'] = $strongarm;
