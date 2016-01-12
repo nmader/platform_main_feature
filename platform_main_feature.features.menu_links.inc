@@ -10,7 +10,7 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_home:<front>
+  // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
@@ -27,7 +27,147 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_creative-content-license:node/1
+  // Exported menu link: menu-chs-links_online-archive-of-california:<front>.
+  $menu_links['menu-chs-links_online-archive-of-california:<front>'] = array(
+    'menu_name' => 'menu-chs-links',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Online Archive of California',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-chs-links_online-archive-of-california:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-chs-links_online-catalog:<front>.
+  $menu_links['menu-chs-links_online-catalog:<front>'] = array(
+    'menu_name' => 'menu-chs-links',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Online Catalog',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-chs-links_online-catalog:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-connect-with-us_share-your-feedback:http://californiahistoricalsociety.org/feedback/.
+  $menu_links['menu-connect-with-us_share-your-feedback:http://californiahistoricalsociety.org/feedback/'] = array(
+    'menu_name' => 'menu-connect-with-us',
+    'link_path' => 'http://californiahistoricalsociety.org/feedback/',
+    'router_path' => '',
+    'link_title' => 'Share your feedback',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-connect-with-us_share-your-feedback:http://californiahistoricalsociety.org/feedback/',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-connect-with-us_sign-up-for-newsletter:http://californiahistoricalsociety.org/support/newsletter.html.
+  $menu_links['menu-connect-with-us_sign-up-for-newsletter:http://californiahistoricalsociety.org/support/newsletter.html'] = array(
+    'menu_name' => 'menu-connect-with-us',
+    'link_path' => 'http://californiahistoricalsociety.org/support/newsletter.html',
+    'router_path' => '',
+    'link_title' => 'Sign up for Newsletter',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-connect-with-us_sign-up-for-newsletter:http://californiahistoricalsociety.org/support/newsletter.html',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-copyright_-copyright-2016-california-historical-society:<front>.
+  $menu_links['menu-copyright_-copyright-2016-california-historical-society:<front>'] = array(
+    'menu_name' => 'menu-copyright',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => '© Copyright 2016 California Historical Society',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-copyright_-copyright-2016-california-historical-society:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-members_become-a-member:http://californiahistoricalsociety.org/support/join.html.
+  $menu_links['menu-footer-members_become-a-member:http://californiahistoricalsociety.org/support/join.html'] = array(
+    'menu_name' => 'menu-footer-members',
+    'link_path' => 'http://californiahistoricalsociety.org/support/join.html',
+    'router_path' => '',
+    'link_title' => 'Become a Member',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-members_become-a-member:http://californiahistoricalsociety.org/support/join.html',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-members_terms--conditions:http://californiahistoricalsociety.org/about/tos.html.
+  $menu_links['menu-footer-members_terms--conditions:http://californiahistoricalsociety.org/about/tos.html'] = array(
+    'menu_name' => 'menu-footer-members',
+    'link_path' => 'http://californiahistoricalsociety.org/about/tos.html',
+    'router_path' => '',
+    'link_title' => 'Terms & Conditions',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-members_terms--conditions:http://californiahistoricalsociety.org/about/tos.html',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-menu_creative-content-license:node/1.
   $menu_links['menu-footer-menu_creative-content-license:node/1'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/1',
@@ -44,7 +184,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d
+  // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d',
@@ -64,7 +204,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_login:user/login
+  // Exported menu link: menu-footer-menu_login:user/login.
   $menu_links['menu-footer-menu_login:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/login',
@@ -84,7 +224,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_logout:user/logout
+  // Exported menu link: menu-footer-menu_logout:user/logout.
   $menu_links['menu-footer-menu_logout:user/logout'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/logout',
@@ -104,7 +244,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_make-contact:node/4
+  // Exported menu link: menu-footer-menu_make-contact:node/4.
   $menu_links['menu-footer-menu_make-contact:node/4'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/4',
@@ -121,7 +261,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
+  // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
   $menu_links['menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
@@ -141,7 +281,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_policies:node/10
+  // Exported menu link: menu-footer-menu_policies:node/10.
   $menu_links['menu-footer-menu_policies:node/10'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/10',
@@ -158,7 +298,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523
+  // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523.
   $menu_links['menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
@@ -178,7 +318,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_researchers:node/2
+  // Exported menu link: menu-footer-menu_researchers:node/2.
   $menu_links['menu-footer-menu_researchers:node/2'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/2',
@@ -195,7 +335,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005
+  // Exported menu link: menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005.
   $menu_links['menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/11ab3414-deb5-4985-9797-1a90ac057005',
@@ -215,7 +355,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5
+  // Exported menu link: menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
   $menu_links['menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
@@ -235,7 +375,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_collections:islandora/object/islandora:root
+  // Exported menu link: menu-header-menu_collections:islandora/object/islandora:root.
   $menu_links['menu-header-menu_collections:islandora/object/islandora:root'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'islandora/object/islandora:root',
@@ -251,14 +391,14 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-header-menu_collections:islandora/object/islandora:root',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_home:<front>
+  // Exported menu link: menu-header-menu_home:<front>.
   $menu_links['menu-header-menu_home:<front>'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => '<front>',
@@ -278,7 +418,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_login:user/login
+  // Exported menu link: menu-header-menu_login:user/login.
   $menu_links['menu-header-menu_login:user/login'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'user/login',
@@ -298,7 +438,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_logout:user/logout
+  // Exported menu link: menu-header-menu_logout:user/logout.
   $menu_links['menu-header-menu_logout:user/logout'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'user/logout',
@@ -318,27 +458,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_tulane-digital-repository:http://library.tulane.edu/repository/
-  $menu_links['menu-header-menu_tulane-digital-repository:http://library.tulane.edu/repository/'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'http://library.tulane.edu/repository/',
-    'router_path' => '',
-    'link_title' => 'Tulane Digital Repository',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-header-menu_tulane-digital-repository:http://library.tulane.edu/repository/',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-quick-links_view-sample-page-one:uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193
+  // Exported menu link: menu-quick-links_view-sample-page-one:uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193.
   $menu_links['menu-quick-links_view-sample-page-one:uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193'] = array(
     'menu_name' => 'menu-quick-links',
     'link_path' => 'uuid/node/349cb0ef-2bc0-412e-b830-6b669b52f193',
@@ -358,7 +478,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-quick-links_view-sample-page-two:uuid/node/7185680c-7425-4b08-8c22-328a569e9f51
+  // Exported menu link: menu-quick-links_view-sample-page-two:uuid/node/7185680c-7425-4b08-8c22-328a569e9f51.
   $menu_links['menu-quick-links_view-sample-page-two:uuid/node/7185680c-7425-4b08-8c22-328a569e9f51'] = array(
     'menu_name' => 'menu-quick-links',
     'link_path' => 'uuid/node/7185680c-7425-4b08-8c22-328a569e9f51',
@@ -378,7 +498,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-site-navigation_happenings:uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136
+  // Exported menu link: menu-site-navigation_happenings:uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136.
   $menu_links['menu-site-navigation_happenings:uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136'] = array(
     'menu_name' => 'menu-site-navigation',
     'link_path' => 'uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136',
@@ -398,7 +518,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789
+  // Exported menu link: menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789.
   $menu_links['menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789'] = array(
     'menu_name' => 'menu-site-navigation',
     'link_path' => 'uuid/node/83ed1638-66e0-44cb-853a-624a3614f789',
@@ -418,23 +538,66 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: user-menu_log-out:user/logout.
+  $menu_links['user-menu_log-out:user/logout'] = array(
+    'menu_name' => 'user-menu',
+    'link_path' => 'user/logout',
+    'router_path' => 'user/logout',
+    'link_title' => 'Log out',
+    'options' => array(
+      'identifier' => 'user-menu_log-out:user/logout',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 10,
+    'customized' => 0,
+  );
+  // Exported menu link: user-menu_user-account:user.
+  $menu_links['user-menu_user-account:user'] = array(
+    'menu_name' => 'user-menu',
+    'link_path' => 'user',
+    'router_path' => 'user',
+    'link_title' => 'User account',
+    'options' => array(
+      'alter' => TRUE,
+      'identifier' => 'user-menu_user-account:user',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -10,
+    'customized' => 0,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('About');
+  t('Become a Member');
   t('Collections');
   t('Creative content license');
   t('Happenings');
   t('Home');
+  t('Log out');
   t('Login');
   t('Logout');
   t('Make contact');
+  t('Online Archive of California');
+  t('Online Catalog');
   t('Policies');
   t('Research and Services');
   t('Researchers');
-  t('Tulane Digital Repository');
+  t('Share your feedback');
+  t('Sign up for Newsletter');
+  t('Terms & Conditions');
+  t('User account');
   t('View Sample Page One');
   t('View Sample Page Two');
+  t('© Copyright 2016 California Historical Society');
 
   return $menu_links;
 }

@@ -11,6 +11,60 @@ function platform_main_feature_views_default_views() {
   $export = array();
 
   $view = new view();
+  $view->name = 'contact';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Contact';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Contact';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Body */
+  $handler->display->display_options['fields']['body']['id'] = 'body';
+  $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
+  $handler->display->display_options['fields']['body']['field'] = 'body';
+  $handler->display->display_options['fields']['body']['label'] = '';
+  $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '62e1ff61-476c-4c96-b97c-3daa4e82f2c8';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['contact'] = array(
+    t('Master'),
+    t('Contact'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+  );
+  $export['contact'] = $view;
+
+  $view = new view();
   $view->name = 'frontpage_solr_boxes';
   $view->description = '';
   $view->tag = 'default';
@@ -66,6 +120,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'grid';
   $handler->display->display_options['style_options']['row_class'] = 'frontpage-browse-all-collections-row';
+  $handler->display->display_options['style_options']['columns'] = '3';
   $handler->display->display_options['defaults']['style_options'] = FALSE;
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
@@ -399,10 +454,18 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['display_description'] = 'Browse All Collections';
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'full';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '0';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['pager']['options']['id'] = '0';
   $handler->display->display_options['pager']['options']['quantity'] = '9';
+  $handler->display->display_options['defaults']['style_plugin'] = FALSE;
+  $handler->display->display_options['style_plugin'] = 'grid';
+  $handler->display->display_options['style_options']['row_class'] = 'frontpage-browse-all-collections-row';
+  $handler->display->display_options['style_options']['columns'] = '3';
+  $handler->display->display_options['defaults']['style_options'] = FALSE;
+  $handler->display->display_options['defaults']['row_plugin'] = FALSE;
+  $handler->display->display_options['row_plugin'] = 'fields';
+  $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Islandora Solr: dc.title */
   $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
@@ -472,6 +535,94 @@ function platform_main_feature_views_default_views() {
     t('All Collections'),
   );
   $export['frontpage_solr_boxes'] = $view;
+
+  $view = new view();
+  $view->name = 'hours';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Hours';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Hours';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'grid';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  /* Field: Content: Body */
+  $handler->display->display_options['fields']['body']['id'] = 'body';
+  $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
+  $handler->display->display_options['fields']['body']['field'] = 'body';
+  $handler->display->display_options['fields']['body']['label'] = '';
+  $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  $handler->display->display_options['filter_groups']['operator'] = 'OR';
+  $handler->display->display_options['filter_groups']['groups'] = array(
+    1 => 'AND',
+    2 => 'AND',
+    3 => 'AND',
+  );
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '1efb8d4d-0d15-4404-a442-829e2b34c42e';
+  $handler->display->display_options['filters']['uuid']['group'] = 1;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_2']['id'] = 'uuid_2';
+  $handler->display->display_options['filters']['uuid_2']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_2']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_2']['value'] = 'cfb2f283-def7-4b79-a06f-0787dfb46019';
+  $handler->display->display_options['filters']['uuid_2']['group'] = 2;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_1']['id'] = 'uuid_1';
+  $handler->display->display_options['filters']['uuid_1']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_1']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_1']['value'] = '5b10cd04-783c-4e02-a873-7e8aba860059';
+  $handler->display->display_options['filters']['uuid_1']['group'] = 3;
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['hours'] = array(
+    t('Master'),
+    t('Hours'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+  );
+  $export['hours'] = $view;
 
   $view = new view();
   $view->name = 'image_blocks';
@@ -900,7 +1051,8 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'some';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '0';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Field: Content: Title */
@@ -910,11 +1062,10 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
-  /* Sort criterion: Content: Post date */
-  $handler->display->display_options['sorts']['created']['id'] = 'created';
-  $handler->display->display_options['sorts']['created']['table'] = 'node';
-  $handler->display->display_options['sorts']['created']['field'] = 'created';
-  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Sort criterion: Content: Weight (field_weight) */
+  $handler->display->display_options['sorts']['field_weight_value']['id'] = 'field_weight_value';
+  $handler->display->display_options['sorts']['field_weight_value']['table'] = 'field_data_field_weight';
+  $handler->display->display_options['sorts']['field_weight_value']['field'] = 'field_weight_value';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
@@ -927,7 +1078,7 @@ function platform_main_feature_views_default_views() {
   $handler = $view->new_display('block', 'Page Bottom Social Menu', 'block');
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'grid';
-  $handler->display->display_options['style_options']['columns'] = '5';
+  $handler->display->display_options['style_options']['columns'] = '7';
   $handler->display->display_options['defaults']['style_options'] = FALSE;
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
@@ -1037,18 +1188,18 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search Dimensions: ga:searchCategory */
+  /* Field: Internal search dimensions: Site Search Category */
   $handler->display->display_options['fields']['facet']['id'] = 'facet';
   $handler->display->display_options['fields']['facet']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['facet']['field'] = 'searchCategory';
   $handler->display->display_options['fields']['facet']['label'] = 'Facet Terms';
   $handler->display->display_options['fields']['facet']['alter']['path'] = '[facet]';
-  /* Field: Internal Search Metrics: ga:searchResultViews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search Metrics: ga:searchResultViews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -1068,6 +1219,8 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('Facet Terms'),
     t('# of Searches'),
+    t('.'),
+    t(','),
     t('Block'),
   );
   $export['top_facet_searches'] = $view;
@@ -1115,17 +1268,17 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search Dimensions: ga:searchKeyword */
+  /* Field: Internal search dimensions: Search Term */
   $handler->display->display_options['fields']['search']['id'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['search']['field'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['label'] = 'Search Terms';
-  /* Field: Internal Search Metrics: ga:searchResultViews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search Metrics: ga:searchResultViews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -1154,6 +1307,8 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('Search Terms'),
     t('# of Searches'),
+    t('.'),
+    t(','),
     t('Block'),
     t('You need to configure Google Analytics to show the Top Site Searches'),
   );
