@@ -21,6 +21,32 @@ function platform_main_feature_views_api($module = NULL, $api = NULL) {
 }
 
 /**
+ * Implements hook_fontyourface_features_default_font().
+ */
+function platform_main_feature_fontyourface_features_default_font() {
+  return array(
+    'Carrois Gothic regular (latin)' => array(
+      'name' => 'Carrois Gothic regular (latin)',
+      'enabled' => 1,
+      'url' => 'http://www.google.com/webfonts/family?family=Carrois Gothic&subset=latin#regular',
+      'provider' => 'google_fonts_api',
+      'css_selector' => 'body',
+      'css_family' => 'Carrois Gothic',
+      'css_style' => 'normal',
+      'css_weight' => 'normal',
+      'css_fallbacks' => '',
+      'foundry' => '',
+      'foundry_url' => '',
+      'license' => '',
+      'license_url' => '',
+      'designer' => '',
+      'designer_url' => '',
+      'metadata' => 'a:2:{s:4:"path";s:22:"Carrois Gothic:regular";s:6:"subset";s:5:"latin";}',
+    ),
+  );
+}
+
+/**
  * Implements hook_islandora_solr_fields_features_default_fields().
  */
 function platform_main_feature_islandora_solr_fields_features_default_fields() {
