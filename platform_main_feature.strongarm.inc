@@ -369,7 +369,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = ' <none>';
+  $strongarm->value = 'CHS';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -385,7 +385,7 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'theme_chs_theme_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
-    'toggle_name' => 1,
+    'toggle_name' => 0,
     'toggle_slogan' => 1,
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
