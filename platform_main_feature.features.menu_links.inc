@@ -511,7 +511,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-site-navigation_happenings:uuid/node/e72bb9c2-50ee-4e97-b4a4-6569c62f1136',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -531,47 +531,12 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-site-navigation_research-and-services:uuid/node/83ed1638-66e0-44cb-853a-624a3614f789',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 0,
     'customized' => 1,
-  );
-  // Exported menu link: user-menu_log-out:user/logout.
-  $menu_links['user-menu_log-out:user/logout'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user/logout',
-    'router_path' => 'user/logout',
-    'link_title' => 'Log out',
-    'options' => array(
-      'identifier' => 'user-menu_log-out:user/logout',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 10,
-    'customized' => 0,
-  );
-  // Exported menu link: user-menu_user-account:user.
-  $menu_links['user-menu_user-account:user'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user',
-    'router_path' => 'user',
-    'link_title' => 'User account',
-    'options' => array(
-      'alter' => TRUE,
-      'identifier' => 'user-menu_user-account:user',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 0,
   );
 
   // Translatables
@@ -582,7 +547,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Creative content license');
   t('Happenings');
   t('Home');
-  t('Log out');
   t('Login');
   t('Logout');
   t('Make contact');
@@ -594,7 +558,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Share your feedback');
   t('Sign up for Newsletter');
   t('Terms & Conditions');
-  t('User account');
   t('View Sample Page One');
   t('View Sample Page Two');
   t('© Copyright 2016 California Historical Society');
