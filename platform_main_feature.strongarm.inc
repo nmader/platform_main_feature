@@ -172,17 +172,19 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'body' => '#ffffff',
-    'page' => '#f7cccc',
-    'header' => '#ffffff',
-    'content' => '#ffffff',
+    'page' => '#ffffff',
+    'header_info_wrapper' => '#ffffff',
     'breadcrumb' => '#ffffff',
     'frontsearch' => '#ffffff',
-    'footer' => '#565656',
-    'bottom' => '#E2E2E2',
+    'footer' => '#a1a1a1',
+    'bottom' => '#bfbfbf',
     'sidebar_first' => '#ffffff',
     'sidebar_second' => '#ffffff',
     'block_background' => '#ffffff',
-    'main-menu' => '#ffffff',
+    'main_menu' => '#f5f5f5',
+    'main_active' => '#ffffff',
+    'main_text' => '#000000',
+    'main_text_non_active' => '#000000',
   );
   $export['designkit_color'] = $strongarm;
 
@@ -847,6 +849,73 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'simplified_social_share_enable_horizontal_share';
+  $strongarm->value = '1';
+  $export['simplified_social_share_enable_horizontal_share'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplified_social_share_enable_vertical_share';
+  $strongarm->value = '0';
+  $export['simplified_social_share_enable_vertical_share'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplified_social_share_horizontal_images';
+  $strongarm->value = '3';
+  $export['simplified_social_share_horizontal_images'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplified_social_share_rearrange_providers_list';
+  $strongarm->value = array(
+    0 => 'facebook',
+    1 => 'twitter',
+    2 => 'pinterest',
+  );
+  $export['simplified_social_share_rearrange_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplified_social_share_rearran_providers_list';
+  $strongarm->value = '';
+  $export['simplified_social_share_rearran_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplified_social_share_selected_share_interface';
+  $strongarm->value = '';
+  $export['simplified_social_share_selected_share_interface'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplified_social_share_show_horizotal';
+  $strongarm->value = '';
+  $export['simplified_social_share_show_horizotal'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplified_social_share_show_veritical';
+  $strongarm->value = '';
+  $export['simplified_social_share_show_veritical'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplified_social_share_vertical_images';
+  $strongarm->value = '4';
+  $export['simplified_social_share_vertical_images'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'site_frontpage';
   $strongarm->value = 'front';
   $export['site_frontpage'] = $strongarm;
@@ -922,17 +991,19 @@ function platform_main_feature_strongarm() {
     'header_color_transparent' => 0,
     'designkit_color' => array(
       'body' => '#ffffff',
-      'page' => '#f7cccc',
-      'header' => '#ffffff',
-      'content' => '#ffffff',
+      'page' => '#ffffff',
+      'header_info_wrapper' => '#ffffff',
       'breadcrumb' => '#ffffff',
       'frontsearch' => '#ffffff',
-      'footer' => '#565656',
-      'bottom' => '#E2E2E2',
+      'footer' => '#a1a1a1',
+      'bottom' => '#bfbfbf',
       'sidebar_first' => '#ffffff',
       'sidebar_second' => '#ffffff',
       'block_background' => '#ffffff',
-      'main-menu' => '#ffffff',
+      'main_menu' => '#f5f5f5',
+      'main_active' => '#ffffff',
+      'main_text' => '#000000',
+      'main_text_non_active' => '#000000',
     ),
   );
   $export['theme_saas_settings'] = $strongarm;
