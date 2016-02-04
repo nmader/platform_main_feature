@@ -223,6 +223,20 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     ),
   ),
   13 => array(
+    'solr_field' => 'lib4ri_fulltext_mt',
+    'field_type' => 'search_fields',
+    'weight' => 5,
+    'solr_field_settings' => array(
+      'label' => 'Full Text',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+      ),
+    ),
+  ),
+  14 => array(
     'solr_field' => 'mods_note_peer review_ms',
     'field_type' => 'facet_fields',
     'weight' => 5,
@@ -237,7 +251,21 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  14 => array(
+  15 => array(
+    'solr_field' => 'lib4ri_publisher_ms',
+    'field_type' => 'search_fields',
+    'weight' => 6,
+    'solr_field_settings' => array(
+      'label' => 'Publisher',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+      ),
+    ),
+  ),
+  16 => array(
     'solr_field' => 'mods_name_personal_author_authority_marcrelator_nameIdentifier_authorId_ms',
     'field_type' => 'facet_fields',
     'weight' => 6,
@@ -247,7 +275,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       'permissions' => FALSE,
     ),
   ),
-  15 => array(
+  17 => array(
     'solr_field' => 'RELS_EXT_fullText_literal_ms',
     'field_type' => 'facet_fields',
     'weight' => 7,
