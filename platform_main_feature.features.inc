@@ -252,7 +252,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     ),
   ),
   15 => array(
-    'solr_field' => 'lib4ri_publisher_ms',
+    'solr_field' => 'lib4ri_publisher_mt',
     'field_type' => 'search_fields',
     'weight' => 6,
     'solr_field_settings' => array(
