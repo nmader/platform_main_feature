@@ -64,8 +64,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ir7',
         'weight' => -30,
       ),
@@ -353,7 +353,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'simple',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -376,7 +376,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['islandora_solr-sort'] = array(
@@ -1079,7 +1079,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'frontpage_owl_gallery-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1102,7 +1102,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-frontpage_solr_boxes-block_1'] = array(
