@@ -108,8 +108,44 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
-  $strongarm->value = '0';
+  $strongarm->value = '2';
   $export['error_level'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_book_metadata_display';
+  $strongarm->value = 1;
+  $export['islandora_book_metadata_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_book_page_viewers';
+  $strongarm->value = array(
+    'name' => array(
+      'none' => 'none',
+      'islandora_openseadragon' => 'islandora_openseadragon',
+      'islandora_pdfjs' => 'islandora_pdfjs',
+    ),
+    'default' => 'islandora_openseadragon',
+  );
+  $export['islandora_book_page_viewers'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_book_viewers';
+  $strongarm->value = array(
+    'name' => array(
+      'none' => 'none',
+      'islandora_internet_archive_bookreader' => 'islandora_internet_archive_bookreader',
+      'islandora_paged_tei_seadragon' => 'islandora_paged_tei_seadragon',
+      'islandora_pdfjs' => 'islandora_pdfjs',
+    ),
+    'default' => 'islandora_internet_archive_bookreader',
+  );
+  $export['islandora_book_viewers'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
