@@ -32,13 +32,130 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -25,
+        'weight' => -42,
       ),
       'ir7' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'ir7',
         'weight' => -25,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['block-from_the_collection_block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'machine_name' => 'from_the_collection_block',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'islandora/object/islandora:50',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => 0,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['block-related_content'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'machine_name' => 'related_content',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'islandora/object/islandora:50',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => 0,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['block-stats_overview'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'machine_name' => 'stats_overview',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'islandora/object/islandora:50',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => 0,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -73,7 +190,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -18,
+        'weight' => -11,
       ),
       'ir7' => array(
         'region' => '',
@@ -114,7 +231,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -19,
+        'weight' => -10,
       ),
       'ir7' => array(
         'region' => '',
@@ -153,7 +270,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -18,
       ),
       'ir7' => array(
         'region' => '',
@@ -192,7 +309,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -26,
+        'weight' => -37,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -231,7 +348,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -14,
+        'weight' => -38,
       ),
       'ir7' => array(
         'region' => '',
@@ -270,7 +387,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -29,
+        'weight' => -35,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -309,7 +426,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -9,
+        'weight' => -41,
       ),
       'ir7' => array(
         'region' => 'sidebar_second',
@@ -345,10 +462,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -24,
+        'weight' => -35,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -387,7 +504,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -19,
+        'weight' => -38,
       ),
       'ir7' => array(
         'region' => 'sidebar_first',
@@ -426,7 +543,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -18,
+        'weight' => -28,
       ),
       'ir7' => array(
         'region' => '',
@@ -465,7 +582,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -32,
+        'weight' => -40,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -504,7 +621,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -31,
+        'weight' => -26,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -543,7 +660,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -17,
+        'weight' => -25,
       ),
       'ir7' => array(
         'region' => '',
@@ -582,7 +699,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -40,
       ),
       'ir7' => array(
         'region' => '',
@@ -618,7 +735,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'footer',
+        'region' => 'footer_first',
         'status' => 1,
         'theme' => 'bhof_theme',
         'weight' => -38,
@@ -660,7 +777,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -19,
+        'weight' => -39,
       ),
       'ir7' => array(
         'region' => 'footer',
@@ -696,10 +813,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'header',
+        'region' => 'navigation',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -38,
       ),
       'ir7' => array(
         'region' => 'sub_header',
@@ -735,10 +852,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'footer',
+        'region' => 'footer_second',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -37,
+        'weight' => -36,
       ),
       'ir7' => array(
         'region' => '',
@@ -774,10 +891,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'footer',
+        'region' => 'footer_first',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -33,
+        'weight' => -37,
       ),
       'ir7' => array(
         'region' => '',
@@ -816,7 +933,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -17,
       ),
       'ir7' => array(
         'region' => '',
@@ -855,7 +972,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -8,
       ),
       'ir7' => array(
         'region' => '',
@@ -894,7 +1011,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -1,
+        'weight' => -16,
       ),
       'ir7' => array(
         'region' => '',
@@ -910,6 +1027,84 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['service_links-service_links'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'service_links',
+    'module' => 'service_links',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bhof_theme',
+        'weight' => -15,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['service_links-service_links_not_node'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'service_links_not_node',
+    'module' => 'service_links',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bhof_theme',
+        'weight' => -14,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -933,7 +1128,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -12,
       ),
       'ir7' => array(
         'region' => '',
@@ -1011,7 +1206,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -31,
+        'weight' => -36,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -1050,7 +1245,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -23,
       ),
       'ir7' => array(
         'region' => '',
@@ -1089,7 +1284,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -22,
       ),
       'ir7' => array(
         'region' => '',
@@ -1128,7 +1323,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -20,
       ),
       'ir7' => array(
         'region' => '',
@@ -1167,7 +1362,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -20,
+        'weight' => -19,
       ),
       'ir7' => array(
         'region' => '',
@@ -1206,7 +1401,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -6,
       ),
       'ir7' => array(
         'region' => '',
@@ -1245,7 +1440,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -19,
+        'weight' => -7,
       ),
       'ir7' => array(
         'region' => '',
@@ -1284,7 +1479,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => 13,
       ),
       'ir7' => array(
         'region' => '',
@@ -1323,7 +1518,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => 14,
       ),
       'ir7' => array(
         'region' => '',
@@ -1362,7 +1557,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -2,
       ),
       'ir7' => array(
         'region' => '',
@@ -1401,7 +1596,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -3,
       ),
       'ir7' => array(
         'region' => '',
@@ -1440,7 +1635,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => 11,
       ),
       'ir7' => array(
         'region' => '',
@@ -1461,12 +1656,12 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['views-archive_collection-block'] = array(
     'cache' => -1,
-    'css_class' => 'boundry',
+    'css_class' => '',
     'custom' => 0,
     'delta' => 'archive_collection-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1476,10 +1671,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -30,
+        'weight' => -39,
       ),
       'ir7' => array(
         'region' => '',
@@ -1495,7 +1690,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-collection_contents-block'] = array(
@@ -1518,7 +1713,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -5,
       ),
       'ir7' => array(
         'region' => '',
@@ -1557,7 +1752,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -4,
       ),
       'ir7' => array(
         'region' => '',
@@ -1574,6 +1769,45 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['views-discover-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'discover-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'highlighted',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => -39,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['views-e29cd5833a7832b8286a440f8ef97dbf'] = array(
@@ -1632,10 +1866,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'footer',
+        'region' => 'footer_fourth',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -34,
+        'weight' => -38,
       ),
       'ir7' => array(
         'region' => '',
@@ -1654,14 +1888,14 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['views-front_page_image-block'] = array(
+  $export['views-from_the_collection-block'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'front_page_image-block',
+    'delta' => 'from_the_collection-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1674,7 +1908,48 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -33,
+        'weight' => -1,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['views-front_page_image-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'front_page_image-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>
+user
+user/*',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'hero',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => -38,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -1690,7 +1965,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-frontpage_solr_boxes-block'] = array(
@@ -1713,7 +1988,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -27,
+        'weight' => 1,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -1752,7 +2027,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -29,
+        'weight' => 2,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -1791,7 +2066,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -11,
+        'weight' => 4,
       ),
       'ir7' => array(
         'region' => '',
@@ -1830,7 +2105,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -20,
+        'weight' => 3,
       ),
       'ir7' => array(
         'region' => 'footer',
@@ -1869,7 +2144,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -23,
+        'weight' => 5,
       ),
       'ir7' => array(
         'region' => '',
@@ -1895,6 +2170,45 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'object_page_image-block',
     'module' => 'views',
     'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'hero',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => 10,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-object_subtitle-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'object_subtitle-block',
+    'module' => 'views',
+    'node_types' => array(),
     'pages' => '',
     'roles' => array(),
     'themes' => array(
@@ -1908,7 +2222,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => 6,
       ),
       'ir7' => array(
         'region' => '',
@@ -1932,6 +2246,162 @@ function platform_main_feature_default_fe_block_settings() {
     'css_class' => '',
     'custom' => 0,
     'delta' => 'object_visitors_by_month-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bhof_theme',
+        'weight' => 12,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-owl_carousel_view-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'owl_carousel_view-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bhof_theme',
+        'weight' => 7,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-plaque_view-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'plaque_view-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'islandora/object/islandora:50',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => -42,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['views-social_media-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'social_media-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'footer_third',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => -37,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-thumb_details-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'thumb_details-block',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '',
@@ -1986,7 +2456,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -6,
+        'weight' => 8,
       ),
       'ir7' => array(
         'region' => '',
@@ -2025,7 +2495,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -25,
+        'weight' => 9,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -2042,6 +2512,45 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 1,
+  );
+
+  $export['views-useful_information-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'useful_information-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bhof_theme',
+        'weight' => 10,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['widgets-s_addthis-share'] = array(
@@ -2064,7 +2573,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => 15,
       ),
       'ir7' => array(
         'region' => '',
@@ -2103,7 +2612,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => 16,
       ),
       'ir7' => array(
         'region' => '',
@@ -2142,7 +2651,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => 17,
       ),
       'ir7' => array(
         'region' => '',
@@ -2181,7 +2690,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => 18,
       ),
       'ir7' => array(
         'region' => '',
@@ -2220,7 +2729,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => 19,
       ),
       'ir7' => array(
         'region' => '',
@@ -2259,7 +2768,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => -35,
+        'weight' => 20,
       ),
       'ir7' => array(
         'region' => 'footer',
@@ -2298,7 +2807,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => 21,
       ),
       'ir7' => array(
         'region' => '',

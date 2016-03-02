@@ -63,6 +63,23 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-footer-menu_creative-content-license:node/1
+  $menu_links['menu-footer-menu_creative-content-license:node/1'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/1',
+    'router_path' => 'node/%',
+    'link_title' => 'Creative content license',
+    'options' => array(
+      'identifier' => 'menu-footer-menu_creative-content-license:node/1',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 0,
+  );
   // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -117,6 +134,23 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
+  // Exported menu link: menu-footer-menu_make-contact:node/4
+  $menu_links['menu-footer-menu_make-contact:node/4'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/4',
+    'router_path' => 'node/%',
+    'link_title' => 'Make contact',
+    'options' => array(
+      'identifier' => 'menu-footer-menu_make-contact:node/4',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 0,
+  );
   // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
   $menu_links['menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -135,6 +169,23 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
+  // Exported menu link: menu-footer-menu_policies:node/10
+  $menu_links['menu-footer-menu_policies:node/10'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/10',
+    'router_path' => 'node/%',
+    'link_title' => 'Policies',
+    'options' => array(
+      'identifier' => 'menu-footer-menu_policies:node/10',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 0,
+  );
   // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523
   $menu_links['menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -152,6 +203,23 @@ function platform_main_feature_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
+  );
+  // Exported menu link: menu-footer-menu_researchers:node/2
+  $menu_links['menu-footer-menu_researchers:node/2'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/2',
+    'router_path' => 'node/%',
+    'link_title' => 'Researchers',
+    'options' => array(
+      'identifier' => 'menu-footer-menu_researchers:node/2',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 0,
   );
   // Exported menu link: menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005
   $menu_links['menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005'] = array(
@@ -186,26 +254,124 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_browse-repository:islandora
-  $menu_links['menu-header-menu_browse-repository:islandora'] = array(
+  // Exported menu link: menu-header-menu_about:node/5
+  $menu_links['menu-header-menu_about:node/5'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora',
-    'router_path' => 'islandora',
-    'link_title' => 'Browse Repository',
+    'link_path' => 'node/5',
+    'router_path' => 'node/%',
+    'link_title' => 'About',
     'options' => array(
       'attributes' => array(),
-      'identifier' => 'menu-header-menu_browse-repository:islandora',
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-header-menu_about:node/5',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -45,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_bookmarks:islandora-bookmark
+  $menu_links['menu-header-menu_bookmarks:islandora-bookmark'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'islandora-bookmark',
+    'router_path' => 'islandora-bookmark',
+    'link_title' => 'Bookmarks',
+    'options' => array(
+      'identifier' => 'menu-header-menu_bookmarks:islandora-bookmark',
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
     ),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -47,
     'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_browse:islandora
+  $menu_links['menu-header-menu_browse:islandora'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'Browse',
+    'options' => array(
+      'identifier' => 'menu-header-menu_browse:islandora',
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_care:node/21
+  $menu_links['menu-header-menu_care:node/21'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'node/21',
+    'router_path' => 'node/%',
+    'link_title' => 'Care',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-header-menu_care:node/21',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_featured:islandora/object/islandora:featured_collection
+  $menu_links['menu-header-menu_featured:islandora/object/islandora:featured_collection'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'islandora/object/islandora:featured_collection',
+    'router_path' => 'islandora/object/%',
+    'link_title' => 'Featured',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-header-menu_featured:islandora/object/islandora:featured_collection',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'menu-header-menu_browse:islandora',
   );
   // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
   $menu_links['menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
@@ -222,25 +388,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_my-bookmarks:islandora-bookmark
-  $menu_links['menu-header-menu_my-bookmarks:islandora-bookmark'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora-bookmark',
-    'router_path' => 'islandora-bookmark',
-    'link_title' => 'My Bookmarks',
-    'options' => array(
-      'attributes' => array(),
-      'identifier' => 'menu-header-menu_my-bookmarks:islandora-bookmark',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
+    'weight' => -44,
     'customized' => 1,
   );
   // Exported menu link: menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search
@@ -364,16 +512,19 @@ function platform_main_feature_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('ABNER Online Library Catalog');
+  t('About');
   t('About this site');
-  t('Browse Repository');
+  t('Bookmarks');
+  t('Browse');
+  t('Care');
   t('Creative content license');
   t('Employment');
+  t('Featured');
   t('Home');
   t('Login');
   t('Logout');
   t('Make contact');
   t('Media Info');
-  t('My Bookmarks');
   t('News');
   t('Policies');
   t('Privacy Statement/Your California Privacy Rights');

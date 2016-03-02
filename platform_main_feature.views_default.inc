@@ -210,6 +210,102 @@ function platform_main_feature_views_default_views() {
   $export['collection_summary'] = $view;
 
   $view = new view();
+  $view->name = 'discover';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Discover';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Discover';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'full';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['style_plugin'] = 'grid';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: PID */
+  $handler->display->display_options['fields']['PID']['id'] = 'PID';
+  $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['PID']['field'] = 'PID';
+  $handler->display->display_options['fields']['PID']['label'] = '';
+  $handler->display->display_options['fields']['PID']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
+  /* Field: Islandora Solr: dc.description */
+  $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
+  $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
+  $handler->display->display_options['fields']['dc.description']['label'] = '';
+  $handler->display->display_options['fields']['dc.description']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="discover-wrapper">
+  <div class="span-title"><span>Discover</span></div>
+  <div class="discover-link-wrapper"><h3><a title="[dc.description]" href="/islandora/object/[PID]">[dc.title]</a></h3></div>
+</div>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  /* Filter criterion: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_mt */
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['id'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['field'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['value'] = 'islandora:featured_collection';
+
+  /* Display: Page */
+  $handler = $view->new_display('page', 'Page', 'page');
+  $handler->display->display_options['path'] = 'discover';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $translatables['discover'] = array(
+    t('Master'),
+    t('Discover'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('<div class="discover-wrapper">
+  <div class="span-title"><span>Discover</span></div>
+  <div class="discover-link-wrapper"><h3><a title="[dc.description]" href="/islandora/object/[PID]">[dc.title]</a></h3></div>
+</div>'),
+    t('Page'),
+    t('Block'),
+  );
+  $export['discover'] = $view;
+
+  $view = new view();
   $view->name = 'find_us';
   $view->description = '';
   $view->tag = 'default';
@@ -264,6 +360,85 @@ function platform_main_feature_views_default_views() {
   $export['find_us'] = $view;
 
   $view = new view();
+  $view->name = 'from_the_collection';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'From the collection';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'From the collection';
+  $handler->display->display_options['use_more'] = TRUE;
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['use_more_text'] = 'Discover More';
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'full';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['style_plugin'] = 'grid';
+  $handler->display->display_options['style_options']['columns'] = '2';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: PID */
+  $handler->display->display_options['fields']['PID']['id'] = 'PID';
+  $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['PID']['field'] = 'PID';
+  $handler->display->display_options['fields']['PID']['label'] = '';
+  $handler->display->display_options['fields']['PID']['alter']['strip_tags'] = TRUE;
+  $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['element_type'] = 'h3';
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
+  /* Filter criterion: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_mt */
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['id'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['field'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['value'] = 'islandora:sample_collection';
+
+  /* Display: Page */
+  $handler = $view->new_display('page', 'Page', 'page');
+  $handler->display->display_options['path'] = 'from-the-collection';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '4';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
+  $translatables['from_the_collection'] = array(
+    t('Master'),
+    t('From the collection'),
+    t('Discover More'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Page'),
+    t('more'),
+    t('Block'),
+  );
+  $export['from_the_collection'] = $view;
+
+  $view = new view();
   $view->name = 'front_page_collection_contents';
   $view->description = '';
   $view->tag = 'default';
@@ -304,6 +479,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['PID']['alter']['text'] = '<a href="/islandora/object/[PID]">[dc.title]</a>';
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['PID']['element_default_classes'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
   /* Filter criterion: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_mt */
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['id'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
@@ -360,40 +536,78 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['relationships']['field_image_block_fid']['id'] = 'field_image_block_fid';
   $handler->display->display_options['relationships']['field_image_block_fid']['table'] = 'field_data_field_image_block';
   $handler->display->display_options['relationships']['field_image_block_fid']['field'] = 'field_image_block_fid';
+  /* Relationship: File Usage: File */
+  $handler->display->display_options['relationships']['node_to_file']['id'] = 'node_to_file';
+  $handler->display->display_options['relationships']['node_to_file']['table'] = 'file_usage';
+  $handler->display->display_options['relationships']['node_to_file']['field'] = 'node_to_file';
+  /* Field: Content: Page Image */
+  $handler->display->display_options['fields']['field_page_image']['id'] = 'field_page_image';
+  $handler->display->display_options['fields']['field_page_image']['table'] = 'field_data_field_page_image';
+  $handler->display->display_options['fields']['field_page_image']['field'] = 'field_page_image';
+  $handler->display->display_options['fields']['field_page_image']['label'] = '';
+  $handler->display->display_options['fields']['field_page_image']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_page_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_page_image']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_page_image']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $handler->display->display_options['fields']['field_page_image']['delta_offset'] = '0';
   /* Field: Content: Title */
-  $handler->display->display_options['fields']['title']['id'] = 'title';
-  $handler->display->display_options['fields']['title']['table'] = 'node';
-  $handler->display->display_options['fields']['title']['field'] = 'title';
-  $handler->display->display_options['fields']['title']['label'] = '';
-  $handler->display->display_options['fields']['title']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
-  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
-  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title_1']['id'] = 'title_1';
+  $handler->display->display_options['fields']['title_1']['table'] = 'node';
+  $handler->display->display_options['fields']['title_1']['field'] = 'title';
+  $handler->display->display_options['fields']['title_1']['label'] = '';
+  $handler->display->display_options['fields']['title_1']['element_label_colon'] = FALSE;
+  /* Field: Content: BHOF subtitle */
+  $handler->display->display_options['fields']['field_bhof_subtitle']['id'] = 'field_bhof_subtitle';
+  $handler->display->display_options['fields']['field_bhof_subtitle']['table'] = 'field_data_field_bhof_subtitle';
+  $handler->display->display_options['fields']['field_bhof_subtitle']['field'] = 'field_bhof_subtitle';
+  $handler->display->display_options['fields']['field_bhof_subtitle']['label'] = '';
+  $handler->display->display_options['fields']['field_bhof_subtitle']['element_label_colon'] = FALSE;
   /* Field: File: Path */
   $handler->display->display_options['fields']['uri']['id'] = 'uri';
   $handler->display->display_options['fields']['uri']['table'] = 'file_managed';
   $handler->display->display_options['fields']['uri']['field'] = 'uri';
-  $handler->display->display_options['fields']['uri']['relationship'] = 'field_image_block_fid';
+  $handler->display->display_options['fields']['uri']['relationship'] = 'node_to_file';
   $handler->display->display_options['fields']['uri']['label'] = '';
   $handler->display->display_options['fields']['uri']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['uri']['file_download_path'] = TRUE;
+  /* Field: Content: Link Path */
+  $handler->display->display_options['fields']['field_link_path']['id'] = 'field_link_path';
+  $handler->display->display_options['fields']['field_link_path']['table'] = 'field_data_field_link_path';
+  $handler->display->display_options['fields']['field_link_path']['field'] = 'field_link_path';
+  $handler->display->display_options['fields']['field_link_path']['label'] = '';
+  $handler->display->display_options['fields']['field_link_path']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_link_path']['alter']['strip_tags'] = TRUE;
+  $handler->display->display_options['fields']['field_link_path']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
-  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
-  /* Filter criterion: Content: Published */
-  $handler->display->display_options['filters']['status']['id'] = 'status';
-  $handler->display->display_options['filters']['status']['table'] = 'node';
-  $handler->display->display_options['filters']['status']['field'] = 'status';
-  $handler->display->display_options['filters']['status']['value'] = 1;
-  $handler->display->display_options['filters']['status']['group'] = 1;
-  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  $handler->display->display_options['filter_groups']['operator'] = 'OR';
+  $handler->display->display_options['filter_groups']['groups'] = array(
+    1 => 'AND',
+    2 => 'AND',
+    3 => 'AND',
+  );
   /* Filter criterion: Content: Node UUID */
   $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['table'] = 'node';
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
-  $handler->display->display_options['filters']['uuid']['value'] = '7bfa2514-5091-4992-8487-c276715b8f4d';
+  $handler->display->display_options['filters']['uuid']['value'] = '82390b01-6a2d-42ea-bae4-1214af9e6dcc';
+  $handler->display->display_options['filters']['uuid']['group'] = 1;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_1']['id'] = 'uuid_1';
+  $handler->display->display_options['filters']['uuid_1']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_1']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_1']['value'] = '0b982a67-c11f-440e-945f-93b6861f8b2c';
+  $handler->display->display_options['filters']['uuid_1']['group'] = 2;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_2']['id'] = 'uuid_2';
+  $handler->display->display_options['filters']['uuid_2']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_2']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_2']['value'] = '5a3d67c3-3f29-4549-a0b0-2647a9b9365d';
+  $handler->display->display_options['filters']['uuid_2']['group'] = 3;
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
@@ -407,6 +621,7 @@ function platform_main_feature_views_default_views() {
     t('Asc'),
     t('Desc'),
     t('image from field_image_block'),
+    t('File'),
     t('Block'),
   );
   $export['front_page_image'] = $view;
@@ -803,6 +1018,15 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* No results behavior: Entity: Rendered entity */
+  $handler->display->display_options['empty']['entity']['id'] = 'entity';
+  $handler->display->display_options['empty']['entity']['table'] = 'entity__global';
+  $handler->display->display_options['empty']['entity']['field'] = 'entity';
+  $handler->display->display_options['empty']['entity']['empty'] = TRUE;
+  $handler->display->display_options['empty']['entity']['entity_type'] = 'islandora_object';
+  $handler->display->display_options['empty']['entity']['entity_id'] = 'islandora:root';
+  $handler->display->display_options['empty']['entity']['view_mode'] = 'default';
+  $handler->display->display_options['empty']['entity']['bypass_access'] = 0;
   /* Field: Islandora Solr: dc.title */
   $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
   $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
@@ -818,6 +1042,20 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['label'] = '';
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  /* Field: Islandora Solr: mods_titleInfo_subTitle_ms */
+  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['id'] = 'mods_titleInfo_subTitle_ms';
+  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['field'] = 'mods_titleInfo_subTitle_ms';
+  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['label'] = '';
+  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['link_to_object'] = 0;
+  /* Field: Islandora Solr: fgs_createdDate_dt */
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['id'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['field'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['label'] = 'Inducted to the Hall of Fame in';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['date_format'] = 'short';
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
@@ -839,6 +1077,7 @@ function platform_main_feature_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
+    t('Inducted to the Hall of Fame in'),
     t('All'),
     t('Block'),
   );
@@ -899,6 +1138,77 @@ function platform_main_feature_views_default_views() {
     t('Block'),
   );
   $export['object_subtitle'] = $view;
+
+  $view = new view();
+  $view->name = 'plaque_view';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Plaque View';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Plaque View';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'full';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: PID */
+  $handler->display->display_options['fields']['PID']['id'] = 'PID';
+  $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['PID']['field'] = 'PID';
+  $handler->display->display_options['fields']['PID']['label'] = '';
+  $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  /* Contextual filter: Islandora Solr: PID */
+  $handler->display->display_options['arguments']['PID']['id'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['arguments']['PID']['field'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'raw';
+  $handler->display->display_options['arguments']['PID']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+
+  /* Display: Page */
+  $handler = $view->new_display('page', 'Page', 'page');
+  $handler->display->display_options['path'] = 'plaque-view';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $translatables['plaque_view'] = array(
+    t('Master'),
+    t('Plaque View'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('All'),
+    t('Page'),
+    t('Block'),
+  );
+  $export['plaque_view'] = $view;
 
   $view = new view();
   $view->name = 'platform_front_page';
@@ -1029,6 +1339,51 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  $handler->display->display_options['filter_groups']['operator'] = 'OR';
+  $handler->display->display_options['filter_groups']['groups'] = array(
+    1 => 'AND',
+    2 => 'AND',
+    3 => 'AND',
+    4 => 'AND',
+    5 => 'AND',
+    6 => 'AND',
+  );
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'a935cfaa-31c7-42cd-b9b9-9f56e4469b1a';
+  $handler->display->display_options['filters']['uuid']['group'] = 1;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_5']['id'] = 'uuid_5';
+  $handler->display->display_options['filters']['uuid_5']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_5']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_5']['value'] = 'a0899508-4e1b-40dc-b28b-9540e0cd5e19';
+  $handler->display->display_options['filters']['uuid_5']['group'] = 2;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_4']['id'] = 'uuid_4';
+  $handler->display->display_options['filters']['uuid_4']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_4']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_4']['value'] = '21a94714-3c1f-4706-b1b2-b9e2dc4d665c';
+  $handler->display->display_options['filters']['uuid_4']['group'] = 3;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_3']['id'] = 'uuid_3';
+  $handler->display->display_options['filters']['uuid_3']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_3']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_3']['value'] = '7b1cdb8c-4217-4133-8e59-7aac1f1ad620';
+  $handler->display->display_options['filters']['uuid_3']['group'] = 4;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_2']['id'] = 'uuid_2';
+  $handler->display->display_options['filters']['uuid_2']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_2']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_2']['value'] = '276c44a0-b77b-484e-b9eb-6c4c51cb5400';
+  $handler->display->display_options['filters']['uuid_2']['group'] = 5;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_1']['id'] = 'uuid_1';
+  $handler->display->display_options['filters']['uuid_1']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_1']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_1']['value'] = '56fca61f-b803-4901-9d41-ecd3ff03e76f';
+  $handler->display->display_options['filters']['uuid_1']['group'] = 6;
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
@@ -1045,6 +1400,70 @@ function platform_main_feature_views_default_views() {
     t('Block'),
   );
   $export['social_media'] = $view;
+
+  $view = new view();
+  $view->name = 'thumb_details';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Thumb Details';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Thumb Details';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: fgs_createdDate_dt */
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['id'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['field'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['label'] = 'Inducted';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['date_format'] = 'short';
+  /* Field: Islandora Solr: dc.type */
+  $handler->display->display_options['fields']['dc.type']['id'] = 'dc.type';
+  $handler->display->display_options['fields']['dc.type']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.type']['field'] = 'dc.type';
+  $handler->display->display_options['fields']['dc.type']['label'] = 'Position';
+  $handler->display->display_options['fields']['dc.type']['link_to_object'] = 0;
+  /* Contextual filter: Islandora Solr: PID */
+  $handler->display->display_options['arguments']['PID']['id'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['arguments']['PID']['field'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'raw';
+  $handler->display->display_options['arguments']['PID']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['thumb_details'] = array(
+    t('Master'),
+    t('Thumb Details'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Inducted'),
+    t('Position'),
+    t('All'),
+    t('Block'),
+  );
+  $export['thumb_details'] = $view;
 
   $view = new view();
   $view->name = 'top_facet_searches';
@@ -1210,6 +1629,101 @@ function platform_main_feature_views_default_views() {
     t('You need to configure Google Analytics to show the Top Site Searches'),
   );
   $export['top_site_searches'] = $view;
+
+  $view = new view();
+  $view->name = 'useful_information';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Useful Information';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Useful Information';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'full';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'node';
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  $handler->display->display_options['filter_groups']['operator'] = 'OR';
+  $handler->display->display_options['filter_groups']['groups'] = array(
+    1 => 'AND',
+    2 => 'AND',
+    3 => 'AND',
+  );
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_1']['id'] = 'uuid_1';
+  $handler->display->display_options['filters']['uuid_1']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_1']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_1']['value'] = 'c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f';
+  $handler->display->display_options['filters']['uuid_1']['group'] = 1;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid_2']['id'] = 'uuid_2';
+  $handler->display->display_options['filters']['uuid_2']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid_2']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid_2']['value'] = 'c4650527-19cf-4581-ace5-8e4ae97c8127';
+  $handler->display->display_options['filters']['uuid_2']['group'] = 2;
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = 'b7cc4c2c-c893-49bf-ac42-eae4751f922e';
+  $handler->display->display_options['filters']['uuid']['group'] = 3;
+
+  /* Display: Page */
+  $handler = $view->new_display('page', 'Page', 'page');
+  $handler->display->display_options['path'] = 'useful-information';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['defaults']['style_plugin'] = FALSE;
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['defaults']['style_options'] = FALSE;
+  $handler->display->display_options['defaults']['row_plugin'] = FALSE;
+  $handler->display->display_options['row_plugin'] = 'node';
+  $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $translatables['useful_information'] = array(
+    t('Master'),
+    t('Useful Information'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Items per page'),
+    t('- All -'),
+    t('Offset'),
+    t('« first'),
+    t('‹ previous'),
+    t('next ›'),
+    t('last »'),
+    t('Page'),
+    t('Block'),
+  );
+  $export['useful_information'] = $view;
 
   return $export;
 }
