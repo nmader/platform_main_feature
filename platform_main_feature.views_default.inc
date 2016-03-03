@@ -581,10 +581,10 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_link_path']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_link_path']['alter']['strip_tags'] = TRUE;
   $handler->display->display_options['fields']['field_link_path']['element_label_colon'] = FALSE;
-  /* Sort criterion: Content: Post date */
-  $handler->display->display_options['sorts']['created']['id'] = 'created';
-  $handler->display->display_options['sorts']['created']['table'] = 'node';
-  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  /* Sort criterion: Content: Title */
+  $handler->display->display_options['sorts']['title']['id'] = 'title';
+  $handler->display->display_options['sorts']['title']['table'] = 'node';
+  $handler->display->display_options['sorts']['title']['field'] = 'title';
   $handler->display->display_options['filter_groups']['operator'] = 'OR';
   $handler->display->display_options['filter_groups']['groups'] = array(
     1 => 'AND',
