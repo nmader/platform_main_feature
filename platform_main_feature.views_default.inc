@@ -72,6 +72,84 @@ function platform_main_feature_views_default_views() {
   $export['archive_collection'] = $view;
 
   $view = new view();
+  $view->name = 'buy';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Buy';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Buy';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '1';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: PID */
+  $handler->display->display_options['fields']['PID']['id'] = 'PID';
+  $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['PID']['field'] = 'PID';
+  $handler->display->display_options['fields']['PID']['label'] = '';
+  $handler->display->display_options['fields']['PID']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="buy-print-wrapper">
+  <a title="[dc.title]" href="http://shop.baseballhall.org/" target="_blank">Buy This Print</a>
+</div>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  /* Contextual filter: Islandora Solr: PID */
+  $handler->display->display_options['arguments']['PID']['id'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['arguments']['PID']['field'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'raw';
+  $handler->display->display_options['arguments']['PID']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['buy'] = array(
+    t('Master'),
+    t('Buy'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<div class="buy-print-wrapper">
+  <a title="[dc.title]" href="http://shop.baseballhall.org/" target="_blank">Buy This Print</a>
+</div>'),
+    t('All'),
+    t('Block'),
+  );
+  $export['buy'] = $view;
+
+  $view = new view();
   $view->name = 'collection_contents';
   $view->description = '';
   $view->tag = 'default';
@@ -210,6 +288,77 @@ function platform_main_feature_views_default_views() {
   $export['collection_summary'] = $view;
 
   $view = new view();
+  $view->name = 'content_alert';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Content Alert';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Content Alert';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="content-warning-wrapper">
+  <h1>!!Warning!!</h1>
+  <p>"[dc.title]" may contain adult content</p>
+</div>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  /* Contextual filter: Islandora Solr: PID */
+  $handler->display->display_options['arguments']['PID']['id'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['arguments']['PID']['field'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'raw';
+  $handler->display->display_options['arguments']['PID']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['content_alert'] = array(
+    t('Master'),
+    t('Content Alert'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<div class="content-warning-wrapper">
+  <h1>!!Warning!!</h1>
+  <p>"[dc.title]" may contain adult content</p>
+</div>'),
+    t('All'),
+    t('Block'),
+  );
+  $export['content_alert'] = $view;
+
+  $view = new view();
   $view->name = 'discover';
   $view->description = '';
   $view->tag = 'default';
@@ -305,6 +454,63 @@ function platform_main_feature_views_default_views() {
     t('Block'),
   );
   $export['discover'] = $view;
+
+  $view = new view();
+  $view->name = 'exsection_status';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Exsection Status';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Exsection Status';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '1';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: fgs_createdDate_dt */
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['id'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['field'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['label'] = 'Exsection Status';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['date_format'] = 'short';
+  /* Contextual filter: Islandora Solr: PID */
+  $handler->display->display_options['arguments']['PID']['id'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['arguments']['PID']['field'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'raw';
+  $handler->display->display_options['arguments']['PID']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['exsection_status'] = array(
+    t('Master'),
+    t('Exsection Status'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('All'),
+    t('Block'),
+  );
+  $export['exsection_status'] = $view;
 
   $view = new view();
   $view->name = 'find_us';
