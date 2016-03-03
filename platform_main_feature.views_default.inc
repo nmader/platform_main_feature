@@ -1067,6 +1067,8 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+  $handler->display->display_options['arguments']['PID']['specify_validation'] = TRUE;
+  $handler->display->display_options['arguments']['PID']['validate']['fail'] = 'ignore';
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
