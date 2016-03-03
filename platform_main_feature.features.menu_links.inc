@@ -257,29 +257,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_about:node/5
-  $menu_links['menu-header-menu_about:node/5'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/5',
-    'router_path' => 'node/%',
-    'link_title' => 'About',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-header-menu_about:node/5',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -45,
-    'customized' => 1,
-  );
   // Exported menu link: menu-header-menu_bookmarks:islandora-bookmark
   $menu_links['menu-header-menu_bookmarks:islandora-bookmark'] = array(
     'menu_name' => 'menu-header-menu',
@@ -324,29 +301,6 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 1,
     'expanded' => 1,
     'weight' => -49,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-header-menu_care:node/21
-  $menu_links['menu-header-menu_care:node/21'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/21',
-    'router_path' => 'node/%',
-    'link_title' => 'Care',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-header-menu_care:node/21',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: menu-header-menu_featured:islandora/object/islandora:featured_collection
@@ -512,11 +466,9 @@ function platform_main_feature_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('ABNER Online Library Catalog');
-  t('About');
   t('About this site');
   t('Bookmarks');
   t('Browse');
-  t('Care');
   t('Creative content license');
   t('Employment');
   t('Featured');
