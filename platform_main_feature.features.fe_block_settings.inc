@@ -1934,9 +1934,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'front_page_image-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>
-user
-user/*',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(

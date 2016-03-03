@@ -176,6 +176,7 @@ features[node_export_features][] = c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f
 features[node_export_features][] = dd9db579-7172-436d-a740-721ec9a68523
 features[taxonomy][] = tags
 features[user_permission][] = access google analytics reports
+features[user_permission][] = access service links
 features[user_permission][] = export islandora bookmarks
 features[user_permission][] = search islandora solr
 features[user_permission][] = use islandora_bookmark
