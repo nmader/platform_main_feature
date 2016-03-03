@@ -465,7 +465,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -35,
+        'weight' => -39,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -582,7 +582,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -40,
+        'weight' => -45,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -1206,7 +1206,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -36,
+        'weight' => -40,
       ),
       'ir7' => array(
         'region' => 'content',
@@ -1674,7 +1674,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -39,
+        'weight' => -44,
       ),
       'ir7' => array(
         'region' => '',
@@ -1691,6 +1691,45 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 1,
+  );
+
+  $export['views-buy-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'buy-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => -41,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['views-collection_contents-block'] = array(
@@ -1771,6 +1810,45 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-content_alert-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'content_alert-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => -43,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-discover-block'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -1831,6 +1909,45 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'bhof_theme',
         'weight' => 0,
+      ),
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-exsection_status-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'exsection_status-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => -42,
       ),
       'ir7' => array(
         'region' => '',
