@@ -511,8 +511,8 @@ function platform_main_feature_strongarm() {
     'toggle_favicon' => 1,
     'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 0,
-    'default_logo' => 0,
-    'logo_path' => 'public://bhof_0.png',
+    'default_logo' => 1,
+    'logo_path' => '',
     'logo_upload' => '',
     'default_favicon' => 1,
     'favicon_path' => '',
@@ -536,6 +536,7 @@ function platform_main_feature_strongarm() {
     'logo_link' => 'http://baseballhall.org',
     'front_title' => 'Archive and Collection And more!!',
     'front_sub_title' => 'Digital Archive Project',
+    'hero_plaque_datastream' => 'PLAQUE',
     'front_sub_search' => '0',
     'jquery_update_jquery_version' => '',
   );
