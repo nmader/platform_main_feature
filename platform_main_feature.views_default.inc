@@ -323,8 +323,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="content-warning-wrapper">
-  <h1>!!Warning!!</h1>
-  <p>"[dc.title]" may contain adult content</p>
+  <p title="[dc.title]">Warning: This record may contain content unsuitable for minors</p>
 </div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   /* Contextual filter: Islandora Solr: PID */
@@ -337,6 +336,11 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+  /* Filter criterion: Islandora Solr: mods_targetAudience_mt */
+  $handler->display->display_options['filters']['mods_targetAudience_mt']['id'] = 'mods_targetAudience_mt';
+  $handler->display->display_options['filters']['mods_targetAudience_mt']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['mods_targetAudience_mt']['field'] = 'mods_targetAudience_mt';
+  $handler->display->display_options['filters']['mods_targetAudience_mt']['value'] = 'Adult';
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
@@ -350,8 +354,7 @@ function platform_main_feature_views_default_views() {
     t('Asc'),
     t('Desc'),
     t('<div class="content-warning-wrapper">
-  <h1>!!Warning!!</h1>
-  <p>"[dc.title]" may contain adult content</p>
+  <p title="[dc.title]">Warning: This record may contain content unsuitable for minors</p>
 </div>'),
     t('All'),
     t('Block'),
