@@ -362,6 +362,63 @@ function platform_main_feature_views_default_views() {
   $export['content_alert'] = $view;
 
   $view = new view();
+  $view->name = 'date_last_modified';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Date Last Modified';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Date Last Modified';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: fgs_lastModifiedDate_dt */
+  $handler->display->display_options['fields']['fgs_lastModifiedDate_dt']['id'] = 'fgs_lastModifiedDate_dt';
+  $handler->display->display_options['fields']['fgs_lastModifiedDate_dt']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['fgs_lastModifiedDate_dt']['field'] = 'fgs_lastModifiedDate_dt';
+  $handler->display->display_options['fields']['fgs_lastModifiedDate_dt']['label'] = 'Last Modified Date';
+  $handler->display->display_options['fields']['fgs_lastModifiedDate_dt']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['fgs_lastModifiedDate_dt']['date_format'] = 'long';
+  /* Contextual filter: Islandora Solr: PID */
+  $handler->display->display_options['arguments']['PID']['id'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['arguments']['PID']['field'] = 'PID';
+  $handler->display->display_options['arguments']['PID']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'raw';
+  $handler->display->display_options['arguments']['PID']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['date_last_modified'] = array(
+    t('Master'),
+    t('Date Last Modified'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Last Modified Date'),
+    t('All'),
+    t('Block'),
+  );
+  $export['date_last_modified'] = $view;
+
+  $view = new view();
   $view->name = 'discover';
   $view->description = '';
   $view->tag = 'default';
