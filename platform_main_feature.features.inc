@@ -84,3 +84,21 @@ function platform_main_feature_fontyourface_features_default_font() {
     ),
   );
 }
+
+/**
+ * Implements hook_node_info().
+ */
+function platform_main_feature_node_info() {
+  $items = array(
+    'bhof_basic_page' => array(
+      'name' => t('BHOF Basic Page'),
+      'base' => 'node_content',
+      'description' => t('Basic Page with defined layout'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+  );
+  drupal_alter('node_info', $items);
+  return $items;
+}
