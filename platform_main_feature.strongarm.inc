@@ -537,7 +537,12 @@ function platform_main_feature_strongarm() {
     'front_title' => 'Archive and Collection And more!!',
     'front_sub_title' => 'Digital Archive Project',
     'hero_plaque_datastream' => 'PLAQUE',
-    'front_sub_search' => '0',
+    'access_condition_field' => 'mods_accessCondition_ms',
+    'watermark_ds' => 'JPG',
+    'hero_image_ds' => 'COLLECTION_IMAGE',
+    'basic_image_wm_ds' => 'OBJ',
+    'large_image_wm_ds' => 'JPG',
+    'front_sub_search' => '1',
     'jquery_update_jquery_version' => '',
   );
   $export['theme_bhof_theme_settings'] = $strongarm;

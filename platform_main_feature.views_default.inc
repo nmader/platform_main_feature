@@ -129,6 +129,23 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+  $handler->display->display_options['filter_groups']['operator'] = 'OR';
+  $handler->display->display_options['filter_groups']['groups'] = array(
+    1 => 'AND',
+    2 => 'AND',
+  );
+  /* Filter criterion: Islandora Solr: RELS_EXT_hasModel_uri_mt */
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['id'] = 'RELS_EXT_hasModel_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['field'] = 'RELS_EXT_hasModel_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['value'] = 'islandora:sp_basic_image';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['group'] = 1;
+  /* Filter criterion: Islandora Solr: RELS_EXT_hasModel_uri_mt */
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt_1']['id'] = 'RELS_EXT_hasModel_uri_mt_1';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt_1']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt_1']['field'] = 'RELS_EXT_hasModel_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt_1']['value'] = 'islandora:sp_large_image_cmodel';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt_1']['group'] = 2;
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
