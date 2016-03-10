@@ -377,7 +377,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
   $handler->display->display_options['fields']['dc.title']['label'] = '';
-  $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['dc.title']['element_type'] = 'div';
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
   /* Field: Islandora Solr: dc.description */
@@ -385,6 +385,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['label'] = '';
+  $handler->display->display_options['fields']['dc.description']['exclude'] = TRUE;
   $handler->display->display_options['fields']['dc.description']['element_type'] = 'div';
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
