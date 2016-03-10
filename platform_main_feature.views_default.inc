@@ -11,6 +11,82 @@ function platform_main_feature_views_default_views() {
   $export = array();
 
   $view = new view();
+  $view->name = 'all_collections';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'All Collections';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'All Collections';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '9';
+  $handler->display->display_options['style_plugin'] = 'grid';
+  $handler->display->display_options['style_options']['columns'] = '3';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: fgs_label_s */
+  $handler->display->display_options['fields']['fgs_label_s']['id'] = 'fgs_label_s';
+  $handler->display->display_options['fields']['fgs_label_s']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['fgs_label_s']['field'] = 'fgs_label_s';
+  $handler->display->display_options['fields']['fgs_label_s']['label'] = '';
+  $handler->display->display_options['fields']['fgs_label_s']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['fgs_label_s']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['fgs_label_s']['link_to_object'] = 0;
+  /* Field: Islandora Solr: PID */
+  $handler->display->display_options['fields']['PID']['id'] = 'PID';
+  $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['PID']['field'] = 'PID';
+  $handler->display->display_options['fields']['PID']['label'] = '';
+  $handler->display->display_options['fields']['PID']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['PID']['alter']['text'] = '<a title="[fgs_label_s]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"/></a>';
+  $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
+  /* Field: Islandora Solr: dc.description */
+  $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
+  $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
+  $handler->display->display_options['fields']['dc.description']['label'] = '';
+  $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
+  /* Filter criterion: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_mt */
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['id'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['field'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['value'] = 'islandora:root';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['all_collections'] = array(
+    t('Master'),
+    t('All Collections'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<a title="[fgs_label_s]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"/></a>'),
+    t('Block'),
+  );
+  $export['all_collections'] = $view;
+
+  $view = new view();
   $view->name = 'frontpage_solr_boxes';
   $view->description = '';
   $view->tag = 'default';
@@ -98,7 +174,10 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['nothing']['table'] = 'views';
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['label'] = '';
-  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><br/><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="browse-all-item-wrapper">
+<a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a>
+<a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a>
+</div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
@@ -306,6 +385,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['label'] = '';
+  $handler->display->display_options['fields']['dc.description']['element_type'] = 'div';
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
   /* Field: Islandora Solr: PID */
@@ -449,7 +529,10 @@ function platform_main_feature_views_default_views() {
     t('Browse Collections'),
     t('Browse All Collections'),
     t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]><img src="/islandora/object/[PID]/datastream/TN/view"></a><br/><a title="[dc.title]" href="/islandora/object/[PID]>[dc.title]</a><div>'),
-    t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><br/><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>'),
+    t('<div class="browse-all-item-wrapper">
+<a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a>
+<a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a>
+</div>'),
     t('Featured Collections'),
     t('There are no featured collections.'),
     t('<a href="islandora/object/[PID]"><img class="featured-thumb" src="islandora/object/[PID]/datastream/TN/view" alt=""/></a>'),
@@ -469,6 +552,7 @@ function platform_main_feature_views_default_views() {
     t('‹ previous'),
     t('next ›'),
     t('last »'),
+    t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><br/><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>'),
     t('All Collections'),
   );
   $export['frontpage_solr_boxes'] = $view;
@@ -814,6 +898,78 @@ function platform_main_feature_views_default_views() {
   $export['image_blocks'] = $view;
 
   $view = new view();
+  $view->name = 'nyam_footer_logo_and_info';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'NYAM Footer Logo and Info';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'NYAM Footer Logo and Info';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: Image */
+  $handler->display->display_options['fields']['field_image_block']['id'] = 'field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['table'] = 'field_data_field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['field'] = 'field_image_block';
+  $handler->display->display_options['fields']['field_image_block']['label'] = '';
+  $handler->display->display_options['fields']['field_image_block']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_image_block']['alter']['text'] = '<a href="/front">
+[field_image_block]
+</a>';
+  $handler->display->display_options['fields']['field_image_block']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_image_block']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_image_block']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  /* Field: Content: Body */
+  $handler->display->display_options['fields']['body']['id'] = 'body';
+  $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
+  $handler->display->display_options['fields']['body']['field'] = 'body';
+  $handler->display->display_options['fields']['body']['label'] = '';
+  $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Filter criterion: Content: Node UUID */
+  $handler->display->display_options['filters']['uuid']['id'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['table'] = 'node';
+  $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
+  $handler->display->display_options['filters']['uuid']['value'] = '92c32c04-0620-4041-85fe-6cc03cb37677';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['nyam_footer_logo_and_info'] = array(
+    t('Master'),
+    t('NYAM Footer Logo and Info'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<a href="/front">
+[field_image_block]
+</a>'),
+    t('Block'),
+  );
+  $export['nyam_footer_logo_and_info'] = $view;
+
+  $view = new view();
   $view->name = 'platform_front_page';
   $view->description = 'Emulates the default Drupal front page; you may set the default home page path to this view to make it your front page.';
   $view->tag = 'default';
@@ -900,7 +1056,8 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'some';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '3';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Field: Content: Title */
@@ -926,8 +1083,7 @@ function platform_main_feature_views_default_views() {
   /* Display: Page Bottom Social Menu */
   $handler = $view->new_display('block', 'Page Bottom Social Menu', 'block');
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
-  $handler->display->display_options['style_plugin'] = 'grid';
-  $handler->display->display_options['style_options']['columns'] = '5';
+  $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['defaults']['style_options'] = FALSE;
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
@@ -957,7 +1113,10 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['field_social_icon']['field'] = 'field_social_icon';
   $handler->display->display_options['fields']['field_social_icon']['label'] = '';
   $handler->display->display_options['fields']['field_social_icon']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_social_icon']['alter']['text'] = '<a title="[title]" href=[field_social_link]>[field_social_icon]</a>';
+  $handler->display->display_options['fields']['field_social_icon']['alter']['text'] = '<a title="[title]" href=[field_social_link]>
+<div class="social-inner-link">[field_social_icon]</div>
+<div class="social-inner-link">[title]</div>
+</a>';
   $handler->display->display_options['fields']['field_social_icon']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_social_icon']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_social_icon']['settings'] = array(
@@ -990,7 +1149,10 @@ function platform_main_feature_views_default_views() {
     t('Asc'),
     t('Desc'),
     t('Page Bottom Social Menu'),
-    t('<a title="[title]" href=[field_social_link]>[field_social_icon]</a>'),
+    t('<a title="[title]" href=[field_social_link]>
+<div class="social-inner-link">[field_social_icon]</div>
+<div class="social-inner-link">[title]</div>
+</a>'),
   );
   $export['social_links'] = $view;
 
@@ -1037,18 +1199,18 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search Dimensions: ga:searchCategory */
+  /* Field: Internal search dimensions: Site Search Category */
   $handler->display->display_options['fields']['facet']['id'] = 'facet';
   $handler->display->display_options['fields']['facet']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['facet']['field'] = 'searchCategory';
   $handler->display->display_options['fields']['facet']['label'] = 'Facet Terms';
   $handler->display->display_options['fields']['facet']['alter']['path'] = '[facet]';
-  /* Field: Internal Search Metrics: ga:searchResultViews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search Metrics: ga:searchResultViews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -1068,6 +1230,8 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('Facet Terms'),
     t('# of Searches'),
+    t('.'),
+    t(','),
     t('Block'),
   );
   $export['top_facet_searches'] = $view;
@@ -1115,17 +1279,17 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search Dimensions: ga:searchKeyword */
+  /* Field: Internal search dimensions: Search Term */
   $handler->display->display_options['fields']['search']['id'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['search']['field'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['label'] = 'Search Terms';
-  /* Field: Internal Search Metrics: ga:searchResultViews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search Metrics: ga:searchResultViews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -1154,6 +1318,8 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('Search Terms'),
     t('# of Searches'),
+    t('.'),
+    t(','),
     t('Block'),
     t('You need to configure Google Analytics to show the Top Site Searches'),
   );
