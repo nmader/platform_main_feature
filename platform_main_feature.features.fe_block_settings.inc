@@ -68,8 +68,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bhof_theme',
         'weight' => 0,
       ),
@@ -107,8 +107,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bhof_theme',
         'weight' => 0,
       ),
@@ -146,8 +146,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bhof_theme',
         'weight' => 0,
       ),
@@ -1728,7 +1728,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -2001,7 +2001,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -2490,8 +2490,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bhof_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'bhof_theme',
         'weight' => -42,
       ),

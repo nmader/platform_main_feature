@@ -559,7 +559,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['fgs_createdDate_dt']['id'] = 'fgs_createdDate_dt';
   $handler->display->display_options['fields']['fgs_createdDate_dt']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['fgs_createdDate_dt']['field'] = 'fgs_createdDate_dt';
-  $handler->display->display_options['fields']['fgs_createdDate_dt']['label'] = 'Exsection Status';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['label'] = 'Accession Status';
   $handler->display->display_options['fields']['fgs_createdDate_dt']['link_to_object'] = 0;
   $handler->display->display_options['fields']['fgs_createdDate_dt']['date_format'] = 'short';
   /* Contextual filter: Islandora Solr: PID */
@@ -584,6 +584,7 @@ function platform_main_feature_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
+    t('Accession Status'),
     t('All'),
     t('Block'),
   );
