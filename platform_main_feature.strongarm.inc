@@ -116,7 +116,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
-  $strongarm->value = '0';
+  $strongarm->value = '2';
   $export['error_level'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -220,20 +220,6 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'islandora_solr_facet_pages_search_form';
   $strongarm->value = 0;
   $export['islandora_solr_facet_pages_search_form'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'islandora_solr_limit_result_fields';
-  $strongarm->value = 1;
-  $export['islandora_solr_limit_result_fields'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'jquery_update_jquery_version';
-  $strongarm->value = '1.7';
-  $export['jquery_update_jquery_version'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
