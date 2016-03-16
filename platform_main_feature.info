@@ -148,6 +148,7 @@ features[menu_links][] = menu-header-menu_bookmarks:islandora-bookmark
 features[menu_links][] = menu-header-menu_browse:islandora
 features[menu_links][] = menu-header-menu_featured:islandora/object/islandora:featured_collection
 features[menu_links][] = menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
+features[menu_links][] = menu-header-menu_search:node/9
 features[menu_links][] = menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search
 features[menu_links][] = menu-media-and-research-material_media-info:http://baseballhall.org/media-info
 features[menu_links][] = menu-media-and-research-material_news:http://baseballhall.org/news

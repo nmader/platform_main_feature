@@ -277,7 +277,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-header-menu_browse:islandora
@@ -343,6 +343,43 @@ function platform_main_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -44,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-header-menu_search:node/9
+  $menu_links['menu-header-menu_search:node/9'] = array(
+    'menu_name' => 'menu-header-menu',
+    'link_path' => 'node/9',
+    'router_path' => 'node/%',
+    'link_title' => 'Search',
+    'options' => array(
+      'menu_attach_block' => array(
+        'name' => 'islandora_solr|simple',
+        'use_ajax' => 0,
+        'no_drop' => 1,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 724,
+        'plid' => 0,
+      ),
+      'attributes' => array(
+        'class' => array(
+          0 => 'search-hide-link',
+        ),
+      ),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-header-menu_search:node/9',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -45,
     'customized' => 1,
   );
   // Exported menu link: menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search
@@ -481,6 +518,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('Policies');
   t('Privacy Statement/Your California Privacy Rights');
   t('Researchers');
+  t('Search');
   t('Support us');
   t('Terms');
   t('Visit our shop');
