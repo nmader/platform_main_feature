@@ -1319,6 +1319,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['label'] = '';
   $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['hide_alter_empty'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
   /* Field: Islandora Solr: PID */
   $handler->display->display_options['fields']['PID']['id'] = 'PID';
@@ -1326,6 +1327,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['field'] = 'PID';
   $handler->display->display_options['fields']['PID']['label'] = '';
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['PID']['hide_alter_empty'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
   /* Field: Islandora Solr: mods_titleInfo_subTitle_ms */
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['id'] = 'mods_titleInfo_subTitle_ms';

@@ -352,16 +352,6 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'node/%',
     'link_title' => 'Search',
     'options' => array(
-      'menu_attach_block' => array(
-        'name' => 'islandora_solr|simple',
-        'use_ajax' => 0,
-        'no_drop' => 1,
-        'dropped' => 0,
-        'on_hover' => 0,
-        'orientation' => 'horizontal',
-        'mlid' => 724,
-        'plid' => 0,
-      ),
       'attributes' => array(
         'class' => array(
           0 => 'search-hide-link',
@@ -371,6 +361,16 @@ function platform_main_feature_menu_default_menu_links() {
         'id' => '',
         'class' => '',
         'style' => '',
+      ),
+      'menu_attach_block' => array(
+        'name' => 'islandora_solr|simple',
+        'use_ajax' => 0,
+        'no_drop' => 1,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 0,
+        'plid' => 0,
       ),
       'identifier' => 'menu-header-menu_search:node/9',
     ),
