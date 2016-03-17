@@ -345,11 +345,11 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -44,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_search:node/9
-  $menu_links['menu-header-menu_search:node/9'] = array(
+  // Exported menu link: menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f
+  $menu_links['menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/9',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
+    'router_path' => 'uuid',
     'link_title' => 'Search',
     'options' => array(
       'menu_attach_block' => array(
@@ -359,7 +359,7 @@ function platform_main_feature_menu_default_menu_links() {
         'dropped' => 0,
         'on_hover' => 0,
         'orientation' => 'horizontal',
-        'mlid' => 724,
+        'mlid' => 727,
         'plid' => 0,
       ),
       'attributes' => array(
@@ -372,7 +372,7 @@ function platform_main_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'menu-header-menu_search:node/9',
+      'identifier' => 'menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
     ),
     'module' => 'menu',
     'hidden' => 0,
