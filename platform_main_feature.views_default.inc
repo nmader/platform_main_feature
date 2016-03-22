@@ -304,7 +304,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
   $handler->display->display_options['fields']['dc.title']['label'] = '';
   $handler->display->display_options['fields']['dc.title']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['dc.title']['alter']['text'] = '<div class="new-collections-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></a><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>';
+  $handler->display->display_options['fields']['dc.title']['alter']['text'] = '<div class="new-collections-item-wrapper"><a class="coll-img-link" title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></a><span class="coll-span-link"><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div></span>';
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
   $handler->display->display_options['defaults']['sorts'] = FALSE;
@@ -399,18 +399,24 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['alter']['strip_tags'] = TRUE;
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  $handler->display->display_options['defaults']['arguments'] = FALSE;
+  /* Contextual filter: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_mt */
+  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['id'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['table'] = 'islandora_solr';
+  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['field'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['default_argument_type'] = 'php';
+  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['default_argument_options']['code'] = '$object = menu_get_object(\'islandora_object\', 2);
+if (is_object($object) && in_array(\'islandora:collectionCModel\', $object->models)) {
+ return \'info:fedora/\' . $object->id;
+} else {
+ return \'info:fedora/islandora:sp_large_image_collection\';
+};';
+  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['summary_options']['items_per_page'] = '25';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: Islandora Solr: dc.title */
-  $handler->display->display_options['filters']['dc.title']['id'] = 'dc.title';
-  $handler->display->display_options['filters']['dc.title']['table'] = 'islandora_solr';
-  $handler->display->display_options['filters']['dc.title']['field'] = 'dc.title';
-  $handler->display->display_options['filters']['dc.title']['group'] = 1;
-  /* Filter criterion: Islandora Solr: RELS_EXT_hasModel_uri_mt */
-  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['id'] = 'RELS_EXT_hasModel_uri_mt';
-  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['table'] = 'islandora_solr';
-  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['field'] = 'RELS_EXT_hasModel_uri_mt';
-  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['value'] = 'islandora:sp_large_image_cmodel';
 
   /* Display: Latest Objects in Collection */
   $handler = $view->new_display('block', 'Latest Objects in Collection', 'block_4');
@@ -539,10 +545,11 @@ function platform_main_feature_views_default_views() {
     t('<a href="islandora/object/[PID]"><img class="featured-thumb" src="islandora/object/[PID]/datastream/TN/view" alt=""/></a>'),
     t('New Collections'),
     t('Browse Newest Collections'),
-    t('<div class="new-collections-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></a><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>'),
+    t('<div class="new-collections-item-wrapper"><a class="coll-img-link" title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></a><span class="coll-span-link"><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div></span>'),
     t('fgs_createdDate_dt'),
     t('Frontpage Slideshow'),
     t('<img src="/islandora/object/[PID]/datastream/JPG/view"></img>'),
+    t('All'),
     t('Latest Objects in Collection'),
     t('New Collections Page'),
     t('Browse Newest additions'),
