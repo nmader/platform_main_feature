@@ -151,12 +151,14 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
-    'background' => '#868686',
-    'header' => '#585353',
-    'content' => '#b7b7b7',
-    'navigation' => '#E2E2E2',
+    'body' => '#ffffff',
+    'page' => '#ffffff',
+    'header' => '#b2b2b2',
+    'content' => '#f6f6f6',
+    'breadcrumb' => '#f6f6f6',
+    'frontsearch' => '#ffffff',
     'footer' => '#585353',
-    'bottom' => '#868686',
+    'bottom' => '#b2b2b2',
     'sidebars' => '#ffffff',
   );
   $export['designkit_color'] = $strongarm;
@@ -459,7 +461,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
-  $strongarm->value = 'hag_theme';
+  $strongarm->value = 'ir7';
   $export['theme_default'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -522,7 +524,7 @@ function platform_main_feature_strongarm() {
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
     'toggle_favicon' => 1,
-    'toggle_main_menu' => 1,
+    'toggle_main_menu' => 0,
     'toggle_secondary_menu' => 0,
     'default_logo' => 1,
     'logo_path' => '',
@@ -544,12 +546,19 @@ function platform_main_feature_strongarm() {
     ),
     'zen_rebuild_registry' => 0,
     'zen_wireframes' => 0,
+    'hag_theme_omit' => 0,
+    'hag_theme_search_text' => 'The Hagley Digital Archives provides online access to selected items from the Hagley Library\'s collection of images, documents, and publications related to the history of business, technology, and society. ',
+    'hag_background_collection_pid' => 'islandora:root',
+    'hag_background_dsid' => 'TN',
     'designkit_color' => array(
-      'background' => '#E2E2E2',
-      'header' => '#E2E2E2',
-      'content' => '#ffffff',
-      'navigation' => '#E2E2E2',
-      'footer' => '#E2E2E2',
+      'body' => '#ffffff',
+      'page' => '#ffffff',
+      'header' => '#b2b2b2',
+      'content' => '#f6f6f6',
+      'breadcrumb' => '#f6f6f6',
+      'frontsearch' => '#ffffff',
+      'footer' => '#585353',
+      'bottom' => '#b2b2b2',
       'sidebars' => '#ffffff',
     ),
   );

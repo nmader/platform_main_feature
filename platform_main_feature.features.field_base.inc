@@ -10,7 +10,7 @@
 function platform_main_feature_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_hours'
+  // Exported field_base: 'field_hours'.
   $field_bases['field_hours'] = array(
     'active' => 1,
     'cardinality' => -1,

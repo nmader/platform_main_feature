@@ -10,7 +10,7 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5
+  // Exported menu link: main-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
   $menu_links['main-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
@@ -30,7 +30,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_browse:islandora
+  // Exported menu link: main-menu_browse:islandora.
   $menu_links['main-menu_browse:islandora'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'islandora',
@@ -50,7 +50,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_home:<front>
+  // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
@@ -67,7 +67,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_my-bookmarks:islandora-bookmark
+  // Exported menu link: main-menu_my-bookmarks:islandora-bookmark.
   $menu_links['main-menu_my-bookmarks:islandora-bookmark'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'islandora-bookmark',
@@ -87,7 +87,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_creative-content-license:node/1
+  // Exported menu link: menu-footer-menu_creative-content-license:node/1.
   $menu_links['menu-footer-menu_creative-content-license:node/1'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/1',
@@ -104,7 +104,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d
+  // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d',
@@ -124,7 +124,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_login:user/login
+  // Exported menu link: menu-footer-menu_login:user/login.
   $menu_links['menu-footer-menu_login:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/login',
@@ -144,7 +144,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_logout:user/logout
+  // Exported menu link: menu-footer-menu_logout:user/logout.
   $menu_links['menu-footer-menu_logout:user/logout'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/logout',
@@ -164,7 +164,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_make-contact:node/4
+  // Exported menu link: menu-footer-menu_make-contact:node/4.
   $menu_links['menu-footer-menu_make-contact:node/4'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/4',
@@ -181,7 +181,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
+  // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
   $menu_links['menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
@@ -201,7 +201,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_policies:node/10
+  // Exported menu link: menu-footer-menu_policies:node/10.
   $menu_links['menu-footer-menu_policies:node/10'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/10',
@@ -218,7 +218,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523
+  // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523.
   $menu_links['menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
@@ -238,7 +238,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_researchers:node/2
+  // Exported menu link: menu-footer-menu_researchers:node/2.
   $menu_links['menu-footer-menu_researchers:node/2'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/2',
@@ -255,7 +255,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005
+  // Exported menu link: menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005.
   $menu_links['menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/11ab3414-deb5-4985-9797-1a90ac057005',
@@ -275,7 +275,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5
+  // Exported menu link: menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
   $menu_links['menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
@@ -295,7 +295,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_browse-all-materials:islandora
+  // Exported menu link: menu-header-menu_browse-all-materials:islandora.
   $menu_links['menu-header-menu_browse-all-materials:islandora'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'islandora',
@@ -315,7 +315,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_browse-collections:all-collections
+  // Exported menu link: menu-header-menu_browse-collections:all-collections.
   $menu_links['menu-header-menu_browse-collections:all-collections'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'all-collections',
@@ -335,7 +335,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_collections:islandora/object/islandora:root
+  // Exported menu link: menu-header-menu_collections:islandora/object/islandora:root.
   $menu_links['menu-header-menu_collections:islandora/object/islandora:root'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'islandora/object/islandora:root',
@@ -358,7 +358,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_home:<front>
+  // Exported menu link: menu-header-menu_home:<front>.
   $menu_links['menu-header-menu_home:<front>'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => '<front>',
@@ -378,7 +378,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_login:user/login
+  // Exported menu link: menu-header-menu_login:user/login.
   $menu_links['menu-header-menu_login:user/login'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'user/login',
@@ -398,7 +398,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_logout:user/logout
+  // Exported menu link: menu-header-menu_logout:user/logout.
   $menu_links['menu-header-menu_logout:user/logout'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'user/logout',
@@ -418,7 +418,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_tulane-digital-repository:http://library.tulane.edu/repository/
+  // Exported menu link: menu-header-menu_tulane-digital-repository:http://library.tulane.edu/repository/.
   $menu_links['menu-header-menu_tulane-digital-repository:http://library.tulane.edu/repository/'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'http://library.tulane.edu/repository/',
@@ -438,7 +438,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-popular-links_collections--research-news:uuid/node/cfb93405-0c0a-4367-a005-4f113c5fe4be
+  // Exported menu link: menu-popular-links_collections--research-news:uuid/node/cfb93405-0c0a-4367-a005-4f113c5fe4be.
   $menu_links['menu-popular-links_collections--research-news:uuid/node/cfb93405-0c0a-4367-a005-4f113c5fe4be'] = array(
     'menu_name' => 'menu-popular-links',
     'link_path' => 'uuid/node/cfb93405-0c0a-4367-a005-4f113c5fe4be',
@@ -458,7 +458,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-popular-links_education-programs:uuid/node/0d3a9fc8-9f4e-4e17-be81-04472f145120
+  // Exported menu link: menu-popular-links_education-programs:uuid/node/0d3a9fc8-9f4e-4e17-be81-04472f145120.
   $menu_links['menu-popular-links_education-programs:uuid/node/0d3a9fc8-9f4e-4e17-be81-04472f145120'] = array(
     'menu_name' => 'menu-popular-links',
     'link_path' => 'uuid/node/0d3a9fc8-9f4e-4e17-be81-04472f145120',
@@ -478,7 +478,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-popular-links_employment-opportunities:uuid/node/e454fe8a-c9f8-4559-b9e7-7cb735d6e805
+  // Exported menu link: menu-popular-links_employment-opportunities:uuid/node/e454fe8a-c9f8-4559-b9e7-7cb735d6e805.
   $menu_links['menu-popular-links_employment-opportunities:uuid/node/e454fe8a-c9f8-4559-b9e7-7cb735d6e805'] = array(
     'menu_name' => 'menu-popular-links',
     'link_path' => 'uuid/node/e454fe8a-c9f8-4559-b9e7-7cb735d6e805',
@@ -498,7 +498,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-popular-links_hagley-staff-list:uuid/node/df637904-3285-4590-81c2-2fea2e76b198
+  // Exported menu link: menu-popular-links_hagley-staff-list:uuid/node/df637904-3285-4590-81c2-2fea2e76b198.
   $menu_links['menu-popular-links_hagley-staff-list:uuid/node/df637904-3285-4590-81c2-2fea2e76b198'] = array(
     'menu_name' => 'menu-popular-links',
     'link_path' => 'uuid/node/df637904-3285-4590-81c2-2fea2e76b198',
@@ -518,7 +518,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-popular-links_library-information:uuid/node/494484e7-acce-46e8-9d4c-41eaef07f625
+  // Exported menu link: menu-popular-links_library-information:uuid/node/494484e7-acce-46e8-9d4c-41eaef07f625.
   $menu_links['menu-popular-links_library-information:uuid/node/494484e7-acce-46e8-9d4c-41eaef07f625'] = array(
     'menu_name' => 'menu-popular-links',
     'link_path' => 'uuid/node/494484e7-acce-46e8-9d4c-41eaef07f625',
@@ -538,7 +538,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -44,
     'customized' => 1,
   );
-  // Exported menu link: menu-popular-links_press-room:uuid/node/d1d8dc41-2df4-40fa-aac0-e69da084700b
+  // Exported menu link: menu-popular-links_press-room:uuid/node/d1d8dc41-2df4-40fa-aac0-e69da084700b.
   $menu_links['menu-popular-links_press-room:uuid/node/d1d8dc41-2df4-40fa-aac0-e69da084700b'] = array(
     'menu_name' => 'menu-popular-links',
     'link_path' => 'uuid/node/d1d8dc41-2df4-40fa-aac0-e69da084700b',
@@ -558,7 +558,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-popular-links_wedding-and-meetings:uuid/node/8363b62c-d2d7-4eda-ba9b-e89e0a11f53a
+  // Exported menu link: menu-popular-links_wedding-and-meetings:uuid/node/8363b62c-d2d7-4eda-ba9b-e89e0a11f53a.
   $menu_links['menu-popular-links_wedding-and-meetings:uuid/node/8363b62c-d2d7-4eda-ba9b-e89e0a11f53a'] = array(
     'menu_name' => 'menu-popular-links',
     'link_path' => 'uuid/node/8363b62c-d2d7-4eda-ba9b-e89e0a11f53a',
@@ -578,6 +578,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('About');
@@ -601,7 +602,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Researchers');
   t('Tulane Digital Repository');
   t('Wedding and Meetings');
-
 
   return $menu_links;
 }
