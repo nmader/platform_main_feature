@@ -406,12 +406,26 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['field'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
   $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['default_action'] = 'default';
   $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['default_argument_type'] = 'php';
-  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['default_argument_options']['code'] = '$object = menu_get_object(\'islandora_object\', 2);
-if (is_object($object) && in_array(\'islandora:collectionCModel\', $object->models)) {
- return \'info:fedora/\' . $object->id;
-} else {
- return \'info:fedora/islandora:sp_large_image_collection\';
-};';
+  $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['default_argument_options']['code'] = '    $object = menu_get_object(\'islandora_object\', 2);
+    if (is_object($object)) {
+      if (in_array(\'islandora:collectionCModel\', $object->models)) {
+        return \'info:fedora/\' . $object->id;
+      } else {
+        module_load_include(\'inc\', \'islandora_basic_collection\', \'includes/utilities\');
+        $parent_pids = islandora_basic_collection_get_parent_pids($object);
+        if (count($parent_pids) >= 1) {
+          return "info:fedora/" . $parent_pids[0];
+        }
+        else {
+          // Safety fallback. This should never happen.
+          return \'info:fedora/islandora:sp_large_image_collection\';
+        }
+      }
+    }
+    else {
+      // All othe pages, use default large image collection.
+      return \'info:fedora/islandora:sp_large_image_collection\';
+    }';
   $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['summary_options']['items_per_page'] = '25';
