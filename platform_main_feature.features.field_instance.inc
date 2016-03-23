@@ -10,7 +10,7 @@
 function platform_main_feature_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-office_hours-body'
+  // Exported field_instance: 'node-office_hours-body'.
   $field_instances['node-office_hours-body'] = array(
     'bundle' => 'office_hours',
     'default_value' => NULL,
@@ -54,7 +54,7 @@ function platform_main_feature_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-office_hours-field_hours'
+  // Exported field_instance: 'node-office_hours-field_hours'.
   $field_instances['node-office_hours-field_hours'] = array(
     'bundle' => 'office_hours',
     'default_value' => array(
