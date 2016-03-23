@@ -98,7 +98,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -33,
+        'weight' => -37,
       ),
       'seven' => array(
         'region' => '',
@@ -263,7 +263,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -31,
+        'weight' => -42,
       ),
       'seven' => array(
         'region' => '',
@@ -278,12 +278,12 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['islandora_solr-advanced'] = array(
     'cache' => -1,
-    'css_class' => 'islandora-avanced-search',
+    'css_class' => 'islandora-avanced-search block-border-bottom',
     'custom' => 0,
     'delta' => 'advanced',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => 'advanced-search',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -293,10 +293,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => 'content',
+        'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -34,
+        'weight' => -40,
       ),
       'seven' => array(
         'region' => '',
@@ -305,8 +305,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
-    'visibility' => 1,
+    'title' => 'Advanced Search',
+    'visibility' => 0,
   );
 
   $export['islandora_solr-basic_facets'] = array(
@@ -448,7 +448,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'simple',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -461,7 +461,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -36,
+        'weight' => -41,
       ),
       'seven' => array(
         'region' => '',
@@ -471,7 +471,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => 'Search',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['islandora_solr-sort'] = array(
@@ -514,7 +514,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'islandora-solr-facet-pages',
     'module' => 'islandora_solr_facet_pages',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -527,7 +527,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -36,
+        'weight' => -39,
       ),
       'seven' => array(
         'region' => '',
@@ -537,7 +537,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => 'Browse By',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['islandora_usage_stats-recent_activity'] = array(
@@ -1570,7 +1570,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'frontpage_solr_boxes-block_2',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1583,7 +1583,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'nyam_theme',
-        'weight' => -34,
+        'weight' => -38,
       ),
       'seven' => array(
         'region' => '',
@@ -1593,7 +1593,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => 'Collections',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['views-frontpage_solr_boxes-block_3'] = array(
@@ -1603,7 +1603,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'frontpage_solr_boxes-block_3',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1626,7 +1626,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['views-frontpage_solr_boxes-block_4'] = array(
