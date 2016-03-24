@@ -353,6 +353,133 @@ function platform_main_feature_node_export_features_default() {
       \'node_export_drupal_version\' => \'7\',
     ),
   (object) array(
+      \'vid\' => \'17\',
+      \'uid\' => \'1\',
+      \'title\' => \'Search Icon\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'a70e2020-c179-4790-989d-04d3250fcb1c\',
+      \'nid\' => \'17\',
+      \'type\' => \'image_block\',
+      \'language\' => \'en\',
+      \'created\' => \'1455221397\',
+      \'changed\' => \'1458666327\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'18b50847-a162-4b86-b2da-8794cbfa1f94\',
+      \'revision_timestamp\' => \'1458666327\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(),
+      \'field_image_block\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => NULL,
+            \'uid\' => \'1\',
+            \'filename\' => \'search102.png\',
+            \'uri\' => \'public://search102.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'4864\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1455221397\',
+            \'uuid\' => \'29316c95-400c-42e7-a832-3fdb8a7ae9b5\',
+            \'rdf_mapping\' => array(),
+            \'alt\' => \'\',
+            \'title\' => \'\',
+            \'width\' => \'128\',
+            \'height\' => \'128\',
+            \'node_export_file_data\' => \'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\',
+          ),
+        ),
+      ),
+      \'field_image_block_link\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'advanced-search\',
+            \'format\' => NULL,
+            \'safe_value\' => \'advanced-search\',
+          ),
+        ),
+      ),
+      \'field_image_block_tool_tip\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'Search thru our online archive; Explore and create with Islandora\',
+            \'format\' => NULL,
+            \'safe_value\' => \'Search thru our online archive; Explore and create with Islandora\',
+          ),
+        ),
+      ),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1455221397\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
       \'vid\' => \'14\',
       \'uid\' => \'1\',
       \'title\' => \'Location\',
@@ -987,6 +1114,228 @@ function platform_main_feature_node_export_features_default() {
       ),
       \'cid\' => \'0\',
       \'last_comment_timestamp\' => \'1447700029\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
+      \'vid\' => \'15\',
+      \'uid\' => \'1\',
+      \'title\' => \'Bookmark Icon\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'d82c0483-a55d-41eb-a2d6-1e6d0ee08ce0\',
+      \'nid\' => \'15\',
+      \'type\' => \'image_block\',
+      \'language\' => \'en\',
+      \'created\' => \'1455221307\',
+      \'changed\' => \'1455221307\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'87f6b31a-8221-4a23-8c31-6ed5fdd7d016\',
+      \'revision_timestamp\' => \'1455221307\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(),
+      \'field_image_block\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => NULL,
+            \'uid\' => \'1\',
+            \'filename\' => \'book257.png\',
+            \'uri\' => \'public://book257.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'3035\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1455221307\',
+            \'uuid\' => \'fd23d17b-d163-4b85-a635-6e8dec00e1ec\',
+            \'rdf_mapping\' => array(),
+            \'alt\' => \'\',
+            \'title\' => \'\',
+            \'width\' => \'128\',
+            \'height\' => \'128\',
+            \'node_export_file_data\' => \'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\',
+          ),
+        ),
+      ),
+      \'field_image_block_link\' => array(),
+      \'field_image_block_tool_tip\' => array(),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1455221307\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'name\' => \'islandora\',
+      \'picture\' => \'0\',
+      \'data\' => \'b:0;\',
+      \'path\' => FALSE,
+      \'menu\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+    ),
+  (object) array(
+      \'vid\' => \'16\',
+      \'uid\' => \'1\',
+      \'title\' => \'Museum Icon\',
+      \'log\' => \'\',
+      \'status\' => \'1\',
+      \'comment\' => \'1\',
+      \'promote\' => \'0\',
+      \'sticky\' => \'0\',
+      \'vuuid\' => \'d1ad52ce-1daa-4f51-9ed0-ac73899176fe\',
+      \'nid\' => \'16\',
+      \'type\' => \'image_block\',
+      \'language\' => \'en\',
+      \'created\' => \'1455221351\',
+      \'changed\' => \'1455221351\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'uuid\' => \'924869a5-6f8b-49fa-872b-4fb761ca5bf2\',
+      \'revision_timestamp\' => \'1455221351\',
+      \'revision_uid\' => \'1\',
+      \'body\' => array(),
+      \'field_image_block\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => NULL,
+            \'uid\' => \'1\',
+            \'filename\' => \'museum39.png\',
+            \'uri\' => \'public://museum39.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'1801\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1455221351\',
+            \'uuid\' => \'11cbc1c9-90fe-4b7d-81f8-60209e612ca9\',
+            \'rdf_mapping\' => array(),
+            \'alt\' => \'\',
+            \'title\' => \'\',
+            \'width\' => \'128\',
+            \'height\' => \'128\',
+            \'node_export_file_data\' => \'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\',
+          ),
+        ),
+      ),
+      \'field_image_block_link\' => array(),
+      \'field_image_block_tool_tip\' => array(),
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'sioc:Item\',
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'cid\' => \'0\',
+      \'last_comment_timestamp\' => \'1455221351\',
       \'last_comment_name\' => NULL,
       \'last_comment_uid\' => \'1\',
       \'comment_count\' => \'0\',
