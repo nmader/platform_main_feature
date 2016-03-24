@@ -138,6 +138,77 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
+  // Exported menu link: menu-front-special-links_bookmarked:islandora-bookmark/lists.
+  $menu_links['menu-front-special-links_bookmarked:islandora-bookmark/lists'] = array(
+    'menu_name' => 'menu-front-special-links',
+    'link_path' => 'islandora-bookmark/lists',
+    'router_path' => 'islandora-bookmark/lists',
+    'link_title' => 'Bookmarked',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-front-special-links_bookmarked:islandora-bookmark/lists',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-front-special-links_collections:islandora.
+  $menu_links['menu-front-special-links_collections:islandora'] = array(
+    'menu_name' => 'menu-front-special-links',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'Collections',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-front-special-links_collections:islandora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-front-special-links_explore:islandora/search.
+  $menu_links['menu-front-special-links_explore:islandora/search'] = array(
+    'menu_name' => 'menu-front-special-links',
+    'link_path' => 'islandora/search',
+    'router_path' => 'islandora/search',
+    'link_title' => 'Explore',
+    'options' => array(
+      'attributes' => array(
+        'style' => 'fa fa-camera-retro fa-5x',
+      ),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-front-special-links_explore:islandora/search',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: menu-header-menu_about-this-site:node/5.
   $menu_links['menu-header-menu_about-this-site:node/5'] = array(
     'menu_name' => 'menu-header-menu',
@@ -239,9 +310,12 @@ function platform_main_feature_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('About this site');
+  t('Bookmarked');
   t('Browse');
   t('Browse repository');
+  t('Collections');
   t('Control Panel');
+  t('Explore');
   t('Home');
   t('Login');
   t('Logout');
