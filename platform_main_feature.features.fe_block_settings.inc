@@ -13,6 +13,12 @@ function platform_main_feature_default_fe_block_settings() {
   $export['version'] = '2.0';
 
   $export['block-submit_to_collection_anonymous'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -42,6 +48,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['block-submit_to_collection_box'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -71,6 +83,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['comment-recent'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => 1,
     'css_class' => '',
     'custom' => 0,
@@ -97,7 +115,46 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['dgi_ondemand-dgi_ondemand_latest_obj'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'dgi_ondemand_latest_obj',
+    'module' => 'dgi_ondemand',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => -29,
+      ),
+      'saas' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saas',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['homebox-custom'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -125,6 +182,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_bookmark-islandora_bookmark'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -152,6 +215,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -179,6 +248,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_solr-advanced'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -198,7 +273,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -31,
+        'weight' => -30,
       ),
     ),
     'title' => '<none>',
@@ -206,6 +281,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_solr-basic_facets'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -225,7 +306,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -19,
+        'weight' => -29,
       ),
     ),
     'title' => '',
@@ -233,6 +314,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_solr-current_query'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => 'block-islandora-solr-current-query',
     'custom' => 0,
@@ -260,6 +347,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_solr-display_switch'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -279,7 +372,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -37,
+        'weight' => -39,
       ),
     ),
     'title' => '',
@@ -287,6 +380,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_solr-search_navigation'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -306,7 +405,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -36,
+        'weight' => -38,
       ),
     ),
     'title' => '<none>',
@@ -314,6 +413,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_solr-simple'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -341,6 +446,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_solr-sort'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -368,6 +479,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['menu-features'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -395,6 +512,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['menu-menu-footer-menu'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -421,7 +544,46 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['menu-menu-front-special-links'] = array(
+    'animate_css_class' => 'none',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
+    'cache' => -1,
+    'css_class' => 'front-special-links',
+    'custom' => 0,
+    'delta' => 'menu-front-special-links',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 0,
+      ),
+      'saas' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saas',
+        'weight' => -29,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['menu-menu-header-menu'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -449,6 +611,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['node-recent'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => 1,
     'css_class' => '',
     'custom' => 0,
@@ -476,6 +644,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['node-syndicate'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -503,6 +677,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['search-form'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -530,6 +710,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['service_links-service_links'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -557,6 +743,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['service_links-service_links_not_node'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -584,6 +776,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['sharethis-sharethis_block'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => 4,
     'css_class' => '',
     'custom' => 0,
@@ -611,6 +809,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['shortcut-shortcuts'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -638,6 +842,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['system-main'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -657,7 +867,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -35,
+        'weight' => -37,
       ),
     ),
     'title' => '',
@@ -665,6 +875,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['system-main-menu'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -692,6 +908,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['system-management'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -719,6 +941,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['system-navigation'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -746,6 +974,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['system-powered-by'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -773,6 +1007,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['system-user-menu'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -800,6 +1040,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['user-login'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -827,6 +1073,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['user-new'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => 1,
     'css_class' => '',
     'custom' => 0,
@@ -854,6 +1106,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['user-online'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -880,7 +1138,79 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-ccb574a26f12904ce753d491effa82d6'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'ccb574a26f12904ce753d491effa82d6',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 11,
+      ),
+      'saas' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saas',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-compound_object_view-block'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'compound_object_view-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 0,
+      ),
+      'saas' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saas',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-front_geo_view-block'] = array(
+    'animate_css_class' => 'none',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -900,7 +1230,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -32,
+        'weight' => -31,
       ),
     ),
     'title' => '',
@@ -908,8 +1238,14 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-front_page_collections-block'] = array(
+    'animate_css_class' => 'fadeIn',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'wow',
     'custom' => 0,
     'delta' => 'front_page_collections-block',
     'module' => 'views',
@@ -927,7 +1263,73 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'saas',
-        'weight' => -33,
+        'weight' => -36,
+      ),
+    ),
+    'title' => 'Featured Content',
+    'visibility' => 1,
+  );
+
+  $export['views-front_page_large_image-block'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'front_page_large_image-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 0,
+      ),
+      'saas' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'saas',
+        'weight' => -40,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['views-frontpage_icon_links-block'] = array(
+    'animate_css_class' => 'none',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'frontpage_icon_links-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 0,
+      ),
+      'saas' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'saas',
+        'weight' => -35,
       ),
     ),
     'title' => '<none>',
@@ -935,8 +1337,14 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-frontpage_solr_boxes-block'] = array(
+    'animate_css_class' => 'none',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'front-page-browse-collections',
     'custom' => 0,
     'delta' => 'frontpage_solr_boxes-block',
     'module' => 'views',
@@ -954,7 +1362,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'saas',
-        'weight' => -28,
+        'weight' => -33,
       ),
     ),
     'title' => '',
@@ -962,6 +1370,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-frontpage_solr_boxes-block_1'] = array(
+    'animate_css_class' => 'none',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => 'front-featured-collections',
     'custom' => 0,
@@ -978,17 +1392,56 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 13,
       ),
       'saas' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'saas',
         'weight' => -34,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 1,
   );
 
+  $export['views-frontpage_solr_boxes-block_2'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'frontpage_solr_boxes-block_2',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => -15,
+      ),
+      'saas' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saas',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-frontpage_solr_boxes-block_3'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -1016,6 +1469,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-frontpage_solr_boxes-block_4'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => 'about-featured-collections',
     'custom' => 0,
@@ -1043,6 +1502,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-frontpage_solr_boxes-block_5'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -1062,7 +1527,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'saas',
-        'weight' => 0,
+        'weight' => -32,
       ),
     ),
     'title' => '',
@@ -1070,6 +1535,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-image_blocks-block'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -1097,6 +1568,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-image_blocks-block_1'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => 'footer-logo',
     'custom' => 0,
@@ -1124,6 +1601,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-image_blocks-block_2'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -1151,6 +1634,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-image_blocks-block_3'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -1178,6 +1667,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-image_blocks-block_4'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => 'footer-contact-info',
     'custom' => 0,
@@ -1205,6 +1700,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-list_details-block'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -1231,7 +1732,46 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-owl_carousel_view-block'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'owl_carousel_view-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'admindora' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'admindora',
+        'weight' => 21,
+      ),
+      'saas' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saas',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-top_facet_searches-block'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
@@ -1259,6 +1799,12 @@ function platform_main_feature_default_fe_block_settings() {
   );
 
   $export['views-top_site_searches-block'] = array(
+    'animate_css_class' => '',
+    'animate_css_infinite' => 0,
+    'animate_css_wow_delay' => -1,
+    'animate_css_wow_duration' => -1,
+    'animate_css_wow_iteration' => -1,
+    'animate_css_wow_offset' => -1,
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,

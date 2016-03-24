@@ -268,6 +268,8 @@ function platform_main_feature_node_export_features_default() {
       \'revision_uid\' => \'1\',
       \'body\' => array(),
       \'field_image_block\' => array(),
+      \'field_image_block_link\' => array(),
+      \'field_image_block_tool_tip\' => array(),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
@@ -340,7 +342,7 @@ function platform_main_feature_node_export_features_default() {
         \'weight\' => \'-47\',
         \'options\' => array(),
         \'module\' => \'menu\',
-        \'expanded\' => \'0\',
+        \'expanded\' => \'1\',
         \'hidden\' => \'0\',
         \'has_children\' => \'0\',
         \'customized\' => 0,
@@ -815,6 +817,8 @@ function platform_main_feature_node_export_features_default() {
         ),
       ),
       \'field_image_block\' => array(),
+      \'field_image_block_link\' => array(),
+      \'field_image_block_tool_tip\' => array(),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
@@ -924,6 +928,8 @@ function platform_main_feature_node_export_features_default() {
           ),
         ),
       ),
+      \'field_image_block_link\' => array(),
+      \'field_image_block_tool_tip\' => array(),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
@@ -1023,6 +1029,8 @@ function platform_main_feature_node_export_features_default() {
         ),
       ),
       \'field_image_block\' => array(),
+      \'field_image_block_link\' => array(),
+      \'field_image_block_tool_tip\' => array(),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
@@ -1215,6 +1223,8 @@ function platform_main_feature_node_export_features_default() {
         ),
       ),
       \'field_image_block\' => array(),
+      \'field_image_block_link\' => array(),
+      \'field_image_block_tool_tip\' => array(),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',

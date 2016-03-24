@@ -91,6 +91,86 @@ function platform_main_feature_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-image_block-field_image_block_link'.
+  $field_instances['node-image_block-field_image_block_link'] = array(
+    'bundle' => 'image_block',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_image_block_link',
+    'label' => 'Image block Link',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 255,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance: 'node-image_block-field_image_block_tool_tip'.
+  $field_instances['node-image_block-field_image_block_tool_tip'] = array(
+    'bundle' => 'image_block',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'This text will appear as a tool-tip when one\'s mouse is over the selected icon.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_image_block_tool_tip',
+    'label' => 'Image Block Tool Tip',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
+      'weight' => 4,
+    ),
+  );
+
   // Exported field_instance: 'node-page-field_test_video_filter'.
   $field_instances['node-page-field_test_video_filter'] = array(
     'bundle' => 'page',
@@ -134,8 +214,11 @@ function platform_main_feature_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
+  t('Image Block Tool Tip');
+  t('Image block Link');
   t('Location');
   t('Test Video Filter');
+  t('This text will appear as a tool-tip when one\'s mouse is over the selected icon.');
 
   return $field_instances;
 }

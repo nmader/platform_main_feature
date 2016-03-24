@@ -34,6 +34,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'back_to_top_button_text';
+  $strongarm->value = 'Back to top';
+  $export['back_to_top_button_text'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'back_to_top_button_trigger';
   $strongarm->value = '100';
   $export['back_to_top_button_trigger'] = $strongarm;
@@ -55,16 +62,37 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'back_to_top_pages';
+  $strongarm->value = '';
+  $export['back_to_top_pages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'back_to_top_prevent_in_admin';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['back_to_top_prevent_in_admin'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'back_to_top_prevent_in_front';
+  $strongarm->value = 0;
+  $export['back_to_top_prevent_in_front'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'back_to_top_prevent_on_mobile';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['back_to_top_prevent_on_mobile'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'back_to_top_prevent_on_non_mobile';
+  $strongarm->value = 0;
+  $export['back_to_top_prevent_on_non_mobile'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -72,6 +100,13 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'back_to_top_text_color';
   $strongarm->value = '#333333';
   $export['back_to_top_text_color'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'back_to_top_visibility';
+  $strongarm->value = '0';
+  $export['back_to_top_visibility'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -676,6 +711,21 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'parallax_bg_settings';
+  $strongarm->value = array(
+    'triggers_fieldset' => array(
+      'trigger1' => array(
+        'element' => '#block-views-frontpage-icon-links-block',
+        'position' => '0',
+        'speed' => '0.3',
+      ),
+    ),
+  );
+  $export['parallax_bg_settings'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'sharethis_article_options';
   $strongarm->value = array(
     'full' => 0,
@@ -933,6 +983,204 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'site_slogan';
   $strongarm->value = '';
   $export['site_slogan'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialcounter_new_vertical_providers_list';
+  $strongarm->value = array(
+    0 => 'Facebook Like',
+    1 => 'Pinterest Pin it',
+    2 => 'LinkedIn Share',
+    3 => 'Google+ +1',
+  );
+  $export['socialcounter_new_vertical_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialcounter_providers_list';
+  $strongarm->value = array(
+    0 => 'Facebook Like',
+    1 => 'Pinterest Pin it',
+    2 => 'LinkedIn Share',
+    3 => 'Google+ +1',
+  );
+  $export['socialcounter_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialcounter_rearrange_providers_list';
+  $strongarm->value = array(
+    0 => 'Facebook Like',
+    1 => 'Google+ +1',
+    2 => 'Pinterest Pin it',
+    3 => 'LinkedIn Share',
+  );
+  $export['socialcounter_rearrange_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialcounter_vertical_rearrange_providers_list';
+  $strongarm->value = array(
+    0 => 'Facebook Like',
+    1 => 'Google+ +1',
+    2 => 'Pinterest Pin it',
+    3 => 'LinkedIn Share',
+  );
+  $export['socialcounter_vertical_rearrange_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_label_string';
+  $strongarm->value = 'Share it now!';
+  $export['socialshare_label_string'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_position_bottom';
+  $strongarm->value = 1;
+  $export['socialshare_position_bottom'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_position_top';
+  $strongarm->value = 1;
+  $export['socialshare_position_top'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_show_exceptpages';
+  $strongarm->value = '';
+  $export['socialshare_show_exceptpages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_show_pages';
+  $strongarm->value = '1';
+  $export['socialshare_show_pages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_show_providers_list';
+  $strongarm->value = array(
+    'facebook' => 'facebook',
+    'twitter' => 'twitter',
+    'pinterest' => 'pinterest',
+  );
+  $export['socialshare_show_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_vertical_position';
+  $strongarm->value = '0';
+  $export['socialshare_vertical_position'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_vertical_rearrange_providers_list';
+  $strongarm->value = array(
+    0 => 'facebook',
+    1 => 'googleplus',
+    2 => 'google',
+    3 => 'pinterest',
+    4 => 'twitter',
+  );
+  $export['socialshare_vertical_rearrange_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_vertical_rearra_providers_list';
+  $strongarm->value = '';
+  $export['socialshare_vertical_rearra_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_vertical_show_exceptpages';
+  $strongarm->value = '';
+  $export['socialshare_vertical_show_exceptpages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_vertical_show_pages';
+  $strongarm->value = '0';
+  $export['socialshare_vertical_show_pages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialshare_vertical_show_providers_list';
+  $strongarm->value = array(
+    'facebook' => 'facebook',
+    'googleplus' => 'googleplus',
+    'twitter' => 'twitter',
+    'pinterest' => 'pinterest',
+    'google' => 'google',
+  );
+  $export['socialshare_vertical_show_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'stickynav-enabled-admindora';
+  $strongarm->value = 0;
+  $export['stickynav-enabled-admindora'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'stickynav-enabled-saas';
+  $strongarm->value = 1;
+  $export['stickynav-enabled-saas'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'stickynav-roles-admindora';
+  $strongarm->value = array(
+    1 => 0,
+    2 => 0,
+    3 => 0,
+  );
+  $export['stickynav-roles-admindora'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'stickynav-roles-saas';
+  $strongarm->value = array(
+    1 => 0,
+    2 => 0,
+    3 => 0,
+  );
+  $export['stickynav-roles-saas'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'stickynav-selector-admindora';
+  $strongarm->value = '';
+  $export['stickynav-selector-admindora'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'stickynav-selector-saas';
+  $strongarm->value = '#main-menu';
+  $export['stickynav-selector-saas'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
