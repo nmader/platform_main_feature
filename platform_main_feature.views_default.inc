@@ -838,12 +838,24 @@ function platform_main_feature_views_default_views() {
     'image_link' => '',
   );
   $handler->display->display_options['fields']['field_page_image']['delta_offset'] = '0';
+  /* Field: Content: Link Path */
+  $handler->display->display_options['fields']['field_link_path']['id'] = 'field_link_path';
+  $handler->display->display_options['fields']['field_link_path']['table'] = 'field_data_field_link_path';
+  $handler->display->display_options['fields']['field_link_path']['field'] = 'field_link_path';
+  $handler->display->display_options['fields']['field_link_path']['label'] = '';
+  $handler->display->display_options['fields']['field_link_path']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_link_path']['alter']['strip_tags'] = TRUE;
+  $handler->display->display_options['fields']['field_link_path']['element_label_colon'] = FALSE;
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title_1']['id'] = 'title_1';
   $handler->display->display_options['fields']['title_1']['table'] = 'node';
   $handler->display->display_options['fields']['title_1']['field'] = 'title';
   $handler->display->display_options['fields']['title_1']['label'] = '';
+  $handler->display->display_options['fields']['title_1']['alter']['make_link'] = TRUE;
+  $handler->display->display_options['fields']['title_1']['alter']['path'] = '[field_link_path]';
+  $handler->display->display_options['fields']['title_1']['alter']['alt'] = '[title_1]';
   $handler->display->display_options['fields']['title_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title_1']['link_to_node'] = FALSE;
   /* Field: Content: BHOF subtitle */
   $handler->display->display_options['fields']['field_bhof_subtitle']['id'] = 'field_bhof_subtitle';
   $handler->display->display_options['fields']['field_bhof_subtitle']['table'] = 'field_data_field_bhof_subtitle';
@@ -857,14 +869,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['uri']['relationship'] = 'node_to_file';
   $handler->display->display_options['fields']['uri']['label'] = '';
   $handler->display->display_options['fields']['uri']['element_label_colon'] = FALSE;
-  /* Field: Content: Link Path */
-  $handler->display->display_options['fields']['field_link_path']['id'] = 'field_link_path';
-  $handler->display->display_options['fields']['field_link_path']['table'] = 'field_data_field_link_path';
-  $handler->display->display_options['fields']['field_link_path']['field'] = 'field_link_path';
-  $handler->display->display_options['fields']['field_link_path']['label'] = '';
-  $handler->display->display_options['fields']['field_link_path']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['field_link_path']['alter']['strip_tags'] = TRUE;
-  $handler->display->display_options['fields']['field_link_path']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Title */
   $handler->display->display_options['sorts']['title']['id'] = 'title';
   $handler->display->display_options['sorts']['title']['table'] = 'node';
@@ -907,6 +911,7 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('image from field_image_block'),
     t('File'),
+    t('[title_1]'),
     t('Block'),
   );
   $export['front_page_image'] = $view;
@@ -1312,15 +1317,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['empty']['entity']['entity_id'] = 'islandora:root';
   $handler->display->display_options['empty']['entity']['view_mode'] = 'default';
   $handler->display->display_options['empty']['entity']['bypass_access'] = 0;
-  /* Field: Islandora Solr: dc.title */
-  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
-  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
-  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
-  $handler->display->display_options['fields']['dc.title']['label'] = '';
-  $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['dc.title']['hide_alter_empty'] = FALSE;
-  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
   /* Field: Islandora Solr: PID */
   $handler->display->display_options['fields']['PID']['id'] = 'PID';
   $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
@@ -1329,20 +1325,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['PID']['hide_alter_empty'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
-  /* Field: Islandora Solr: mods_titleInfo_subTitle_ms */
-  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['id'] = 'mods_titleInfo_subTitle_ms';
-  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['table'] = 'islandora_solr';
-  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['field'] = 'mods_titleInfo_subTitle_ms';
-  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['label'] = '';
-  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['link_to_object'] = 0;
-  /* Field: Islandora Solr: fgs_createdDate_dt */
-  $handler->display->display_options['fields']['fgs_createdDate_dt']['id'] = 'fgs_createdDate_dt';
-  $handler->display->display_options['fields']['fgs_createdDate_dt']['table'] = 'islandora_solr';
-  $handler->display->display_options['fields']['fgs_createdDate_dt']['field'] = 'fgs_createdDate_dt';
-  $handler->display->display_options['fields']['fgs_createdDate_dt']['label'] = 'Inducted to the Hall of Fame in';
-  $handler->display->display_options['fields']['fgs_createdDate_dt']['link_to_object'] = 0;
-  $handler->display->display_options['fields']['fgs_createdDate_dt']['date_format'] = 'short';
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
@@ -1353,7 +1335,8 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
-  $handler->display->display_options['arguments']['PID']['specify_validation'] = TRUE;
+  $handler->display->display_options['arguments']['PID']['validate']['type'] = 'php';
+  $handler->display->display_options['arguments']['PID']['validate_options']['code'] = 'return TRUE;';
   $handler->display->display_options['arguments']['PID']['validate']['fail'] = 'ignore';
 
   /* Display: Block */
@@ -1366,7 +1349,6 @@ function platform_main_feature_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('Inducted to the Hall of Fame in'),
     t('All'),
     t('Block'),
   );
