@@ -1204,11 +1204,11 @@ function platform_main_feature_node_export_features_default() {
       \'type\' => \'bhof_basic_page\',
       \'language\' => \'en\',
       \'created\' => \'1455907685\',
-      \'changed\' => \'1456147767\',
+      \'changed\' => \'1458239390\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'5a3d67c3-3f29-4549-a0b0-2647a9b9365d\',
-      \'revision_timestamp\' => \'1456147767\',
+      \'revision_timestamp\' => \'1458239390\',
       \'revision_uid\' => \'1\',
       \'body\' => array(),
       \'field_page_image\' => array(
@@ -1234,7 +1234,15 @@ function platform_main_feature_node_export_features_default() {
       ),
       \'field_page_image_description\' => array(),
       \'field_bhof_subtitle\' => array(),
-      \'field_link_path\' => array(),
+      \'field_link_path\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'islandora\',
+            \'format\' => NULL,
+            \'safe_value\' => \'islandora\',
+          ),
+        ),
+      ),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
