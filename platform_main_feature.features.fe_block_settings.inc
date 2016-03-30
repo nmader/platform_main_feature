@@ -443,7 +443,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['islandora_solr-simple'] = array(
     'cache' => -1,
-    'css_class' => 'islandora-simple-search',
+    'css_class' => 'islandora-simple-search block-border-bottom',
     'custom' => 0,
     'delta' => 'simple',
     'module' => 'islandora_solr',
@@ -788,8 +788,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'nyam_theme',
         'weight' => -37,
       ),
