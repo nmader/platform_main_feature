@@ -558,33 +558,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_search:node/20.
-  $menu_links['menu-header-menu_search:node/20'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/20',
-    'router_path' => 'node/%',
-    'link_title' => 'SEARCH',
-    'options' => array(
-      'attributes' => array(
-        'class' => array(
-          0 => 'search-header',
-        ),
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-header-menu_search:node/20',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -40,
-    'customized' => 1,
-  );
   // Exported menu link: menu-header-menu_support:http://www.nyam.org/support.
   $menu_links['menu-header-menu_support:http://www.nyam.org/support'] = array(
     'menu_name' => 'menu-header-menu',
@@ -702,7 +675,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Publications');
   t('Research and Services');
   t('Researchers');
-  t('SEARCH');
   t('Spokespersons');
   t('Subscribe (RSS)');
   t('Support');

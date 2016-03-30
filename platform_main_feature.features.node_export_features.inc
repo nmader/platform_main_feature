@@ -692,6 +692,13 @@ function platform_main_feature_node_export_features_default() {
           ),
         ),
       ),
+      \'field_view_order\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'1\',
+          ),
+        ),
+      ),
       \'files\' => array(),
       \'language\' => \'en\',
       \'last_comment_name\' => NULL,
@@ -808,6 +815,13 @@ function platform_main_feature_node_export_features_default() {
             \'value\' => \'https://www.facebook.com/\',
             \'format\' => NULL,
             \'safe_value\' => \'https://www.facebook.com/\',
+          ),
+        ),
+      ),
+      \'field_view_order\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'2\',
           ),
         ),
       ),
@@ -1350,6 +1364,13 @@ function platform_main_feature_node_export_features_default() {
           ),
         ),
       ),
+      \'field_view_order\' => array(
+        \'und\' => array(
+          array(
+            \'value\' => \'3\',
+          ),
+        ),
+      ),
       \'files\' => array(),
       \'language\' => \'en\',
       \'last_comment_name\' => NULL,
@@ -1738,125 +1759,6 @@ function platform_main_feature_node_export_features_default() {
       \'vuuid\' => \'4e58a48a-6a98-404f-8faa-b86676447c44\',
     ),
   (object) array(
-      \'body\' => array(),
-      \'changed\' => NULL,
-      \'cid\' => \'0\',
-      \'comment\' => \'1\',
-      \'comment_count\' => \'0\',
-      \'created\' => NULL,
-      \'data\' => NULL,
-      \'field_social_icon\' => array(
-        \'und\' => array(
-          array(
-            \'fid\' => NULL,
-            \'uid\' => \'1\',
-            \'filename\' => \'Pinterest.png\',
-            \'uri\' => \'public://Pinterest.png\',
-            \'filemime\' => \'image/png\',
-            \'filesize\' => \'3924\',
-            \'status\' => \'1\',
-            \'timestamp\' => \'1457973778\',
-            \'uuid\' => \'8f85311f-ebb5-4e71-922e-e965caacc04b\',
-            \'rdf_mapping\' => array(),
-            \'alt\' => \'\',
-            \'title\' => \'\',
-            \'width\' => \'32\',
-            \'height\' => \'32\',
-            \'node_export_file_data\' => \'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\',
-          ),
-        ),
-      ),
-      \'field_social_link\' => array(
-        \'und\' => array(
-          array(
-            \'value\' => \'https://www.pinterest.com/\',
-            \'format\' => NULL,
-            \'safe_value\' => \'https://www.pinterest.com/\',
-          ),
-        ),
-      ),
-      \'files\' => array(),
-      \'language\' => \'en\',
-      \'last_comment_name\' => NULL,
-      \'last_comment_timestamp\' => NULL,
-      \'last_comment_uid\' => \'1\',
-      \'log\' => \'\',
-      \'menu\' => NULL,
-      \'name\' => \'islandora\',
-      \'nid\' => NULL,
-      \'node_export_drupal_version\' => \'7\',
-      \'path\' => NULL,
-      \'picture\' => \'0\',
-      \'promote\' => \'0\',
-      \'rdf_mapping\' => array(
-        \'rdftype\' => array(
-          \'sioc:Item\',
-          \'foaf:Document\',
-        ),
-        \'title\' => array(
-          \'predicates\' => array(
-            \'dc:title\',
-          ),
-        ),
-        \'created\' => array(
-          \'predicates\' => array(
-            \'dc:date\',
-            \'dc:created\',
-          ),
-          \'datatype\' => \'xsd:dateTime\',
-          \'callback\' => \'date_iso8601\',
-        ),
-        \'changed\' => array(
-          \'predicates\' => array(
-            \'dc:modified\',
-          ),
-          \'datatype\' => \'xsd:dateTime\',
-          \'callback\' => \'date_iso8601\',
-        ),
-        \'body\' => array(
-          \'predicates\' => array(
-            \'content:encoded\',
-          ),
-        ),
-        \'uid\' => array(
-          \'predicates\' => array(
-            \'sioc:has_creator\',
-          ),
-          \'type\' => \'rel\',
-        ),
-        \'name\' => array(
-          \'predicates\' => array(
-            \'foaf:name\',
-          ),
-        ),
-        \'comment_count\' => array(
-          \'predicates\' => array(
-            \'sioc:num_replies\',
-          ),
-          \'datatype\' => \'xsd:integer\',
-        ),
-        \'last_activity\' => array(
-          \'predicates\' => array(
-            \'sioc:last_activity_date\',
-          ),
-          \'datatype\' => \'xsd:dateTime\',
-          \'callback\' => \'date_iso8601\',
-        ),
-      ),
-      \'revision_timestamp\' => NULL,
-      \'revision_uid\' => \'1\',
-      \'status\' => \'1\',
-      \'sticky\' => \'0\',
-      \'title\' => \'Pintrest\',
-      \'tnid\' => \'0\',
-      \'translate\' => \'0\',
-      \'type\' => \'social_link\',
-      \'uid\' => \'1\',
-      \'uuid\' => \'8ed60819-66dd-4f61-890b-9b0ce3c718c8\',
-      \'vid\' => NULL,
-      \'vuuid\' => \'033002f0-ee07-46a4-b1ed-b3821d7678b8\',
-    ),
-  (object) array(
       \'body\' => array(
         \'und\' => array(
           array(
@@ -2075,125 +1977,6 @@ function platform_main_feature_node_export_features_default() {
       \'uuid\' => \'9c8f491e-d901-4fc8-9b5d-75490185bdd6\',
       \'vid\' => NULL,
       \'vuuid\' => \'eaea4d5c-8206-482e-a95d-24975b39a4b6\',
-    ),
-  (object) array(
-      \'body\' => array(),
-      \'changed\' => NULL,
-      \'cid\' => \'0\',
-      \'comment\' => \'1\',
-      \'comment_count\' => \'0\',
-      \'created\' => NULL,
-      \'data\' => NULL,
-      \'field_social_icon\' => array(
-        \'und\' => array(
-          array(
-            \'fid\' => NULL,
-            \'uid\' => \'1\',
-            \'filename\' => \'Instagram.png\',
-            \'uri\' => \'public://Instagram.png\',
-            \'filemime\' => \'image/png\',
-            \'filesize\' => \'3868\',
-            \'status\' => \'1\',
-            \'timestamp\' => \'1457973778\',
-            \'uuid\' => \'0caaa13a-3cca-4fde-a9f8-ab2a3373b8c9\',
-            \'rdf_mapping\' => array(),
-            \'alt\' => \'\',
-            \'title\' => \'\',
-            \'width\' => \'32\',
-            \'height\' => \'32\',
-            \'node_export_file_data\' => \'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\',
-          ),
-        ),
-      ),
-      \'field_social_link\' => array(
-        \'und\' => array(
-          array(
-            \'value\' => \'https://instagram.com/\',
-            \'format\' => NULL,
-            \'safe_value\' => \'https://instagram.com/\',
-          ),
-        ),
-      ),
-      \'files\' => array(),
-      \'language\' => \'en\',
-      \'last_comment_name\' => NULL,
-      \'last_comment_timestamp\' => NULL,
-      \'last_comment_uid\' => \'1\',
-      \'log\' => \'\',
-      \'menu\' => NULL,
-      \'name\' => \'islandora\',
-      \'nid\' => NULL,
-      \'node_export_drupal_version\' => \'7\',
-      \'path\' => NULL,
-      \'picture\' => \'0\',
-      \'promote\' => \'0\',
-      \'rdf_mapping\' => array(
-        \'rdftype\' => array(
-          \'sioc:Item\',
-          \'foaf:Document\',
-        ),
-        \'title\' => array(
-          \'predicates\' => array(
-            \'dc:title\',
-          ),
-        ),
-        \'created\' => array(
-          \'predicates\' => array(
-            \'dc:date\',
-            \'dc:created\',
-          ),
-          \'datatype\' => \'xsd:dateTime\',
-          \'callback\' => \'date_iso8601\',
-        ),
-        \'changed\' => array(
-          \'predicates\' => array(
-            \'dc:modified\',
-          ),
-          \'datatype\' => \'xsd:dateTime\',
-          \'callback\' => \'date_iso8601\',
-        ),
-        \'body\' => array(
-          \'predicates\' => array(
-            \'content:encoded\',
-          ),
-        ),
-        \'uid\' => array(
-          \'predicates\' => array(
-            \'sioc:has_creator\',
-          ),
-          \'type\' => \'rel\',
-        ),
-        \'name\' => array(
-          \'predicates\' => array(
-            \'foaf:name\',
-          ),
-        ),
-        \'comment_count\' => array(
-          \'predicates\' => array(
-            \'sioc:num_replies\',
-          ),
-          \'datatype\' => \'xsd:integer\',
-        ),
-        \'last_activity\' => array(
-          \'predicates\' => array(
-            \'sioc:last_activity_date\',
-          ),
-          \'datatype\' => \'xsd:dateTime\',
-          \'callback\' => \'date_iso8601\',
-        ),
-      ),
-      \'revision_timestamp\' => NULL,
-      \'revision_uid\' => \'1\',
-      \'status\' => \'1\',
-      \'sticky\' => \'0\',
-      \'title\' => \'Instagram\',
-      \'tnid\' => \'0\',
-      \'translate\' => \'0\',
-      \'type\' => \'social_link\',
-      \'uid\' => \'1\',
-      \'uuid\' => \'b2d003bb-70f3-4daa-9419-f49c72a9934f\',
-      \'vid\' => NULL,
-      \'vuuid\' => \'5acb5c2e-7f93-48d0-a166-940104efeb46\',
     ),
   (object) array(
       \'body\' => array(),
