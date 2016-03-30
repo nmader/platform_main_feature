@@ -533,16 +533,12 @@ function platform_main_feature_strongarm() {
     'zen_wireframes' => 0,
     'donate_text' => 'Donate Now',
     'donate_link' => 'http://baseballhall.org',
-    'logo_link' => 'http://baseballhall.org',
-    'front_title' => 'Archive and Collection And more!!',
-    'front_sub_title' => 'Digital Archive Project',
+    'logo_link' => '/',
     'hero_plaque_datastream' => 'PLAQUE',
     'access_condition_field' => 'mods_accessCondition_ms',
-    'watermark_ds' => 'JPG',
     'hero_image_ds' => 'COLLECTION_IMAGE',
     'basic_image_wm_ds' => 'OBJ',
     'large_image_wm_ds' => 'JPG',
-    'front_sub_search' => '1',
     'jquery_update_jquery_version' => '',
   );
   $export['theme_bhof_theme_settings'] = $strongarm;

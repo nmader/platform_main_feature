@@ -417,6 +417,12 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
+  /* Filter criterion: Islandora Solr: RELS_EXT_hasModel_uri_mt */
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['id'] = 'RELS_EXT_hasModel_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['field'] = 'RELS_EXT_hasModel_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['operator'] = '!=';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['value'] = 'islandora:collectionCModel';
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
@@ -575,6 +581,7 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $handler->display->display_options['enabled'] = FALSE;
   $translatables['exsection_status'] = array(
     t('Master'),
     t('Exsection Status'),
@@ -1720,6 +1727,7 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $handler->display->display_options['enabled'] = FALSE;
   $translatables['thumb_details'] = array(
     t('Master'),
     t('Thumb Details'),
