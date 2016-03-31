@@ -238,6 +238,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '1';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'owlcarousel';
+  $handler->display->display_options['style_options']['instance'] = 'owlcarousel_settings_frontpage-slideshow';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Field: Islandora Solr: PID */
   $handler->display->display_options['fields']['PID']['id'] = 'PID';
