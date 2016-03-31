@@ -168,6 +168,7 @@ features[variable][] = designkit_color
 features[variable][] = error_level
 features[variable][] = field_bundle_settings_node__front_page
 features[variable][] = field_bundle_settings_node__page
+features[variable][] = islandora_basic_collection_display_backend
 features[variable][] = islandora_bookmark_create_user_default_lists
 features[variable][] = islandora_bookmark_default_list_name
 features[variable][] = islandora_bookmark_default_list_view
