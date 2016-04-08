@@ -71,7 +71,7 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_show_print_option';
   $strongarm->value = 1;
-  $export['back_to_top_prevent_on_mobile'] = $strongarm;
+  $export['islandora_show_print_option'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
