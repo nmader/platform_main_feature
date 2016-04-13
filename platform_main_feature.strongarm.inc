@@ -69,13 +69,6 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'islandora_show_print_option';
-  $strongarm->value = 1;
-  $export['islandora_show_print_option'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'back_to_top_text_color';
   $strongarm->value = '#333333';
   $export['back_to_top_text_color'] = $strongarm;
@@ -117,6 +110,13 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'error_level';
   $strongarm->value = '2';
   $export['error_level'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_show_print_option';
+  $strongarm->value = 1;
+  $export['islandora_show_print_option'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
