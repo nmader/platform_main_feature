@@ -10,7 +10,7 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_home:<front>
+  // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
@@ -27,7 +27,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-engage_support-us:http://baseballhall.org/support
+  // Exported menu link: menu-engage_support-us:http://baseballhall.org/support.
   $menu_links['menu-engage_support-us:http://baseballhall.org/support'] = array(
     'menu_name' => 'menu-engage',
     'link_path' => 'http://baseballhall.org/support',
@@ -45,7 +45,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-engage_visit-our-shop:http://www.shop.baseballhall.org
+  // Exported menu link: menu-engage_visit-our-shop:http://www.shop.baseballhall.org.
   $menu_links['menu-engage_visit-our-shop:http://www.shop.baseballhall.org'] = array(
     'menu_name' => 'menu-engage',
     'link_path' => 'http://www.shop.baseballhall.org',
@@ -63,7 +63,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_creative-content-license:node/1
+  // Exported menu link: menu-footer-menu_creative-content-license:node/1.
   $menu_links['menu-footer-menu_creative-content-license:node/1'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/1',
@@ -80,7 +80,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d
+  // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d',
@@ -98,7 +98,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_login:user/login
+  // Exported menu link: menu-footer-menu_login:user/login.
   $menu_links['menu-footer-menu_login:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/login',
@@ -116,7 +116,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_logout:user/logout
+  // Exported menu link: menu-footer-menu_logout:user/logout.
   $menu_links['menu-footer-menu_logout:user/logout'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/logout',
@@ -134,7 +134,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_make-contact:node/4
+  // Exported menu link: menu-footer-menu_make-contact:node/4.
   $menu_links['menu-footer-menu_make-contact:node/4'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/4',
@@ -151,7 +151,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
+  // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
   $menu_links['menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
@@ -169,7 +169,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_policies:node/10
+  // Exported menu link: menu-footer-menu_policies:node/10.
   $menu_links['menu-footer-menu_policies:node/10'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/10',
@@ -186,7 +186,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523
+  // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523.
   $menu_links['menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
@@ -204,7 +204,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_researchers:node/2
+  // Exported menu link: menu-footer-menu_researchers:node/2.
   $menu_links['menu-footer-menu_researchers:node/2'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'node/2',
@@ -221,7 +221,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 0,
   );
-  // Exported menu link: menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005
+  // Exported menu link: menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005.
   $menu_links['menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'uuid/node/11ab3414-deb5-4985-9797-1a90ac057005',
@@ -239,7 +239,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5
+  // Exported menu link: menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
   $menu_links['menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
@@ -257,7 +257,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_bookmarks:islandora-bookmark
+  // Exported menu link: menu-header-menu_bookmarks:islandora-bookmark.
   $menu_links['menu-header-menu_bookmarks:islandora-bookmark'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'islandora-bookmark',
@@ -280,7 +280,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_browse:islandora
+  // Exported menu link: menu-header-menu_browse:islandora.
   $menu_links['menu-header-menu_browse:islandora'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'islandora',
@@ -303,31 +303,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_featured:islandora/object/islandora:featured_collection
-  $menu_links['menu-header-menu_featured:islandora/object/islandora:featured_collection'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora/object/islandora:featured_collection',
-    'router_path' => 'islandora/object/%',
-    'link_title' => 'Featured',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-header-menu_featured:islandora/object/islandora:featured_collection',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'menu-header-menu_browse:islandora',
-  );
-  // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
+  // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
   $menu_links['menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
@@ -345,7 +321,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -44,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f
+  // Exported menu link: menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f.
   $menu_links['menu-header-menu_search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
@@ -382,7 +358,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search
+  // Exported menu link: menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search.
   $menu_links['menu-media-and-research-material_abner-online-library-catalog:http://www.abner.baseballhalloffame.org/search'] = array(
     'menu_name' => 'menu-media-and-research-material',
     'link_path' => 'http://www.abner.baseballhalloffame.org/search',
@@ -400,7 +376,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-media-and-research-material_media-info:http://baseballhall.org/media-info
+  // Exported menu link: menu-media-and-research-material_media-info:http://baseballhall.org/media-info.
   $menu_links['menu-media-and-research-material_media-info:http://baseballhall.org/media-info'] = array(
     'menu_name' => 'menu-media-and-research-material',
     'link_path' => 'http://baseballhall.org/media-info',
@@ -418,7 +394,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-media-and-research-material_news:http://baseballhall.org/news
+  // Exported menu link: menu-media-and-research-material_news:http://baseballhall.org/news.
   $menu_links['menu-media-and-research-material_news:http://baseballhall.org/news'] = array(
     'menu_name' => 'menu-media-and-research-material',
     'link_path' => 'http://baseballhall.org/news',
@@ -436,7 +412,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-useful-links_employment:http://baseballhall.org/employment
+  // Exported menu link: menu-useful-links_employment:http://baseballhall.org/employment.
   $menu_links['menu-useful-links_employment:http://baseballhall.org/employment'] = array(
     'menu_name' => 'menu-useful-links',
     'link_path' => 'http://baseballhall.org/employment',
@@ -454,7 +430,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-useful-links_privacy-statementyour-california-privacy-rights:http://baseballhall.org/privacy-statement
+  // Exported menu link: menu-useful-links_privacy-statementyour-california-privacy-rights:http://baseballhall.org/privacy-statement.
   $menu_links['menu-useful-links_privacy-statementyour-california-privacy-rights:http://baseballhall.org/privacy-statement'] = array(
     'menu_name' => 'menu-useful-links',
     'link_path' => 'http://baseballhall.org/privacy-statement',
@@ -481,7 +457,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-useful-links_terms:http://baseballhall.org/terms
+  // Exported menu link: menu-useful-links_terms:http://baseballhall.org/terms.
   $menu_links['menu-useful-links_terms:http://baseballhall.org/terms'] = array(
     'menu_name' => 'menu-useful-links',
     'link_path' => 'http://baseballhall.org/terms',
@@ -508,7 +484,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Browse');
   t('Creative content license');
   t('Employment');
-  t('Featured');
   t('Home');
   t('Login');
   t('Logout');

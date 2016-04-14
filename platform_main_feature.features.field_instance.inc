@@ -10,7 +10,7 @@
 function platform_main_feature_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'comment-comment_node_article-comment_body'
+  // Exported field_instance: 'comment-comment_node_article-comment_body'.
   $field_instances['comment-comment_node_article-comment_body'] = array(
     'bundle' => 'comment_node_article',
     'default_value' => NULL,
@@ -44,7 +44,7 @@ function platform_main_feature_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'comment-comment_node_bhof_basic_page-comment_body'
+  // 'comment-comment_node_bhof_basic_page-comment_body'.
   $field_instances['comment-comment_node_bhof_basic_page-comment_body'] = array(
     'bundle' => 'comment_node_bhof_basic_page',
     'default_value' => NULL,
@@ -77,7 +77,7 @@ function platform_main_feature_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'comment-comment_node_image_block-comment_body'
+  // Exported field_instance: 'comment-comment_node_image_block-comment_body'.
   $field_instances['comment-comment_node_image_block-comment_body'] = array(
     'bundle' => 'comment_node_image_block',
     'default_value' => NULL,
@@ -110,7 +110,7 @@ function platform_main_feature_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'comment-comment_node_page-comment_body'
+  // Exported field_instance: 'comment-comment_node_page-comment_body'.
   $field_instances['comment-comment_node_page-comment_body'] = array(
     'bundle' => 'comment_node_page',
     'default_value' => NULL,
@@ -143,7 +143,7 @@ function platform_main_feature_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-article-body'
+  // Exported field_instance: 'node-article-body'.
   $field_instances['node-article-body'] = array(
     'bundle' => 'article',
     'default_value' => NULL,
@@ -187,7 +187,7 @@ function platform_main_feature_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-article-field_image'
+  // Exported field_instance: 'node-article-field_image'.
   $field_instances['node-article-field_image'] = array(
     'bundle' => 'article',
     'deleted' => 0,
@@ -241,7 +241,7 @@ function platform_main_feature_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-article-field_tags'
+  // Exported field_instance: 'node-article-field_tags'.
   $field_instances['node-article-field_tags'] = array(
     'bundle' => 'article',
     'default_value' => NULL,
