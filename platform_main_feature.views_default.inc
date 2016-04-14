@@ -353,7 +353,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
-  /* Filter criterion: Islandora Solr: mods_targetAudience_mt */
+  /* Filter criterion: Broken/missing handler */
   $handler->display->display_options['filters']['mods_targetAudience_mt']['id'] = 'mods_targetAudience_mt';
   $handler->display->display_options['filters']['mods_targetAudience_mt']['table'] = 'islandora_solr';
   $handler->display->display_options['filters']['mods_targetAudience_mt']['field'] = 'mods_targetAudience_mt';
@@ -1383,14 +1383,13 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Islandora Solr: mods_titleInfo_subTitle_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['id'] = 'mods_titleInfo_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['field'] = 'mods_titleInfo_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['alter']['strip_tags'] = TRUE;
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
@@ -1787,18 +1786,18 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search Dimensions: ga:searchCategory */
+  /* Field: Internal search dimensions: Site Search Category */
   $handler->display->display_options['fields']['facet']['id'] = 'facet';
   $handler->display->display_options['fields']['facet']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['facet']['field'] = 'searchCategory';
   $handler->display->display_options['fields']['facet']['label'] = 'Facet Terms';
   $handler->display->display_options['fields']['facet']['alter']['path'] = '[facet]';
-  /* Field: Internal Search Metrics: ga:searchResultViews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search Metrics: ga:searchResultViews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -1818,6 +1817,8 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('Facet Terms'),
     t('# of Searches'),
+    t('.'),
+    t(','),
     t('Block'),
   );
   $export['top_facet_searches'] = $view;
@@ -1865,17 +1866,17 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search Dimensions: ga:searchKeyword */
+  /* Field: Internal search dimensions: Search Term */
   $handler->display->display_options['fields']['search']['id'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['search']['field'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['label'] = 'Search Terms';
-  /* Field: Internal Search Metrics: ga:searchResultViews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search Metrics: ga:searchResultViews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -1904,6 +1905,8 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('Search Terms'),
     t('# of Searches'),
+    t('.'),
+    t(','),
     t('Block'),
     t('You need to configure Google Analytics to show the Top Site Searches'),
   );
