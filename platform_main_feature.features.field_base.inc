@@ -10,7 +10,7 @@
 function platform_main_feature_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_image_url'
+  // Exported field_base: 'field_image_url'.
   $field_bases['field_image_url'] = array(
     'active' => 1,
     'cardinality' => 1,
