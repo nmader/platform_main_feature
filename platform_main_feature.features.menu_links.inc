@@ -10,7 +10,7 @@
 function platform_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_home:<front>
+  // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
@@ -27,7 +27,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-browse-content_root-collection:islandora
+  // Exported menu link: menu-browse-content_root-collection:islandora.
   $menu_links['menu-browse-content_root-collection:islandora'] = array(
     'menu_name' => 'menu-browse-content',
     'link_path' => 'islandora',
@@ -47,7 +47,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-lower-menu_-university-of-connecticut:http://uconn.edu
+  // Exported menu link: menu-footer-lower-menu_-university-of-connecticut:http://uconn.edu.
   $menu_links['menu-footer-lower-menu_-university-of-connecticut:http://uconn.edu'] = array(
     'menu_name' => 'menu-footer-lower-menu',
     'link_path' => 'http://uconn.edu',
@@ -67,7 +67,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-lower-menu_disclaimers-privacy--copyright:http://uconn.edu/disclaimers-privacy-copyright/
+  // Exported menu link: menu-footer-lower-menu_disclaimers-privacy--copyright:http://uconn.edu/disclaimers-privacy-copyright/.
   $menu_links['menu-footer-lower-menu_disclaimers-privacy--copyright:http://uconn.edu/disclaimers-privacy-copyright/'] = array(
     'menu_name' => 'menu-footer-lower-menu',
     'link_path' => 'http://uconn.edu/disclaimers-privacy-copyright/',
@@ -87,7 +87,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_about:http://lib.uconn.edu/services/research/research-data/archiving/
+  // Exported menu link: menu-footer-menu_about:http://lib.uconn.edu/services/research/research-data/archiving/.
   $menu_links['menu-footer-menu_about:http://lib.uconn.edu/services/research/research-data/archiving/'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'http://lib.uconn.edu/services/research/research-data/archiving/',
@@ -107,7 +107,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_feedback:mailto:researchdata@lib.uconn.edu
+  // Exported menu link: menu-footer-menu_feedback:mailto:researchdata@lib.uconn.edu.
   $menu_links['menu-footer-menu_feedback:mailto:researchdata@lib.uconn.edu'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'mailto:researchdata@lib.uconn.edu',
@@ -127,7 +127,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_login:user/login
+  // Exported menu link: menu-footer-menu_login:user/login.
   $menu_links['menu-footer-menu_login:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/login',
@@ -147,7 +147,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_logout:user/logout
+  // Exported menu link: menu-footer-menu_logout:user/logout.
   $menu_links['menu-footer-menu_logout:user/logout'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/logout',
@@ -167,7 +167,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_policies:http://lib.uconn.edu/services/research/research-data/archiving/
+  // Exported menu link: menu-footer-menu_policies:http://lib.uconn.edu/services/research/research-data/archiving/.
   $menu_links['menu-footer-menu_policies:http://lib.uconn.edu/services/research/research-data/archiving/'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'http://lib.uconn.edu/services/research/research-data/archiving/',
@@ -187,7 +187,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_submit:http://research.lib.uconn.edu/submit
+  // Exported menu link: menu-footer-menu_submit:http://research.lib.uconn.edu/submit.
   $menu_links['menu-footer-menu_submit:http://research.lib.uconn.edu/submit'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'http://research.lib.uconn.edu/submit',
@@ -207,7 +207,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5
+  // Exported menu link: menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
   $menu_links['menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
@@ -227,7 +227,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_browse-repository:islandora/object/islandora:root
+  // Exported menu link: menu-header-menu_browse-repository:islandora/object/islandora:root.
   $menu_links['menu-header-menu_browse-repository:islandora/object/islandora:root'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'islandora/object/islandora:root',
@@ -250,7 +250,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 0,
   );
-  // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
+  // Exported menu link: menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
   $menu_links['menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
@@ -270,7 +270,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_my-bookmarks:islandora-bookmark
+  // Exported menu link: menu-header-menu_my-bookmarks:islandora-bookmark.
   $menu_links['menu-header-menu_my-bookmarks:islandora-bookmark'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'islandora-bookmark',
@@ -290,7 +290,7 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-library-support_support-the-libraries:http://lib.uconn.edu/about/giving/
+  // Exported menu link: menu-library-support_support-the-libraries:http://lib.uconn.edu/about/giving/.
   $menu_links['menu-library-support_support-the-libraries:http://lib.uconn.edu/about/giving/'] = array(
     'menu_name' => 'menu-library-support',
     'link_path' => 'http://lib.uconn.edu/about/giving/',
@@ -310,11 +310,32 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-news_book-content-model-workshop:islandora.
+  $menu_links['menu-news_book-content-model-workshop:islandora'] = array(
+    'menu_name' => 'menu-news',
+    'link_path' => 'islandora',
+    'router_path' => 'islandora',
+    'link_title' => 'Book content model workshop',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-news_book-content-model-workshop:islandora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('About');
   t('About this site');
+  t('Book content model workshop');
   t('Browse repository');
   t('Disclaimers, Privacy & Copyright');
   t('Feedback');

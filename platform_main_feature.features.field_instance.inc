@@ -10,7 +10,7 @@
 function platform_main_feature_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-image_block-field_image_url'
+  // Exported field_instance: 'node-image_block-field_image_url'.
   $field_instances['node-image_block-field_image_url'] = array(
     'bundle' => 'image_block',
     'default_value' => NULL,
