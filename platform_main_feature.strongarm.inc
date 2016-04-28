@@ -540,13 +540,13 @@ function platform_main_feature_strongarm() {
     'zen_wireframes' => 0,
     'donate_text' => 'Donate Now',
     'donate_link' => 'http://baseballhall.org',
+    'collection_search_on_cmodel_pages' => '1',
     'logo_link' => '/',
     'hero_plaque_datastream' => 'PLAQUE',
     'access_condition_field' => 'mods_accessCondition_ms',
     'hero_image_ds' => 'COLLECTION_IMAGE',
     'basic_image_wm_ds' => 'OBJ',
     'large_image_wm_ds' => 'JPG',
-    'jquery_update_jquery_version' => '',
   );
   $export['theme_bhof_theme_settings'] = $strongarm;
 
