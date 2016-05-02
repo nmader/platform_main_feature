@@ -458,8 +458,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'nyam_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'nyam_theme',
         'weight' => -41,
       ),

@@ -450,7 +450,7 @@ function platform_main_feature_strongarm() {
     'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
     'nyam_theme_omit' => 0,
-    'nyam_theme_background_image_datastream' => 'TN',
+    'nyam_theme_background_image_datastream' => 'SLIDE',
     'designkit_color' => array(
       'background' => '#032a17',
       'header' => '#ffffff',
