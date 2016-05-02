@@ -317,10 +317,15 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'islandora',
     'link_title' => 'Book content model workshop',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
       'identifier' => 'menu-news_book-content-model-workshop:islandora',
+      'attributes' => array(
+        'target' => '_blank',
+      ),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
     ),
     'module' => 'menu',
     'hidden' => 0,
