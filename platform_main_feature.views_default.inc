@@ -29,9 +29,11 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'some';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '9';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '0';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'grid';
   $handler->display->display_options['style_options']['columns'] = '3';
+  $handler->display->display_options['style_options']['alignment'] = 'vertical';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Field: Islandora Solr: fgs_label_s */
   $handler->display->display_options['fields']['fgs_label_s']['id'] = 'fgs_label_s';
@@ -56,6 +58,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
   $handler->display->display_options['fields']['dc.title']['label'] = '';
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['element_wrapper_class'] = 'ac-title';
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
   /* Field: Islandora Solr: dc.description */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
@@ -63,6 +66,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['label'] = '';
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.description']['element_wrapper_class'] = 'ac-description';
   $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
   /* Filter criterion: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_mt */
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['id'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
