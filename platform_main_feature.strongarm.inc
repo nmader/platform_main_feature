@@ -180,6 +180,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_metadata_display';
+  $strongarm->value = 'bhofdora_metadata_view';
+  $export['islandora_metadata_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_show_print_option';
   $strongarm->value = 1;
   $export['islandora_show_print_option'] = $strongarm;
