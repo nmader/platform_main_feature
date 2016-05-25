@@ -108,7 +108,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
-  $strongarm->value = '0';
+  $strongarm->value = '2';
   $export['error_level'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -156,7 +156,7 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'theme_ir7_settings';
+  $strongarm->name = 'theme_ir7_saas_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
     'toggle_name' => 1,
@@ -179,13 +179,12 @@ function platform_main_feature_strongarm() {
     'zen_breadcrumb_title' => 0,
     'zen_skip_link_anchor' => 'main-menu',
     'zen_skip_link_text' => 'Jump to navigation',
-    'zen_html5_respond_meta' => array(
-      'respond' => 'respond',
+    'zen_meta' => array(
       'html5' => 'html5',
       'meta' => 'meta',
     ),
     'zen_rebuild_registry' => 0,
-    'zen_wireframes' => 0,
+    'ir7_saas_background_dsid' => 'OBJ',
     'designkit_color' => array(
       'background' => '#E2E2E2',
       'header' => '#E2E2E2',
@@ -195,7 +194,7 @@ function platform_main_feature_strongarm() {
       'sidebars' => '#ffffff',
     ),
   );
-  $export['theme_ir7_settings'] = $strongarm;
+  $export['theme_ir7_saas_settings'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
