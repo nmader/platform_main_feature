@@ -353,7 +353,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
-  /* Filter criterion: Broken/missing handler */
+  /* Filter criterion: Islandora Solr: mods_targetAudience_mt */
   $handler->display->display_options['filters']['mods_targetAudience_mt']['id'] = 'mods_targetAudience_mt';
   $handler->display->display_options['filters']['mods_targetAudience_mt']['table'] = 'islandora_solr';
   $handler->display->display_options['filters']['mods_targetAudience_mt']['field'] = 'mods_targetAudience_mt';
@@ -1383,7 +1383,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: mods_titleInfo_subTitle_ms */
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['id'] = 'mods_titleInfo_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['field'] = 'mods_titleInfo_subTitle_ms';
