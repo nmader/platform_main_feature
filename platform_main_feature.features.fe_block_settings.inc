@@ -1039,6 +1039,39 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-front_page_slideshow-block'] = array(
+    'cache' => -1,
+    'css_class' => 'front-slider',
+    'custom' => 0,
+    'delta' => 'front_page_slideshow-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'ir7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ir7',
+        'weight' => 0,
+      ),
+      'ir7_saas' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'ir7_saas',
+        'weight' => -32,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views-frontpage_solr_boxes-block_1'] = array(
     'cache' => -1,
     'css_class' => 'front-bottom featured-collections',
