@@ -12,39 +12,6 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
-  $export['accordion_rotator-accordion_rotator'] = array(
-    'cache' => 1,
-    'css_class' => 'front-slider',
-    'custom' => 0,
-    'delta' => 'accordion_rotator',
-    'module' => 'accordion_rotator',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -25,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
-        'weight' => -25,
-      ),
-      'zen' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'zen',
-        'weight' => -25,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
   $export['block-submit_to_collection_anonymous'] = array(
     'cache' => -1,
     'css_class' => 'submit-collection-anon',
