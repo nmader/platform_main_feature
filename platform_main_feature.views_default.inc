@@ -479,7 +479,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: dc.description */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -1049,7 +1049,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['element_wrapper_class'] = 'featured-title';
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: dc.description */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -1705,7 +1705,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['fgs_createdDate_dt']['label'] = 'Inducted';
   $handler->display->display_options['fields']['fgs_createdDate_dt']['link_to_object'] = 0;
   $handler->display->display_options['fields']['fgs_createdDate_dt']['date_format'] = 'short';
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: dc.type */
   $handler->display->display_options['fields']['dc.type']['id'] = 'dc.type';
   $handler->display->display_options['fields']['dc.type']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.type']['field'] = 'dc.type';
