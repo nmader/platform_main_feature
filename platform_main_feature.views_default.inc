@@ -486,7 +486,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['label'] = '';
   $handler->display->display_options['fields']['dc.description']['exclude'] = TRUE;
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['dc.description']['link_to_object'] = 1;
   /* Field: Global: Custom text */
   $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['table'] = 'views';
@@ -1060,7 +1060,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.description']['element_wrapper_class'] = 'featured-description';
-  $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Islandora Solr: dc.title */
@@ -1712,7 +1711,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.type']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.type']['field'] = 'dc.type';
   $handler->display->display_options['fields']['dc.type']['label'] = 'Position';
-  $handler->display->display_options['fields']['dc.type']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';

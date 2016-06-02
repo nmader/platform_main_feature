@@ -609,7 +609,7 @@ function platform_main_feature_strongarm() {
       'html5' => 'html5',
       'meta' => 'meta',
     ),
-    'zen_rebuild_registry' => 1,
+    'zen_rebuild_registry' => 0,
     'zen_wireframes' => 0,
     'donate_text' => 'Donate Now',
     'donate_link' => 'http://baseballhall.org',
