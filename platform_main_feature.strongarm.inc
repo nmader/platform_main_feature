@@ -620,6 +620,8 @@ function platform_main_feature_strongarm() {
     'hero_image_ds' => 'COLLECTION_IMAGE',
     'basic_image_wm_ds' => 'OBJ',
     'large_image_wm_ds' => 'JPG',
+    'main_hero_ds' => 'OBJ',
+    'alt_hero_ds' => 'TN',
   );
   $export['theme_bhof_theme_settings'] = $strongarm;
 

@@ -1804,11 +1804,44 @@ islandora/search*',
     'visibility' => 1,
   );
 
-  $export['views-front_page_image-block'] = array(
+  $export['views-front_page_alt_hero-block'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'front_page_image-block',
+    'delta' => 'front_page_alt_hero-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bhof_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-front_page_main_hero-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'front_page_main_hero-block',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '<front>',
@@ -1824,7 +1857,7 @@ islandora/search*',
         'region' => 'hero',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => -38,
+        'weight' => -48,
       ),
       'seven' => array(
         'region' => '',
@@ -1833,7 +1866,7 @@ islandora/search*',
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -2022,7 +2055,7 @@ islandora/search*',
         'region' => 'hero',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => 10,
+        'weight' => -47,
       ),
       'seven' => array(
         'region' => '',
