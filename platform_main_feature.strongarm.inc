@@ -252,6 +252,7 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'service_links_category_vocs';
   $strongarm->value = array(
+    2 => 0,
     1 => 0,
   );
   $export['service_links_category_vocs'] = $strongarm;
@@ -294,7 +295,6 @@ function platform_main_feature_strongarm() {
     'rss' => 0,
     'search_index' => 0,
     'search_result' => 0,
-    'token' => 0,
     'revision' => 0,
   );
   $export['service_links_link_view_modes'] = $strongarm;
@@ -311,10 +311,11 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'service_links_node_types';
   $strongarm->value = array(
-    'article' => 0,
-    'bhof_basic_page' => 0,
-    'page' => 0,
-    'image_block' => 0,
+    'article' => 'article',
+    'bhof_basic_page' => 'bhof_basic_page',
+    'page' => 'page',
+    'frontpage_heros' => 'frontpage_heros',
+    'image_block' => 'image_block',
   );
   $export['service_links_node_types'] = $strongarm;
 
@@ -328,7 +329,6 @@ function platform_main_feature_strongarm() {
     'rss' => 0,
     'search_index' => 0,
     'search_result' => 0,
-    'token' => 0,
     'revision' => 0,
   );
   $export['service_links_node_view_modes'] = $strongarm;
@@ -514,6 +514,9 @@ function platform_main_feature_strongarm() {
     1 => 0,
     2 => 0,
     3 => 0,
+    6 => 0,
+    4 => 0,
+    5 => 0,
   );
   $export['stickynav-roles-bartik'] = $strongarm;
 
@@ -525,6 +528,9 @@ function platform_main_feature_strongarm() {
     1 => 0,
     2 => 0,
     3 => 0,
+    6 => 0,
+    4 => 0,
+    5 => 0,
   );
   $export['stickynav-roles-bhof_theme'] = $strongarm;
 
@@ -547,6 +553,9 @@ function platform_main_feature_strongarm() {
     1 => 0,
     2 => 0,
     3 => 0,
+    6 => 0,
+    4 => 0,
+    5 => 0,
   );
   $export['stickynav-roles-seven'] = $strongarm;
 
@@ -561,7 +570,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'stickynav-selector-bhof_theme';
-  $strongarm->value = '#header';
+  $strongarm->value = '#nav_bar';
   $export['stickynav-selector-bhof_theme'] = $strongarm;
 
   $strongarm = new stdClass();
