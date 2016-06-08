@@ -22,6 +22,7 @@ function platform_main_feature_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['use_ajax'] = TRUE;
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -906,6 +907,8 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
   $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['alter']['max_length'] = '45';
+  $handler->display->display_options['fields']['dc.title']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
   /* Field: Islandora Solr: dc.description */
