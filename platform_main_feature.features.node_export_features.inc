@@ -1438,9 +1438,9 @@ function platform_main_feature_node_export_features_default() {
       \'field_social_link\' => array(
         \'und\' => array(
           array(
-            \'value\' => \'http://google.com/+baseballhalloffame\',
+            \'value\' => \'https://plus.google.com/+baseballhall\',
             \'format\' => NULL,
-            \'safe_value\' => \'http://google.com/+baseballhalloffame\',
+            \'safe_value\' => \'https://plus.google.com/+baseballhall\',
           ),
         ),
       ),
