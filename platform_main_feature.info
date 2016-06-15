@@ -42,6 +42,7 @@ features[fe_block_boxes][] = stats_overview
 features[fe_block_boxes][] = submit_to_collection_anonymous
 features[fe_block_boxes][] = submit_to_collection_box
 features[fe_block_settings][] = bhofdora-bhofdora_marc_export
+features[fe_block_settings][] = bhofdora-reports
 features[fe_block_settings][] = block-from_the_collection_block
 features[fe_block_settings][] = block-related_content
 features[fe_block_settings][] = block-stats_overview
