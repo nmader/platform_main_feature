@@ -47,6 +47,39 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['bhofdora-reports'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'reports',
+    'module' => 'bhofdora',
+    'node_types' => array(),
+    'pages' => 'advanced-search',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
   $export['block-from_the_collection_block'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -447,7 +480,7 @@ islandora/search*',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => 'Explore',
     'visibility' => 1,
   );
 
