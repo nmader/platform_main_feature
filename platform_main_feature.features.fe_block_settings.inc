@@ -480,7 +480,7 @@ islandora/search*',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => 'Explore',
     'visibility' => 1,
   );
 
