@@ -66,18 +66,6 @@ function platform_main_feature_views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
   $handler->display->display_options['block_description'] = 'Front Page Owl Slideshow';
-  $translatables['front_page_slideshow'] = array(
-    t('Master'),
-    t('Front Page Slideshow'),
-    t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
-    t('Block'),
-    t('Front Page Owl Slideshow'),
-  );
   $export['front_page_slideshow'] = $view;
 
   $view = new view();
@@ -227,20 +215,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['table'] = 'islandora_solr';
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['field'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
   $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['value'] = 'islandora:featured_collection';
-  $translatables['frontpage_solr_boxes'] = array(
-    t('Master'),
-    t('Frontpage Solr boxes'),
-    t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
-    t('Browse Collections'),
-    t('Featured Collections'),
-    t('There are no featured collections.'),
-    t('<a href="islandora/object/[PID]"><img class="featured-thumb" src="islandora/object/[PID]/datastream/TN/view" alt=""/></a>'),
-  );
   $export['frontpage_solr_boxes'] = $view;
 
   $view = new view();
@@ -425,21 +399,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['filters']['uuid']['table'] = 'node';
   $handler->display->display_options['filters']['uuid']['field'] = 'uuid';
   $handler->display->display_options['filters']['uuid']['value'] = '9c8f491e-d901-4fc8-9b5d-75490185bdd6';
-  $translatables['image_blocks'] = array(
-    t('Master'),
-    t('Image blocks'),
-    t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
-    t('Image Block 1'),
-    t('<img src="sites/all/modules/platform_main_feature/images/award_winning.png"/>'),
-    t('Footer logo'),
-    t('<img src="/sites/all/modules/platform_main_feature/images/dgi-footer-logo.png"/>'),
-    t('Welcome Message'),
-  );
   $export['image_blocks'] = $view;
 
   $view = new view();
@@ -491,23 +450,6 @@ function platform_main_feature_views_default_views() {
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
   $handler->display->display_options['path'] = 'front';
-  $translatables['platform_front_page'] = array(
-    t('Master'),
-    t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
-    t('Items per page'),
-    t('- All -'),
-    t('Offset'),
-    t('« first'),
-    t('‹ previous'),
-    t('next ›'),
-    t('last »'),
-    t('Page'),
-  );
   $export['platform_front_page'] = $view;
 
   $view = new view();
@@ -573,21 +515,6 @@ function platform_main_feature_views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
-  $translatables['top_facet_searches'] = array(
-    t('Master'),
-    t('Top Facet Searches'),
-    t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
-    t('Facet Terms'),
-    t('# of Searches'),
-    t('.'),
-    t(','),
-    t('Block'),
-  );
   $export['top_facet_searches'] = $view;
 
   $view = new view();
@@ -661,22 +588,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['empty']['area']['empty'] = TRUE;
   $handler->display->display_options['empty']['area']['content'] = 'You need to configure Google Analytics to show the Top Site Searches';
   $handler->display->display_options['empty']['area']['format'] = 'filtered_html';
-  $translatables['top_site_searches'] = array(
-    t('Master'),
-    t('Top Site Searches'),
-    t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
-    t('Search Terms'),
-    t('# of Searches'),
-    t('.'),
-    t(','),
-    t('Block'),
-    t('You need to configure Google Analytics to show the Top Site Searches'),
-  );
   $export['top_site_searches'] = $view;
 
   return $export;

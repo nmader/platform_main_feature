@@ -14,7 +14,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['block-submit_to_collection_anonymous'] = array(
     'cache' => -1,
-    'css_class' => 'submit-collection-anon',
+    'css_class' => 'submit-collection-anon highlighted-block--green',
     'custom' => 0,
     'machine_name' => 'submit_to_collection_anonymous',
     'module' => 'block',
