@@ -480,7 +480,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
-  /* Field: Islandora Solr: dc.description */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -761,7 +761,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['label'] = '';
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
-  /* Field: Islandora Solr: dc.description */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -909,7 +909,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
-  /* Field: Islandora Solr: dc.description */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -1078,7 +1078,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['element_wrapper_class'] = 'featured-title';
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
-  /* Field: Islandora Solr: dc.description */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -1581,6 +1581,84 @@ function platform_main_feature_views_default_views() {
     t('Page'),
   );
   $export['platform_front_page'] = $view;
+
+  $view = new view();
+  $view->name = 'serial_holdings_report';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Serial Holdings Report';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Serial Holdings Report';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'none';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: marc_holding_callNumber_ms */
+  $handler->display->display_options['fields']['marc_holding_callNumber_ms']['id'] = 'marc_holding_callNumber_ms';
+  $handler->display->display_options['fields']['marc_holding_callNumber_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['marc_holding_callNumber_ms']['field'] = 'marc_holding_callNumber_ms';
+  $handler->display->display_options['fields']['marc_holding_callNumber_ms']['label'] = 'Call Number';
+  $handler->display->display_options['fields']['marc_holding_callNumber_ms']['alter']['make_link'] = TRUE;
+  $handler->display->display_options['fields']['marc_holding_callNumber_ms']['alter']['path'] = '/islandora/search/mods_identifier_lccallnumber_mt%3A[marc_holding_callNumber_ms]';
+  $handler->display->display_options['fields']['marc_holding_callNumber_ms']['link_to_object'] = 0;
+  /* Field: Islandora Solr: marc_holding_location_ms */
+  $handler->display->display_options['fields']['marc_holding_location_ms']['id'] = 'marc_holding_location_ms';
+  $handler->display->display_options['fields']['marc_holding_location_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['marc_holding_location_ms']['field'] = 'marc_holding_location_ms';
+  $handler->display->display_options['fields']['marc_holding_location_ms']['label'] = 'Location';
+  $handler->display->display_options['fields']['marc_holding_location_ms']['link_to_object'] = 0;
+  /* Field: Islandora Solr: marc_holding_libraryHas_ms */
+  $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['id'] = 'marc_holding_libraryHas_ms';
+  $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['field'] = 'marc_holding_libraryHas_ms';
+  $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['label'] = 'Library Has';
+  $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['link_to_object'] = 0;
+  /* Contextual filter: Islandora Solr: RELS_EXT_isConstituentOf_pid_ms */
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['id'] = 'RELS_EXT_isConstituentOf_uri_ms';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['field'] = 'RELS_EXT_isConstituentOf_uri_ms';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['default_argument_type'] = 'php';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['default_argument_options']['code'] = '$object = menu_get_object(\'islandora_object\', 2);
+  return "info:fedora/{$object->id}";';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['summary_options']['items_per_page'] = '25';
+  /* Filter criterion: Islandora Solr: RELS_EXT_hasModel_uri_ms */
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_ms']['id'] = 'RELS_EXT_hasModel_uri_ms';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_ms']['field'] = 'RELS_EXT_hasModel_uri_ms';
+  $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_ms']['value'] = 'info:fedora/bhof:holdingsCModel';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['serial_holdings_report'] = array(
+    t('Master'),
+    t('Serial Holdings Report'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Call Number'),
+    t('Location'),
+    t('Library Has'),
+    t('All'),
+    t('Block'),
+  );
+  $export['serial_holdings_report'] = $view;
 
   $view = new view();
   $view->name = 'social_media';
