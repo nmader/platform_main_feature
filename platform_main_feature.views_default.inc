@@ -1625,12 +1625,13 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['label'] = 'Library Has';
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: RELS_EXT_isConstituentOf_pid_ms */
-  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['id'] = 'RELS_EXT_isConstituentOf_pid_ms';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['id'] = 'RELS_EXT_isConstituentOf_uri_ms';
   $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['table'] = 'islandora_solr';
-  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['field'] = 'RELS_EXT_isConstituentOf_pid_ms';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['field'] = 'RELS_EXT_isConstituentOf_uri_ms';
   $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['default_action'] = 'default';
-  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['default_argument_type'] = 'raw';
-  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['default_argument_type'] = 'php';
+  $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['default_argument_options']['code'] = '$object = menu_get_item(\'islandora_object\', 2);
+  return "info:fedora/{$object->id}";';
   $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['summary_options']['items_per_page'] = '25';
