@@ -60,6 +60,7 @@ features[fe_block_settings][] = user-online
 features[fe_block_settings][] = views-0e421ddcad5e4ddbe2f4e87f52252332
 features[fe_block_settings][] = views-30151412eb73ff9de45ec4209bd0898d
 features[fe_block_settings][] = views-7518164537523ba73652c9a5fd647fe6
+features[fe_block_settings][] = views-front_page_slideshow-block
 features[fe_block_settings][] = views-frontpage_solr_boxes-block_1
 features[fe_block_settings][] = views-image_blocks-block
 features[fe_block_settings][] = views-image_blocks-block_1
