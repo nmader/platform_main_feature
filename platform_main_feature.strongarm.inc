@@ -93,23 +93,48 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'designkit_color';
-  $strongarm->value = array(
-    'background' => '#E2E2E2',
-    'header' => '#E2E2E2',
-    'content' => '#ffffff',
-    'navigation' => '#E2E2E2',
-    'footer' => '#E2E2E2',
-    'sidebars' => '#ffffff',
-  );
-  $export['designkit_color'] = $strongarm;
+  $strongarm->name = 'error_level';
+  $strongarm->value = '2';
+  $export['error_level'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'error_level';
-  $strongarm->value = '2';
-  $export['error_level'] = $strongarm;
+  $strongarm->name = 'islandora_solr_facet_pages_facet_limit';
+  $strongarm->value = '100000';
+  $export['islandora_solr_facet_pages_facet_limit'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_pages_fields_data';
+  $strongarm->value = array(
+    0 => array(
+      'solr_field' => 'mods_typeOfResource_mt',
+      'label' => 'Browse All Departments',
+      'path' => 'browse-all-departments',
+    ),
+    1 => array(
+      'solr_field' => 'mods_typeOfResource_mt',
+      'label' => 'Browse By Type',
+      'path' => 'browse-type',
+    ),
+  );
+  $export['islandora_solr_facet_pages_fields_data'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_pages_limit';
+  $strongarm->value = '100';
+  $export['islandora_solr_facet_pages_limit'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_pages_search_form';
+  $strongarm->value = 0;
+  $export['islandora_solr_facet_pages_search_form'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -305,8 +330,8 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_navigation_text_owlcarousel_settings_default';
   $strongarm->value = array(
-    0 => 'prev',
-    1 => 'next',
+    0 => '<i class=\'fa fa-angle-left\'></i>',
+    1 => '<i class=\'fa fa-angle-right\'></i>',
   );
   $export['owlcarousel_navigation_text_owlcarousel_settings_default'] = $strongarm;
 
@@ -328,7 +353,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_pagination_owlcarousel_settings_default';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['owlcarousel_pagination_owlcarousel_settings_default'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -426,8 +451,158 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_transition_style_owlcarousel_settings_default';
-  $strongarm->value = 'goDown';
+  $strongarm->value = 'fade';
   $export['owlcarousel_transition_style_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_css_selectors';
+  $strongarm->value = 'nav.main-menu';
+  $export['responsive_menus_css_selectors'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_disable_mouse_events';
+  $strongarm->value = array(
+    1 => 0,
+  );
+  $export['responsive_menus_disable_mouse_events'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_ignore_admin';
+  $strongarm->value = array(
+    1 => '1',
+  );
+  $export['responsive_menus_ignore_admin'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_close_size';
+  $strongarm->value = '18px';
+  $export['responsive_menus_mean_menu_close_size'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_close_txt';
+  $strongarm->value = 'X';
+  $export['responsive_menus_mean_menu_close_txt'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_contract_txt';
+  $strongarm->value = '-';
+  $export['responsive_menus_mean_menu_contract_txt'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_css_selectors';
+  $strongarm->value = 'nav.main-menu';
+  $export['responsive_menus_mean_menu_css_selectors'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_expand_children';
+  $strongarm->value = '1';
+  $export['responsive_menus_mean_menu_expand_children'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_expand_txt';
+  $strongarm->value = '+';
+  $export['responsive_menus_mean_menu_expand_txt'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_media_size';
+  $strongarm->value = '480';
+  $export['responsive_menus_mean_menu_media_size'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_position';
+  $strongarm->value = 'right';
+  $export['responsive_menus_mean_menu_position'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_remove_attrs';
+  $strongarm->value = '1';
+  $export['responsive_menus_mean_menu_remove_attrs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_show_children';
+  $strongarm->value = '1';
+  $export['responsive_menus_mean_menu_show_children'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_mean_menu_trigger_txt';
+  $strongarm->value = '<span /><span /><span />';
+  $export['responsive_menus_mean_menu_trigger_txt'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_media_size';
+  $strongarm->value = '768';
+  $export['responsive_menus_media_size'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_no_jquery_update';
+  $strongarm->value = array(
+    1 => 0,
+  );
+  $export['responsive_menus_no_jquery_update'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_remove_attributes';
+  $strongarm->value = array(
+    1 => '1',
+  );
+  $export['responsive_menus_remove_attributes'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_simple_absolute';
+  $strongarm->value = array(
+    1 => '1',
+  );
+  $export['responsive_menus_simple_absolute'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_simple_text';
+  $strongarm->value = '☰ Menu';
+  $export['responsive_menus_simple_text'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_style';
+  $strongarm->value = 'mean_menu';
+  $export['responsive_menus_style'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -454,7 +629,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
-  $strongarm->value = 'ir7_saas';
+  $strongarm->value = 'sdsu_theme';
   $export['theme_default'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -499,6 +674,49 @@ function platform_main_feature_strongarm() {
     ),
   );
   $export['theme_ir7_saas_settings'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_sdsu_theme_settings';
+  $strongarm->value = array(
+    'toggle_logo' => 0,
+    'toggle_name' => 0,
+    'toggle_slogan' => 0,
+    'toggle_node_user_picture' => 1,
+    'toggle_comment_user_picture' => 1,
+    'toggle_favicon' => 1,
+    'toggle_main_menu' => 1,
+    'toggle_secondary_menu' => 0,
+    'default_logo' => 1,
+    'logo_path' => '',
+    'logo_upload' => '',
+    'default_favicon' => 1,
+    'favicon_path' => '',
+    'favicon_upload' => '',
+    'zen_breadcrumb' => 'yes',
+    'zen_breadcrumb_separator' => ' ›› ',
+    'zen_breadcrumb_home' => 1,
+    'zen_breadcrumb_trailing' => 0,
+    'zen_breadcrumb_title' => 1,
+    'zen_skip_link_anchor' => 'main-menu',
+    'zen_skip_link_text' => 'Jump to navigation',
+    'zen_meta' => array(
+      'html5' => 'html5',
+      'meta' => 'meta',
+    ),
+    'zen_rebuild_registry' => 1,
+    'retrievium_background_dsid' => '',
+    'sdsu_theme_use_first_header_default' => 1,
+    'sdsu_theme_use_first_header_file' => 0,
+    'sdsu_theme_use_second_header_default' => 1,
+    'sdsu_theme_use_second_header_file' => 0,
+    'sdsu_theme_use_first_footer_default' => 1,
+    'sdsu_theme_use_first_footer_file' => 0,
+    'sdsu_theme_use_second_footer_default' => 1,
+    'sdsu_theme_use_second_footer_file' => 0,
+  );
+  $export['theme_sdsu_theme_settings'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
