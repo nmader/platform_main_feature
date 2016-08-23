@@ -56,6 +56,29 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_home:<front>.
+  $menu_links['main-menu_home:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Home',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_home:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 1,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: main-menu_submit:uuid/node/51a4afa1-dfe6-4568-a494-2b6bd3bf2732.
   $menu_links['main-menu_submit:uuid/node/51a4afa1-dfe6-4568-a494-2b6bd3bf2732'] = array(
     'menu_name' => 'main-menu',
@@ -545,6 +568,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('Course Catalogs');
   t('Creative content license');
   t('Featured Collections');
+  t('Home');
   t('Login');
   t('Logout');
   t('Make contact');
