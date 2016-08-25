@@ -63,12 +63,6 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Home',
     'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
       'identifier' => 'main-menu_home:<front>',
     ),
     'module' => 'menu',
@@ -258,29 +252,6 @@ function platform_main_feature_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-featured-collections_course-catalogs:http://discoverygarden-vsphere-saas.local/featured-object-collection/islandora:root.
-  $menu_links['menu-featured-collections_course-catalogs:http://discoverygarden-vsphere-saas.local/featured-object-collection/islandora:root'] = array(
-    'menu_name' => 'menu-featured-collections',
-    'link_path' => 'http://discoverygarden-vsphere-saas.local/featured-object-collection/islandora:root',
-    'router_path' => '',
-    'link_title' => 'Course Catalogs',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-featured-collections_course-catalogs:http://discoverygarden-vsphere-saas.local/featured-object-collection/islandora:root',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 0,
@@ -565,7 +536,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Browse by Type');
   t('Chat with a Librarian');
   t('Contact');
-  t('Course Catalogs');
   t('Creative content license');
   t('Featured Collections');
   t('Home');

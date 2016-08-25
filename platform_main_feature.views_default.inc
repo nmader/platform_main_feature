@@ -414,13 +414,12 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
-  /* Field: Islandora Solr: mods_titleInfo_subTitle_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['id'] = 'mods_titleInfo_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['field'] = 'mods_titleInfo_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['link_to_object'] = 0;
   /* Field: Islandora Solr: PID */
   $handler->display->display_options['fields']['PID']['id'] = 'PID';
   $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
@@ -1315,13 +1314,12 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
-  /* Field: Islandora Solr: mods_titleInfo_subTitle_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['id'] = 'mods_titleInfo_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['field'] = 'mods_titleInfo_subTitle_ms';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['link_to_object'] = 0;
   /* Field: Islandora Solr: PID */
   $handler->display->display_options['fields']['PID']['id'] = 'PID';
   $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
@@ -1536,7 +1534,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['alter']['strip_tags'] = TRUE;
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
-  /* Field: Islandora Solr: RELS_EXT_isPageNumber_literal_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['RELS_EXT_isPageNumber_literal_ms']['id'] = 'RELS_EXT_isPageNumber_literal_ms';
   $handler->display->display_options['fields']['RELS_EXT_isPageNumber_literal_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['RELS_EXT_isPageNumber_literal_ms']['field'] = 'RELS_EXT_isPageNumber_literal_ms';
@@ -1544,12 +1542,11 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['RELS_EXT_isPageNumber_literal_ms']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['RELS_EXT_isPageNumber_literal_ms']['alter']['text'] = '<a href="/islandora/object/[PID]"><p>Page [RELS_EXT_isPageNumber_literal_ms]</p></a>';
   $handler->display->display_options['fields']['RELS_EXT_isPageNumber_literal_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['RELS_EXT_isPageNumber_literal_ms']['link_to_object'] = 0;
-  /* Sort criterion: Islandora Solr: RELS_EXT_isSequenceNumber_literal_ss */
+  /* Sort criterion: Broken/missing handler */
   $handler->display->display_options['sorts']['RELS_EXT_isSequenceNumber_literal_ss']['id'] = 'RELS_EXT_isSequenceNumber_literal_ss';
   $handler->display->display_options['sorts']['RELS_EXT_isSequenceNumber_literal_ss']['table'] = 'islandora_solr';
   $handler->display->display_options['sorts']['RELS_EXT_isSequenceNumber_literal_ss']['field'] = 'RELS_EXT_isSequenceNumber_literal_ss';
-  /* Contextual filter: Islandora Solr: RELS_EXT_isPageOf_uri_mt */
+  /* Contextual filter: Broken/missing handler */
   $handler->display->display_options['arguments']['RELS_EXT_isPageOf_uri_mt']['id'] = 'RELS_EXT_isPageOf_uri_mt';
   $handler->display->display_options['arguments']['RELS_EXT_isPageOf_uri_mt']['table'] = 'islandora_solr';
   $handler->display->display_options['arguments']['RELS_EXT_isPageOf_uri_mt']['field'] = 'RELS_EXT_isPageOf_uri_mt';
