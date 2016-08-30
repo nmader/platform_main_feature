@@ -103,6 +103,7 @@ features[menu_links][] = menu-contact-menu_6195946728:tel:+6195946728
 features[menu_links][] = menu-contact-menu_chat-with-a-librarian:<front>
 features[menu_links][] = menu-contact-menu_erefmailsdsuedu:mailto:eref@mail.sdsu.edu
 features[menu_links][] = menu-department_arts-and-letters:browse-by/still image
+features[menu_links][] = menu-featured-collections_top-collection:featured-object-collection/islandora:root
 features[menu_links][] = menu-footer-menu_browse-by-department:browse/browse-all-departments
 features[menu_links][] = menu-footer-menu_browse-by-type:browse/browse-type
 features[menu_links][] = menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d

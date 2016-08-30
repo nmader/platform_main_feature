@@ -257,6 +257,39 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-featured-collections_top-collection:featured-object-collection/islandora:root.
+  $menu_links['menu-featured-collections_top-collection:featured-object-collection/islandora:root'] = array(
+    'menu_name' => 'menu-featured-collections',
+    'link_path' => 'featured-object-collection/islandora:root',
+    'router_path' => 'featured-object-collection/%',
+    'link_title' => 'Top Collection',
+    'options' => array(
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 702,
+        'plid' => 0,
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-featured-collections_top-collection:featured-object-collection/islandora:root',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-menu_browse-by-department:browse/browse-all-departments.
   $menu_links['menu-footer-menu_browse-by-department:browse/browse-all-departments'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -548,6 +581,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('See All Types');
   t('Submit');
   t('Theses and Dissertations');
+  t('Top Collection');
   t('eref@mail.sdsu.edu');
 
   return $menu_links;

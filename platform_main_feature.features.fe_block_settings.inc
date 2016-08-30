@@ -465,7 +465,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sub_content',
         'status' => 1,
         'theme' => 'sdsu_theme',
-        'weight' => -33,
+        'weight' => -37,
       ),
       'seven' => array(
         'region' => '',
@@ -531,7 +531,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sub_content',
         'status' => 1,
         'theme' => 'sdsu_theme',
-        'weight' => -34,
+        'weight' => -38,
       ),
       'seven' => array(
         'region' => '',
@@ -564,7 +564,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sub_content',
         'status' => 1,
         'theme' => 'sdsu_theme',
-        'weight' => -32,
+        'weight' => -35,
       ),
       'seven' => array(
         'region' => '',
@@ -1424,7 +1424,7 @@ featured-object-collection/*',
         'region' => '',
         'status' => 0,
         'theme' => 'sdsu_theme',
-        'weight' => 2,
+        'weight' => -36,
       ),
       'seven' => array(
         'region' => '',
