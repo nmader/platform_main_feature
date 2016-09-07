@@ -114,6 +114,20 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_basic_collection_display_backend';
+  $strongarm->value = 'islandora_solr_query_backend';
+  $export['islandora_basic_collection_display_backend'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_metadata_display';
+  $strongarm->value = 0;
+  $export['islandora_collection_metadata_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_collection_search_advanced_search_alter';
   $strongarm->value = 1;
   $export['islandora_collection_search_advanced_search_alter'] = $strongarm;
@@ -197,6 +211,13 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'islandora_show_print_option';
   $strongarm->value = 1;
   $export['islandora_show_print_option'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_collection_sort';
+  $strongarm->value = 'fgs_label_ss asc';
+  $export['islandora_solr_collection_sort'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
