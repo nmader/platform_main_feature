@@ -15,8 +15,6 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'access google analytics reports',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'google_analytics_reports',
   );
@@ -26,21 +24,8 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'export islandora bookmarks',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'islandora_bookmark',
-  );
-
-  // Exported permission: 'search islandora solr'.
-  $permissions['search islandora solr'] = array(
-    'name' => 'search islandora solr',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'islandora_solr',
   );
 
   // Exported permission: 'use islandora_bookmark'.
@@ -48,21 +33,8 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'use islandora_bookmark',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'islandora_bookmark',
-  );
-
-  // Exported permission: 'view accordion_rotator'.
-  $permissions['view accordion_rotator'] = array(
-    'name' => 'view accordion_rotator',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'accordion_rotator',
   );
 
   // Exported permission: 'view fedora repository objects'.
@@ -70,8 +42,6 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'view fedora repository objects',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'islandora',
   );
