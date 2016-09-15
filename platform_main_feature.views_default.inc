@@ -31,7 +31,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'full';
   $handler->display->display_options['pager']['options']['items_per_page'] = '10';
   $handler->display->display_options['style_plugin'] = 'owlcarousel';
-  $handler->display->display_options['style_options']['instance'] = 'owlcarousel_settings_default';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Field: Islandora Solr: dc.description */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
@@ -553,18 +552,18 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search Dimensions: ga:searchCategory */
+  /* Field: Internal search dimensions: Site Search Category */
   $handler->display->display_options['fields']['facet']['id'] = 'facet';
   $handler->display->display_options['fields']['facet']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['facet']['field'] = 'searchCategory';
   $handler->display->display_options['fields']['facet']['label'] = 'Facet Terms';
   $handler->display->display_options['fields']['facet']['alter']['path'] = '[facet]';
-  /* Field: Internal Search Metrics: ga:searchResultViews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search Metrics: ga:searchResultViews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -584,6 +583,8 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('Facet Terms'),
     t('# of Searches'),
+    t('.'),
+    t(','),
     t('Block'),
   );
   $export['top_facet_searches'] = $view;
@@ -631,17 +632,17 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search Dimensions: ga:searchKeyword */
+  /* Field: Internal search dimensions: Search Term */
   $handler->display->display_options['fields']['search']['id'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['search']['field'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['label'] = 'Search Terms';
-  /* Field: Internal Search Metrics: ga:searchResultViews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search Metrics: ga:searchResultViews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -670,6 +671,8 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('Search Terms'),
     t('# of Searches'),
+    t('.'),
+    t(','),
     t('Block'),
     t('You need to configure Google Analytics to show the Top Site Searches'),
   );
