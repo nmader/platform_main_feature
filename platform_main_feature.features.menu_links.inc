@@ -67,6 +67,26 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-chs-links_order-images--permissions:http://californiahistoricalsociety.org/research/reproductions.html.
+  $menu_links['menu-chs-links_order-images--permissions:http://californiahistoricalsociety.org/research/reproductions.html'] = array(
+    'menu_name' => 'menu-chs-links',
+    'link_path' => 'http://californiahistoricalsociety.org/research/reproductions.html',
+    'router_path' => '',
+    'link_title' => 'Order Images & Permissions',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-chs-links_order-images--permissions:http://californiahistoricalsociety.org/research/reproductions.html',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: menu-connect-with-us_share-your-feedback:http://californiahistoricalsociety.org/feedback/.
   $menu_links['menu-connect-with-us_share-your-feedback:http://californiahistoricalsociety.org/feedback/'] = array(
     'menu_name' => 'menu-connect-with-us',
@@ -552,6 +572,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('Make contact');
   t('Online Archive of California');
   t('Online Catalog');
+  t('Order Images & Permissions');
   t('Policies');
   t('Research and Services');
   t('Researchers');

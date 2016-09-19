@@ -296,7 +296,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'chs_theme',
-        'weight' => -20,
+        'weight' => -35,
       ),
       'seven' => array(
         'region' => '',
@@ -395,7 +395,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'chs_theme',
-        'weight' => -31,
+        'weight' => -38,
       ),
       'seven' => array(
         'region' => '',
@@ -425,10 +425,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'chs_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'chs_theme',
-        'weight' => -17,
+        'weight' => -37,
       ),
       'seven' => array(
         'region' => '',
@@ -437,7 +437,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -1154,7 +1154,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'chs_theme',
-        'weight' => -30,
+        'weight' => -36,
       ),
       'seven' => array(
         'region' => 'content',
@@ -1583,7 +1583,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'chs_theme',
-        'weight' => -32,
+        'weight' => -39,
       ),
       'seven' => array(
         'region' => '',
@@ -1679,8 +1679,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'chs_theme' => array(
-        'region' => 'highlighted',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'chs_theme',
         'weight' => -35,
       ),
