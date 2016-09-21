@@ -121,7 +121,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['field'] = 'PID';
   $handler->display->display_options['fields']['PID']['label'] = '';
   $handler->display->display_options['fields']['PID']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['PID']['alter']['text'] = '<a href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"/></a>';
+  $handler->display->display_options['fields']['PID']['alter']['text'] = '<a href="/islandora/object/[PID]"><span class="front-page-collections-span"><span class="icon fontello icon-forward"></span></span><img src="/islandora/object/[PID]/datastream/TN/view"/></a>';
   $handler->display->display_options['fields']['PID']['element_type'] = 'div';
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['PID']['element_wrapper_type'] = 'div';
@@ -172,7 +172,7 @@ function platform_main_feature_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('<a href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"/></a>'),
+    t('<a href="/islandora/object/[PID]"><span class="front-page-collections-span"><span class="icon fontello icon-forward"></span></span><img src="/islandora/object/[PID]/datastream/TN/view"/></a>'),
     t('Page'),
     t('Block'),
     t('More'),
