@@ -110,6 +110,7 @@ features[menu_custom][] = menu-site-navigation
 features[menu_links][] = main-menu_home:<front>
 features[menu_links][] = menu-chs-links_online-archive-of-california:<front>
 features[menu_links][] = menu-chs-links_online-catalog:<front>
+features[menu_links][] = menu-chs-links_order-images--permissions:http://californiahistoricalsociety.org/research/reproductions.html
 features[menu_links][] = menu-connect-with-us_share-your-feedback:http://californiahistoricalsociety.org/feedback/
 features[menu_links][] = menu-connect-with-us_sign-up-for-newsletter:http://californiahistoricalsociety.org/support/newsletter.html
 features[menu_links][] = menu-copyright_-copyright-2016-california-historical-society:<front>

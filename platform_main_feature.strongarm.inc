@@ -414,6 +414,10 @@ function platform_main_feature_strongarm() {
     'zen_wireframes' => 0,
     'chs_theme_omit' => 0,
     'chs_theme_background_image_datastream' => 'JPG',
+    'chs_theme_order_images_permissions' => 'islandora:collectionCModel',
+    'chs_theme_elevated_collections' => 'islandora:root',
+    'chs_theme_elevated_collections_view' => 'elevated_collection_header',
+    'chs_theme_elevated_collections_description' => '1',
     'chs_theme_collection_search' => '0',
     'designkit_color' => array(
       'background' => '#ffffff',
