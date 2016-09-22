@@ -36,12 +36,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -25,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -18,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -77,12 +71,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -26,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -19,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -116,12 +104,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'dashboard_inactive',
         'status' => 1,
@@ -131,84 +113,6 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 0,
-  );
-
-  $export['google_analytics_reports-dashboard'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'dashboard',
-    'module' => 'google_analytics_reports',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'calpoly_theme' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'calpoly_theme',
-        'weight' => -22,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -15,
-      ),
-      'seven' => array(
-        'region' => 'dashboard_inactive',
-        'status' => 1,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 1,
-  );
-
-  $export['google_analytics_reports-path_mini'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'path_mini',
-    'module' => 'google_analytics_reports',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'calpoly_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'calpoly_theme',
-        'weight' => -14,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -14,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 1,
   );
 
   $export['islandora_bookmark-islandora_bookmark'] = array(
@@ -231,13 +135,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -27,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -20,
+        'weight' => -26,
       ),
       'seven' => array(
         'region' => '',
@@ -272,12 +170,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -29,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -309,12 +201,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -9,
-      ),
-      'ir7' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'ir7',
         'weight' => -9,
       ),
       'seven' => array(
@@ -350,12 +236,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -21,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -12,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -387,12 +267,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -19,
-      ),
-      'ir7' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'ir7',
         'weight' => -19,
       ),
       'seven' => array(
@@ -428,12 +302,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -18,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -18,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -466,12 +334,6 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 1,
         'theme' => 'calpoly_theme',
         'weight' => -32,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -24,
       ),
       'seven' => array(
         'region' => '',
@@ -506,12 +368,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -31,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -22,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -543,12 +399,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => -17,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => -17,
       ),
       'seven' => array(
@@ -584,12 +434,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -621,12 +465,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -19,
-      ),
-      'ir7' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7',
         'weight' => -19,
       ),
       'seven' => array(
@@ -662,12 +500,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'sub_header',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -701,12 +533,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -22,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'dashboard_main',
         'status' => 1,
@@ -738,12 +564,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -779,12 +599,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -1,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -1,
-      ),
       'seven' => array(
         'region' => 'dashboard_sidebar',
         'status' => 1,
@@ -816,12 +630,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -857,12 +665,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'help',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'help',
         'status' => 1,
@@ -894,13 +696,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -28,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -21,
+        'weight' => -27,
       ),
       'seven' => array(
         'region' => 'content',
@@ -933,12 +729,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -974,12 +764,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1011,12 +795,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1052,12 +830,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -20,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -20,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1089,12 +861,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1130,12 +896,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -19,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => -19,
-      ),
       'seven' => array(
         'region' => 'content',
         'status' => 1,
@@ -1167,12 +927,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1208,12 +962,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'dashboard_inactive',
         'status' => 1,
@@ -1245,12 +993,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1286,12 +1028,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1323,12 +1059,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1364,12 +1094,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -33,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1402,12 +1126,6 @@ function platform_main_feature_default_fe_block_settings() {
         'status' => 1,
         'theme' => 'calpoly_theme',
         'weight' => -23,
-      ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',
@@ -1442,12 +1160,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -24,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -17,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1479,12 +1191,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => -11,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => -11,
       ),
       'seven' => array(
@@ -1520,12 +1226,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -20,
       ),
-      'ir7' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -20,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1559,12 +1259,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -30,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -23,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1596,12 +1290,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1637,12 +1325,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1674,12 +1356,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => -6,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => -6,
       ),
       'seven' => array(
@@ -1715,12 +1391,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => -21,
       ),
-      'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => -13,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1752,12 +1422,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1793,12 +1457,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1830,12 +1488,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1871,12 +1523,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1908,12 +1554,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1949,12 +1589,6 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'calpoly_theme',
         'weight' => 0,
       ),
-      'ir7' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -1986,12 +1620,6 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'calpoly_theme',
-        'weight' => 0,
-      ),
-      'ir7' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7',
         'weight' => 0,
       ),
       'seven' => array(
