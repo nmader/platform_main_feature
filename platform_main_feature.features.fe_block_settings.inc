@@ -617,7 +617,7 @@ islandora/search/*
         'region' => 'content',
         'status' => 1,
         'theme' => 'lcp',
-        'weight' => -33,
+        'weight' => -34,
       ),
       'seven' => array(
         'region' => 'content',
@@ -782,8 +782,8 @@ islandora/search/*
     'roles' => array(),
     'themes' => array(
       'lcp' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'lcp',
         'weight' => -28,
       ),
@@ -981,7 +981,7 @@ islandora/search/*
         'region' => 'content',
         'status' => 1,
         'theme' => 'lcp',
-        'weight' => -32,
+        'weight' => -33,
       ),
       'seven' => array(
         'region' => '',
