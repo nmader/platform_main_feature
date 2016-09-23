@@ -128,3 +128,48 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
   ),
 );
 }
+
+/**
+ * Implements hook_islandora_solr_metadata_configurations_default_fields().
+ */
+function platform_main_feature_islandora_solr_metadata_configurations_default_fields() {
+ return array(
+  'collection_config' => array(
+    'fields' => array(
+      'dc.title' => array(
+        'solr_field' => 'dc.title',
+        'weight' => 2,
+        'data' => 'a:0:{}',
+        'display_label' => 'dc.title',
+        'hyperlink' => 0,
+      ),
+      'fgs_createdDate_dt' => array(
+        'solr_field' => 'fgs_createdDate_dt',
+        'weight' => 2,
+        'data' => 'a:0:{}',
+        'display_label' => 'fgs_createdDate_dt',
+        'hyperlink' => 0,
+      ),
+    ),
+    'cmodels' => array(
+      'islandora:collectionCModel' => array(
+        'cmodel' => 'islandora:collectionCModel',
+      ),
+    ),
+    'description' => array(
+      'description_field' => 'dc.description',
+      'description_label' => 'Description',
+      'description_data' => array(
+        'truncation' => array(
+          'truncation_type' => 'separate_value_option',
+          'max_length' => 0,
+          'word_safe' => 0,
+          'ellipsis' => 0,
+          'min_wordsafe_length' => 1,
+        ),
+      ),
+    ),
+    'name' => 'collection',
+  ),
+);
+}
