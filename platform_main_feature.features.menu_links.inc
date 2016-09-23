@@ -192,7 +192,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -41,
     'customized' => 1,
   );
   // Exported menu link: main-menu_public-events:uuid/node/db9bc8b8-8362-4b66-915b-98eab5b8df6e.
