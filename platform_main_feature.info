@@ -201,6 +201,7 @@ features[variable][] = islandora_solr_facet_pages_limit
 features[variable][] = islandora_solr_facet_pages_search_form
 features[variable][] = islandora_solr_limit_result_fields
 features[variable][] = islandora_solr_num_of_results
+features[variable][] = islandora_solr_search_navigation
 features[variable][] = jquery_update_jquery_version
 features[variable][] = node_admin_theme
 features[variable][] = node_export_file_supported_fields
