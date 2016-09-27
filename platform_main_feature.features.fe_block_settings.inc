@@ -168,7 +168,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -29,
+        'weight' => -30,
       ),
       'seven' => array(
         'region' => '',
@@ -212,6 +212,39 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 1,
+  );
+
+  $export['islandora_datastream_download-islandora_datastream_download_ds'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'islandora_datastream_download_ds',
+    'module' => 'islandora_datastream_download',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'calpoly_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'calpoly_theme',
+        'weight' => -29,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['islandora_solr-advanced'] = array(
@@ -333,7 +366,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -32,
+        'weight' => -33,
       ),
       'seven' => array(
         'region' => '',
@@ -366,7 +399,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -31,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -1092,7 +1125,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -33,
+        'weight' => -34,
       ),
       'seven' => array(
         'region' => '',
@@ -1257,7 +1290,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -30,
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => '',
