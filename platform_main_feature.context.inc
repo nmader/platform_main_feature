@@ -31,7 +31,7 @@ function platform_main_feature_context_default_contexts() {
             'value' => '[current-page:title]',
           ),
           'og:image' => array(
-            'value' => '[islandora_object:thumbnail_token]',
+            'value' => '[islandora_object:thumbnail_url]',
           ),
           'og:image:width' => array(
             'value' => '200',
