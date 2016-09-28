@@ -292,6 +292,148 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['islandora_solr-advanced'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'advanced',
+    'icon' => 'a:2:{s:4:"icon";s:0:"";s:8:"position";s:12:"title_before";}',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => 'advanced-search',
+    'roles' => array(),
+    'themes' => array(
+      'lcp' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'lcp',
+        'weight' => -36,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['islandora_solr-basic_facets'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'basic_facets',
+    'icon' => 'a:2:{s:4:"icon";s:0:"";s:8:"position";s:12:"title_before";}',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'lcp' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'lcp',
+        'weight' => -29,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['islandora_solr-current_query'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'current_query',
+    'icon' => NULL,
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => 'islandora/search
+islandora/search/*',
+    'roles' => array(),
+    'themes' => array(
+      'lcp' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'lcp',
+        'weight' => -32,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['islandora_solr-display_switch'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'display_switch',
+    'icon' => 'a:2:{s:4:"icon";s:0:"";s:8:"position";s:12:"title_before";}',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => 'islandora/search
+islandora/search/*',
+    'roles' => array(),
+    'themes' => array(
+      'lcp' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'lcp',
+        'weight' => -34,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['islandora_solr-explore'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'explore',
+    'icon' => NULL,
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'lcp' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'lcp',
+        'weight' => -15,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['islandora_solr-search_navigation'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -317,6 +459,63 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['islandora_solr-simple'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'simple',
+    'icon' => 'a:2:{s:4:"icon";s:0:"";s:8:"position";s:12:"title_before";}',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => 'islandora/search
+islandora/search/*',
+    'roles' => array(),
+    'themes' => array(
+      'lcp' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'lcp',
+        'weight' => -13,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['islandora_solr-sort'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'sort',
+    'icon' => 'a:2:{s:4:"icon";s:0:"";s:8:"position";s:12:"title_before";}',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'lcp' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'lcp',
+        'weight' => -31,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Sort',
     'visibility' => 0,
   );
 
