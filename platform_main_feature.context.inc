@@ -28,7 +28,7 @@ function platform_main_feature_context_default_contexts() {
       'metatags' => array(
         'und' => array(
           'title' => array(
-            'value' => 'Super duper test tab title',
+            'value' => '[current-page:title]',
           ),
           'og:image' => array(
             'value' => '[islandora_object:thumbnail_token]',
