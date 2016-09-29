@@ -17,6 +17,7 @@ dependencies[] = islandora_collection_search
 dependencies[] = islandora_compound_object
 dependencies[] = islandora_solr
 dependencies[] = menu
+dependencies[] = metatag_context
 dependencies[] = node_export_features
 dependencies[] = node_export_features
 dependencies[] = owlcarousel_views
