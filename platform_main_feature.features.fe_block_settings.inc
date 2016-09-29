@@ -168,7 +168,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -29,
+        'weight' => -30,
       ),
       'seven' => array(
         'region' => '',
@@ -333,7 +333,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -32,
+        'weight' => -33,
       ),
       'seven' => array(
         'region' => '',
@@ -366,7 +366,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -31,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -1092,7 +1092,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -33,
+        'weight' => -34,
       ),
       'seven' => array(
         'region' => '',
@@ -1257,7 +1257,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'calpoly_theme',
-        'weight' => -30,
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => '',
