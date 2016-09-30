@@ -64,8 +64,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ir7',
         'weight' => -26,
       ),
@@ -99,8 +99,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ir7',
         'weight' => -27,
       ),
@@ -333,7 +333,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -32,
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => '',
@@ -353,7 +353,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'simple',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -363,10 +363,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'content',
+        'region' => 'header',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -30,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -376,7 +376,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['islandora_solr-sort'] = array(
@@ -498,7 +498,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sub_header',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => 0,
+        'weight' => -33,
       ),
       'seven' => array(
         'region' => '',
@@ -1092,7 +1092,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -33,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -1101,8 +1101,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
-    'visibility' => 0,
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['views-frontpage_solr_boxes-block_1'] = array(
@@ -1188,8 +1188,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ir7',
         'weight' => -20,
       ),
@@ -1221,10 +1221,10 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'content',
+        'region' => 'highlighted',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -31,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -1452,8 +1452,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ir7',
         'weight' => 0,
       ),
