@@ -770,10 +770,10 @@ function platform_main_feature_node_export_features_default() {
       \'body\' => array(
         \'und\' => array(
           array(
-            \'value\' => \'This is a short description of the website and or a paragraph describing the content a user can expect to see here.\',
+            \'value\' => \'Welcome to the Digital Archive and Catalog of the New Orleans Jazz & Heritage Foundation. Search & Browse our holdings through the Search box and the Browse Repository above. Contact the Archive staff for more information.\',
             \'summary\' => \'\',
             \'format\' => \'filtered_html\',
-            \'safe_value\' => "<p>This is a short description of the website and or a paragraph describing the content a user can expect to see here.</p>\\n",
+            \'safe_value\' => "<p>Welcome to the Digital Archive and Catalog of the New Orleans Jazz &amp; Heritage Foundation. Search &amp; Browse our holdings through the Search box and the Browse Repository above. Contact the Archive staff for more information.</p>\\n",
             \'safe_summary\' => \'\',
           ),
         ),
