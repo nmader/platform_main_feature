@@ -42,6 +42,8 @@ function platform_main_feature_user_default_permissions() {
     'name' => 'view fedora repository objects',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'islandora',
   );

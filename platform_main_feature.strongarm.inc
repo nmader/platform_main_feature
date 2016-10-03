@@ -849,6 +849,54 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'socialcounter_new_vertical_providers_list';
+  $strongarm->value = array(
+    0 => 'Facebook Like',
+    1 => 'Pinterest Pin it',
+    2 => 'LinkedIn Share',
+    3 => 'Google+ +1',
+  );
+  $export['socialcounter_new_vertical_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialcounter_providers_list';
+  $strongarm->value = array(
+    0 => 'Facebook Like',
+    1 => 'Pinterest Pin it',
+    2 => 'LinkedIn Share',
+    3 => 'Google+ +1',
+  );
+  $export['socialcounter_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialcounter_rearrange_providers_list';
+  $strongarm->value = array(
+    0 => 'Facebook Like',
+    1 => 'Google+ +1',
+    2 => 'Pinterest Pin it',
+    3 => 'LinkedIn Share',
+  );
+  $export['socialcounter_rearrange_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'socialcounter_vertical_rearrange_providers_list';
+  $strongarm->value = array(
+    0 => 'Facebook Like',
+    1 => 'Google+ +1',
+    2 => 'Pinterest Pin it',
+    3 => 'LinkedIn Share',
+  );
+  $export['socialcounter_vertical_rearrange_providers_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
   $strongarm->value = 'lcp';
   $export['theme_default'] = $strongarm;
