@@ -92,6 +92,51 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_advanced-search:node/2.
+  $menu_links['main-menu_advanced-search:node/2'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/2',
+    'router_path' => 'node/%',
+    'link_title' => 'advanced search',
+    'options' => array(
+      'icon' => array(
+        'icon' => '',
+        'position' => 'title_before',
+        'title_wrapper_element' => 'span',
+        'title_wrapper_class' => 'title',
+        'breadcrumb' => 0,
+        'title_wrapper' => 0,
+      ),
+      'attributes' => array(
+        'class' => array(
+          0 => 'ad-search',
+        ),
+      ),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => 'ad-search',
+        'style' => '',
+      ),
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 0,
+        'plid' => 0,
+      ),
+      'identifier' => 'main-menu_advanced-search:node/2',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: main-menu_explore:uuid/node/62fb27a6-67c5-40b0-b65f-aa7ea3f6a1a3.
   $menu_links['main-menu_explore:uuid/node/62fb27a6-67c5-40b0-b65f-aa7ea3f6a1a3'] = array(
     'menu_name' => 'main-menu',
@@ -617,6 +662,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('Research');
   t('Support the Library');
   t('Using the Library');
+  t('advanced search');
   t('icon-dot-2');
   t('icon-facebook');
   t('icon-tumbler');
