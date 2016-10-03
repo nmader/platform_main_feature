@@ -28,6 +28,17 @@ function platform_main_feature_user_default_permissions() {
     'module' => 'islandora_bookmark',
   );
 
+  // Exported permission: 'search islandora solr'.
+  $permissions['search islandora solr'] = array(
+    'name' => 'search islandora solr',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'islandora_solr',
+  );
+
   // Exported permission: 'use islandora_bookmark'.
   $permissions['use islandora_bookmark'] = array(
     'name' => 'use islandora_bookmark',
