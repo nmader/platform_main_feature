@@ -92,13 +92,24 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_advanced-search:node/2.
-  $menu_links['main-menu_advanced-search:node/2'] = array(
+  // Exported menu link: main-menu_advanced-search:uuid/node/e082403c-407d-45a5-9889-9effbb122e7d.
+  $menu_links['main-menu_advanced-search:uuid/node/e082403c-407d-45a5-9889-9effbb122e7d'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/2',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/e082403c-407d-45a5-9889-9effbb122e7d',
+    'router_path' => 'uuid',
     'link_title' => 'advanced search',
     'options' => array(
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 729,
+        'plid' => 0,
+      ),
+      'identifier' => 'main-menu_advanced-search:uuid/node/e082403c-407d-45a5-9889-9effbb122e7d',
       'icon' => array(
         'icon' => '',
         'position' => 'title_before',
@@ -117,17 +128,6 @@ function platform_main_feature_menu_default_menu_links() {
         'class' => 'ad-search',
         'style' => '',
       ),
-      'menu_attach_block' => array(
-        'name' => '',
-        'use_ajax' => 0,
-        'no_drop' => 0,
-        'dropped' => 0,
-        'on_hover' => 0,
-        'orientation' => 'horizontal',
-        'mlid' => 0,
-        'plid' => 0,
-      ),
-      'identifier' => 'main-menu_advanced-search:node/2',
     ),
     'module' => 'menu',
     'hidden' => 0,
