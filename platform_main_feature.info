@@ -91,7 +91,6 @@ features[flexslider_optionset][] = gallery
 features[flexslider_optionset][] = notice
 features[flexslider_optionset][] = subsequent_pages
 features[flexslider_optionset][] = thumbnails
-features[islandora_solr_fields][] = all_solr_fields
 features[menu_links][] = main-menu_browse:browse-collections
 features[menu_links][] = main-menu_contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba
 features[menu_links][] = main-menu_home:<front>
