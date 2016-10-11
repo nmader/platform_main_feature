@@ -23,6 +23,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'context',
         'status' => 1,
@@ -51,6 +57,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -79,6 +91,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'sub_content',
         'status' => 1,
@@ -107,6 +125,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'sub_content',
         'status' => 1,
@@ -135,6 +159,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -163,6 +193,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'sidebar_first',
         'status' => 1,
@@ -191,6 +227,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -219,6 +261,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'sidebar_first',
         'status' => 1,
@@ -247,6 +295,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'context',
         'status' => 1,
@@ -275,6 +329,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => 'islandora/object/*',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'sidebar_second',
         'status' => 1,
@@ -303,6 +363,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => 'advanced-search',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'content',
         'status' => 1,
@@ -331,6 +397,12 @@ function platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'sidebar_first',
         'status' => 1,
@@ -360,6 +432,12 @@ function platform_main_feature_default_fe_block_settings() {
 islandora/search/*',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -389,6 +467,12 @@ islandora/search/*',
 islandora/search/*',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -417,6 +501,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -445,6 +535,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'context',
         'status' => 1,
@@ -474,6 +570,12 @@ islandora/search/*',
 islandora/search/*',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -502,6 +604,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'sidebar_first',
         'status' => 1,
@@ -530,6 +638,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -558,6 +672,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -586,6 +706,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'header',
         'status' => 1,
@@ -614,6 +740,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -642,6 +774,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -670,6 +808,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => -1,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -698,6 +842,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -726,6 +876,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -754,6 +910,12 @@ islandora/search/*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -784,6 +946,12 @@ islandora/search/*
 <front>',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'context',
         'status' => 1,
@@ -812,6 +980,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'help',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'help',
         'status' => 1,
@@ -840,6 +1014,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'content',
         'status' => 1,
@@ -868,6 +1048,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -896,6 +1082,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -924,6 +1116,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -952,6 +1150,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 10,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -980,6 +1184,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -1008,6 +1218,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -1036,6 +1252,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -1064,6 +1286,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -1092,6 +1320,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -1120,6 +1354,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -1148,6 +1388,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
@@ -1176,6 +1422,12 @@ islandora/search/*
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'bottom',
         'status' => 1,
@@ -1204,6 +1456,12 @@ islandora/search/*
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'content',
         'status' => 1,
@@ -1232,6 +1490,12 @@ islandora/search/*
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'hero',
         'status' => 1,
@@ -1261,6 +1525,12 @@ islandora/search/*
 islandora/search*',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => 'context',
         'status' => 1,
@@ -1289,207 +1559,17 @@ islandora/search*',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'lcp' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'lcp',
         'weight' => 8,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_addthis-share'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_addthis-share',
-    'icon' => NULL,
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'lcp' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'lcp',
-        'weight' => 11,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_facebook-like-box'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_facebook-like-box',
-    'icon' => NULL,
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'lcp' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'lcp',
-        'weight' => 12,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_socialmedia_profile-buttons'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_socialmedia_profile-buttons',
-    'icon' => NULL,
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'lcp' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'lcp',
-        'weight' => 13,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_socialmedia_profile-default'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_socialmedia_profile-default',
-    'icon' => NULL,
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'lcp' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'lcp',
-        'weight' => 14,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_socialmedia_profile-urls'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_socialmedia_profile-urls',
-    'icon' => NULL,
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'lcp' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'lcp',
-        'weight' => 15,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_socialmedia_share-default'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_socialmedia_share-default',
-    'icon' => NULL,
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'lcp' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'lcp',
-        'weight' => 16,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['widgets-s_twitter-profile-widget'] = array(
-    'cache' => -1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 's_twitter-profile-widget',
-    'icon' => NULL,
-    'module' => 'widgets',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'lcp' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'lcp',
-        'weight' => 17,
       ),
       'seven' => array(
         'region' => '',
