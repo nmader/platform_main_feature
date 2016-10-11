@@ -126,6 +126,7 @@ features[variable][] = islandora_collection_search_searchable_collections
 features[variable][] = islandora_large_image_viewers
 features[variable][] = islandora_manuscript_page_viewers
 features[variable][] = islandora_manuscript_viewers
+features[variable][] = islandora_metadata_display
 features[variable][] = islandora_newspaper_page_viewers
 features[variable][] = islandora_solr_base_advanced
 features[variable][] = islandora_solr_collection_sort
