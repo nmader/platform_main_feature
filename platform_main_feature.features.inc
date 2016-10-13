@@ -244,28 +244,6 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     ),
   ),
   14 => array(
-    'solr_field' => 'RELS_EXT_isMemberOfCollection_uri_s',
-    'field_type' => 'result_fields',
-    'weight' => -7,
-    'solr_field_settings' => array(
-      'label' => 'Collection',
-      'snippet' => NULL,
-      'date_format' => '',
-      'truncation_type' => 'separate_value_option',
-      'maximum_length' => 0,
-      'add_ellipsis' => FALSE,
-      'wordsafe' => FALSE,
-      'wordsafe_length' => 1,
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-      'link_to_object' => FALSE,
-      'link_to_search' => FALSE,
-    ),
-  ),
-  15 => array(
     'solr_field' => 'lcp_mods_facet_subject_heading_geographic_ms',
     'field_type' => 'facet_fields',
     'weight' => -7,
@@ -279,7 +257,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  16 => array(
+  15 => array(
     'solr_field' => 'lcp_mods_search_subject_mt',
     'field_type' => 'search_fields',
     'weight' => -6,
@@ -292,7 +270,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  17 => array(
+  16 => array(
     'solr_field' => 'lcp_mods_display_location_ms',
     'field_type' => 'result_fields',
     'weight' => -6,
@@ -314,7 +292,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       'link_to_search' => FALSE,
     ),
   ),
-  18 => array(
+  17 => array(
     'solr_field' => 'lcp_mods_facet_subject_heading_name_ms',
     'field_type' => 'facet_fields',
     'weight' => -6,
@@ -328,7 +306,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  19 => array(
+  18 => array(
     'solr_field' => 'lcp_mods_search_genre_ms',
     'field_type' => 'facet_fields',
     'weight' => -5,
@@ -342,7 +320,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  20 => array(
+  19 => array(
     'solr_field' => 'lcp_mods_search_genre_mt',
     'field_type' => 'search_fields',
     'weight' => -5,
@@ -355,7 +333,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  21 => array(
+  20 => array(
     'solr_field' => 'lcp_mods_search_format_mt',
     'field_type' => 'search_fields',
     'weight' => -4,
@@ -368,7 +346,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  22 => array(
+  21 => array(
     'solr_field' => 'lcp_mods_facet_subject_heading_topic_ms',
     'field_type' => 'facet_fields',
     'weight' => -4,
@@ -382,7 +360,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  23 => array(
+  22 => array(
     'solr_field' => 'lcp_mods_search_location_mt',
     'field_type' => 'search_fields',
     'weight' => -3,
@@ -395,7 +373,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  24 => array(
+  23 => array(
     'solr_field' => 'lcp_mods_facet_associated_name_ms',
     'field_type' => 'facet_fields',
     'weight' => -3,
@@ -409,7 +387,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  25 => array(
+  24 => array(
     'solr_field' => 'lcp_mods_search_accession_number_mt',
     'field_type' => 'search_fields',
     'weight' => -2,
@@ -422,7 +400,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  26 => array(
+  25 => array(
     'solr_field' => 'lcp_mods_search_other_identifier_mt',
     'field_type' => 'search_fields',
     'weight' => -1,
@@ -435,7 +413,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
     ),
   ),
-  27 => array(
+  26 => array(
     'solr_field' => 'RELS_EXT_isMemberOfCollection_uri_mt',
     'field_type' => 'search_fields',
     'weight' => 10,
