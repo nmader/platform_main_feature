@@ -121,7 +121,6 @@ features[variable][] = islandora_collection_search_ancestor_field
 features[variable][] = islandora_collection_search_display_label
 features[variable][] = islandora_collection_search_gsearch_endpoint
 features[variable][] = islandora_collection_search_gsearch_user
-features[variable][] = islandora_collection_search_retain_search_values
 features[variable][] = islandora_collection_search_searchable_collections
 features[variable][] = islandora_large_image_viewers
 features[variable][] = islandora_manuscript_page_viewers
