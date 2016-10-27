@@ -83,7 +83,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sub_content',
         'status' => 1,
         'theme' => 'lcp',
-        'weight' => -32,
+        'weight' => -36,
       ),
       'seven' => array(
         'region' => '',
@@ -111,7 +111,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sub_content',
         'status' => 1,
         'theme' => 'lcp',
-        'weight' => 0,
+        'weight' => -37,
       ),
       'seven' => array(
         'region' => '',
