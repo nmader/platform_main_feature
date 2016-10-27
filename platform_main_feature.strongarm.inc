@@ -91,6 +91,7 @@ function platform_main_feature_strongarm() {
     'name' => array(
       'none' => 'none',
       'islandora_openseadragon' => 'islandora_openseadragon',
+      'islandora_pdfjs' => 'islandora_pdfjs',
     ),
     'default' => 'islandora_openseadragon',
   );
@@ -105,8 +106,9 @@ function platform_main_feature_strongarm() {
       'none' => 'none',
       'islandora_internet_archive_bookreader' => 'islandora_internet_archive_bookreader',
       'islandora_paged_tei_seadragon' => 'islandora_paged_tei_seadragon',
+      'islandora_pdfjs' => 'islandora_pdfjs',
     ),
-    'default' => 'islandora_paged_tei_seadragon',
+    'default' => 'islandora_internet_archive_bookreader',
   );
   $export['islandora_book_viewers'] = $strongarm;
 
