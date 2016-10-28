@@ -269,7 +269,7 @@ function platform_main_feature_default_fe_block_settings() {
     'css_class' => '',
     'custom' => 0,
     'delta' => 'compound_navigation',
-    'icon' => NULL,
+    'icon' => 'a:2:{s:4:"icon";s:0:"";s:8:"position";s:12:"title_before";}',
     'module' => 'islandora_compound_object',
     'node_types' => array(),
     'pages' => 'islandora/object/*',
@@ -288,7 +288,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => 'Images',
     'visibility' => 1,
   );
 
