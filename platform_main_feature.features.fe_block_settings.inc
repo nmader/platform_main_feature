@@ -974,17 +974,17 @@ islandora/search/*
     'css_class' => '',
     'custom' => 0,
     'delta' => 'user-menu',
-    'icon' => NULL,
+    'icon' => 'a:2:{s:4:"icon";s:0:"";s:8:"position";s:12:"title_before";}',
     'module' => 'system',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),
     'themes' => array(
       'lcp' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'bottom',
+        'status' => 1,
         'theme' => 'lcp',
-        'weight' => 1,
+        'weight' => -36,
       ),
       'seven' => array(
         'region' => '',
@@ -993,7 +993,7 @@ islandora/search/*
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -1180,7 +1180,7 @@ islandora/search/*
         'region' => 'bottom',
         'status' => 1,
         'theme' => 'lcp',
-        'weight' => -32,
+        'weight' => -37,
       ),
       'seven' => array(
         'region' => '',
