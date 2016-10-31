@@ -106,7 +106,7 @@ function platform_main_feature_strongarm() {
       'islandora_internet_archive_bookreader' => 'islandora_internet_archive_bookreader',
       'islandora_paged_tei_seadragon' => 'islandora_paged_tei_seadragon',
     ),
-    'default' => 'islandora_paged_tei_seadragon',
+    'default' => 'islandora_internet_archive_bookreader',
   );
   $export['islandora_book_viewers'] = $strongarm;
 
@@ -193,6 +193,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_compound_object_hide_child_objects_solr';
+  $strongarm->value = 1;
+  $export['islandora_compound_object_hide_child_objects_solr'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_large_image_viewers';
   $strongarm->value = array(
     'name' => array(
@@ -249,6 +256,52 @@ function platform_main_feature_strongarm() {
     'default' => 'islandora_openseadragon',
   );
   $export['islandora_newspaper_page_viewers'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_openseadragon_fit_to_aspect_ratio';
+  $strongarm->value = 1;
+  $export['islandora_openseadragon_fit_to_aspect_ratio'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_openseadragon_settings';
+  $strongarm->value = array(
+    'debugMode' => 0,
+    'djatokaServerBaseURL' => '/adore-djatoka/resolver',
+    'animationTime' => '1.5',
+    'blendTime' => '0.1',
+    'alwaysBlend' => 0,
+    'autoHideControls' => 1,
+    'immediateRender' => 0,
+    'wrapHorizontal' => 0,
+    'wrapVertical' => 0,
+    'wrapOverlays' => 0,
+    'panHorizontal' => 1,
+    'panVertical' => 1,
+    'showNavigator' => 1,
+    'minZoomImageRatio' => '0.2',
+    'maxZoomPixelRatio' => '2',
+    'visibilityRatio' => '0.5',
+    'springStiffness' => '5.0',
+    'imageLoaderLimit' => '5',
+    'clickTimeThreshold' => '300',
+    'clickDistThreshold' => '5',
+    'zoomPerClick' => '2.0',
+    'zoomPerScroll' => '1.2',
+    'zoomPerSecond' => '2.0',
+    'defaultZoomLevel' => '1.0',
+  );
+  $export['islandora_openseadragon_settings'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_paged_content_hide_pages_solr';
+  $strongarm->value = 1;
+  $export['islandora_paged_content_hide_pages_solr'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
