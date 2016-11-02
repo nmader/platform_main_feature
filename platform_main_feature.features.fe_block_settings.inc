@@ -547,6 +547,40 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['lcpdora-lcpdora_cloth_search'] = array(
+    'cache' => 8,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'lcpdora_cloth_search',
+    'icon' => 'a:2:{s:4:"icon";s:0:"";s:8:"position";s:12:"title_before";}',
+    'module' => 'lcpdora',
+    'node_types' => array(),
+    'pages' => 'advanced-search',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'lcp' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'lcp',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
   $export['menu-features'] = array(
     'cache' => -1,
     'css_class' => '',
