@@ -84,15 +84,15 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     ),
   ),
   4 => array(
-    'solr_field' => 'lcp_mods_facet_date_mdt',
+    'solr_field' => 'lcp_marc_facet_date_dt',
     'field_type' => 'facet_fields',
     'weight' => -9,
     'solr_field_settings' => array(
       'label' => 'Date',
+      'date_facet_format' => 'Y-m-d',
       'range_facet_start' => 'NOW/YEAR-20YEARS',
       'range_facet_end' => 'NOW',
       'range_facet_gap' => '+1YEAR',
-      'date_facet_format' => 'Y',
       'range_facet_slider_color' => '#edc240',
       'date_filter_datepicker_range' => '-100:+3',
       'range_facet_select' => NULL,
@@ -156,20 +156,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     ),
   ),
   8 => array(
-    'solr_field' => 'lcp_mods_sort_title_ss',
-    'field_type' => 'sort_fields',
-    'weight' => -8,
-    'solr_field_settings' => array(
-      'label' => 'Title',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  9 => array(
-    'solr_field' => 'lcp_mods_display_date_ms',
+    'solr_field' => 'lcp_mods_first_date_ms',
     'field_type' => 'result_fields',
     'weight' => -8,
     'solr_field_settings' => array(
@@ -188,6 +175,19 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
       'link_to_object' => FALSE,
       'link_to_search' => FALSE,
+    ),
+  ),
+  9 => array(
+    'solr_field' => 'lcp_mods_sort_title_ss',
+    'field_type' => 'sort_fields',
+    'weight' => -8,
+    'solr_field_settings' => array(
+      'label' => 'Title',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
     ),
   ),
   10 => array(
@@ -244,36 +244,9 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     ),
   ),
   14 => array(
-    'solr_field' => 'lcp_mods_facet_subject_heading_geographic_ms',
-    'field_type' => 'facet_fields',
-    'weight' => -7,
-    'solr_field_settings' => array(
-      'label' => 'Subject Heading – Geographic',
-      'pid_object_label' => NULL,
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  15 => array(
-    'solr_field' => 'lcp_mods_search_subject_mt',
-    'field_type' => 'search_fields',
-    'weight' => -6,
-    'solr_field_settings' => array(
-      'label' => 'Subject',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  16 => array(
     'solr_field' => 'lcp_mods_display_location_ms',
     'field_type' => 'result_fields',
-    'weight' => -6,
+    'weight' => -7,
     'solr_field_settings' => array(
       'label' => 'Location',
       'snippet' => NULL,
@@ -290,6 +263,33 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       ),
       'link_to_object' => FALSE,
       'link_to_search' => FALSE,
+    ),
+  ),
+  15 => array(
+    'solr_field' => 'lcp_mods_facet_subject_heading_geographic_ms',
+    'field_type' => 'facet_fields',
+    'weight' => -7,
+    'solr_field_settings' => array(
+      'label' => 'Subject Heading – Geographic',
+      'pid_object_label' => NULL,
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  16 => array(
+    'solr_field' => 'lcp_mods_search_subject_mt',
+    'field_type' => 'search_fields',
+    'weight' => -6,
+    'solr_field_settings' => array(
+      'label' => 'Subject',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
     ),
   ),
   17 => array(
