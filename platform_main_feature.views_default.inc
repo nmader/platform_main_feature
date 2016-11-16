@@ -98,7 +98,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['nothing']['table'] = 'views';
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['label'] = '';
-  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><br/><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
@@ -449,7 +449,7 @@ function platform_main_feature_views_default_views() {
     t('Browse Collections'),
     t('Browse All Collections'),
     t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]><img src="/islandora/object/[PID]/datastream/TN/view"></a><br/><a title="[dc.title]" href="/islandora/object/[PID]>[dc.title]</a><div>'),
-    t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><br/><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>'),
+    t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>'),
     t('Featured Collections'),
     t('There are no featured collections.'),
     t('<a href="islandora/object/[PID]"><img class="featured-thumb" src="islandora/object/[PID]/datastream/TN/view" alt=""/></a>'),
@@ -469,6 +469,7 @@ function platform_main_feature_views_default_views() {
     t('‹ previous'),
     t('next ›'),
     t('last »'),
+    t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><br/><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>'),
     t('All Collections'),
   );
   $export['frontpage_solr_boxes'] = $view;
@@ -1037,18 +1038,18 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search Dimensions: ga:searchCategory */
+  /* Field: Internal search dimensions: Site Search Category */
   $handler->display->display_options['fields']['facet']['id'] = 'facet';
   $handler->display->display_options['fields']['facet']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['facet']['field'] = 'searchCategory';
   $handler->display->display_options['fields']['facet']['label'] = 'Facet Terms';
   $handler->display->display_options['fields']['facet']['alter']['path'] = '[facet]';
-  /* Field: Internal Search Metrics: ga:searchResultViews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search Metrics: ga:searchResultViews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -1068,6 +1069,8 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('Facet Terms'),
     t('# of Searches'),
+    t('.'),
+    t(','),
     t('Block'),
   );
   $export['top_facet_searches'] = $view;
@@ -1115,17 +1118,17 @@ function platform_main_feature_views_default_views() {
       'empty_column' => 0,
     ),
   );
-  /* Field: Internal Search Dimensions: ga:searchKeyword */
+  /* Field: Internal search dimensions: Search Term */
   $handler->display->display_options['fields']['search']['id'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['search']['field'] = 'searchKeyword';
   $handler->display->display_options['fields']['search']['label'] = 'Search Terms';
-  /* Field: Internal Search Metrics: ga:searchResultViews */
+  /* Field: Internal search metrics: Results Pageviews */
   $handler->display->display_options['fields']['pageviews']['id'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['table'] = 'google_analytics';
   $handler->display->display_options['fields']['pageviews']['field'] = 'searchResultViews';
   $handler->display->display_options['fields']['pageviews']['label'] = '# of Searches';
-  /* Sort criterion: Internal Search Metrics: ga:searchResultViews */
+  /* Sort criterion: Internal search metrics: Results Pageviews */
   $handler->display->display_options['sorts']['searchResultViews']['id'] = 'searchResultViews';
   $handler->display->display_options['sorts']['searchResultViews']['table'] = 'google_analytics';
   $handler->display->display_options['sorts']['searchResultViews']['field'] = 'searchResultViews';
@@ -1154,6 +1157,8 @@ function platform_main_feature_views_default_views() {
     t('Desc'),
     t('Search Terms'),
     t('# of Searches'),
+    t('.'),
+    t(','),
     t('Block'),
     t('You need to configure Google Analytics to show the Top Site Searches'),
   );
