@@ -418,10 +418,10 @@ function platform_main_feature_node_export_features_default() {
       \'body\' => array(
         \'und\' => array(
           array(
-            \'value\' => "Moffitt Cancer Center Library\\r\\n12902 USF Magnolia Drive MRC-LIB\\r\\nTampa, Florida 33612\\r\\n<a href=\\"tel:8137457295\\">(813) 745-7295</a>\\r\\nE-Mail: <a href=\\"mailto:library@moffitt.org\\" target=\\"_top\\">library@moffitt.org</a>\\r\\n",
+            \'value\' => "<span class=\\"footer-mcc-title\\">Moffitt Cancer Center Library</span>\\r\\n12902 USF Magnolia Drive\\r\\nMRC-LIB\\r\\nTampa, Florida 33612\\r\\n<a class=\\"mcc-phone\\" href=\\"tel:8137457295\\">(813) 745-7295</a>\\r\\nE-Mail: <a href=\\"mailto:library@moffitt.org\\" target=\\"_top\\">library@moffitt.org</a>\\r\\n",
             \'summary\' => \'\',
-            \'format\' => \'filtered_html\',
-            \'safe_value\' => "<p>Moffitt Cancer Center Library<br />\\n12902 USF Magnolia Drive MRC-LIB<br />\\nTampa, Florida 33612<br /><a href=\\"tel:8137457295\\">(813) 745-7295</a><br />\\nE-Mail: <a href=\\"mailto:library@moffitt.org\\" target=\\"_top\\">library@moffitt.org</a></p>\\n",
+            \'format\' => \'full_html\',
+            \'safe_value\' => "<p><span class=\\"footer-mcc-title\\">Moffitt Cancer Center Library</span><br />\\n12902 USF Magnolia Drive<br />\\nMRC-LIB<br />\\nTampa, Florida 33612<br /><a class=\\"mcc-phone\\" href=\\"tel:8137457295\\">(813) 745-7295</a><br />\\nE-Mail: <a href=\\"mailto:library@moffitt.org\\" target=\\"_top\\">library@moffitt.org</a></p>\\n",
             \'safe_summary\' => \'\',
           ),
         ),
