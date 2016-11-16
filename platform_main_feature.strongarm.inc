@@ -103,11 +103,11 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'background' => '#032a17',
-    'header' => '#032a17',
+    'header' => '#00589a',
     'content' => '#ffffff',
-    'navigation' => '#255302',
-    'footer' => '#585353',
-    'bottom' => '#bbbaba',
+    'navigation' => '#58b0e3',
+    'footer' => '#464646',
+    'bottom' => '#464646',
     'sidebars' => '#ffffff',
   );
   $export['designkit_color'] = $strongarm;
@@ -204,6 +204,16 @@ function platform_main_feature_strongarm() {
       'label' => 'Title',
       'path' => 'title',
     ),
+    1 => array(
+      'solr_field' => 'fgs_createdDate_dt',
+      'label' => 'Date',
+      'path' => 'date',
+    ),
+    2 => array(
+      'solr_field' => 'dc.subject',
+      'label' => 'Subject',
+      'path' => 'subject',
+    ),
   );
   $export['islandora_solr_facet_pages_fields_data'] = $strongarm;
 
@@ -218,7 +228,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_solr_facet_pages_search_form';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['islandora_solr_facet_pages_search_form'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -369,14 +379,14 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Islandora OnDemand';
+  $strongarm->value = 'Moffitt Historical Archives';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Howard Tilton Memorial Library';
+  $strongarm->value = 'Moffitt Historical Archives';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -496,17 +506,16 @@ function platform_main_feature_strongarm() {
     'zen_wireframes' => 0,
     'tul_theme_omit' => 1,
     'tul_theme_background_image_datastream' => 'JPG',
-    'tul_theme_slideshow_height' => '700',
+    'select_footer_type' => '2',
     'designkit_color' => array(
       'background' => '#032a17',
-      'header' => '#032a17',
+      'header' => '#00589a',
       'content' => '#ffffff',
-      'navigation' => '#255302',
-      'footer' => '#585353',
-      'bottom' => '#bbbaba',
+      'navigation' => '#58b0e3',
+      'footer' => '#464646',
+      'bottom' => '#464646',
       'sidebars' => '#ffffff',
     ),
-    'jquery_update_jquery_version' => '',
   );
   $export['theme_tul_theme_settings'] = $strongarm;
 

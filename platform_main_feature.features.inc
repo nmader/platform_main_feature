@@ -52,7 +52,6 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
     'weight' => 0,
     'solr_field_settings' => array(
       'label' => 'Item Created Date',
-      'range_facet_select' => 1,
       'range_facet_start' => 'NOW/YEAR-20YEARS',
       'range_facet_end' => 'NOW',
       'range_facet_gap' => '+1YEAR',
@@ -62,6 +61,7 @@ function platform_main_feature_islandora_solr_fields_features_default_fields() {
       'date_filter_datepicker_enabled' => 1,
       'date_filter_datepicker_range' => '-100:+3',
       'pid_object_label' => 1,
+      'range_facet_select' => NULL,
       'range_facet_variable_gap' => NULL,
       'permissions' => array(
         1 => 1,
