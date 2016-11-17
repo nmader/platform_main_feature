@@ -47,26 +47,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_copyright-2016-moffitt-cancer-center-:<nolink>.
-  $menu_links['menu-footer-menu_copyright-2016-moffitt-cancer-center-:<nolink>'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => '<nolink>',
-    'router_path' => '<nolink>',
-    'link_title' => '©Copyright 2016 Moffitt Cancer Center ',
-    'options' => array(
-      'identifier' => 'menu-footer-menu_copyright-2016-moffitt-cancer-center-:<nolink>',
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-  );
   // Exported menu link: menu-footer-menu_donor-privacy:https://moffitt.org/give-back/donor-privacy/.
   $menu_links['menu-footer-menu_donor-privacy:https://moffitt.org/give-back/donor-privacy/'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -368,7 +348,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('View Sample Page One');
   t('View Sample Page Two');
   t('©Copyright 2016 Moffitt Cancer Center');
-  t('©Copyright 2016 Moffitt Cancer Center ');
 
   return $menu_links;
 }
