@@ -98,7 +98,6 @@ features[menu_custom][] = menu-quick-links
 features[menu_custom][] = menu-site-navigation
 features[menu_links][] = main-menu_home:<front>
 features[menu_links][] = menu-copyright-menu_copyright-2016-moffitt-cancer-center:<front>
-features[menu_links][] = menu-footer-menu_copyright-2016-moffitt-cancer-center-:<nolink>
 features[menu_links][] = menu-footer-menu_donor-privacy:https://moffitt.org/give-back/donor-privacy/
 features[menu_links][] = menu-footer-menu_legal-statements--policies:https://moffitt.org/legal-statements-and-policies/
 features[menu_links][] = menu-footer-menu_site-map:https://moffitt.org/sitemap/
