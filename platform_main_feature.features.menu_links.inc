@@ -674,58 +674,46 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_log-in:user/login.
-  $menu_links['user-menu_log-in:user/login'] = array(
+  // Exported menu link: user-menu_login:user/login.
+  $menu_links['user-menu_login:user/login'] = array(
     'menu_name' => 'user-menu',
     'link_path' => 'user/login',
     'router_path' => 'user/login',
-    'link_title' => 'Log in',
+    'link_title' => 'Login',
     'options' => array(
-      'identifier' => 'user-menu_log-in:user/login',
+      'icon' => array(
+        'icon' => '',
+        'position' => 'title_before',
+        'title_wrapper_element' => 'span',
+        'title_wrapper_class' => 'title',
+        'breadcrumb' => 0,
+        'title_wrapper' => 0,
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'menu_attach_block' => array(
+        'name' => '',
+        'use_ajax' => 0,
+        'no_drop' => 0,
+        'dropped' => 0,
+        'on_hover' => 0,
+        'orientation' => 'horizontal',
+        'mlid' => 0,
+        'plid' => 0,
+      ),
+      'identifier' => 'user-menu_login:user/login',
     ),
-    'module' => 'system',
-    'hidden' => -1,
+    'module' => 'menu',
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 0,
-    'customized' => 0,
-    'parent_identifier' => 'user-menu_my-account:user',
-  );
-  // Exported menu link: user-menu_log-out:user/logout.
-  $menu_links['user-menu_log-out:user/logout'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user/logout',
-    'router_path' => 'user/logout',
-    'link_title' => 'Log out',
-    'options' => array(
-      'identifier' => 'user-menu_log-out:user/logout',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 10,
-    'customized' => 0,
-  );
-  // Exported menu link: user-menu_user-account:user.
-  $menu_links['user-menu_user-account:user'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'user',
-    'router_path' => 'user',
-    'link_title' => 'User account',
-    'options' => array(
-      'alter' => TRUE,
-      'identifier' => 'user-menu_user-account:user',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -10,
-    'customized' => 0,
+    'customized' => 1,
   );
 
   // Translatables
@@ -735,12 +723,10 @@ function platform_main_feature_menu_default_menu_links() {
   t('Explore');
   t('Home');
   t('LCP Home');
-  t('Log in');
-  t('Log out');
+  t('Login');
   t('Research');
   t('Rights and Reproductions');
   t('Support the Library');
-  t('User account');
   t('Visit');
   t('advanced search');
   t('icon-dot-2');

@@ -188,6 +188,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_compound_object_hide_child_objects_ri';
+  $strongarm->value = 1;
+  $export['islandora_compound_object_hide_child_objects_ri'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_compound_object_hide_child_objects_solr';
   $strongarm->value = 1;
   $export['islandora_compound_object_hide_child_objects_solr'] = $strongarm;
