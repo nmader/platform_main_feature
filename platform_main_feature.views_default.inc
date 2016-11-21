@@ -274,6 +274,8 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['lcp_mods_facet_date_mdt']['id'] = 'lcp_mods_facet_date_mdt';
   $handler->display->display_options['fields']['lcp_mods_facet_date_mdt']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['lcp_mods_facet_date_mdt']['field'] = 'lcp_mods_facet_date_mdt';
+  $handler->display->display_options['fields']['lcp_mods_facet_date_mdt']['label'] = '';
+  $handler->display->display_options['fields']['lcp_mods_facet_date_mdt']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['lcp_mods_facet_date_mdt']['link_to_object'] = 0;
   $handler->display->display_options['fields']['lcp_mods_facet_date_mdt']['date_format'] = 'custom';
   $handler->display->display_options['fields']['lcp_mods_facet_date_mdt']['custom_date_format'] = 'Y-m-d';
@@ -314,7 +316,6 @@ function platform_main_feature_views_default_views() {
     t('‹ previous'),
     t('next ›'),
     t('last »'),
-    t('lcp_mods_facet_date_mdt'),
     t('All'),
     t('Page'),
     t('Block'),
