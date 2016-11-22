@@ -349,16 +349,28 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
   $handler->display->display_options['arguments']['PID']['field'] = 'PID';
   $handler->display->display_options['arguments']['PID']['default_action'] = 'default';
-  $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'raw';
-  $handler->display->display_options['arguments']['PID']['default_argument_options']['index'] = '2';
+  $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'php';
+  $handler->display->display_options['arguments']['PID']['default_argument_options']['code'] = '    $islandora_object = menu_get_object(\'islandora_object\', 2);
+    if (isset($islandora_object)) {
+      if (!in_array(\'islandora:compoundCModel\', $islandora_object->models)) {
+        return \'info:fedora/\' . $islandora_object->id;
+      } else {
+        $children = islandora_compound_object_get_parts($islandora_object->id);
+        foreach ($children as $key => $pid) {
+          $comp_member = islandora_object_load($pid);
+          if ($comp_member[\'MODS\']) {
+            $xml = simplexml_load_string($comp_member[\'MODS\']->content);
+            $xml->registerXPathNamespace(\'mods\', \'http://www.loc.gov/mods/v3\');
+            if ((string) $xml->targetAudience == \'Adult\') {
+              return \'info:fedora/\' . $comp_member->id;
+            }
+          }
+        }
+      }
+    }';
   $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
-  /* Filter criterion: Islandora Solr: mods_targetAudience_mt */
-  $handler->display->display_options['filters']['mods_targetAudience_mt']['id'] = 'mods_targetAudience_mt';
-  $handler->display->display_options['filters']['mods_targetAudience_mt']['table'] = 'islandora_solr';
-  $handler->display->display_options['filters']['mods_targetAudience_mt']['field'] = 'mods_targetAudience_mt';
-  $handler->display->display_options['filters']['mods_targetAudience_mt']['value'] = 'Adult';
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
@@ -480,7 +492,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['exclude'] = TRUE;
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: dc.description */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -761,7 +773,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['label'] = '';
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: dc.description */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -909,7 +921,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: dc.description */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -1078,7 +1090,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['dc.title']['element_wrapper_class'] = 'featured-title';
   $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
-  /* Field: Broken/missing handler */
+  /* Field: Islandora Solr: dc.description */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -1604,26 +1616,23 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Islandora Solr: marc_holding_callNumber_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['id'] = 'marc_holding_callNumber_ms';
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['field'] = 'marc_holding_callNumber_ms';
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['label'] = 'Call Number';
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['alter']['make_link'] = TRUE;
   $handler->display->display_options['fields']['marc_holding_callNumber_ms']['alter']['path'] = '/islandora/search/mods_identifier_lccallnumber_mt%3A[marc_holding_callNumber_ms]';
-  $handler->display->display_options['fields']['marc_holding_callNumber_ms']['link_to_object'] = 0;
-  /* Field: Islandora Solr: marc_holding_location_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['marc_holding_location_ms']['id'] = 'marc_holding_location_ms';
   $handler->display->display_options['fields']['marc_holding_location_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['marc_holding_location_ms']['field'] = 'marc_holding_location_ms';
   $handler->display->display_options['fields']['marc_holding_location_ms']['label'] = 'Location';
-  $handler->display->display_options['fields']['marc_holding_location_ms']['link_to_object'] = 0;
-  /* Field: Islandora Solr: marc_holding_libraryHas_ms */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['id'] = 'marc_holding_libraryHas_ms';
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['field'] = 'marc_holding_libraryHas_ms';
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['label'] = 'Library Has';
-  $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: RELS_EXT_isConstituentOf_uri_ms */
   $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['id'] = 'RELS_EXT_isConstituentOf_uri_ms';
   $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['table'] = 'islandora_solr';
