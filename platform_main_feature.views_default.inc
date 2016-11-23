@@ -324,7 +324,8 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'some';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '1';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Field: Islandora Solr: dc.title */
@@ -350,24 +351,33 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['arguments']['PID']['field'] = 'PID';
   $handler->display->display_options['arguments']['PID']['default_action'] = 'default';
   $handler->display->display_options['arguments']['PID']['default_argument_type'] = 'php';
-  $handler->display->display_options['arguments']['PID']['default_argument_options']['code'] = '    $islandora_object = menu_get_object(\'islandora_object\', 2);
-    if (isset($islandora_object)) {
-      if (!in_array(\'islandora:compoundCModel\', $islandora_object->models)) {
-        return \'info:fedora/\' . $islandora_object->id;
-      } else {
-        $children = islandora_compound_object_get_parts($islandora_object->id);
-        foreach ($children as $key => $pid) {
-          $comp_member = islandora_object_load($pid);
-          if ($comp_member[\'MODS\']) {
-            $xml = simplexml_load_string($comp_member[\'MODS\']->content);
-            $xml->registerXPathNamespace(\'mods\', \'http://www.loc.gov/mods/v3\');
-            if ((string) $xml->targetAudience == \'Adult\') {
-              return \'info:fedora/\' . $comp_member->id;
-            }
-          }
+  $handler->display->display_options['arguments']['PID']['default_argument_options']['code'] = '    $find_adult_content = function($obj) {
+      if (!isset($obj[\'MODS\'])) {
+        return NULL;
+      }
+      $xml = simplexml_load_string($obj[\'MODS\']->content);
+      if (isset($xml->targetAudience) && (string) $xml->targetAudience == \'Adult\') {
+        return $obj->id;
+      }
+      return NULL;
+    };
+  
+    $islandora_object = menu_get_object(\'islandora_object\', 2);
+    if ($islandora_object && !in_array(\'islandora:compoundCModel\', $islandora_object->models)) {
+      return $find_adult_content($islandora_object);
+    }
+    if ($islandora_object) {
+      // Use case for compound object and its children.
+      $children = islandora_compound_object_get_parts($islandora_object->id);
+      foreach ($children as $key => $pid) {
+        $comp_member = islandora_object_load($pid);
+        $content_warning = $find_adult_content($comp_member);
+        if ($content_warning) {
+          return $content_warning;
         }
       }
-    }';
+    }
+    return NULL;';
   $handler->display->display_options['arguments']['PID']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['PID']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['PID']['summary_options']['items_per_page'] = '25';
