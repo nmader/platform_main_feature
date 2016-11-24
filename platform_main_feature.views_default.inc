@@ -11,6 +11,76 @@ function platform_main_feature_views_default_views() {
   $export = array();
 
   $view = new view();
+  $view->name = 'front_page_all_collections';
+  $view->description = '';
+  $view->tag = 'default';
+  $view->base_table = 'islandora_solr';
+  $view->human_name = 'Front Page All Collections';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'All Collections';
+  $handler->display->display_options['use_more'] = TRUE;
+  $handler->display->display_options['use_more_always'] = TRUE;
+  $handler->display->display_options['use_more_text'] = 'Browse All Collections';
+  $handler->display->display_options['access']['type'] = 'none';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
+  $handler->display->display_options['style_plugin'] = 'grid';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Islandora Solr: PID */
+  $handler->display->display_options['fields']['PID']['id'] = 'PID';
+  $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['PID']['field'] = 'PID';
+  $handler->display->display_options['fields']['PID']['label'] = '';
+  $handler->display->display_options['fields']['PID']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  /* Field: Global: Custom text */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a></div>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
+  /* Field: Islandora Solr: dc.title */
+  $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
+  $handler->display->display_options['fields']['dc.title']['label'] = '';
+  $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
+  /* Filter criterion: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_mt */
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['id'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['table'] = 'islandora_solr';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['field'] = 'RELS_EXT_isMemberOfCollection_uri_mt';
+  $handler->display->display_options['filters']['RELS_EXT_isMemberOfCollection_uri_mt']['value'] = 'islandora:root';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['front_page_all_collections'] = array(
+    t('Master'),
+    t('All Collections'),
+    t('Browse All Collections'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a></div>'),
+    t('Block'),
+    t('more'),
+  );
+  $export['front_page_all_collections'] = $view;
+
+  $view = new view();
   $view->name = 'frontpage_solr_boxes';
   $view->description = '';
   $view->tag = 'default';
@@ -98,7 +168,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['nothing']['table'] = 'views';
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['label'] = '';
-  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = 'xxxxxxx<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
@@ -426,7 +496,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['nothing']['table'] = 'views';
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['label'] = '';
-  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><br/><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = 'ssss<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><br/><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
@@ -449,7 +519,7 @@ function platform_main_feature_views_default_views() {
     t('Browse Collections'),
     t('Browse All Collections'),
     t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]><img src="/islandora/object/[PID]/datastream/TN/view"></a><br/><a title="[dc.title]" href="/islandora/object/[PID]>[dc.title]</a><div>'),
-    t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>'),
+    t('xxxxxxx<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>'),
     t('Featured Collections'),
     t('There are no featured collections.'),
     t('<a href="islandora/object/[PID]"><img class="featured-thumb" src="islandora/object/[PID]/datastream/TN/view" alt=""/></a>'),
@@ -471,6 +541,7 @@ function platform_main_feature_views_default_views() {
     t('last »'),
     t('<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><br/><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>'),
     t('All Collections'),
+    t('ssss<div class="browse-all-item-wrapper"><a title="[dc.title]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"></img></a><br/><a title="[dc.title]" href="/islandora/object/[PID]">[dc.title]</a></div>'),
   );
   $export['frontpage_solr_boxes'] = $view;
 
