@@ -28,13 +28,13 @@ function platform_main_feature_image_default_styles() {
 
   // Exported image style: islandora_thubnail_defaults.
   $styles['islandora_thubnail_defaults'] = array(
-    'label' => 'Islandora Thubnail',
+    'label' => 'Islandora Thubnail Defaults',
     'effects' => array(
       2 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 155,
-          'height' => 80,
+          'height' => 200,
         ),
         'weight' => 1,
       ),
