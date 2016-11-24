@@ -203,7 +203,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'lcp',
-        'weight' => -32,
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => '',
@@ -271,7 +271,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'lcp',
-        'weight' => -32,
+        'weight' => -30,
       ),
       'seven' => array(
         'region' => '',
@@ -407,7 +407,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'lcp',
-        'weight' => -32,
+        'weight' => -29,
       ),
       'seven' => array(
         'region' => '',
