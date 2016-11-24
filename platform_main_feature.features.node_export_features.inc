@@ -615,7 +615,7 @@ function platform_main_feature_node_export_features_default() {
       \'revision_uid\' => \'1\',
       \'status\' => \'1\',
       \'sticky\' => \'0\',
-      \'title\' => \'Tulane Footer Logo\',
+      \'title\' => \'Moffitt Cancer Center Footer Logo\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'type\' => \'image_block\',
