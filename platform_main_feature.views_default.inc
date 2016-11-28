@@ -270,15 +270,13 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '10';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Islandora Solr: lcp_marc_facet_date_dt */
-  $handler->display->display_options['fields']['lcp_marc_facet_date_dt']['id'] = 'lcp_marc_facet_date_dt';
-  $handler->display->display_options['fields']['lcp_marc_facet_date_dt']['table'] = 'islandora_solr';
-  $handler->display->display_options['fields']['lcp_marc_facet_date_dt']['field'] = 'lcp_marc_facet_date_dt';
-  $handler->display->display_options['fields']['lcp_marc_facet_date_dt']['label'] = '';
-  $handler->display->display_options['fields']['lcp_marc_facet_date_dt']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['lcp_marc_facet_date_dt']['link_to_object'] = 0;
-  $handler->display->display_options['fields']['lcp_marc_facet_date_dt']['date_format'] = 'custom';
-  $handler->display->display_options['fields']['lcp_marc_facet_date_dt']['custom_date_format'] = 'Y-m-d';
+  /* Field: Islandora Solr: lcp_mods_first_date_ms */
+  $handler->display->display_options['fields']['lcp_mods_first_date_ms']['id'] = 'lcp_mods_first_date_ms';
+  $handler->display->display_options['fields']['lcp_mods_first_date_ms']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['lcp_mods_first_date_ms']['field'] = 'lcp_mods_first_date_ms';
+  $handler->display->display_options['fields']['lcp_mods_first_date_ms']['label'] = '';
+  $handler->display->display_options['fields']['lcp_mods_first_date_ms']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['lcp_mods_first_date_ms']['link_to_object'] = 0;
   /* Contextual filter: Islandora Solr: PID */
   $handler->display->display_options['arguments']['PID']['id'] = 'PID';
   $handler->display->display_options['arguments']['PID']['table'] = 'islandora_solr';
