@@ -1433,6 +1433,39 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-c2807285eb61f7780e272029748fa645'] = array(
+    'cache' => -1,
+    'css_class' => 'front-page-browse-all-collections',
+    'custom' => 0,
+    'delta' => 'c2807285eb61f7780e272029748fa645',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'tul_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'tul_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-frontpage_solr_boxes-block'] = array(
     'cache' => -1,
     'css_class' => 'front-page-browse-all-collections',
