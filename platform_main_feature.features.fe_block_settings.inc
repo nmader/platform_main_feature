@@ -1463,7 +1463,7 @@ function platform_main_feature_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-frontpage_solr_boxes-block'] = array(
