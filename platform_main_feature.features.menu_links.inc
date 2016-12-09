@@ -27,6 +27,60 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-footer-menu-context_434-924-3296:tel:+4349243296.
+  $menu_links['menu-footer-menu-context_434-924-3296:tel:+4349243296'] = array(
+    'menu_name' => 'menu-footer-menu-context',
+    'link_path' => 'tel:+4349243296',
+    'router_path' => '',
+    'link_title' => '(434) 924-3296',
+    'options' => array(
+      'attributes' => array(
+        'class' => array(
+          0 => 'icon-phone',
+        ),
+      ),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-footer-menu-context_434-924-3296:tel:+4349243296',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-menu-context_email-us:mailto:admin@site.org.
+  $menu_links['menu-footer-menu-context_email-us:mailto:admin@site.org'] = array(
+    'menu_name' => 'menu-footer-menu-context',
+    'link_path' => 'mailto:admin@site.org',
+    'router_path' => '',
+    'link_title' => 'Email Us',
+    'options' => array(
+      'attributes' => array(
+        'class' => array(
+          0 => 'icon-mail-alt',
+        ),
+      ),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-footer-menu-context_email-us:mailto:admin@site.org',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
   $menu_links['menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -34,9 +88,7 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'uuid',
     'link_title' => 'Creative content license',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d',
     ),
     'module' => 'menu',
@@ -54,9 +106,7 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'user/login',
     'link_title' => 'Login',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-footer-menu_login:user/login',
     ),
     'module' => 'menu',
@@ -74,9 +124,7 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'user/logout',
     'link_title' => 'Logout',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-footer-menu_logout:user/logout',
     ),
     'module' => 'menu',
@@ -94,9 +142,7 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'uuid',
     'link_title' => 'Make contact',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
     ),
     'module' => 'menu',
@@ -114,9 +160,7 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'uuid',
     'link_title' => 'Policies',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
     ),
     'module' => 'menu',
@@ -134,9 +178,7 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'uuid',
     'link_title' => 'Researchers',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-footer-menu_researchers:uuid/node/11ab3414-deb5-4985-9797-1a90ac057005',
     ),
     'module' => 'menu',
@@ -154,9 +196,7 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'uuid',
     'link_title' => 'About this site',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
     ),
     'module' => 'menu',
@@ -174,9 +214,7 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'islandora',
     'link_title' => 'Browse Repository',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-header-menu_browse-repository:islandora',
     ),
     'module' => 'menu',
@@ -194,9 +232,7 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'uuid',
     'link_title' => 'Make contact',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-header-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
     ),
     'module' => 'menu',
@@ -214,9 +250,7 @@ function platform_main_feature_menu_default_menu_links() {
     'router_path' => 'islandora-bookmark',
     'link_title' => 'My Bookmarks',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-header-menu_my-bookmarks:islandora-bookmark',
     ),
     'module' => 'menu',
@@ -230,9 +264,11 @@ function platform_main_feature_menu_default_menu_links() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('(434) 924-3296');
   t('About this site');
   t('Browse Repository');
   t('Creative content license');
+  t('Email Us');
   t('Home');
   t('Login');
   t('Logout');
