@@ -335,6 +335,98 @@ function platform_main_feature_node_export_features_default() {
       \'vuuid\' => \'1e26a683-a08d-4655-8907-c793c08bf24e\',
     ),
   (object) array(
+      \'body\' => array(),
+      \'changed\' => NULL,
+      \'cid\' => \'0\',
+      \'comment\' => \'1\',
+      \'comment_count\' => \'0\',
+      \'created\' => NULL,
+      \'data\' => NULL,
+      \'files\' => array(),
+      \'language\' => \'en\',
+      \'last_comment_name\' => NULL,
+      \'last_comment_timestamp\' => NULL,
+      \'last_comment_uid\' => \'1\',
+      \'log\' => \'\',
+      \'menu\' => NULL,
+      \'name\' => \'islandora\',
+      \'nid\' => NULL,
+      \'node_export_drupal_version\' => \'7\',
+      \'path\' => array(
+        \'source\' => \'node/11\',
+        \'alias\' => \'advanced-search\',
+        \'language\' => \'en\',
+      ),
+      \'picture\' => \'0\',
+      \'promote\' => \'0\',
+      \'rdf_mapping\' => array(
+        \'rdftype\' => array(
+          \'foaf:Document\',
+        ),
+        \'title\' => array(
+          \'predicates\' => array(
+            \'dc:title\',
+          ),
+        ),
+        \'created\' => array(
+          \'predicates\' => array(
+            \'dc:date\',
+            \'dc:created\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'changed\' => array(
+          \'predicates\' => array(
+            \'dc:modified\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+        \'body\' => array(
+          \'predicates\' => array(
+            \'content:encoded\',
+          ),
+        ),
+        \'uid\' => array(
+          \'predicates\' => array(
+            \'sioc:has_creator\',
+          ),
+          \'type\' => \'rel\',
+        ),
+        \'name\' => array(
+          \'predicates\' => array(
+            \'foaf:name\',
+          ),
+        ),
+        \'comment_count\' => array(
+          \'predicates\' => array(
+            \'sioc:num_replies\',
+          ),
+          \'datatype\' => \'xsd:integer\',
+        ),
+        \'last_activity\' => array(
+          \'predicates\' => array(
+            \'sioc:last_activity_date\',
+          ),
+          \'datatype\' => \'xsd:dateTime\',
+          \'callback\' => \'date_iso8601\',
+        ),
+      ),
+      \'revision_timestamp\' => NULL,
+      \'revision_uid\' => \'1\',
+      \'status\' => \'1\',
+      \'sticky\' => \'0\',
+      \'title\' => \'Advanced Search\',
+      \'tnid\' => \'0\',
+      \'translate\' => \'0\',
+      \'type\' => \'page\',
+      \'uid\' => \'1\',
+      \'uuid\' => \'16a08d8f-51f0-4e7a-a2fd-529f4d70867b\',
+      \'vid\' => NULL,
+      \'vuuid\' => \'f946978c-dd91-4862-8607-4c3b9a8dbd8b\',
+    ),
+  (object) array(
       \'body\' => array(
         \'und\' => array(
           array(

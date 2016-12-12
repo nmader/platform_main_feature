@@ -198,8 +198,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'dv_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'dv_theme',
         'weight' => -24,
       ),

@@ -53,14 +53,15 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.title']['field'] = 'dc.title';
   $handler->display->display_options['fields']['dc.title']['label'] = '';
   $handler->display->display_options['fields']['dc.title']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 0;
-  /* Field: Islandora Solr: RELS_EXT_hasModel_uri_ms */
-  $handler->display->display_options['fields']['RELS_EXT_hasModel_uri_ms']['id'] = 'RELS_EXT_hasModel_uri_ms';
-  $handler->display->display_options['fields']['RELS_EXT_hasModel_uri_ms']['table'] = 'islandora_solr';
-  $handler->display->display_options['fields']['RELS_EXT_hasModel_uri_ms']['field'] = 'RELS_EXT_hasModel_uri_ms';
-  $handler->display->display_options['fields']['RELS_EXT_hasModel_uri_ms']['label'] = '';
-  $handler->display->display_options['fields']['RELS_EXT_hasModel_uri_ms']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['RELS_EXT_hasModel_uri_ms']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['dc.title']['link_to_object'] = 1;
+  /* Field: Islandora Solr: fgs_createdDate_dt */
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['id'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['field'] = 'fgs_createdDate_dt';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['label'] = '';
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['fgs_createdDate_dt']['date_format'] = 'long';
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
