@@ -263,7 +263,7 @@ function platform_main_feature_node_export_features_default() {
       \'name\' => \'islandora\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => FALSE,
+      \'path\' => NULL,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -353,7 +353,7 @@ function platform_main_feature_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/11\',
+        \'source\' => \'node/4\',
         \'alias\' => \'advanced-search\',
         \'language\' => \'en\',
       ),
@@ -470,7 +470,7 @@ function platform_main_feature_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/4\',
+        \'source\' => \'node/5\',
         \'alias\' => \'make-contact\',
         \'language\' => \'und\',
       ),
@@ -587,7 +587,7 @@ function platform_main_feature_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/5\',
+        \'source\' => \'node/6\',
         \'alias\' => \'about\',
         \'language\' => \'und\',
       ),
@@ -766,7 +766,7 @@ function platform_main_feature_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'2191\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1480959309\',
+            \'timestamp\' => \'1483734520\',
             \'uuid\' => \'ad9a4d02-bb15-4b1a-bd50-8bcb3ddd573b\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
@@ -787,7 +787,7 @@ function platform_main_feature_node_export_features_default() {
       \'name\' => \'islandora\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => FALSE,
+      \'path\' => NULL,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -887,7 +887,7 @@ function platform_main_feature_node_export_features_default() {
       \'name\' => \'islandora\',
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
-      \'path\' => FALSE,
+      \'path\' => NULL,
       \'picture\' => \'0\',
       \'promote\' => \'0\',
       \'rdf_mapping\' => array(
@@ -977,7 +977,7 @@ function platform_main_feature_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/9\',
+        \'source\' => \'node/10\',
         \'alias\' => \'advanced-search\',
         \'language\' => \'und\',
       ),
@@ -1094,7 +1094,7 @@ function platform_main_feature_node_export_features_default() {
       \'nid\' => NULL,
       \'node_export_drupal_version\' => \'7\',
       \'path\' => array(
-        \'source\' => \'node/10\',
+        \'source\' => \'node/11\',
         \'alias\' => \'policies\',
         \'language\' => \'und\',
       ),
