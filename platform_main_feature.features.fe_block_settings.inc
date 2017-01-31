@@ -29,8 +29,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ir7',
         'weight' => -25,
       ),
@@ -67,7 +67,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -18,
+        'weight' => -28,
       ),
       'seven' => array(
         'region' => '',
@@ -99,8 +99,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ir7',
         'weight' => -19,
       ),
@@ -168,7 +168,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -20,
+        'weight' => -29,
       ),
       'seven' => array(
         'region' => '',
@@ -179,6 +179,39 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => 'Bookmark',
     'visibility' => 0,
+  );
+
+  $export['islandora_collection_search-islandora_collection_search'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'islandora_collection_search',
+    'module' => 'islandora_collection_search',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ir7' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'ir7',
+        'weight' => -34,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
@@ -234,7 +267,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -12,
+        'weight' => -25,
       ),
       'seven' => array(
         'region' => '',
@@ -333,7 +366,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -24,
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -363,8 +396,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ir7',
         'weight' => -22,
       ),
@@ -696,7 +729,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -21,
+        'weight' => -30,
       ),
       'seven' => array(
         'region' => 'content',
@@ -1074,7 +1107,7 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['views-frontpage_solr_boxes-block_1'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'featured-collections',
     'custom' => 0,
     'delta' => 'frontpage_solr_boxes-block_1',
     'module' => 'views',
@@ -1092,7 +1125,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -17,
+        'weight' => -26,
       ),
       'seven' => array(
         'region' => '',
@@ -1191,7 +1224,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'ir7',
-        'weight' => -23,
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => '',
