@@ -31,8 +31,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ir7' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'ir7',
         'weight' => -27,
       ),
