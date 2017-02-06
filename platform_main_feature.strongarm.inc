@@ -114,6 +114,81 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_advanced_search_alter';
+  $strongarm->value = 0;
+  $export['islandora_collection_search_advanced_search_alter'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_all_pages';
+  $strongarm->value = 1;
+  $export['islandora_collection_search_all_pages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_ancestor_field';
+  $strongarm->value = 'ancestors_ms';
+  $export['islandora_collection_search_ancestor_field'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_display_label';
+  $strongarm->value = 1;
+  $export['islandora_collection_search_display_label'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_gsearch_endpoint';
+  $strongarm->value = 'http://localhost:8080/fedoragsearch/rest';
+  $export['islandora_collection_search_gsearch_endpoint'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_gsearch_user';
+  $strongarm->value = 'fedoraAdmin';
+  $export['islandora_collection_search_gsearch_user'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_retain_search_values';
+  $strongarm->value = 0;
+  $export['islandora_collection_search_retain_search_values'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_searchable_collections';
+  $strongarm->value = array(
+    'islandora:audio_collection' => 'islandora:audio_collection',
+    'islandora:sp_basic_image_collection' => 'islandora:sp_basic_image_collection',
+    'islandora:bookCollection' => 'islandora:bookCollection',
+    'islandora:sp_document_collection' => 'islandora:sp_document_collection',
+    'islandora:sp_large_image_collection' => 'islandora:sp_large_image_collection',
+    'islandora:sp_pdf_collection' => 'islandora:sp_pdf_collection',
+    'islandora:root' => 'islandora:root',
+    'islandora:binary_object_collection' => 0,
+    'ir:citationCollection' => 0,
+    'islandora:compound_collection' => 0,
+    'islandora:entity_collection' => 0,
+    'islandora:featured_collection' => 0,
+    'islandora:manuscriptCollection' => 0,
+    'islandora:newspaper_collection' => 0,
+    'islandora:sample_collection' => 0,
+    'islandora:serial_collection' => 0,
+    'islandora:transformCollection' => 0,
+    'islandora:video_collection' => 0,
+  );
+  $export['islandora_collection_search_searchable_collections'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_admin_theme';
   $strongarm->value = 1;
   $export['node_admin_theme'] = $strongarm;
