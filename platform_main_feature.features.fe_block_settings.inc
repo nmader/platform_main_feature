@@ -67,7 +67,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'bhof_theme',
-        'weight' => 0,
+        'weight' => -38,
       ),
       'seven' => array(
         'region' => '',
@@ -1759,6 +1759,39 @@ islandora/search*',
         'status' => 1,
         'theme' => 'bhof_theme',
         'weight' => -45,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['views-featured_collections-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'featured_collections-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'bhof_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'bhof_theme',
+        'weight' => -50,
       ),
       'seven' => array(
         'region' => '',
