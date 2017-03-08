@@ -425,7 +425,8 @@ islandora/search*',
     'delta' => 'compound_navigation',
     'module' => 'islandora_compound_object',
     'node_types' => array(),
-    'pages' => 'islandora/object/*',
+    'pages' => 'islandora/object/*/manage
+islandora/object/*/manage/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -448,7 +449,7 @@ islandora/search*',
       ),
     ),
     'title' => '',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['islandora_solr-advanced'] = array(
