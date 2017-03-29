@@ -12,6 +12,72 @@ function platform_main_feature_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['block-footer_copyright'] = array(
+    'cache' => -1,
+    'css_class' => 'copyright',
+    'custom' => 0,
+    'machine_name' => 'footer_copyright',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'car_theme',
+        'weight' => -33,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['block-social_media_footer'] = array(
+    'cache' => -1,
+    'css_class' => 'social-media-fontello',
+    'custom' => 0,
+    'machine_name' => 'social_media_footer',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'car_theme',
+        'weight' => -34,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['block-submit_to_collection_anonymous'] = array(
     'cache' => -1,
     'css_class' => 'submit-collection-anon highlighted-block--green',
@@ -30,11 +96,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => -26,
+        'theme' => 'car_theme',
+        'weight' => -29,
       ),
       'seven' => array(
         'region' => '',
@@ -65,10 +131,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
         'weight' => -27,
       ),
       'seven' => array(
@@ -80,6 +146,105 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => '<none>',
     'visibility' => 1,
+  );
+
+  $export['blockify-blockify-breadcrumb'] = array(
+    'cache' => 4,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'blockify-breadcrumb',
+    'module' => 'blockify',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['blockify-blockify-logo'] = array(
+    'cache' => 8,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'blockify-logo',
+    'module' => 'blockify',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['blockify-blockify-page-title'] = array(
+    'cache' => 4,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'blockify-page-title',
+    'module' => 'blockify',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['comment-recent'] = array(
@@ -98,15 +263,48 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => 'dashboard_inactive',
         'status' => 1,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['devel-switch_user'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'switch_user',
+    'module' => 'devel',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
@@ -131,11 +329,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => -28,
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
+        'weight' => -30,
       ),
       'seven' => array(
         'region' => '',
@@ -146,6 +344,39 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => 'Bookmark',
     'visibility' => 0,
+  );
+
+  $export['islandora_collection_search-islandora_collection_search'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'islandora_collection_search',
+    'module' => 'islandora_collection_search',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'car_theme',
+        'weight' => -33,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
@@ -164,10 +395,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => 'sidebar_second',
         'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => -32,
       ),
       'seven' => array(
@@ -197,11 +428,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => -24,
+        'theme' => 'car_theme',
+        'weight' => -27,
       ),
       'seven' => array(
         'region' => '',
@@ -221,7 +452,7 @@ function platform_main_feature_default_fe_block_settings() {
     'delta' => 'basic_facets',
     'module' => 'islandora_solr',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'islandora/object/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -230,10 +461,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => -33,
       ),
       'seven' => array(
@@ -243,7 +474,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'Facets',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -263,10 +494,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => -18,
       ),
       'seven' => array(
@@ -296,11 +527,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => -33,
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -329,10 +560,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
         'weight' => -30,
       ),
       'seven' => array(
@@ -362,10 +593,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => -17,
       ),
       'seven' => array(
@@ -395,10 +626,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => 'header',
         'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => -31,
       ),
       'seven' => array(
@@ -428,11 +659,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => 'footer',
         'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => -19,
+        'theme' => 'car_theme',
+        'weight' => -35,
       ),
       'seven' => array(
         'region' => '',
@@ -461,10 +692,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => 'header',
         'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => -32,
       ),
       'seven' => array(
@@ -494,10 +725,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -527,10 +758,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -560,10 +791,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => -1,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => -1,
       ),
       'seven' => array(
@@ -593,10 +824,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -626,10 +857,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => 'help',
         'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -659,11 +890,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => -29,
+        'theme' => 'car_theme',
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => 'content',
@@ -692,10 +923,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -725,10 +956,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -758,10 +989,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -791,10 +1022,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 10,
       ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+      'car_theme' => array(
+        'region' => 'search',
+        'status' => 1,
+        'theme' => 'car_theme',
         'weight' => -20,
       ),
       'seven' => array(
@@ -824,10 +1055,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -857,10 +1088,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => -19,
       ),
       'seven' => array(
@@ -890,10 +1121,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -923,10 +1154,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -956,10 +1187,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -989,10 +1220,43 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-511963659673faff6186901340b8eb66'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => '511963659673faff6186901340b8eb66',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1022,10 +1286,43 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-collection_banner-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'collection_banner-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1055,10 +1352,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
         'weight' => -32,
       ),
       'seven' => array(
@@ -1070,6 +1367,39 @@ function platform_main_feature_default_fe_block_settings() {
     ),
     'title' => '<none>',
     'visibility' => 1,
+  );
+
+  $export['views-frontpage_solr_boxes-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'frontpage_solr_boxes-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['views-frontpage_solr_boxes-block_1'] = array(
@@ -1088,11 +1418,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => -25,
+        'theme' => 'car_theme',
+        'weight' => -28,
       ),
       'seven' => array(
         'region' => '',
@@ -1101,7 +1431,40 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => 'In the Spotlight',
+    'visibility' => 1,
+  );
+
+  $export['views-galleria_front_page-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'galleria_front_page-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'car_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'car_theme',
+        'weight' => -34,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -1121,10 +1484,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => -11,
       ),
       'seven' => array(
@@ -1154,11 +1517,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => -20,
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
+        'weight' => -31,
       ),
       'seven' => array(
         'region' => '',
@@ -1187,10 +1550,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
         'weight' => -31,
       ),
       'seven' => array(
@@ -1220,10 +1583,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1253,10 +1616,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1286,10 +1649,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1319,10 +1682,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1352,10 +1715,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1385,10 +1748,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1418,11 +1781,11 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => 0,
+      'car_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'car_theme',
+        'weight' => -32,
       ),
       'seven' => array(
         'region' => '',
@@ -1451,10 +1814,10 @@ function platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'ir7_saas' => array(
+      'car_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'car_theme',
         'weight' => 0,
       ),
       'seven' => array(

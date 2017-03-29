@@ -79,10 +79,10 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'blockify_blocks';
   $strongarm->value = array(
     'blockify-logo' => 'blockify-logo',
+    'blockify-page-title' => 'blockify-page-title',
     'blockify-breadcrumb' => 'blockify-breadcrumb',
     'blockify-site-name' => 0,
     'blockify-site-slogan' => 0,
-    'blockify-page-title' => 0,
     'blockify-tabs' => 0,
     'blockify-messages' => 0,
     'blockify-actions' => 0,
@@ -110,6 +110,125 @@ function platform_main_feature_strongarm() {
   $strongarm->name = 'error_level';
   $strongarm->value = '2';
   $export['error_level'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_advanced_search_alter';
+  $strongarm->value = 0;
+  $export['islandora_collection_search_advanced_search_alter'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_all_pages';
+  $strongarm->value = 1;
+  $export['islandora_collection_search_all_pages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_ancestor_field';
+  $strongarm->value = 'ancestors_ms';
+  $export['islandora_collection_search_ancestor_field'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_display_label';
+  $strongarm->value = 1;
+  $export['islandora_collection_search_display_label'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_gsearch_endpoint';
+  $strongarm->value = 'http://localhost:8080/fedoragsearch/rest';
+  $export['islandora_collection_search_gsearch_endpoint'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_gsearch_user';
+  $strongarm->value = 'fedoraAdmin';
+  $export['islandora_collection_search_gsearch_user'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_retain_search_values';
+  $strongarm->value = 0;
+  $export['islandora_collection_search_retain_search_values'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_collection_search_searchable_collections';
+  $strongarm->value = array(
+    'islandora:audio_collection' => 'islandora:audio_collection',
+    'islandora:sp_basic_image_collection' => 'islandora:sp_basic_image_collection',
+    'islandora:binary_object_collection' => 'islandora:binary_object_collection',
+    'islandora:bookCollection' => 'islandora:bookCollection',
+    'ir:citationCollection' => 'ir:citationCollection',
+    'islandora:compound_collection' => 'islandora:compound_collection',
+    'islandora:sp_document_collection' => 'islandora:sp_document_collection',
+    'islandora:entity_collection' => 'islandora:entity_collection',
+    'islandora:featured_collection' => 'islandora:featured_collection',
+    'islandora:sp_large_image_collection' => 'islandora:sp_large_image_collection',
+    'islandora:manuscriptCollection' => 'islandora:manuscriptCollection',
+    'islandora:newspaper_collection' => 'islandora:newspaper_collection',
+    'islandora:sp_pdf_collection' => 'islandora:sp_pdf_collection',
+    'islandora:sample_collection' => 'islandora:sample_collection',
+    'islandora:root' => 'islandora:root',
+    'islandora:transformCollection' => 'islandora:transformCollection',
+    'islandora:video_collection' => 'islandora:video_collection',
+  );
+  $export['islandora_collection_search_searchable_collections'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_primary_display';
+  $strongarm->value = 'default';
+  $export['islandora_solr_primary_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_secondary_display';
+  $strongarm->value = array(
+    'csv' => 0,
+    'rss' => 0,
+  );
+  $export['islandora_solr_secondary_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'jquery_update_compression_type';
+  $strongarm->value = 'min';
+  $export['jquery_update_compression_type'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'jquery_update_jquery_admin_version';
+  $strongarm->value = '';
+  $export['jquery_update_jquery_admin_version'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'jquery_update_jquery_cdn';
+  $strongarm->value = 'none';
+  $export['jquery_update_jquery_cdn'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'jquery_update_jquery_version';
+  $strongarm->value = '1.7';
+  $export['jquery_update_jquery_version'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -432,6 +551,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'pm_existing_pages_disabled_root_collection';
+  $strongarm->value = FALSE;
+  $export['pm_existing_pages_disabled_root_collection'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'site_frontpage';
   $strongarm->value = 'front';
   $export['site_frontpage'] = $strongarm;
@@ -440,21 +566,55 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Islandora OnDemand';
+  $strongarm->value = 'CALIFORNIA REVEALED';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Managing Digital Content';
+  $strongarm->value = 'Over 150 years of California\'s history from 140 California collections ';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'theme_car_theme_settings';
+  $strongarm->value = array(
+    'toggle_logo' => 1,
+    'toggle_name' => 0,
+    'toggle_slogan' => 1,
+    'toggle_node_user_picture' => 1,
+    'toggle_comment_user_picture' => 1,
+    'toggle_favicon' => 1,
+    'toggle_main_menu' => 1,
+    'toggle_secondary_menu' => 0,
+    'default_logo' => 1,
+    'logo_path' => '',
+    'logo_upload' => '',
+    'default_favicon' => 1,
+    'favicon_path' => '',
+    'favicon_upload' => '',
+    'zen_breadcrumb' => 'yes',
+    'zen_breadcrumb_separator' => ' › ',
+    'zen_breadcrumb_home' => 1,
+    'zen_breadcrumb_trailing' => 0,
+    'zen_breadcrumb_title' => 0,
+    'zen_skip_link_anchor' => 'main-menu',
+    'zen_skip_link_text' => 'Jump to navigation',
+    'zen_meta' => array(
+      'html5' => 'html5',
+      'meta' => 'meta',
+    ),
+    'zen_rebuild_registry' => 1,
+  );
+  $export['theme_car_theme_settings'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
-  $strongarm->value = 'ir7_saas';
+  $strongarm->value = 'car_theme';
   $export['theme_default'] = $strongarm;
 
   $strongarm = new stdClass();
