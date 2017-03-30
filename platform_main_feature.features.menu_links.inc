@@ -27,17 +27,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_conditions-of-use:node/1.
-  $menu_links['menu-footer-menu_conditions-of-use:node/1'] = array(
+  // Exported menu link: menu-footer-menu_conditions-of-use:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
+  $menu_links['menu-footer-menu_conditions-of-use:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d'] = array(
     'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/1',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d',
+    'router_path' => 'uuid',
     'link_title' => 'Conditions of Use',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-footer-menu_conditions-of-use:node/1',
+      'identifier' => 'menu-footer-menu_conditions-of-use:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -147,17 +147,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -44,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_privacy-policies:node/10.
-  $menu_links['menu-footer-menu_privacy-policies:node/10'] = array(
+  // Exported menu link: menu-footer-menu_privacy-policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523.
+  $menu_links['menu-footer-menu_privacy-policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523'] = array(
     'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/10',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
+    'router_path' => 'uuid',
     'link_title' => 'Privacy Policies',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-footer-menu_privacy-policies:node/10',
+      'identifier' => 'menu-footer-menu_privacy-policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -187,26 +187,6 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_site-map:node/2.
-  $menu_links['menu-footer-menu_site-map:node/2'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'node/2',
-    'router_path' => 'node/%',
-    'link_title' => 'Site Map',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-footer-menu_site-map:node/2',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-  );
   // Exported menu link: menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
   $menu_links['menu-header-menu_about-this-site:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'menu-header-menu',
@@ -227,17 +207,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_about:node/5.
-  $menu_links['menu-header-menu_about:node/5'] = array(
+  // Exported menu link: menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
+  $menu_links['menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/5',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
+    'router_path' => 'uuid',
     'link_title' => 'About',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-header-menu_about:node/5',
+      'identifier' => 'menu-header-menu_about:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -247,17 +227,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_advanced-search:node/9.
-  $menu_links['menu-header-menu_advanced-search:node/9'] = array(
+  // Exported menu link: menu-header-menu_advanced-search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f.
+  $menu_links['menu-header-menu_advanced-search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f'] = array(
     'menu_name' => 'menu-header-menu',
-    'link_path' => 'node/9',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
+    'router_path' => 'uuid',
     'link_title' => 'Advanced Search',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-header-menu_advanced-search:node/9',
+      'identifier' => 'menu-header-menu_advanced-search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -365,7 +345,6 @@ function platform_main_feature_menu_default_menu_links() {
   t('Policies');
   t('Privacy Policies');
   t('Researchers');
-  t('Site Map');
 
   return $menu_links;
 }
