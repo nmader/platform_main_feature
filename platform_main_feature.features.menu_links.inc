@@ -40,11 +40,31 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_conditions-of-use:node/1',
     ),
     'module' => 'menu',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -50,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-menu_contact-us:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
+  $menu_links['menu-footer-menu_contact-us:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
+    'router_path' => 'uuid',
+    'link_title' => 'Contact Us',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_contact-us:uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
     'customized' => 1,
   );
   // Exported menu link: menu-footer-menu_creative-content-license:uuid/node/09648dae-14d6-46fe-82cd-cf4c0739201d.
@@ -84,7 +104,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -42,
+    'weight' => -43,
     'customized' => 1,
   );
   // Exported menu link: menu-footer-menu_logout:user/logout.
@@ -104,27 +124,7 @@ function platform_main_feature_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -41,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba.
-  $menu_links['menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba'] = array(
-    'menu_name' => 'menu-footer-menu',
-    'link_path' => 'uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
-    'router_path' => 'uuid',
-    'link_title' => 'Make contact',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-footer-menu_make-contact:uuid/node/329a2134-140a-4447-a59f-389948bef2ba',
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -43,
+    'weight' => -42,
     'customized' => 1,
   );
   // Exported menu link: menu-footer-menu_policies:uuid/node/dd9db579-7172-436d-a740-721ec9a68523.
@@ -160,7 +160,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_privacy-policies:node/10',
     ),
     'module' => 'menu',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -200,7 +200,7 @@ function platform_main_feature_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_site-map:node/2',
     ),
     'module' => 'menu',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -355,6 +355,7 @@ function platform_main_feature_menu_default_menu_links() {
   t('Advanced Search');
   t('Browse Collections');
   t('Conditions of Use');
+  t('Contact Us');
   t('Creative content license');
   t('Home');
   t('Login');
