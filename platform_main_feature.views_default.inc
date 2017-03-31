@@ -54,7 +54,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div>
-  <img title="[dc.title]" src="/islandora/object/[PID]/datastream/BANNER/view"/>
+  <img alt="Collection Banner ([dc.title])" title="[dc.title]" src="/islandora/object/[PID]/datastream/BANNER/view"/>
 </div>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   /* Contextual filter: Islandora Solr: PID */
@@ -80,7 +80,7 @@ function platform_main_feature_views_default_views() {
     t('Asc'),
     t('Desc'),
     t('<div>
-  <img title="[dc.title]" src="/islandora/object/[PID]/datastream/BANNER/view"/>
+  <img alt="Collection Banner ([dc.title])" title="[dc.title]" src="/islandora/object/[PID]/datastream/BANNER/view"/>
 </div>'),
     t('All'),
     t('Block'),
