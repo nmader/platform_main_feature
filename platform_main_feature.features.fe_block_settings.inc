@@ -564,7 +564,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -32,
+        'weight' => -45,
       ),
       'seven' => array(
         'region' => '',
