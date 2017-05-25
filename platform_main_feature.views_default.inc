@@ -167,7 +167,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['tn_cache']['field'] = 'tn_cache';
   $handler->display->display_options['fields']['tn_cache']['label'] = '';
   $handler->display->display_options['fields']['tn_cache']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 1;
   /* Field: Islandora Solr: fgs_label_mt */
   $handler->display->display_options['fields']['fgs_label_mt']['id'] = 'fgs_label_mt';
   $handler->display->display_options['fields']['fgs_label_mt']['table'] = 'islandora_solr';
@@ -214,7 +214,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['tn_cache']['field'] = 'tn_cache';
   $handler->display->display_options['fields']['tn_cache']['label'] = '';
   $handler->display->display_options['fields']['tn_cache']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 1;
 
   /* Display: Featured Collection Four */
   $handler = $view->new_display('block', 'Featured Collection Four', 'block_3');
@@ -264,7 +264,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['tn_cache']['field'] = 'tn_cache';
   $handler->display->display_options['fields']['tn_cache']['label'] = '';
   $handler->display->display_options['fields']['tn_cache']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 0;
+  $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 1;
   $handler->display->display_options['fields']['tn_cache']['tn_style'] = 'owl_slider_thumbnail_explore';
   /* Field: Islandora Solr: fgs_label_ms */
   $handler->display->display_options['fields']['fgs_label_ms']['id'] = 'fgs_label_ms';
