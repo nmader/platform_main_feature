@@ -95,11 +95,11 @@ function platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
-    'background' => '#E2E2E2',
-    'header' => '#E2E2E2',
+    'background' => '#ffffff',
+    'header' => '#ffffff',
     'content' => '#ffffff',
     'navigation' => '#E2E2E2',
-    'footer' => '#E2E2E2',
+    'footer' => '#ffffff',
     'sidebars' => '#ffffff',
   );
   $export['designkit_color'] = $strongarm;
@@ -490,11 +490,11 @@ function platform_main_feature_strongarm() {
     'zen_rebuild_registry' => 0,
     'ir7_saas_background_dsid' => 'OBJ',
     'designkit_color' => array(
-      'background' => '#E2E2E2',
-      'header' => '#E2E2E2',
+      'background' => '#ffffff',
+      'header' => '#ffffff',
       'content' => '#ffffff',
       'navigation' => '#E2E2E2',
-      'footer' => '#E2E2E2',
+      'footer' => '#ffffff',
       'sidebars' => '#ffffff',
     ),
   );

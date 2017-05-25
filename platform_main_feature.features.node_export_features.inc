@@ -674,7 +674,7 @@ function platform_main_feature_node_export_features_default() {
             \'filemime\' => \'image/png\',
             \'filesize\' => \'2191\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1467049310\',
+            \'timestamp\' => \'1495648706\',
             \'uuid\' => \'ad9a4d02-bb15-4b1a-bd50-8bcb3ddd573b\',
             \'rdf_mapping\' => array(),
             \'alt\' => \'\',
