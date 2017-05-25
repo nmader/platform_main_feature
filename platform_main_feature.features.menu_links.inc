@@ -210,17 +210,17 @@ function platform_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-quick-links_about-us:node/5.
-  $menu_links['menu-quick-links_about-us:node/5'] = array(
+  // Exported menu link: menu-quick-links_about-us:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5.
+  $menu_links['menu-quick-links_about-us:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5'] = array(
     'menu_name' => 'menu-quick-links',
-    'link_path' => 'node/5',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
+    'router_path' => 'uuid',
     'link_title' => 'About Us',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-quick-links_about-us:node/5',
+      'identifier' => 'menu-quick-links_about-us:uuid/node/3dfbfeaf-cb77-4ac0-b16f-145af17649b5',
     ),
     'module' => 'menu',
     'hidden' => 0,
