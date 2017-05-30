@@ -98,7 +98,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer_left',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => 0,
+        'weight' => -42,
       ),
       'seven' => array(
         'region' => '',
@@ -131,7 +131,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer_left',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => 0,
+        'weight' => -43,
       ),
       'seven' => array(
         'region' => '',
@@ -234,7 +234,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -41,
+        'weight' => -43,
       ),
       'seven' => array(
         'region' => '',
@@ -313,6 +313,39 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['bpldora-bpldora_addtoany'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'bpldora_addtoany',
+    'module' => 'bpldora',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'boulder_theme',
+        'weight' => -42,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['bpldora-bpldora_metadata_description'] = array(
     'cache' => 1,
     'css_class' => '',
@@ -333,7 +366,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -40,
+        'weight' => -41,
       ),
       'seven' => array(
         'region' => '',
@@ -366,7 +399,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -39,
+        'weight' => -40,
       ),
       'seven' => array(
         'region' => '',
@@ -432,7 +465,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -43,
+        'weight' => -47,
       ),
       'seven' => array(
         'region' => '',
@@ -495,8 +528,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_first',
+        'status' => 1,
         'theme' => 'boulder_theme',
         'weight' => -32,
       ),
@@ -507,7 +540,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -531,7 +564,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -42,
+        'weight' => -46,
       ),
       'seven' => array(
         'region' => '',
@@ -731,7 +764,7 @@ islandora/search/*',
         'region' => 'pre_content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => 0,
+        'weight' => -46,
       ),
       'seven' => array(
         'region' => '',
@@ -1787,7 +1820,7 @@ islandora/search/*',
         'region' => 'footer_left',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -41,
+        'weight' => -44,
       ),
       'seven' => array(
         'region' => '',
@@ -1820,7 +1853,7 @@ islandora/search/*',
         'region' => 'footer_left',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -42,
+        'weight' => -45,
       ),
       'seven' => array(
         'region' => '',
