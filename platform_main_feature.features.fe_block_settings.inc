@@ -843,6 +843,39 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['islandora_solr-search_navigation'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'search_navigation',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'boulder_theme',
+        'weight' => -45,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['islandora_solr-simple'] = array(
     'cache' => -1,
     'css_class' => 'front-search highlighted-block--normal',

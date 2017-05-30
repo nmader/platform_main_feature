@@ -64,6 +64,7 @@ features[fe_block_settings][] = islandora_solr-display_switch
 features[fe_block_settings][] = islandora_solr-display_switch_manage
 features[fe_block_settings][] = islandora_solr-explore
 features[fe_block_settings][] = islandora_solr-result_limit
+features[fe_block_settings][] = islandora_solr-search_navigation
 features[fe_block_settings][] = islandora_solr-simple
 features[fe_block_settings][] = islandora_solr-sort
 features[fe_block_settings][] = menu-features
