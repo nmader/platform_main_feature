@@ -1602,6 +1602,39 @@ islandora/search/*',
     'visibility' => 0,
   );
 
+  $export['views-5a70fa547039e5419656c4fbd0e689e8'] = array(
+    'cache' => -1,
+    'css_class' => 'header-library-logo',
+    'custom' => 0,
+    'delta' => '5a70fa547039e5419656c4fbd0e689e8',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'boulder_theme' => array(
+        'region' => 'header',
+        'status' => 1,
+        'theme' => 'boulder_theme',
+        'weight' => -37,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['views-7518164537523ba73652c9a5fd647fe6'] = array(
     'cache' => -1,
     'css_class' => '',
