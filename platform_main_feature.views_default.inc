@@ -48,10 +48,18 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['PID']['field'] = 'PID';
   $handler->display->display_options['fields']['PID']['label'] = '';
+  $handler->display->display_options['fields']['PID']['exclude'] = TRUE;
   $handler->display->display_options['fields']['PID']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['PID']['alter']['text'] = '<a title="[fgs_label_s]" href="/islandora/object/[PID]"><img src="/islandora/object/[PID]/datastream/TN/view"/></a>';
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  /* Field: Islandora Solr: Datastream Image */
+  $handler->display->display_options['fields']['tn_cache']['id'] = 'tn_cache';
+  $handler->display->display_options['fields']['tn_cache']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['tn_cache']['field'] = 'tn_cache';
+  $handler->display->display_options['fields']['tn_cache']['label'] = '';
+  $handler->display->display_options['fields']['tn_cache']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 1;
   /* Field: Islandora Solr: dc.title */
   $handler->display->display_options['fields']['dc.title']['id'] = 'dc.title';
   $handler->display->display_options['fields']['dc.title']['table'] = 'islandora_solr';
@@ -365,7 +373,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['style_options']['views_slideshow_cycle']['timeout'] = '5000';
   $handler->display->display_options['style_options']['views_slideshow_cycle']['speed'] = '700';
   $handler->display->display_options['style_options']['views_slideshow_cycle']['delay'] = '0';
-  $handler->display->display_options['style_options']['views_slideshow_cycle']['start_paused'] = 0;
   $handler->display->display_options['style_options']['views_slideshow_cycle']['remember_slide_days'] = '1';
   $handler->display->display_options['style_options']['views_slideshow_cycle']['items_per_slide'] = '1';
   $handler->display->display_options['style_options']['views_slideshow_cycle']['wait_for_image_load_timeout'] = '3000';
@@ -398,11 +405,20 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['PID']['field'] = 'PID';
   $handler->display->display_options['fields']['PID']['label'] = '';
+  $handler->display->display_options['fields']['PID']['exclude'] = TRUE;
   $handler->display->display_options['fields']['PID']['alter']['text'] = '<img src="/islandora/object/[PID]/datastream/JPG/view"></img>';
   $handler->display->display_options['fields']['PID']['alter']['path'] = 'islandora/object/[PID]';
   $handler->display->display_options['fields']['PID']['alter']['strip_tags'] = TRUE;
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
+  /* Field: Islandora Solr: Datastream Image */
+  $handler->display->display_options['fields']['tn_cache']['id'] = 'tn_cache';
+  $handler->display->display_options['fields']['tn_cache']['table'] = 'islandora_solr';
+  $handler->display->display_options['fields']['tn_cache']['field'] = 'tn_cache';
+  $handler->display->display_options['fields']['tn_cache']['label'] = '';
+  $handler->display->display_options['fields']['tn_cache']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['tn_cache']['link_to_object'] = 1;
+  $handler->display->display_options['fields']['tn_cache']['tn_style'] = 'islandora_imagecache_image_style_large';
   $handler->display->display_options['defaults']['arguments'] = FALSE;
   /* Contextual filter: Islandora Solr: RELS_EXT_isMemberOfCollection_uri_mt */
   $handler->display->display_options['arguments']['RELS_EXT_isMemberOfCollection_uri_mt']['id'] = 'RELS_EXT_isMemberOfCollection_uri_mt';

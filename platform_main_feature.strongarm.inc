@@ -450,7 +450,10 @@ function platform_main_feature_strongarm() {
     'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
     'nyam_theme_omit' => 0,
-    'nyam_theme_background_image_datastream' => 'SLIDE',
+    'nyam_theme_background_image_datastream' => 'TN',
+    'nyam_theme_advanced_search_field_label' => 'Field',
+    'nyam_theme_advanced_search_field_placeholder' => 'TYPE A SEARCH TERM HERE',
+    'nyam_theme_advanced_search_search_terms_label' => 'Search Terms',
     'designkit_color' => array(
       'background' => '#032a17',
       'header' => '#ffffff',
