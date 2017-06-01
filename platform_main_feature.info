@@ -132,6 +132,7 @@ features[node_export_features][] = dd9db579-7172-436d-a740-721ec9a68523
 features[node_export_features][] = fcf3ee69-3b74-4973-8ce9-a1e1f16f6b8d
 features[user_permission][] = access google analytics reports
 features[variable][] = addtoany_image
+features[variable][] = addtoany_nodetypes
 features[variable][] = back_to_top_bg_color
 features[variable][] = back_to_top_border_color
 features[variable][] = back_to_top_button_place

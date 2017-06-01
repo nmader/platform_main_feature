@@ -20,6 +20,17 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'addtoany_nodetypes';
+  $strongarm->value = array(
+    'article' => 0,
+    'page' => 0,
+    'image_block' => 0,
+  );
+  $export['addtoany_nodetypes'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'back_to_top_bg_color';
   $strongarm->value = '#F7F7F7';
   $export['back_to_top_bg_color'] = $strongarm;
