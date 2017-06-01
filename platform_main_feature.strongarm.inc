@@ -13,6 +13,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'addtoany_image';
+  $strongarm->value = 'share_16_16.png|16|16';
+  $export['addtoany_image'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'back_to_top_bg_color';
   $strongarm->value = '#F7F7F7';
   $export['back_to_top_bg_color'] = $strongarm;
@@ -232,6 +239,13 @@ function platform_main_feature_strongarm() {
     ),
   );
   $export['islandora_solr_primary_display_table'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_search_navigation';
+  $strongarm->value = 1;
+  $export['islandora_solr_search_navigation'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -851,7 +865,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_pagination_owlcarousel_settings_default';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['owlcarousel_pagination_owlcarousel_settings_default'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -865,7 +879,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_pagination_owlcarousel_settings_owl-carousel-explore';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['owlcarousel_pagination_owlcarousel_settings_owl-carousel-explore'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -1303,7 +1317,7 @@ function platform_main_feature_strongarm() {
     'toggle_node_user_picture' => 1,
     'toggle_comment_user_picture' => 1,
     'toggle_favicon' => 1,
-    'toggle_main_menu' => 1,
+    'toggle_main_menu' => 0,
     'toggle_secondary_menu' => 0,
     'default_logo' => 1,
     'logo_path' => '',

@@ -448,10 +448,10 @@ function platform_main_feature_node_export_features_default() {
       \'body\' => array(
         \'und\' => array(
           array(
-            \'value\' => "1125 Pine Street\\r\\nBoulder, CO\\r\\n80302\\r\\n303-441-3110\\r\\nMon-Fri. 1pm-5pm, Sat. 10am-3pm, Sun. Closed",
+            \'value\' => "1125 Pine Street\\r\\nBoulder, CO 80302\\r\\n303-441-3110\\r\\nMon-Fri. 1pm-5pm, Sat. 10am-3pm, Sun. Closed",
             \'summary\' => \'\',
             \'format\' => \'filtered_html\',
-            \'safe_value\' => "<p>1125 Pine Street<br />\\nBoulder, CO<br />\\n80302<br />\\n303-441-3110<br />\\nMon-Fri. 1pm-5pm, Sat. 10am-3pm, Sun. Closed</p>\\n",
+            \'safe_value\' => "<p>1125 Pine Street<br />\\nBoulder, CO 80302<br />\\n303-441-3110<br />\\nMon-Fri. 1pm-5pm, Sat. 10am-3pm, Sun. Closed</p>\\n",
             \'safe_summary\' => \'\',
           ),
         ),
