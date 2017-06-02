@@ -31,7 +31,7 @@ function platform_main_feature_default_fe_block_boxes() {
   $fe_block_boxes->info = 'Footer Copyright';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'footer_copyright';
-  $fe_block_boxes->body = '© 2017 Boulder Public Library';
+  $fe_block_boxes->body = '© 2017 Carnegie Library of Pittsburgh';
 
   $export['footer_copyright'] = $fe_block_boxes;
 

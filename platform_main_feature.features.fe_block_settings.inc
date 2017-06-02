@@ -98,7 +98,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer_left',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -42,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -131,7 +131,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'footer_left',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -43,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -234,7 +234,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -43,
+        'weight' => -41,
       ),
       'seven' => array(
         'region' => '',
@@ -313,39 +313,6 @@ function platform_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['bpldora-bpldora_addtoany'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'bpldora_addtoany',
-    'module' => 'bpldora',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'boulder_theme' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'boulder_theme',
-        'weight' => -42,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 0,
-  );
-
   $export['bpldora-bpldora_metadata_description'] = array(
     'cache' => 1,
     'css_class' => '',
@@ -366,7 +333,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -41,
+        'weight' => -40,
       ),
       'seven' => array(
         'region' => '',
@@ -399,7 +366,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -40,
+        'weight' => -39,
       ),
       'seven' => array(
         'region' => '',
@@ -465,7 +432,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -47,
+        'weight' => -43,
       ),
       'seven' => array(
         'region' => '',
@@ -528,8 +495,8 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'boulder_theme',
         'weight' => -32,
       ),
@@ -540,7 +507,7 @@ function platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 1,
   );
 
@@ -564,7 +531,7 @@ function platform_main_feature_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -46,
+        'weight' => -42,
       ),
       'seven' => array(
         'region' => '',
@@ -764,7 +731,7 @@ islandora/search/*',
         'region' => 'pre_content',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -46,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -860,10 +827,10 @@ islandora/search/*',
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'boulder_theme',
-        'weight' => -45,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -872,7 +839,7 @@ islandora/search/*',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -1604,7 +1571,7 @@ islandora/search/*',
 
   $export['views-5a70fa547039e5419656c4fbd0e689e8'] = array(
     'cache' => -1,
-    'css_class' => 'header-library-logo',
+    'css_class' => '',
     'custom' => 0,
     'delta' => '5a70fa547039e5419656c4fbd0e689e8',
     'module' => 'views',
@@ -1619,10 +1586,10 @@ islandora/search/*',
         'weight' => 0,
       ),
       'boulder_theme' => array(
-        'region' => 'header',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'boulder_theme',
-        'weight' => -37,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -1631,7 +1598,7 @@ islandora/search/*',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -1886,7 +1853,7 @@ islandora/search/*',
         'region' => 'footer_left',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -44,
+        'weight' => -41,
       ),
       'seven' => array(
         'region' => '',
@@ -1919,7 +1886,7 @@ islandora/search/*',
         'region' => 'footer_left',
         'status' => 1,
         'theme' => 'boulder_theme',
-        'weight' => -45,
+        'weight' => -42,
       ),
       'seven' => array(
         'region' => '',
