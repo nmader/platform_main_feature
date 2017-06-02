@@ -2244,9 +2244,9 @@ islandora/object/*/manage/*',
     'pages' => 'islandora/object/*',
     'roles' => array(
       'administrator' => 3,
-      'Curatorial/Research User' => 4,
-      'Library/Museum User' => 5,
-      'NBHFM Staff' => 6,
+      'Curatorial/Research User' => 5,
+      'Library/Museum User' => 6,
+      'NBHFM Staff' => 7,
     ),
     'themes' => array(
       'bartik' => array(

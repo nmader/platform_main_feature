@@ -1733,7 +1733,7 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['field'] = 'marc_holding_libraryHas_ms';
   $handler->display->display_options['fields']['marc_holding_libraryHas_ms']['label'] = 'Library Has';
-  /* Contextual filter: Broken/missing handler */
+  /* Contextual filter: Islandora Solr: RELS_EXT_isConstituentOf_uri_ms */
   $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['id'] = 'RELS_EXT_isConstituentOf_uri_ms';
   $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['table'] = 'islandora_solr';
   $handler->display->display_options['arguments']['RELS_EXT_isConstituentOf_pid_ms']['field'] = 'RELS_EXT_isConstituentOf_uri_ms';
