@@ -196,7 +196,6 @@ features[variable][] = islandora_collection_search_gsearch_user
 features[variable][] = islandora_collection_search_retain_search_values
 features[variable][] = islandora_collection_search_searchable_collections
 features[variable][] = islandora_compound_object_hide_child_objects_solr
-features[variable][] = islandora_compound_tn_deriv_hooks
 features[variable][] = islandora_metadata_display
 features[variable][] = islandora_show_print_option
 features[variable][] = islandora_solr_collection_sort
