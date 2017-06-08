@@ -642,13 +642,6 @@ function platform_main_feature_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '8';
   $handler->display->display_options['style_plugin'] = 'grid';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Islandora Solr: Score */
-  $handler->display->display_options['fields']['score']['id'] = 'score';
-  $handler->display->display_options['fields']['score']['table'] = 'islandora_solr';
-  $handler->display->display_options['fields']['score']['field'] = 'score';
-  $handler->display->display_options['fields']['score']['label'] = '';
-  $handler->display->display_options['fields']['score']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['score']['link_to_object'] = 0;
   /* Field: Islandora Solr: PID */
   $handler->display->display_options['fields']['PID']['id'] = 'PID';
   $handler->display->display_options['fields']['PID']['table'] = 'islandora_solr';
