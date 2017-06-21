@@ -43,3 +43,21 @@ function platform_main_feature_image_default_styles() {
 
   return $styles;
 }
+
+/**
+ * Implements hook_node_info().
+ */
+function platform_main_feature_node_info() {
+  $items = array(
+    'social_link' => array(
+      'name' => t('Social Link'),
+      'base' => 'node_content',
+      'description' => t('Social media icon links'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+  );
+  drupal_alter('node_info', $items);
+  return $items;
+}
