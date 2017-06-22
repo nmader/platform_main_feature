@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the MCC Image Styles feature.
+ */
+
+include_once 'mcc_image_styles.features.inc';

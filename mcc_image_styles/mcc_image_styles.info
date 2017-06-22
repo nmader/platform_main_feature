@@ -1,0 +1,10 @@
+name = MCC Image Styles
+description = Provides overriding image styles for use with islandora imagecache module.
+core = 7.x
+package = Features
+dependencies[] = image
+dependencies[] = islandora_imagecache
+features[features_api][] = api:2
+features[image][] = islandora_imagecache_image_style_large
+features[image][] = islandora_imagecache_image_style_medium
+project path = sites/all/modules/platform_main_feature
