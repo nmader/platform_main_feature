@@ -165,6 +165,7 @@ features[variable][] = back_to_top_text_color
 features[variable][] = blockify_blocks
 features[variable][] = designkit_color
 features[variable][] = error_level
+features[variable][] = file_private_path
 features[variable][] = islandora_collection_search_advanced_search_alter
 features[variable][] = islandora_collection_search_all_pages
 features[variable][] = islandora_collection_search_display_label
