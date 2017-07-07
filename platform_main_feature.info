@@ -147,6 +147,7 @@ features[variable][] = back_to_top_text_color
 features[variable][] = blockify_blocks
 features[variable][] = designkit_color
 features[variable][] = error_level
+features[variable][] = file_private_path
 features[variable][] = islandora_basic_collection_display_backend
 features[variable][] = islandora_breadcrumbs_backends
 features[variable][] = islandora_collection_metadata_display
