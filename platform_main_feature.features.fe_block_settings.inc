@@ -426,7 +426,8 @@ islandora/search*',
     'module' => 'islandora_compound_object',
     'node_types' => array(),
     'pages' => 'islandora/object/*/manage
-islandora/object/*/manage/*',
+islandora/object/*/manage/*
+islandora/edit_form/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1218,7 +1219,7 @@ islandora/object/*/manage/*',
     'delta' => 'powered-by',
     'module' => 'system',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'islandora/edit_form/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
