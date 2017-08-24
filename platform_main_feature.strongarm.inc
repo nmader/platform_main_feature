@@ -123,7 +123,7 @@ function platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'islandora_basic_collection_display_backend';
-  $strongarm->value = 'islandora_basic_collection_legacy_sparql';
+  $strongarm->value = 'islandora_solr_query_backend';
   $export['islandora_basic_collection_display_backend'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -200,6 +200,13 @@ function platform_main_feature_strongarm() {
     'islandora:video_collection' => 'islandora:video_collection',
   );
   $export['islandora_collection_search_searchable_collections'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_imagecache_cache_solr_backend_display';
+  $strongarm->value = 1;
+  $export['islandora_imagecache_cache_solr_backend_display'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
