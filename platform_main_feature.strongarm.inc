@@ -122,6 +122,13 @@ function platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'file_private_path';
+  $strongarm->value = 'sites/default/files/private';
+  $export['file_private_path'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'islandora_basic_collection_display_backend';
   $strongarm->value = 'islandora_solr_query_backend';
   $export['islandora_basic_collection_display_backend'] = $strongarm;
